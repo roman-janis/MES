@@ -1,6 +1,6 @@
 # 9 Návrh hodnoticích kritérií
 
-Při tvorbě hodnoticích kritérií je nutné zohlednit, že nástroje budou srovnávány na úrovni schopností pokrýt návrh a vývoj databáze, nikoli pouze provoz databáze. Vymezení kritérií vychází z obecné struktury hodnoticích kategorií identifikovaných v komparativní studii Carvalho et al. (2022), kteří při hodnocení nástrojů pro datové modelování pracovali s kategoriemi jako funkcionalita, provozní charakteristiky softwaru, dokumentace a komunitní podpora. Tato práce přejímá analogické členění a doplňuje jej o kritéria specifická pro AHP postup a pro kontext návrhu databázových systémů. V navazující bakalářské práci budou kritéria dále upřesněna, případně rozšířena o subkritéria.
+Při vytváření kritérií pro hodnocení je třeba brát v úvahu, že nástroje budou porovnávány podle toho, jak dokážou pokrýt návrh a vývoj databáze, nikoliv pouze podle toho, jak zvládají její provoz. Hodnoticí kritéria jsou založena na studie Carvalho et al. (2022), která porovnávala nástroje pro datové modelování podle kategorií jako funkcionalita, provozní vlastnosti softwaru, dokumentace a komunitní podpora. Tato práce toto členění přebírá a rozšiřuje ho o kritéria specifická pro návrh databázových systémů. V navazující práci budou kritéria dále upřesněna, případně rozšířena.
 
 Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 

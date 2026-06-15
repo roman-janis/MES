@@ -1,6 +1,6 @@
 # 3 Metodika práce
 
-Zpracování práce probíhalo postupně v několika krocích. Nejprve bylo potřeba určit, jaké oblasti je nutné vysvětlit, aby bylo možné nástroje pro návrh databází později porovnat a navrhnout vhodná hodnoticí kritéria. Jednalo se o databázové systémy, datové modelování, návrh databáze, vícekriteriální rozhodování a metodu AHP. K těmto oblastem byly následně dohledány odborné zdroje.
+Zpracování práce probíhalo postupně v několika krocích. Nejprve byly vymezeny oblasti, které je nutné vysvětlit, aby bylo možné nástroje později porovnat a navrhnout vhodná hodnoticí kritéria. Jednalo se o databázové systémy, datové modelování, návrh databáze, vícekriteriální rozhodování a metodu AHP. K těmto oblastem byly následně dohledány odborné zdroje.
 
 Zdroje byly vybírány tak, aby pokryly jak teoretickou část práce, tak výběr konkrétních nástrojů. Pro databázové systémy byla jako hlavní zdroj použita publikace Pokorného a Valenty (2020). Pro datové modelování a návrh relačních databází byla využita publikace Chlapka, Kučery a Palovské (2019). Metoda AHP byla zpracována podle prací Saatyho (1990, 2008) a učebního textu Soukopové (2016).
 

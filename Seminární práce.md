@@ -94,7 +94,7 @@ This seminar paper presents the theoretical background of a bachelor thesis focu
 
 # 1 Úvod
 
-Návrh databáze je jednou z důležitých činností při tvorbě informačních systémů. Kvalita datového návrhu ovlivňuje spolehlivost, výkon a možnosti dalšího rozšiřování výsledné aplikace. Pokud při návrhu vzniknou chyby, jejich odstranění je v dalších etapách složité a nákladné. Při návrhu a vývoji databází se proto využívají různé softwarové nástroje, například nástroje pro datové modelování, tvorbu ER diagramů, generování SQL skriptů nebo správu databázových schémat, které se liší rozsahem funkcí, podporovanými databázovými platformami, možnostmi modelování, mírou automatizace nebo licenčními podmínkami.
+Návrh databáze je jednou z důležitých činností při tvorbě informačních systémů. Kvalita datového návrhu ovlivňuje spolehlivost, výkon a možnosti dalšího rozšiřování výsledné aplikace. Pokud při návrhu vzniknou chyby, jejich odstranění je v dalších etapách složité a nákladné. Při návrhu a vývoji databází se proto využívají různé softwarové nástroje, například nástroje pro datové modelování, tvorbu ER diagramů, generování SQL skriptů nebo správu databázových schémat, které se liší rozsahem funkcí, podporovanými databázovými platformami, možnostmi modelování, mírou automatizace nebo licenčními podmínkami. Nabídka těchto nástrojů je navíc široká a stále se proměňuje, mimo jiné v souvislosti s rostoucím významem nerelačních (NoSQL) databází (Jedlička, 2024).
 
 Zvolit vhodný nástroj není v praxi jednoduché. Rozhodnutí nelze opřít pouze o jedno hledisko, například cenu nebo rozšířenost nástroje, protože do výběru vstupuje více kritérií, která se mohou navzájem dostávat do konfliktu. Vhodnější je proto využít postup, který umožní jednotlivé nástroje porovnat podle předem stanovených kritérií, nikoli pouze podle subjektivního dojmu. Takovým postupem je metoda vícekriteriálního rozhodování Analytic Hierarchy Process (AHP), na níž je tato práce postavena.
 
@@ -106,8 +106,7 @@ Cílem práce je porovnat vybrané nástroje pro návrh a vývoj databázových 
 
 - vymezit základní pojmy z oblasti databázových systémů, datového modelování a návrhu databáze,
 - vysvětlit principy vícekriteriálního rozhodování, metodu AHP a její použitelnost pro porovnání softwarových nástrojů,
-- vybrat a charakterizovat nástroje, které budou předmětem porovnávání,
-- navrhnout hodnoticí kritéria.
+- vybrat a charakterizovat nástroje, které budou předmětem porovnávání, a navrhnout hodnoticí kritéria.
 
 Výzkumné otázky vycházejí z hlavního cíle a sledují postupnou přípravu teoretického a metodického rámce — od vymezení základních pojmů, přes principy hodnocení nástrojů podle více kritérií, až po volbu kritérií a postupu pro vlastní porovnání.
 
@@ -122,7 +121,7 @@ Odpovědi na uvedené výzkumné otázky tvoří obsah jednotlivých kapitol té
 
 Při zpracování práce byl nejprve vymezen okruh témat, která jsou potřebná pro pozdější porovnání nástrojů. Jednalo se zejména o témata: databázové systémy, datové modelování, návrh databáze, vícekriteriální rozhodování a metodu AHP. K těmto oblastem byla následně dohledána odborná literatura, ze které byly převzaty a vysvětleny základní pojmy využité v dalších částech práce.
 
-Teoretická část týkající se databázových systémů vychází především z publikace Pokorného a Valenty (2020). Pro vysvětlení metody AHP byly využity práce Saatyho (1990, 2008) a doplňující české zdroje k vícekriteriálnímu rozhodování (Soukopová, 2016; Jandová, 2012; Vohradský, 2016). K oblasti datového modelování a návrhu relačních databází byly využity také české práce Chlapka, Kučery a Palovské (2019), Kašpara (2012) a Chotěnovského (2023); k nerelačním databázovým systémům pak práce Jedličky (2024). Použitelnost AHP pro výběr softwarových nástrojů dokládá v mezinárodním kontextu práce Simanavičienė a Vdovinskienė (2023), která se zabývá výběrem CAD systémů. Pro popis konkrétních nástrojů byla využita jejich oficiální dokumentace.
+Teoretická část týkající se databázových systémů vychází především z publikace Pokorného a Valenty (2020). Pro vysvětlení metody AHP byly využity práce Saatyho (1990, 2008) a doplňující české zdroje k vícekriteriálnímu rozhodování (Soukopová, 2016; Jandová, 2012; Vohradský, 2016). K oblasti datového modelování a návrhu relačních databází byly využity také české práce Chlapka, Kučery a Palovské (2019), Kašpara (2012) a Chotěnovského (2023); k nerelačním databázovým systémům pak práce Jedličky (2024). Použitelnost AHP pro výběr softwarových nástrojů dokládá v mezinárodním kontextu práce Simanavičienė a Vdovinskienė (2023), která se zabývá výběrem CAD systémů. Strukturu hodnoticích kategorií a výběr nástrojů metodicky podpořila srovnávací studie Carvalho et al. (2022). Pro popis konkrétních nástrojů byla využita jejich oficiální dokumentace.
 
 **Práce se zdroji.** Citace jsou v textu uváděny harvardským způsobem, tedy ve tvaru autor a rok. Seznam zdrojů je zpracován podle normy ČSN ISO 690:2022. U webových zdrojů je uvedeno datum citace.
 
@@ -236,7 +235,7 @@ Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a t
 
 # 8 Nástroje pro návrh a vývoj databází
 
-Výběr nástrojů pro praktickou komparaci proběhl ve dvou krocích. Nejprve byl vymezen okruh dostupných nástrojů pro návrh a vývoj databází; že je tato nabídka široká, dokládá srovnávací studie Carvalho et al. (2022), která hodnotila sedmnáct nástrojů pro datové modelování. Z tohoto okruhu byly nástroje vybírány podle několika hledisek: (1) zaměření na návrh a vývoj databáze, nikoli pouze na její správu či provoz; (2) dostupnost bezplatné nebo volně testovatelné verze, aby je bylo možné prakticky vyzkoušet; (3) pokrytí různých licenčních modelů (open‑source, freeware) a různé míry specializace (univerzální nástroj vs. nástroj vázaný na konkrétní DBMS); a (4) přítomnost alespoň části z nich v odborné literatuře, což umožní porovnat výsledky s existujícími studiemi.
+Výběr nástrojů pro praktickou komparaci proběhl ve dvou krocích. Nejprve byl vymezen okruh dostupných nástrojů pro návrh a vývoj databází; že je tato nabídka široká, dokládá srovnávací studie Carvalho et al. (2022), která hodnotila sedmnáct nástrojů pro datové modelování. Z tohoto okruhu byly nástroje vybírány podle několika hledisek: (1) zaměření na návrh a vývoj databáze, nikoli pouze na její správu či provoz; (2) dostupnost bezplatné nebo volně testovatelné verze, aby je bylo možné prakticky vyzkoušet; (3) pokrytí různých licenčních modelů (open‑source, freeware) a různé míry specializace (univerzální nástroj vs. nástroj vázaný na konkrétní DBMS); a (4) přítomnost alespoň části z nich v odborné literatuře, což umožní porovnat výsledky s existujícími studiemi. Nabídka přitom zahrnuje i webové a akademické nástroje, například online nástroj ONDA vyvinutý na Univerzitě v Coimbře (Laranjeiro a Pinto, 2024); ten však do užšího výběru zařazen nebyl, neboť práce se soustředí na plnohodnotné nástroje s lokální instalací.
 
 Na základě uvedených hledisek byly vybrány čtyři nástroje: jeden specializovaný open‑source nástroj zaměřený na PostgreSQL (pgModeler), jeden open‑source nástroj s komerční edicí pokrývající široké spektrum DBMS (DBeaver), jeden freeware specializovaný na MySQL (MySQL Workbench) a jeden freeware vyvíjený komerčním vydavatelem se silnou podporou logického modelování (Oracle SQL Developer Data Modeler). Tři z vybraných nástrojů jsou navíc obsaženy ve zmíněné studii Carvalho et al. (2022), což umožní částečné porovnání výsledků navazující bakalářské práce s existující literaturou. Tři nástroje (Oracle SQL Developer Data Modeler, DBeaver Community Edition a MySQL Workbench Community Edition) jsou v aktuálních verzích připraveny k instalaci přímo z pracovní složky autora; čtvrtý nástroj pgModeler bude stažen z oficiálního webu projektu. Vzhledem k rostoucímu významu a popularitě nerelačních databázových systémů, jak na to poukazuje např. Jedlička (2024), bude při hodnocení nástrojů zohledněna také jejich případná schopnost kooperovat s NoSQL technologiemi (zejména v případě univerzálního nástroje DBeaver).
 
@@ -348,6 +347,8 @@ SAATY, Thomas L. How to make a decision: The Analytic Hierarchy Process. *Europe
 SAATY, Thomas L. Decision making with the analytic hierarchy process. *International Journal of Services Sciences*. 2008, **1**(1), 83–98. ISSN 1753‑1454.
 
 SIMANAVIČIENĖ, Rūta a Sonata VDOVINSKIENĖ. Selection of Computer-Aided Design Software Systems Using the AHP Method. *Baltic Journal of Modern Computing*. 2023, **11**(2), 272–284. ISSN 2255‑8950. DOI: 10.22364/bjmc.2023.11.2.04.
+
+LARANJEIRO, Nuno a Alexandre Miguel PINTO. *ONDA: ONLine Database Architect* [online]. arXiv:2401.16552, 2024 [cit. 2026‑06‑15]. DOI: 10.48550/arXiv.2401.16552. Dostupné z: <https://doi.org/10.48550/arXiv.2401.16552>
 
 DBEAVER. *DBeaver Documentation* [online]. DBeaver Corp., 2026 [cit. 2026‑06‑09]. Dostupné z: <https://dbeaver.com/docs/dbeaver/>
 

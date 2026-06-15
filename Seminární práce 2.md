@@ -7,7 +7,7 @@ Cílem práce je tetdy porovnat vybrané nástroje pro návrh a vývoj databázo
 - vybrat a charakterizovat nástroje, které budou předmětem porovnávání,
 - navrhnout hodnoticí kritéria.
 
-Výzkumné otázky vycházejí z cíle práce a z potřeby postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů. Nejprve je tedy nutné vymezit základní pojmy související s návrhem databázových systémů. Následně je třeba vysvětlit, jak lze nástroje hodnotit podle více kritérií a proč je pro tento účel vhodná metoda AHP. Metoda umožňuje rozdělit rozhodování na přehlednější části a postupně porovnat jak hodnoticí kritéria, tak samotné nástroje.
+Výzkumné otázky vycházejí z cíle práce a z potřeby postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů. Nejprve je tedy nutné vymezit základní pojmy související s návrhem databázových systémů. Potom je třeba vysvětlit, jak lze nástroje hodnotit podle více kritérií a proč je pro tento účel vhodná metoda AHP. Metoda umožňuje rozdělit rozhodování na přehlednější části a postupně porovnat jak hodnoticí kritéria, tak samotné nástroje.
 
 Tomuto zaměření odpovídají následující výzkumné otázky:
 - **VO1:** Jaké klíčové pojmy, modely a postupy se využívají při návrhu a vývoji databázových systémů?
