@@ -98,7 +98,7 @@ Návrh databáze předchází vlastní implementaci informačního systému a kv
 
 Vybrat vhodný nástroj není v praxi jednoduché. Obvykle se nedá rozhodovat jen podle jednoho hlediska, například ceny nebo rozšířenosti nástroje. Většinou do výběru vstupují další kritéria, která se navzájem dostávají do konfliktu. Proto je vhodné použít postup, který umožní jednotlivá kritéria porovnat a podle nich posoudit, který z nástrojů je nejvhodnější. Tím se výběr neopírá pouze o subjektivní dojem, ale o systematické vyhodnocení. Tato práce se proto zaměřuje na porovnání nástrojů z hlediska jejich funkcionality, použitelnosti a podpory vývojového procesu. Pro toto porovnání je využita metoda vícekriteriálního rozhodování Analytic Hierarchy Process (AHP), na níž je celý postup hodnocení založen.
 
-Tato práce tak vytváří teoretický a metodický základ pro navazující praktické porovnání těchto nástrojů. Práce se nejprve zaměřuje na pojmy související s databázovými systémy, datovým modelováním a návrhem databáze. Následně vysvětluje princip vícekriteriálního rozhodování a metodu AHP. Na tento základ navazuje výběr konkrétních nástrojů a návrh hodnoticích kritérií, které budou využity v praktické části. Výsledné porovnání má pomoci lépe posoudit, v jakých situacích je vhodné jednotlivé nástroje vyu
+Tato práce tak vytváří teoretický a metodický základ pro navazující praktické porovnání těchto nástrojů. Práce se nejprve zaměřuje na pojmy související s databázovými systémy, datovým modelováním a návrhem databáze. Následně vysvětluje princip vícekriteriálního rozhodování a metodu AHP. Na tento základ navazuje výběr konkrétních nástrojů a návrh hodnoticích kritérií, které budou využity v praktické části. Výsledné porovnání má pomoci lépe posoudit, v jakých situacích je vhodné jednotlivé nástroje využít.
 
 # 2 Cíl práce a výzkumné otázky
 
@@ -116,8 +116,6 @@ Tomuto zaměření odpovídají následující výzkumné otázky:
 - **VO3:** Jaká hodnoticí kritéria a jaký postup zvolit pro praktické porovnání nástrojů a jak jejich volbu zdůvodnit?
 
 Odpovědi na uvedené výzkumné otázky tvoří obsah jednotlivých kapitol této práce a současně vytváří metodický rámec pro praktickou část bakalářské práce.
-
-                                                                                                                                         
 
 # 3 Metodika práce
 
@@ -163,8 +161,6 @@ Fyzický návrh se soustředí na způsob uložení dat v konkrétním databázo
 
 Mezi jednotlivými fázemi návrhu existuje zpětná vazba. Pokud se při fyzickém návrhu ukáže, že některé části modelu vedou k výkonovým problémům, je nutné vrátit se zpět k návrhu logickému. Podobně změna požadavků uživatelů může vyvolat úpravu konceptuálního modelu a následně i všech dalších úrovní. Návrh databáze proto nelze chápat jako striktně lineární proces, nýbrž jako proces iterativní.
 
-                                                                          
-
 # 5 Datové modely
 
 ## 5.1 Konceptuální modelování a ER/EER model
@@ -195,8 +191,6 @@ Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcház
 
 První normální forma vyžaduje atomické hodnoty a nepřipouští opakující se skupiny. Druhá normální forma řeší závislost neklíčových atributů na celém klíči. Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy. Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Pokorný a Valenta, 2020; Chlapek, Kučera a Palovská, 2019).
 
-                                    
-
 # 6 Vícekriteriální rozhodování
 
 Vícekriteriální rozhodování se zabývá situacemi, ve kterých nelze rozhodovat podle jediného hlediska. V reálných rozhodovacích úlohách jsou alternativy obvykle posuzovány podle více kritérií, která mohou být navzájem v konfliktu. Právě proto je vhodné využít metody, které umožňují tato kritéria systematicky zahrnout do rozhodovacího procesu (Saaty, 2008).
@@ -220,8 +214,6 @@ Váha kritéria vyjadřuje jeho relativní význam v rámci rozhodovacího proce
 Pro odhad vah kritérií lze použít několik postupů. Jednodušší přístupy zahrnují metodu pořadí nebo bodovací metodu. Tyto metody jsou snadno použitelné, ale méně jemné při vyjadřování intenzity preference. Pokročilejší přístupy pracují s párovým porovnáváním kritérií, kam patří i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 2008). Z hlediska porovnání samotných alternativ umožňuje AHP aplikovat stejný princip párového porovnávání i pro alternativy, a to vůči každému z dříve stanovených kritérií. Výhodou je systematičnost a transparentnost, nevýhodou vyšší pracnost při větším počtu prvků (Saaty, 2008).
 
 Z dalších metod vícekriteriálního hodnocení variant jsou v literatuře rozšířeny zejména metoda váženého součtu (WSA), která pracuje s lineárně normalizovanými hodnotami kritérií a výsledné skóre alternativy vypočítá jako vážený součet normalizovaných hodnot, a metoda TOPSIS, jež hodnotí alternativy podle jejich vzdálenosti od ideální a bazální varianty. Komplexnější strukturou se vyznačuje rodina metod ELECTRE, které pracují s koncepty outrangování (Soukopová, 2016). Pro potřeby navazující bakalářské práce bylo zvoleno AHP ze dvou důvodů: za prvé umožňuje přirozeně kombinovat kvantitativní i kvalitativní kritéria bez nutnosti jejich normalizace na společnou škálu, což je při hodnocení softwaru žádoucí; za druhé nabízí prostřednictvím indexu konzistence CR vestavěný mechanismus ověření soudržnosti hodnotitelových úsudků, který je obzvláště přínosný v situaci, kdy párové porovnávání provádí jeden hodnotitel (Saaty, 1990; Saaty, 2008).
-
-                                 
 
 # 7 Metoda AHP
 
@@ -276,7 +268,7 @@ MySQL Workbench je oficiální nástroj společnosti Oracle pro práci s databá
 
 ## 8.4 pgModeler
 
-pgModeler, jehož název vychází z označení PostgreSQL Database Modeler, je open‑source nástroj zaměřený přímo na databázi PostgreSQL. Umožňuje grafický návrh schémat, generování SQL skriptů, reverzní inženýrství, validaci modelu a porovnávání modelu s živou databází (pgModeler, 2026). Cílovou databázovou platformou nástroje je PostgreSQL, jehož oficiální dokume
+pgModeler, jehož název vychází z označení PostgreSQL Database Modeler, je open‑source nástroj zaměřený přímo na databázi PostgreSQL. Umožňuje grafický návrh schémat, generování SQL skriptů, reverzní inženýrství, validaci modelu a porovnávání modelu s živou databází (pgModeler, 2026). Cílovou databázovou platformou nástroje je PostgreSQL, jehož oficiální dokumentace popisuje podporované datové typy a syntaxi SQL, vůči nimž pgModeler generované skripty validuje (PostgreSQL, 2026). Pro účely této práce bude testována aktuální stabilní verze ke dni testování.
 
 # 9 Návrh hodnoticích kritérií
 
@@ -314,8 +306,6 @@ Následující odstavce blíže popisují, co každé kritérium zahrnuje.
 **K7 — Import, export a validace modelu.** Zkoumá, jaké formáty importu a exportu nástroj podporuje, zda umí model validovat a jak se integruje s verzovacími systémy.
 
 **K8 — Cena a licence.** Hodnotí typ licence (open‑source, freeware, komerční), omezení bezplatné verze a celkové náklady na zavedení.
-
-                                                                                                                                                                                                                                                                                                                                       
 
 # 10 Metodický rámec navazující praktické komparace
 
@@ -378,4 +368,6 @@ POSTGRESQL. *PostgreSQL Documentation* [online]. The PostgreSQL Global Developme
 
 SOUKOPOVÁ, Jana. *Vícekriteriální metody hodnocení*. Brno: Masarykova univerzita, 2016. Učební text. Masarykova univerzita. Ekonomicko-správní fakulta. Dostupné z: <https://is.muni.cz/el/1456/jaro2016/BPE_VIMP/um/>
 
-CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. *IEEE Ac
+CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. *IEEE Access*. 2022, **10**, 3351–3365. ISSN 2169‑3536. DOI: 10.1109/ACCESS.2021.3139071.
+
+DB-ENGINES. *DB-Engines Ranking* [online]. solid IT gmbh, 2026 [cit. 2026‑06‑14]. Dostupné z: <https://db-engines.com/en/ranking>
