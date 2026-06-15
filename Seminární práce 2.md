@@ -1,13 +1,12 @@
 # 2 Cíl práce a výzkumné otázky
 
-Cílem práce je tetdy porovnat vybrané nástroje pro návrh a vývoj databázových systémů z hlediska jejich funkcionality, použitelnosti a podpory návrhu databáze. K naplnění hlavního cíle jsou důležité tyto dílčí cíle:
+Cílem práce je tedy porovnat vybrané nástroje pro návrh a vývoj databázových systémů z hlediska jejich funkcionality, použitelnosti a podpory vývojového procesu. K naplnění hlavního cíle jsou důležité tyto dílčí cíle:
 
 - vymezit základní pojmy z oblasti databázových systémů, datového modelování a návrhu databáze,
 - vysvětlit principy vícekriteriálního rozhodování, metodu AHP a její použitelnost pro porovnání softwarových nástrojů,
-- vybrat a charakterizovat nástroje, které budou předmětem porovnávání,
-- navrhnout hodnoticí kritéria.
+- vybrat a charakterizovat nástroje, které budou předmětem porovnávání, a navrhnout hodnoticí kritéria.
 
-Výzkumné otázky vycházejí z cíle práce a z potřeby postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů. Nejprve je tedy nutné vymezit základní pojmy související s návrhem databázových systémů. Potom je třeba vysvětlit, jak lze nástroje hodnotit podle více kritérií a proč je pro tento účel vhodná metoda AHP. Metoda umožňuje rozdělit rozhodování na přehlednější části a postupně porovnat jak hodnoticí kritéria, tak samotné nástroje.
+Výzkumné otázky vycházejí z cíle práce a z potřeby postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů: od vymezení pojmů, přes vysvětlení, jak nástroje hodnotit podle více kritérií, až po volbu kritérií a postupu porovnání. Metoda AHP přitom umožňuje rozdělit rozhodování na přehlednější, postupně porovnatelné části.
 
 Tomuto zaměření odpovídají následující výzkumné otázky:
 - **VO1:** Jaké klíčové pojmy, modely a postupy se využívají při návrhu a vývoji databázových systémů?

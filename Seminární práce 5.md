@@ -14,9 +14,9 @@ Atributy jsou svázány s doménami, tedy s množinami přípustných hodnot. Ro
 
 ## 5.2 Relační model
 
-Relační model je založen na relacích, které jsou v praxi reprezentovány tabulkami. Každá relace má své schéma, tedy jméno relace, seznam atributů a jejich domén. Konkrétní řádky tabulky odpovídají n‑ticím. Důležitou vlastností relačního modelu je práce s atomickými hodnotami a s přesně vymezenými atributy (Pokorný a Valenta, 2020).
+Relační model je založen na relacích, které jsou v praxi reprezentovány tabulkami. Každá relace má své schéma, tedy jméno relace, seznam atributů a jejich domén. Konkrétní řádky tabulky odpovídají n‑ticím. Relační model pracuje s atomickými hodnotami a s přesně vymezenými atributy (Pokorný a Valenta, 2020).
 
-V relačním modelu hrají zásadní roli klíče. Primární klíč slouží k jednoznačné identifikaci řádku tabulky. Cizí klíč umožňuje vyjádřit vazbu mezi tabulkami a je základem referenční integrity. Mezi obecné vlastnosti relačních tabulek patří nezávislost na pořadí řádků a sloupců a požadavek na neduplicitu řádků (Pokorný a Valenta, 2020).
+Klíče jsou v relačním modelu zásadní. Primární klíč slouží k jednoznačné identifikaci řádku tabulky. Cizí klíč umožňuje vyjádřit vazbu mezi tabulkami a je základem referenční integrity. Mezi obecné vlastnosti relačních tabulek patří nezávislost na pořadí řádků a sloupců a požadavek na neduplicitu řádků (Pokorný a Valenta, 2020).
 
 ## 5.3 Transformace ER/EER modelu do relačního modelu
 

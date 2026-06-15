@@ -94,21 +94,21 @@ This seminar paper presents the theoretical background of a bachelor thesis focu
 
 # 1 Úvod
 
-Návrh databáze je jednou z důležitých činností při tvorbě informačních systémů. Kvalita datového návrhu ovlivňuje spolehlivost, výkon a možnosti dalšího rozšiřování výsledné aplikace. Pokud při návrhu vzniknou chyby, jejich odstranění je v dalších etapách složité a nákladné. Při návrhu a vývoji databází se proto využívají různé softwarové nástroje, například nástroje pro datové modelování, tvorbu ER diagramů, generování SQL skriptů nebo správu databázových schémat, které se liší rozsahem funkcí, podporovanými databázovými platformami, možnostmi modelování, mírou automatizace nebo licenčními podmínkami. Nabídka těchto nástrojů je navíc široká a stále se proměňuje, mimo jiné v souvislosti s rostoucím významem nerelačních (NoSQL) databází (Jedlička, 2024).
+Návrh databáze předchází vlastní implementaci informačního systému a kvalita datového návrhu značně ovlivňuje spolehlivost, výkon a možnosti dalšího rozšiřování. Pokud při návrhu vzniknou chyby, jejich odstranění je v dalších etapách složité a nákladné. Při návrhu a vývoji databází se proto využívají různé softwarové nástroje, například pro datové modelování, tvorbu ER diagramů, generování SQL skriptů nebo správu databázových schémat. Tyto nástroje se liší rozsahem funkcí, podporovanými platformami, možnostmi modelování, mírou automatizace nebo licenčními podmínkami.
 
-Zvolit vhodný nástroj není v praxi jednoduché. Rozhodnutí nelze opřít pouze o jedno hledisko, například cenu nebo rozšířenost nástroje, protože do výběru vstupuje více kritérií, která se mohou navzájem dostávat do konfliktu. Vhodnější je proto využít postup, který umožní jednotlivé nástroje porovnat podle předem stanovených kritérií, nikoli pouze podle subjektivního dojmu. Takovým postupem je metoda vícekriteriálního rozhodování Analytic Hierarchy Process (AHP), na níž je tato práce postavena.
+Vybrat vhodný nástroj není v praxi jednoduché. Obvykle se nedá rozhodovat jen podle jednoho hlediska, například ceny nebo rozšířenosti nástroje. Většinou do výběru vstupují další kritéria, která se navzájem dostávají do konfliktu. Proto je vhodné použít postup, který umožní jednotlivá kritéria porovnat a podle nich posoudit, který z nástrojů je nejvhodnější. Tím se výběr neopírá pouze o subjektivní dojem, ale o systematické vyhodnocení. Tato práce se proto zaměřuje na porovnání nástrojů z hlediska jejich funkcionality, použitelnosti a podpory vývojového procesu. Pro toto porovnání je využita metoda vícekriteriálního rozhodování Analytic Hierarchy Process (AHP), na níž je celý postup hodnocení založen.
 
-Tato seminární práce vytváří teoretický a metodický základ pro navazující praktické porovnání nástrojů a je členěna následovně. Nejprve jsou vymezeny pojmy z oblasti databázových systémů, datového modelování a návrhu databáze. Poté je vyložen princip vícekriteriálního rozhodování a metoda AHP. Závěrečná část představuje konkrétní nástroje a navrhuje hodnoticí kritéria, která budou využita v praktické části bakalářské práce. Výsledné porovnání má pomoci lépe posoudit, v jakých situacích je vhodné jednotlivé nástroje využít.
+Tato práce tak vytváří teoretický a metodický základ pro navazující praktické porovnání těchto nástrojů. Práce se nejprve zaměřuje na pojmy související s databázovými systémy, datovým modelováním a návrhem databáze. Následně vysvětluje princip vícekriteriálního rozhodování a metodu AHP. Na tento základ navazuje výběr konkrétních nástrojů a návrh hodnoticích kritérií, které budou využity v praktické části. Výsledné porovnání má pomoci lépe posoudit, v jakých situacích je vhodné jednotlivé nástroje vyu
 
 # 2 Cíl práce a výzkumné otázky
 
-Cílem práce je porovnat vybrané nástroje pro návrh a vývoj databázových systémů z hlediska jejich funkcionality, použitelnosti a podpory návrhu databáze. K naplnění hlavního cíle jsou důležité tyto dílčí cíle:
+Cílem práce je tedy porovnat vybrané nástroje pro návrh a vývoj databázových systémů z hlediska jejich funkcionality, použitelnosti a podpory vývojového procesu. K naplnění hlavního cíle jsou důležité tyto dílčí cíle:
 
 - vymezit základní pojmy z oblasti databázových systémů, datového modelování a návrhu databáze,
 - vysvětlit principy vícekriteriálního rozhodování, metodu AHP a její použitelnost pro porovnání softwarových nástrojů,
 - vybrat a charakterizovat nástroje, které budou předmětem porovnávání, a navrhnout hodnoticí kritéria.
 
-Výzkumné otázky vycházejí z hlavního cíle a sledují postupnou přípravu teoretického a metodického rámce — od vymezení základních pojmů, přes principy hodnocení nástrojů podle více kritérií, až po volbu kritérií a postupu pro vlastní porovnání.
+Výzkumné otázky vycházejí z cíle práce a z potřeby postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů: od vymezení pojmů, přes vysvětlení, jak nástroje hodnotit podle více kritérií, až po volbu kritérií a postupu porovnání. Metoda AHP přitom umožňuje rozdělit rozhodování na přehlednější, postupně porovnatelné části.
 
 Tomuto zaměření odpovídají následující výzkumné otázky:
 - **VO1:** Jaké klíčové pojmy, modely a postupy se využívají při návrhu a vývoji databázových systémů?
@@ -117,27 +117,31 @@ Tomuto zaměření odpovídají následující výzkumné otázky:
 
 Odpovědi na uvedené výzkumné otázky tvoří obsah jednotlivých kapitol této práce a současně vytváří metodický rámec pro praktickou část bakalářské práce.
 
+                                                                                                                                         
+
 # 3 Metodika práce
 
-Při zpracování práce byl nejprve vymezen okruh témat, která jsou potřebná pro pozdější porovnání nástrojů. Jednalo se zejména o témata: databázové systémy, datové modelování, návrh databáze, vícekriteriální rozhodování a metodu AHP. K těmto oblastem byla následně dohledána odborná literatura, ze které byly převzaty a vysvětleny základní pojmy využité v dalších částech práce.
+Zpracování práce probíhalo postupně v několika krocích. Nejprve byly vymezeny oblasti, které je nutné vysvětlit, aby bylo možné nástroje později porovnat a navrhnout vhodná hodnoticí kritéria. Jednalo se o databázové systémy, datové modelování, návrh databáze, vícekriteriální rozhodování a metodu AHP. K těmto oblastem byly následně dohledány odborné zdroje.
 
-Teoretická část týkající se databázových systémů vychází především z publikace Pokorného a Valenty (2020). Pro vysvětlení metody AHP byly využity práce Saatyho (1990, 2008) a doplňující české zdroje k vícekriteriálnímu rozhodování (Soukopová, 2016; Jandová, 2012; Vohradský, 2016). K oblasti datového modelování a návrhu relačních databází byly využity také české práce Chlapka, Kučery a Palovské (2019), Kašpara (2012) a Chotěnovského (2023); k nerelačním databázovým systémům pak práce Jedličky (2024). Použitelnost AHP pro výběr softwarových nástrojů dokládá v mezinárodním kontextu práce Simanavičienė a Vdovinskienė (2023), která se zabývá výběrem CAD systémů. Strukturu hodnoticích kategorií a výběr nástrojů metodicky podpořila srovnávací studie Carvalho et al. (2022). Pro popis konkrétních nástrojů byla využita jejich oficiální dokumentace.
+Zdroje byly vybírány tak, aby pokryly jak teoretickou část práce, tak výběr konkrétních nástrojů. Pro databázové systémy byla jako hlavní zdroj použita publikace Pokorného a Valenty (2020). Pro datové modelování a návrh relačních databází byla využita publikace Chlapka, Kučery a Palovské (2019). Metoda AHP byla zpracována podle prací Saatyho (1990, 2008) a učebního textu Soukopové (2016).
 
-**Práce se zdroji.** Citace jsou v textu uváděny harvardským způsobem, tedy ve tvaru autor a rok. Seznam zdrojů je zpracován podle normy ČSN ISO 690:2022. U webových zdrojů je uvedeno datum citace.
+Dalším krokem byl výběr nástrojů, které budou v práci porovnávány. Při jejich výběru byla využita studie Carvalho et al. (2022), protože se zabývá porovnáním nástrojů pro datové modelování. Dále byly použity oficiální dokumentace vybraných nástrojů. Z nich byly převzaty informace o funkcích, podporovaných databázových platformách a licenčních podmínkách. Jako podpůrný zdroj byl použit také článek Simanavičienė a Vdovinskienė (2023), který ukazuje použití metody AHP při výběru softwaru.
 
-**Postup pro navazující praktickou komparaci.** V praktické části bakalářské práce budou vybrané nástroje nainstalovány a otestovány podle jednotného scénáře. U každého nástroje bude ověřena tvorba modelu, převod do logického a fyzického návrhu, generování SQL skriptu a případně také reverzní inženýrství z existující databáze. Získané poznatky budou použity jako podklad pro hodnocení nástrojů podle navržených kritérií metodou AHP.
+Citace jsou v textu uváděny harvardským způsobem, tedy ve tvaru autor a rok. Seznam zdrojů je zpracován podle normy ČSN ISO 690:2022. U webových zdrojů je uvedeno datum citace.
+
+Na základě prostudovaných zdrojů byly následně vybrány nástroje a navržena hodnoticí kritéria. V další části práce budou nástroje hodnoceny podle jednotného postupu. Bude sledována například tvorba modelu, převod do logického a fyzického návrhu, generování SQL skriptu, reverzní inženýrství, použitelnost a licenční podmínky. Výsledky budou následně zpracovány metodou AHP.
 
 # 4 Databázové systémy
 
 ## 4.1 Základní pojmy
 
-Pro správné pochopení je nutné oddělit pojmy data, informace, databáze a systém řízení báze dat. Data lze chápat jako jednotlivá fakta nebo zaznamenané hodnoty, které samy o sobě nemusí nést širší význam. Informace vznikají interpretací dat v určitém kontextu. Databáze pak představuje organizovanou kolekci vzájemně souvisejících dat, která jsou ukládána tak, aby s nimi bylo možné efektivně pracovat (Pokorný a Valenta, 2020).
+Základem je rozlišit pojmy data, informace, databáze a systém řízení báze dat. Data lze chápat jako jednotlivá fakta nebo zaznamenané hodnoty, které samy o sobě nemusí nést širší význam. Informace vznikají interpretací dat v určitém kontextu. Databáze pak představuje organizovanou kolekci vzájemně souvisejících dat, která jsou ukládána tak, aby s nimi bylo možné efektivně pracovat (Pokorný a Valenta, 2020).
 
 Systém řízení báze dat, běžně označovaný zkratkou DBMS, je specializovaný software, který zajišťuje definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi. Databázový systém v širším smyslu zahrnuje nejen samotnou databázi a DBMS, ale také uživatele, aplikační software, pravidla provozu a další prostředky potřebné pro práci s daty. Pokorný a Valenta uvádějí, že databázové systémy poskytují služby spojené s definicí databáze, manipulací s daty, souběžným přístupem k datům, ochranou dat a zotavením z chyb (Pokorný a Valenta, 2020).
 
 ## 4.2 Schéma databáze, instance a metadata
 
-Důležitou součástí teorie databázových systémů je rozlišení schématu databáze a instance databáze. Schéma databáze představuje popis struktury uložených dat, tedy určení entit, atributů, vazeb a omezení, která mají data splňovat. Instance databáze naopak vyjadřuje konkrétní aktuální obsah databáze v určitém čase. Toto rozlišení je důležité, protože odděluje relativně stabilní strukturální návrh od proměnlivých datových hodnot (Pokorný a Valenta, 2020).
+V teorii databází je třeba rozlišovat schéma databáze a instanci databáze. Schéma databáze představuje popis struktury uložených dat, tedy určení entit, atributů, vazeb a omezení, která mají data splňovat. Instance databáze naopak vyjadřuje konkrétní aktuální obsah databáze v určitém čase. Toto rozlišení odděluje relativně stabilní strukturální návrh od proměnlivých datových hodnot (Pokorný a Valenta, 2020).
 
 S databázovým systémem úzce souvisejí také metadata. Metadata jsou data o datech, tedy informace popisující strukturu databáze, význam atributů, integritní omezení nebo přístupová práva. Metadata bývají ukládána v systémovém katalogu, který slouží jako centrální zdroj informací o databázových objektech (Pokorný a Valenta, 2020).
 
@@ -145,7 +149,7 @@ S databázovým systémem úzce souvisejí také metadata. Metadata jsou data o 
 
 DBMS obvykle poskytuje několik základních skupin funkcí: definici dat, manipulaci s daty, řízení souběžného přístupu více uživatelů, ochranu dat a obnovu po chybě. V souvislosti s těmito funkcemi se používají pojmy DDL pro jazyk definice dat, DML pro jazyk manipulace s daty a transakce pro logický celek operací, který má být proveden buď celý, nebo vůbec (Pokorný a Valenta, 2020).
 
-Významnou teoretickou oporou je víceúrovňová architektura DBMS spojovaná s modelem ANSI/SPARC. Tato architektura rozlišuje externí, konceptuální a interní úroveň pohledu na data. Externí úroveň odpovídá pohledům jednotlivých skupin uživatelů, konceptuální úroveň představuje globální logický model celé databáze a interní úroveň popisuje fyzické uložení dat. Hlavním smyslem tohoto členění je podpora datové nezávislosti, tedy oddělení aplikací a uživatelských pohledů od fyzické implementace databáze (Pokorný a Valenta, 2020).
+Dalším důležitým konceptem je víceúrovňová architektura DBMS, spojovaná s modelem ANSI/SPARC. Tato architektura rozlišuje externí, konceptuální a interní úroveň pohledu na data. Externí úroveň odpovídá pohledům jednotlivých skupin uživatelů, konceptuální úroveň představuje globální logický model celé databáze a interní úroveň popisuje fyzické uložení dat. Hlavním smyslem tohoto členění je podpora datové nezávislosti, tedy oddělení aplikací a uživatelských pohledů od fyzické implementace databáze (Pokorný a Valenta, 2020).
 
 ## 4.4 Fáze návrhu databáze
 
@@ -158,6 +162,8 @@ Na konceptuální návrh navazuje logický návrh. V této fázi se konceptuáln
 Fyzický návrh se soustředí na způsob uložení dat v konkrétním databázovém systému. Řeší se zde organizace datových souborů, indexy, výkonové aspekty, optimalizace přístupu a další technické detaily. Na rozdíl od konceptuálního a logického návrhu je fyzický návrh silně závislý na konkrétní technologii (Pokorný a Valenta, 2020).
 
 Mezi jednotlivými fázemi návrhu existuje zpětná vazba. Pokud se při fyzickém návrhu ukáže, že některé části modelu vedou k výkonovým problémům, je nutné vrátit se zpět k návrhu logickému. Podobně změna požadavků uživatelů může vyvolat úpravu konceptuálního modelu a následně i všech dalších úrovní. Návrh databáze proto nelze chápat jako striktně lineární proces, nýbrž jako proces iterativní.
+
+                                                                          
 
 # 5 Datové modely
 
@@ -175,9 +181,9 @@ Atributy jsou svázány s doménami, tedy s množinami přípustných hodnot. Ro
 
 ## 5.2 Relační model
 
-Relační model je založen na relacích, které jsou v praxi reprezentovány tabulkami. Každá relace má své schéma, tedy jméno relace, seznam atributů a jejich domén. Konkrétní řádky tabulky odpovídají n‑ticím. Důležitou vlastností relačního modelu je práce s atomickými hodnotami a s přesně vymezenými atributy (Pokorný a Valenta, 2020).
+Relační model je založen na relacích, které jsou v praxi reprezentovány tabulkami. Každá relace má své schéma, tedy jméno relace, seznam atributů a jejich domén. Konkrétní řádky tabulky odpovídají n‑ticím. Relační model pracuje s atomickými hodnotami a s přesně vymezenými atributy (Pokorný a Valenta, 2020).
 
-V relačním modelu hrají zásadní roli klíče. Primární klíč slouží k jednoznačné identifikaci řádku tabulky. Cizí klíč umožňuje vyjádřit vazbu mezi tabulkami a je základem referenční integrity. Mezi obecné vlastnosti relačních tabulek patří nezávislost na pořadí řádků a sloupců a požadavek na neduplicitu řádků (Pokorný a Valenta, 2020).
+Klíče jsou v relačním modelu zásadní. Primární klíč slouží k jednoznačné identifikaci řádku tabulky. Cizí klíč umožňuje vyjádřit vazbu mezi tabulkami a je základem referenční integrity. Mezi obecné vlastnosti relačních tabulek patří nezávislost na pořadí řádků a sloupců a požadavek na neduplicitu řádků (Pokorný a Valenta, 2020).
 
 ## 5.3 Transformace ER/EER modelu do relačního modelu
 
@@ -189,15 +195,17 @@ Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcház
 
 První normální forma vyžaduje atomické hodnoty a nepřipouští opakující se skupiny. Druhá normální forma řeší závislost neklíčových atributů na celém klíči. Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy. Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Pokorný a Valenta, 2020; Chlapek, Kučera a Palovská, 2019).
 
+                                    
+
 # 6 Vícekriteriální rozhodování
 
 Vícekriteriální rozhodování se zabývá situacemi, ve kterých nelze rozhodovat podle jediného hlediska. V reálných rozhodovacích úlohách jsou alternativy obvykle posuzovány podle více kritérií, která mohou být navzájem v konfliktu. Právě proto je vhodné využít metody, které umožňují tato kritéria systematicky zahrnout do rozhodovacího procesu (Saaty, 2008).
 
 Rozhodovací úloha bývá popsána množinou variant, množinou kritérií a vztahem mezi nimi. Varianty představují jednotlivé posuzované možnosti. Kritéria vyjadřují hlediska, podle kterých jsou varianty hodnoceny. Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice (Saaty, 2008).
 
-V souvislosti s vícekriteriálním rozhodováním je vhodné vysvětlit pojmy ideální a bazální varianta, dominance a nedominované řešení. Ideální varianta je hypotetická varianta, která dosahuje ve všech kritériích nejlepších možných hodnot. Bazální varianta naopak představuje hypotetickou variantu s nejhoršími hodnotami. Nedominovaná varianta je taková varianta, pro kterou neexistuje jiná varianta lepší alespoň v jednom kritériu a současně ne horší v ostatních (Saaty, 2008).
+K vícekriteriálnímu rozhodování patří také pojmy ideální a bazální varianta, dominance a nedominované řešení. Ideální varianta je hypotetická varianta, která dosahuje ve všech kritériích nejlepších možných hodnot. Bazální varianta naopak představuje hypotetickou variantu s nejhoršími hodnotami. Nedominovaná varianta je taková varianta, pro kterou neexistuje jiná varianta lepší alespoň v jednom kritériu a současně ne horší v ostatních (Saaty, 2008).
 
-Pro potřeby této práce je důležité zejména vícekriteriální hodnocení variant, neboť navazující praktická část bude porovnávat konečný seznam databázových nástrojů. Jde tedy o situaci, kdy jsou předem dány alternativy a je nutné z nich určit nejvhodnější řešení (Saaty, 1990).
+Pro tuto práci je podstatné zejména vícekriteriální hodnocení variant, neboť navazující praktická část bude porovnávat konečný seznam databázových nástrojů. Jde tedy o situaci, kdy jsou předem dány alternativy a je nutné z nich určit nejvhodnější řešení (Saaty, 1990).
 
 ## 6.1 Alternativa, kritérium a váha kritéria
 
@@ -212,6 +220,8 @@ Váha kritéria vyjadřuje jeho relativní význam v rámci rozhodovacího proce
 Pro odhad vah kritérií lze použít několik postupů. Jednodušší přístupy zahrnují metodu pořadí nebo bodovací metodu. Tyto metody jsou snadno použitelné, ale méně jemné při vyjadřování intenzity preference. Pokročilejší přístupy pracují s párovým porovnáváním kritérií, kam patří i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 2008). Z hlediska porovnání samotných alternativ umožňuje AHP aplikovat stejný princip párového porovnávání i pro alternativy, a to vůči každému z dříve stanovených kritérií. Výhodou je systematičnost a transparentnost, nevýhodou vyšší pracnost při větším počtu prvků (Saaty, 2008).
 
 Z dalších metod vícekriteriálního hodnocení variant jsou v literatuře rozšířeny zejména metoda váženého součtu (WSA), která pracuje s lineárně normalizovanými hodnotami kritérií a výsledné skóre alternativy vypočítá jako vážený součet normalizovaných hodnot, a metoda TOPSIS, jež hodnotí alternativy podle jejich vzdálenosti od ideální a bazální varianty. Komplexnější strukturou se vyznačuje rodina metod ELECTRE, které pracují s koncepty outrangování (Soukopová, 2016). Pro potřeby navazující bakalářské práce bylo zvoleno AHP ze dvou důvodů: za prvé umožňuje přirozeně kombinovat kvantitativní i kvalitativní kritéria bez nutnosti jejich normalizace na společnou škálu, což je při hodnocení softwaru žádoucí; za druhé nabízí prostřednictvím indexu konzistence CR vestavěný mechanismus ověření soudržnosti hodnotitelových úsudků, který je obzvláště přínosný v situaci, kdy párové porovnávání provádí jeden hodnotitel (Saaty, 1990; Saaty, 2008).
+
+                                 
 
 # 7 Metoda AHP
 
@@ -231,13 +241,15 @@ Protože párové porovnávání vychází z lidského úsudku, není vždy doko
 
 ## 7.3 Výhody a omezení AHP
 
-Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a transparentně zdůvodnit, jak bylo dosaženo výsledného pořadí alternativ. Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí. Nevýhodou je vyšší pracnost při větším počtu kritérií a alternativ a určitá míra subjektivity, která je s párovým porovnáváním spjata (Saaty, 2008). V české odborné literatuře se v této souvislosti hovoří o problému udržení konzistence rozhodovatele při rozsáhlejším počtu párových srovnání a o riziku změny pořadí alternativ (tzv. rank reversal) při přidání nebo odebrání varianty z modelu (Jandová, 2012; Vohradský, 2016).
+Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a transparentně zdůvodnit, jak bylo dosaženo výsledného pořadí alternativ. Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí. Nevýhodou je vyšší pracnost při větším počtu kritérií a alternativ a určitá míra subjektivity, která je s párovým porovnáváním spjata (Saaty, 2008). V literatuře se v souvislosti s AHP diskutuje také jev tzv. rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu (Saaty, 2008).
 
 # 8 Nástroje pro návrh a vývoj databází
 
-Výběr nástrojů pro praktickou komparaci proběhl ve dvou krocích. Nejprve byl vymezen okruh dostupných nástrojů pro návrh a vývoj databází; že je tato nabídka široká, dokládá srovnávací studie Carvalho et al. (2022), která hodnotila sedmnáct nástrojů pro datové modelování. Z tohoto okruhu byly nástroje vybírány podle několika hledisek: (1) zaměření na návrh a vývoj databáze, nikoli pouze na její správu či provoz; (2) dostupnost bezplatné nebo volně testovatelné verze, aby je bylo možné prakticky vyzkoušet; (3) pokrytí různých licenčních modelů (open‑source, freeware) a různé míry specializace (univerzální nástroj vs. nástroj vázaný na konkrétní DBMS); a (4) přítomnost alespoň části z nich v odborné literatuře, což umožní porovnat výsledky s existujícími studiemi. Nabídka přitom zahrnuje i webové a akademické nástroje, například online nástroj ONDA vyvinutý na Univerzitě v Coimbře (Laranjeiro a Pinto, 2024); ten však do užšího výběru zařazen nebyl, neboť práce se soustředí na plnohodnotné nástroje s lokální instalací.
+Výběr nástrojů pro porovnání vycházel nejprve z přehledu dostupných nástrojů pro návrh a vývoj databází. Jako jeden z podkladů byla využita studie Carvalho et al. (2022), která hodnotila sedmnáct nástrojů pro datové modelování. Z ní je patrné, že nabídka těchto nástrojů je poměrně široká a zahrnuje nástroje online i desktopové, bezplatné i komerční a také nástroje zaměřené na různé databázové platformy. Příkladem online nástroje je ONDA vyvinutý na Univerzitě v Coimbře (Laranjeiro a Pinto, 2024); do užšího výběru však zařazen nebyl, protože práce se soustředí na plnohodnotné desktopové nástroje. Dalším podkladem byly oficiální online dokumentace vybraných nástrojů, ze kterých byly ověřeny jejich základní funkce, podporované databázové platformy a licenční podmínky. Pro posouzení významu jednotlivých databázových platforem byl využit také žebříček DB-Engines (2026).
 
-Na základě uvedených hledisek byly vybrány čtyři nástroje: jeden specializovaný open‑source nástroj zaměřený na PostgreSQL (pgModeler), jeden open‑source nástroj s komerční edicí pokrývající široké spektrum DBMS (DBeaver), jeden freeware specializovaný na MySQL (MySQL Workbench) a jeden freeware vyvíjený komerčním vydavatelem se silnou podporou logického modelování (Oracle SQL Developer Data Modeler). Tři z vybraných nástrojů jsou navíc obsaženy ve zmíněné studii Carvalho et al. (2022), což umožní částečné porovnání výsledků navazující bakalářské práce s existující literaturou. Tři nástroje (Oracle SQL Developer Data Modeler, DBeaver Community Edition a MySQL Workbench Community Edition) jsou v aktuálních verzích připraveny k instalaci přímo z pracovní složky autora; čtvrtý nástroj pgModeler bude stažen z oficiálního webu projektu. Vzhledem k rostoucímu významu a popularitě nerelačních databázových systémů, jak na to poukazuje např. Jedlička (2024), bude při hodnocení nástrojů zohledněna také jejich případná schopnost kooperovat s NoSQL technologiemi (zejména v případě univerzálního nástroje DBeaver).
+Na základě těchto podkladů byly pro další práci vybrány čtyři nástroje: Oracle SQL Developer Data Modeler, DBeaver Community Edition, MySQL Workbench Community Edition a pgModeler. Při výběru bylo zohledněno, zda nástroj podporuje návrh databáze, zda je dostupný v bezplatné nebo volně testovatelné verzi a zda vhodně doplňuje ostatní vybrané nástroje. Oracle SQL Developer Data Modeler je zaměřený hlavně na Oracle Database, MySQL Workbench na MySQL, pgModeler na PostgreSQL a DBeaver představuje univerzálnější nástroj podporující více DBMS. Tři z těchto nástrojů jsou uvedeny také ve studii Carvalho et al. (2022). Díky tomu bude možné pozdější výsledky alespoň částečně porovnat s již publikovanou studií.
+
+Volba databázových platforem vychází také z jejich rozšířenosti. Oracle Database, MySQL a PostgreSQL patří podle žebříčku DB-Engines (2026) mezi významné relační databázové systémy. Do úvahy byl brán i Microsoft SQL Server, ten však nebyl zařazen, protože pro zvolený postup práce lépe odpovídají nástroje dostupné bezplatně nebo ve volně použitelné komunitní verzi. U univerzálních nástrojů bude při hodnocení sledováno také to, zda umožňují práci s více databázovými platformami, případně i s nerelačními databázemi.
 
 Základní charakteristiky vybraných nástrojů shrnuje tabulka 1.
 
@@ -245,7 +257,7 @@ Základní charakteristiky vybraných nástrojů shrnuje tabulka 1.
 |---|---|---|---|---|
 | Oracle SQL Developer Data Modeler | Oracle Corporation | Freeware | Oracle Database | Logický, relační, fyzický a multidimenzionální model; forward/reverse engineering |
 | DBeaver Community Edition | DBeaver Corp. | Open‑source (Apache 2.0) | Multi‑DBMS | ER diagramy, SQL editor, prohlížeč dat, DDL export |
-| MySQL Workbench Community Edition | Oracle Corporation | Freeware | MySQL | EER modelování, forward/reverse engineering, synchronizace s živou databází |
+| MySQL Workbench Community Edition | Oracle Corporation | Open‑source (GPLv2) | MySQL | EER modelování, forward/reverse engineering, synchronizace s živou databází |
 | pgModeler | Raphael Araújo e Silva | Open‑source (GPLv3) | PostgreSQL | Grafický návrh schémat, generování SQL, reverzní inženýrství, validace modelu |
 
 *Tabulka 1 — Základní charakteristiky vybraných nástrojů (zdroje: Oracle, 2026; DBeaver, 2026; MySQL, 2026; pgModeler, 2026)*
@@ -260,19 +272,19 @@ DBeaver je open‑source univerzální databázový nástroj s podporou široké
 
 ## 8.3 MySQL Workbench Community Edition
 
-MySQL Workbench je oficiální nástroj společnosti Oracle pro práci s databází MySQL. Sjednocuje v jednom prostředí návrh databáze (EER diagramy), správu serveru, modelování, forward i reverse engineering a SQL vývoj. Podporuje synchronizaci modelu s živou databází a export modelu do DDL skriptu (MySQL, 2026). Pro účely této práce bude testována verze 8.0.46 Community Edition.
+MySQL Workbench je oficiální nástroj společnosti Oracle pro práci s databází MySQL. Sjednocuje v jednom prostředí návrh databáze (EER diagramy), správu serveru, modelování, forward i reverse engineering a SQL vývoj. Podporuje synchronizaci modelu s živou databází a export modelu do DDL skriptu (MySQL, 2026). Pro účely této práce bude testována verze 8.0.
 
 ## 8.4 pgModeler
 
-pgModeler je open‑source nástroj zaměřený přímo na databázi PostgreSQL. Umožňuje grafický návrh schémat, generování SQL skriptů, reverzní inženýrství, validaci modelu a porovnávání modelu s živou databází (pgModeler, 2026). Cílovou databázovou platformou nástroje je PostgreSQL, jehož oficiální dokumentace popisuje podporované datové typy a syntaxi SQL, vůči nimž pgModeler generované skripty validuje (PostgreSQL, 2026). Pro účely této práce bude testována aktuální stabilní verze ke dni testování.
+pgModeler, jehož název vychází z označení PostgreSQL Database Modeler, je open‑source nástroj zaměřený přímo na databázi PostgreSQL. Umožňuje grafický návrh schémat, generování SQL skriptů, reverzní inženýrství, validaci modelu a porovnávání modelu s živou databází (pgModeler, 2026). Cílovou databázovou platformou nástroje je PostgreSQL, jehož oficiální dokume
 
 # 9 Návrh hodnoticích kritérií
 
-Při tvorbě hodnoticích kritérií je nutné zohlednit, že nástroje budou srovnávány na úrovni schopností pokrýt návrh a vývoj databáze, nikoli pouze provoz databáze. Vymezení kritérií vychází z obecné struktury hodnoticích kategorií identifikovaných v komparativní studii Carvalho et al. (2022), kteří při hodnocení nástrojů pro datové modelování pracovali s kategoriemi jako funkcionalita, provozní charakteristiky softwaru, dokumentace a komunitní podpora. Tato práce přejímá analogické členění a doplňuje jej o kritéria specifická pro AHP postup a pro kontext návrhu databázových systémů. V navazující bakalářské práci budou kritéria dále upřesněna, případně rozšířena o subkritéria.
+Při vytváření kritérií pro hodnocení je třeba zohlednit, že nástroje budou porovnávány podle toho, jak dokážou podpořit návrh a vývoj databáze, nikoliv pouze podle toho, jak zvládají její provoz. Hodnoticí kritéria vycházejí ze studie Carvalho et al. (2022): Tato práce porovnávala nástroje pro datové modelování podle kategorií jako funkcionalita, provozní vlastnosti softwaru, dokumentace a komunitní podpora. Tato práce toto členění přebírá a rozšiřuje ho o kritéria specifická pro návrh databázových systémů. V navazující práci budou kritéria dále upřesněna, případně rozšířena.
 
 Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 
-| ID | Název kritéria | Typ | Způsob hodnocení |
+| ID | Název kritéria | Typ kritéria | Způsob a zdroj hodnocení |
 |---|---|---|---|
 | K1 | Funkcionalita | maximalizační | testovací scénář + dokumentace nástroje |
 | K2 | Použitelnost | maximalizační | kvalitativní hodnocení v testovacím scénáři |
@@ -285,21 +297,25 @@ Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 
 *Tabulka 2 — Navržená hodnoticí kritéria pro navazující praktickou komparaci*
 
-**K1 — Funkcionalita.** Rozsah podporovaných funkcí: konceptuální, logický a fyzický model, validace modelu, generování SQL, dokumentace modelu, podpora pro práci s různými typy objektů. Maximalizační, kvalitativně‑kvantitativní kritérium.
+Následující odstavce blíže popisují, co každé kritérium zahrnuje.
 
-**K2 — Použitelnost.** Snadnost ovládání, přehlednost rozhraní, kvalita uživatelské zpětné vazby, minimalizace chybovosti při běžných úkonech. Maximalizační, kvalitativní kritérium hodnocené v testovacím scénáři.
+**K1 — Funkcionalita.** Hodnotí, jak dobře nástroj pokrývá potřeby návrhu databáze: konceptuální, logický a fyzický model, validaci modelu, generování SQL, dokumentaci modelu a práci s různými typy objektů.
 
-**K3 — Kompatibilita s DBMS.** Šíře podporovaných databázových systémů (PostgreSQL, MySQL, Oracle, SQL Server a další). Maximalizační kritérium, kvantifikovatelné počtem oficiálně podporovaných DBMS.
+**K2 — Použitelnost.** Posuzuje, jak snadno se nástroj ovládá: přehlednost rozhraní, kvalitu uživatelské zpětné vazby a chybovost při běžných úkonech.
 
-**K4 — Forward engineering.** Schopnost generovat DDL skript nebo přímo vytvořit schéma databáze z modelu, včetně kvality vygenerovaného SQL. Maximalizační, kvalitativně‑kvantitativní kritérium.
+**K3 — Kompatibilita s DBMS.** Zkoumá, kolik databázových systémů nástroj oficiálně podporuje (PostgreSQL, MySQL, Oracle, SQL Server a další).
 
-**K5 — Reverse engineering.** Schopnost vytvořit model z existující databáze, věrnost převodu a možnosti následných úprav. Maximalizační, kvalitativně‑kvantitativní kritérium.
+**K4 — Forward engineering.** Hodnotí, jak nástroj generuje DDL skript nebo schéma databáze z modelu, včetně kvality vygenerovaného SQL.
 
-**K6 — Dokumentace a komunitní podpora.** Rozsah a aktuálnost oficiální dokumentace, dostupnost komunitních zdrojů, frekvence aktualizací. Maximalizační, kvalitativní kritérium.
+**K5 — Reverse engineering.** Hodnotí, jak nástroj vytvoří model z existující databáze: věrnost převodu a možnosti následných úprav.
 
-**K7 — Import, export a validace modelu.** Podporované formáty importu/exportu, schopnost validovat model před nasazením, integrace s verzovacími systémy. Maximalizační, kvalitativně‑kvantitativní kritérium.
+**K6 — Dokumentace a komunitní podpora.** Posuzuje rozsah a aktuálnost oficiální dokumentace a dostupnost komunitní podpory a aktualizací.
 
-**K8 — Cena a licence.** Typ licence (open‑source, freeware, komerční), omezení free verze, celkové náklady na zavedení. Minimalizační kritérium (vyšší cena = nižší skóre).
+**K7 — Import, export a validace modelu.** Zkoumá, jaké formáty importu a exportu nástroj podporuje, zda umí model validovat a jak se integruje s verzovacími systémy.
+
+**K8 — Cena a licence.** Hodnotí typ licence (open‑source, freeware, komerční), omezení bezplatné verze a celkové náklady na zavedení.
+
+                                                                                                                                                                                                                                                                                                                                       
 
 # 10 Metodický rámec navazující praktické komparace
 
@@ -360,16 +376,6 @@ PGMODELER. *pgModeler — PostgreSQL Database Modeler* [online]. Raphael Araújo
 
 POSTGRESQL. *PostgreSQL Documentation* [online]. The PostgreSQL Global Development Group, 2026 [cit. 2026‑06‑09]. Dostupné z: <https://www.postgresql.org/docs/>
 
-CHOTĚNOVSKÝ, Tomáš. *Tvorba datových modelů a generování dat pro předmět Databázové systémy a návrh databází*. Brno, 2023. Bakalářská práce. Mendelova univerzita v Brně. Provozně ekonomická fakulta. Vedoucí práce Pavel Turčínek.
-
-JANDOVÁ, Věra. *AHP - její silné a slabé stránky*. Olomouc, 2012. Diplomová práce. Univerzita Palackého v Olomouci. Přírodovědecká fakulta. Vedoucí práce Jana Talašová.
-
-JEDLIČKA, Jan. *Key-value databázové systémy*. Ostrava, 2024. Diplomová práce. Vysoká škola báňská – Technická univerzita Ostrava. Fakulta elektrotechniky a informatiky. Vedoucí práce Michal Krátký.
-
-KAŠPAR, Zbyněk. *Databázové systémy v praxi*. Olomouc, 2012. Bakalářská práce. Univerzita Palackého v Olomouci. Pedagogická fakulta. Vedoucí práce Jan Kubrický.
-
 SOUKOPOVÁ, Jana. *Vícekriteriální metody hodnocení*. Brno: Masarykova univerzita, 2016. Učební text. Masarykova univerzita. Ekonomicko-správní fakulta. Dostupné z: <https://is.muni.cz/el/1456/jaro2016/BPE_VIMP/um/>
 
-VOHRADSKÝ, Marek. *Použití metod vícekriteriálního rozhodování při řízení podniku*. Plzeň, 2016. Diplomová práce. Západočeská univerzita v Plzni. Fakulta ekonomická. Vedoucí práce Ladislav Lukáš.
-
-CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. *IEEE Access*. 2022, **10**, 3351–3365. ISSN 2169‑3536. DOI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. *IEEE Ac

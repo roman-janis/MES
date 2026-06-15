@@ -10,6 +10,8 @@ SAATY, Thomas L. Decision making with the analytic hierarchy process. *Internati
 
 SIMANAVIČIENĖ, Rūta a Sonata VDOVINSKIENĖ. Selection of Computer-Aided Design Software Systems Using the AHP Method. *Baltic Journal of Modern Computing*. 2023, **11**(2), 272–284. ISSN 2255‑8950. DOI: 10.22364/bjmc.2023.11.2.04.
 
+LARANJEIRO, Nuno a Alexandre Miguel PINTO. *ONDA: ONLine Database Architect* [online]. arXiv:2401.16552, 2024 [cit. 2026‑06‑15]. DOI: 10.48550/arXiv.2401.16552. Dostupné z: <https://doi.org/10.48550/arXiv.2401.16552>
+
 DBEAVER. *DBeaver Documentation* [online]. DBeaver Corp., 2026 [cit. 2026‑06‑09]. Dostupné z: <https://dbeaver.com/docs/dbeaver/>
 
 MYSQL. *MySQL Workbench Manual* [online]. Oracle Corporation, 2026 [cit. 2026‑06‑09]. Dostupné z: <https://dev.mysql.com/doc/workbench/en/>
