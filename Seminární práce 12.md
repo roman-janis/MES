@@ -1,15 +1,3 @@
-# 12 Závěry a doporučení
+# 12 — NEPOUŽÍVAT
 
-Cíl seminární práce, tedy zpracování teoretických a metodických východisek navazující bakalářské práce, byl naplněn. Odpovědi na výzkumné otázky lze stručně shrnout takto:
-
-- **K VO1:** Byly vymezeny klíčové pojmy databázových systémů (data, DBMS, schéma, instance, metadata), popsány fáze návrhu databáze (konceptuální, logický, fyzický) a vysvětleny datové modely používané v praxi, zejména ER/EER a relační model spolu s normalizací.
-- **K VO2:** Metoda AHP byla popsána jak z hlediska principu (hierarchie cíl–kritéria–alternativy), tak z hlediska postupu (párové porovnání s využitím Saatyho škály, výpočet vah, kontrola konzistence pomocí CR). Bylo zdůvodněno, proč je AHP vhodná pro porovnání softwarových nástrojů.
-- **K VO3:** Bylo navrženo osm hodnoticích kritérií (K1–K8) a metodický rámec navazující komparace, zahrnující sestavení hierarchie, párové porovnání kritérií, testovací scénář nad nainstalovanými nástroji, syntézu priorit a analýzu citlivosti.
-
-Pro navazující bakalářskou práci je doporučeno: a) provést testovací scénář na všech čtyřech nástrojích v jednom kalendářním týdnu, aby byly minimalizovány rozdíly ve zkušenosti hodnotitele; b) při hodnocení kvalitativních kritérií (K2, K6) doplnit slovní zdůvodnění každého párového porovnání; c) zařadit analýzu citlivosti minimálně pro váhy K1 a K8; d) zvážit modelový scénář dvou typových firem (malé a střední) s odlišnými váhami kritérií a porovnat výsledné pořadí mezi scénáři.
-
-
-```{=openxml}
-<w:p><w:r><w:br w:type="page"/></w:r></w:p>
-```
-
+*(Prázdná rezerva. Obsah seminární práce je v souborech „Seminární práce 0.md" až „Seminární práce 11.md". Finální dokument vznikne spojením 0–11.)*

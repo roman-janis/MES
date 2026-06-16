@@ -1,12 +1,15 @@
-# 10 Metodický rámec navazující praktické komparace
+# 10 Závěry a doporučení
 
-V navazující bakalářské práci bude postup praktické komparace strukturován do následujících kroků:
+Cíl práce, tedy zpracování teoretických a metodických východisek pro praktickou část, byl naplněn. Odpovědi na výzkumné otázky lze stručně shrnout takto:
 
-1. **Sestavení hierarchie AHP.** Na nejvyšší úrovni cíl „Výběr nejvhodnějšího nástroje pro návrh a vývoj databází", na druhé úrovni kritéria K1–K8, na třetí úrovni alternativy (Oracle SQL Developer Data Modeler, DBeaver, MySQL Workbench, pgModeler).
-2. **Párové porovnání kritérií.** Sestavení Saatyho matice 8×8, výpočet vah jednotlivých kritérií metodou geometrického průměru řádků, kontrola konzistence (CR < 0,1).
-3. **Testování nástrojů.** Na pracovní stanici autora budou nainstalovány nástroje z instalátorů uložených ve složce `nastroje/`. Na každém z nich bude proveden jednotný testovací scénář: vytvoření konceptuálního modelu malé doménové oblasti (např. evidenci objednávek), převod do relačního schématu, generování SQL skriptu pro PostgreSQL a MySQL, reverzní inženýrství z existujícího schématu.
-4. **Párové porovnání alternativ vzhledem ke každému kritériu.** Pro každé kritérium vznikne Saatyho matice 4×4. U kritérií K3, K4 a K8 budou hodnoty opřeny o ověřitelná měřítka (počet podporovaných DBMS, počet kroků pro generování SQL, cena); u kritérií K2 a K6 půjde o kvalitativní hodnocení.
-5. **Syntéza lokálních a globálních priorit.** Výsledné pořadí nástrojů vznikne jako vážený součet lokálních priorit přes všechna kritéria.
-6. **Analýza citlivosti.** Bude sledováno, jak se mění výsledné pořadí při změně vah klíčových kritérií, zejména K1 (Funkcionalita) a K8 (Cena a licence).
-7. **Doporučení pro praxi.** Na základě výsledků budou formulována doporučení pro typové scénáře malé a střední firmy, kde lze očekávat odlišné váhy kritérií než v scénáři čistě technickém.
+- **K VO1:** Byly vymezeny klíčové pojmy databázových systémů (data, DBMS, schéma, instance, metadata), popsány fáze návrhu databáze (konceptuální, logický, fyzický) a vysvětleny datové modely používané v praxi, zejména ER/EER a relační model spolu s normalizací.
+- **K VO2:** Metoda AHP byla popsána jak z hlediska principu (hierarchie cíl–kritéria–alternativy), tak z hlediska postupu (párové porovnání s využitím Saatyho škály, výpočet vah, kontrola konzistence pomocí CR). Bylo zdůvodněno, proč je AHP vhodná pro porovnání softwarových nástrojů.
+- **K VO3:** Bylo navrženo osm hodnoticích kritérií (K1–K8) a metodický rámec navazující komparace, zahrnující sestavení hierarchie, párové porovnání kritérií, testovací scénář nad nainstalovanými nástroji, syntézu priorit a analýzu citlivosti.
+
+Pro praktickou část je doporučeno: a) provést testovací scénář na všech čtyřech nástrojích v jednom kalendářním týdnu, aby byly minimalizovány rozdíly ve zkušenosti hodnotitele; b) při hodnocení kvalitativních kritérií (K2, K6) doplnit slovní zdůvodnění každého párového porovnání; c) zařadit analýzu citlivosti minimálně pro váhy K1 a K8; d) zvážit modelový scénář dvou typových firem (malé a střední) s odlišnými váhami kritérií a porovnat výsledné pořadí mezi scénáři.
+
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
