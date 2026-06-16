@@ -1,5 +1,7 @@
 # Požadavky vedoucího a kontrola jejich splnění
 
+> **Pozn. (16. 6. 2026):** Aktuální stav splnění je v `POZADAVKY_UCITELE.md` (§9) a v `PŘEHLED.md`. Údaje níže jsou starší (mj. uvádějí 19 zdrojů – aktuálně je jich 14 – a odkazují na dřívější číslování kapitol). Ponecháno jako historický záznam.
+
 Stav ke dni 2026-06-14. Sestaveno z `Email konverzace.txt` (vedoucí Ing. et Ing. Martin Lněnička, Ph.D.) a z pokynů kurzu KRCR-MES (Oliva). Porovnáno s aktuálním stavem `Seminární práce.md`.
 
 ---

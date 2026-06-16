@@ -12,8 +12,9 @@ if ([string]::IsNullOrEmpty($dir)) { $dir = (Get-Location).Path }
 $numRegex = ' (\d+)\.md$'
 
 # najdi casti = .md soubory koncici mezerou + cislo + .md (vystup ani zaloha cislo nemaji)
+# soubory 12 a 13 jsou prazdne rezervy (NEPOUZIVAT) -> preskakuji se
 $parts = Get-ChildItem -LiteralPath $dir -Filter '*.md' |
-    Where-Object { $_.Name -match $numRegex } |
+    Where-Object { $_.Name -match $numRegex -and [int]([regex]::Match($_.Name, $numRegex).Groups[1].Value) -le 11 } |
     Sort-Object { [int]([regex]::Match($_.Name, $numRegex).Groups[1].Value) }
 
 if ($null -eq $parts -or $parts.Count -eq 0) {

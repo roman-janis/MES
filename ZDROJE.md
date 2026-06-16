@@ -1,6 +1,8 @@
 # Zdroje a literatura
 
-Aktualizace: 14. 6. 2026.
+Aktualizace: 16. 6. 2026.
+
+V práci je nyní **14 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Chlapek, Kučera a Palovská; Pokorný a Valenta; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová). Všechny in-text citace párují se seznamem.
 
 Tento soubor popisuje, jak jsou v projektu rozdělené zdroje. Nerozlišuji zde zvlášť seminární práci a bakalářskou práci; beru to jako jeden pracovní základ pro budoucí BP.
 
@@ -63,7 +65,7 @@ Tyto soubory jsou přesunuté do `literatura/inspirace`. Slouží pro orientaci,
 ### Inspirace k databázím a návrhu databáze
 
 - `literatura/inspirace/DB/Kaspar_bc_final.pdf` - Zbyněk Kašpar, *Databázové systémy v praxi*, BP 2012.
-- `literatura/inspirace/DB/Chotenovsky_Tvorba_datovych_modelu_2023.pdf` - Tomáš Chotěnovský, BP 2023. Inspirace (necitováno; §3 nyní opřen o Connolly & Begg).
+- `literatura/inspirace/DB/Chotenovsky_Tvorba_datovych_modelu_2023.pdf` - Tomáš Chotěnovský, BP 2023. Inspirace (necitováno; §3 a návrh databáze jsou opřeny o Chlapek, Kučera a Palovská, 2019).
 - `literatura/inspirace/DB/Smahel_Porovnani_CASE_nastroju_2018.pdf` - David Šmahel, *Porovnání CASE nástrojů se zaměřením na podporu návrhu databáze*, BP 2018.
 
 ### Inspirace k AHP a vícekriteriálnímu rozhodování
@@ -129,4 +131,4 @@ Ve `smazat/` zůstaly hlavně duplicity, rozbité soubory, slabé materiály neb
 - **ROZHODNUTO (14. 6., finální):** všechny kvalifikační práce (Kašpar, Chotěnovský, Jandová, Vohradský, Jedlička) zůstávají jen jako **inspirace** a v textu se NEcitují. Citace jsou nahrazeny vlastněnými zdroji: §3 (návrh databází) → **Chlapek, Kučera a Palovská (2019)**; §8 (NoSQL) → **DB-Engines (2026)**; §7.3 (rank reversal) → **Saaty (2008)**.
 - **Connolly & Begg (2015)** a **Sullivan (2015)** se zatím nedaří sehnat → přesunuty do sekce 5 (sehnat pro BP); v textu se NEcitují.
 - V metodice je nyní potřeba hlídat, aby nebylo napsané, že práce vychází ze zdrojů, které jsou ve skutečnosti jen ve složce `literatura/inspirace`.
-- `Seminární práce 13.md` bude potřeba po finálním rozhodnutí sladit s tímto rozdělením.
+- **HOTOVO (16. 6.):** Seznam zdrojů je v souboru `Seminární práce 11.md`, seřazený abecedně a rozdělený na tištěné/internetové. Soubory `Seminární práce 12.md` a `13.md` jsou prázdné rezervy (NEPOUŽÍVAT).

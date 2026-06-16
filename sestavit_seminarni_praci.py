@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Sestaví `Seminární práce.md` z kapitolových souborů `Seminární práce 0..13.md`.
+Sestaví `Seminární práce.md` z kapitolových souborů `Seminární práce 0..11.md`.
+
+Pozn.: Soubory `Seminární práce 12.md` a `13.md` jsou prázdné rezervy (NEPOUŽÍVAT)
+a do výsledného dokumentu se nezahrnují.
 
 Ošetřuje poškození vznikající živým sync (Google Disk):
   1) odstraní NUL byty (0x00),
@@ -19,7 +22,7 @@ import os
 import sys
 import subprocess
 
-CHAPTERS = list(range(14))          # 0,1,2,...,13
+CHAPTERS = list(range(12))          # 0,1,2,...,11 (12 a 13 jsou nepoužívané rezervy)
 OUT = "Seminární práce.md"
 # znaky, jimiž smí kapitola legitimně končit (věta, URL v <...>, openxml ```, závorka)
 TERMINATORS = (".", ">", "`", ")", "]", "»", "“", "”", "/")
