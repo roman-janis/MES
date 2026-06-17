@@ -16,6 +16,13 @@ param(
     [string]$Out = "Seminární práce.md"
 )
 
+Write-Host ""
+Write-Host "spoj.ps1 — použití:"
+Write-Host "  .\spoj.ps1                        # spojí kapitoly 0..11 -> 'Seminární práce.md'"
+Write-Host "  .\spoj.ps1 2 3 8                  # spojí jen kapitoly 2+3+8 -> 'Seminární práce.md'"
+Write-Host "  .\spoj.ps1 2 3 8 -Out vyber.md    # spojí 2+3+8 do vlastního souboru"
+Write-Host ""
+
 if (-not $Chapters) { $Chapters = 0..11 }
 
 $dir = $PSScriptRoot
