@@ -1,8 +1,8 @@
 # Zdroje a literatura
 
-Aktualizace: 18. 6. 2026.
+Aktualizace: 19. 6. 2026.
 
-V práci je nyní **20 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
+V práci je nyní **23 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Ho 2008; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Rosenthal a Reiner; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Vaidya a Kumar; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
 
 Tento soubor popisuje, jak jsou v projektu rozdělené zdroje. Nerozlišuji zde zvlášť seminární práci a bakalářskou práci; beru to jako jeden pracovní základ pro budoucí BP.
 
@@ -84,8 +84,6 @@ Tyto soubory jsou přesunuté do `literatura/inspirace`. Slouží pro orientaci,
 - `literatura/inspirace/DB/Smahel_Porovnani_CASE_nastroju_2018.pdf` - David Šmahel, *Porovnání CASE nástrojů se zaměřením na podporu návrhu databáze*, BP 2018.
 
 ### Inspirace k AHP a vícekriteriálnímu rozhodování
-
-- `literatura/inspirace/AHP/Bunruamkaew_How_to_do_AHP_analysis_in_Excel_2012.pdf` - praktický návod k výpočtu AHP v Excelu.
 - `literatura/inspirace/AHP/Fruhauf_Vyber_dodavatele_MCDM_2025.pdf` - ukázka použití vícekriteriálního rozhodování.
 - `literatura/inspirace/AHP/Jandova_AHP_jeji_silne_a_slabe_stranky.pdf` - Věra Jandová, DP 2012. Inspirace (necitováno).
 - `literatura/inspirace/AHP/Mullerova_Vicekriterialni_rozhodovani_2020.pdf` - ukázka zpracování tématu vícekriteriálního rozhodování.
@@ -97,10 +95,6 @@ Tyto soubory jsou přesunuté do `literatura/inspirace`. Slouží pro orientaci,
 - `literatura/inspirace/AHP/OPF_DP_2025_58108_Oberherrova_Nikol.pdf` - Nikol Oberherrová, DP 2025 (SU Opava). Orientace: potvrzuje Vaidya & Kumar (2006) [ref 21] jako použitelný zdroj; Ishizaka & Labib a Taherdoost (2022) také zmíněny.
 - `literatura/inspirace/AHP/Urban_2022_vicekriterialniRozhodovani_klimatizace.pdf` - Daniel Urban, BP 2022 (ČZU Praha). Pouze české knihy + produktové weby, žádné nové akademické články — nízká hodnota pro nalezení zdrojů.
 
-### Ostatní inspirace
-
-- `literatura/inspirace/ostatni/Ivanytska_DanceSport_scoring_2015.pdf` - spíše ukázka kvantitativního hodnocení, tematicky mimo databázové nástroje.
-- `literatura/inspirace/ostatni/Vopenka_Kvantitativni_analyza_projektu_2016.pdf` - spíše ukázka kvantitativní analýzy, tematicky mimo databázové nástroje.
 
 ## 4. Materiály k zadání a požadavkům
 
@@ -124,7 +118,7 @@ Tyto čtyři knihy vedoucí výslovně zmínil. Použití: SP 4 (základy, DBMS)
 | Stav | Zdroj |
 |---|---|
 | 📚 sehnat | **CONNOLLY, Thomas a Carolyn BEGG.** *Database Systems: A Practical Approach to Design, Implementation, and Management*. 6th ed. London: Pearson, 2015. ISBN 978-1292061184. |
-| 📚 sehnat | **ELMASRI, Ramez a Sham NAVATHE.** *Fundamentals of Database Systems*. 7th ed. Boston: Pearson, 2016. ISBN 978-0133970777. |
+| ✅ staženo | **ELMASRI, Ramez a Sham NAVATHE.** *Fundamentals of Database Systems*. 7th ed. Boston: Pearson, 2016. ISBN 978-0133970777. Umístění: `literatura/DB/Elmasri_Navathe_2016_Fundamentals_of_Database_Systems.pdf`. |
 | 📚 sehnat | **GARCIA-MOLINA, Hector, Jeffrey D. ULLMAN a Jennifer WIDOM.** *Database Systems: The Complete Book*. 2nd ed. Upper Saddle River: Pearson Prentice Hall, 2008. ISBN 978-0131873254. |
 | 📚 sehnat | **KORTH, Henry F., Abraham SILBERSCHATZ a S. SUDARSHAN.** *Database System Concepts*. 7th ed. New York: McGraw-Hill, 2020. ISBN 978-0078022159. |
 
@@ -134,6 +128,9 @@ Tyto čtyři knihy vedoucí výslovně zmínil. Použití: SP 4 (základy, DBMS)
 
 | Stav | Zdroj | Poznámka |
 |---|---|---|
+| ✅ staženo | **BUNRUAMKAEW, Chutarat.** *How to Do AHP Analysis in Excel* [online]. University of Tsukuba, 2012. Metodický návod. Umístění: `literatura/AHP/Bunruamkaew_How_to_do_AHP_analysis_in_Excel_2012.pdf`. | Praktický návod k výpočtu AHP v Excelu — hodí se pro praktickou část BP (sestavení matic, výpočet vah, CR). Necitovat jako vědecký zdroj. |
+| ✅ staženo | **OTTE, Lukáš.** *Databázové systémy*. Ostrava: Vysoká škola báňská – Technická univerzita Ostrava, Fakulta strojní, 2013. ISBN 978-80-248-3054-4. Umístění: `literatura/DB/Otte_2013_Databazove_systemy_VSBTUO.pdf`. | Český učební text, 189 stran. Zatím necitováno — záloha pro BP pokud bude potřeba další český DB zdroj vedle Pokorného a Valenty. |
+| ✅ staženo | **HRONEK, Jiří.** *Databázové systémy*. Olomouc: Univerzita Palackého, Přírodovědecká fakulta, 2007. Učební text. Umístění: `literatura/DB/Hronek_2007_Databazove_systemy_UPOL.pdf`. | Pokrývá ER model, relační model, normalizaci, SQL — překryv s kapitolami 4 a 5. Zatím necitováno — záloha pro BP. |
 | 📚 sehnat | **DATE, C. J.** *An Introduction to Database Systems*. 8th ed. Pearson/Addison Wesley, 2004. | Klasická učebnice, ale starší; použít jen pokud nebude Connolly nebo Elmasri. |
 | 📚 sehnat | **RAMAKRISHNAN, Raghu a Johannes GEHRKE.** *Database Management Systems*. 3rd ed. McGraw-Hill, 2002. | Podobná úroveň jako Elmasri; alternativa. |
 | ✅ staženo (19. 6.) | **CODD, Edgar F.** A relational model of data for large shared data banks. *Communications of the ACM*. 1970, **13**(6), 377–387. DOI: 10.1145/362384.362685. PDF uloženo: `literatura/DB/Codd_1970_Relational_model.pdf`. | Citováno v §5.2 (atomické hodnoty relačního modelu) a §5.4 (normalizace — 1NF–3NF). Přidáno do bibliografie SP11. |
@@ -151,6 +148,14 @@ Použití: **HOTOVO (18. 6.)** — přidáno do SP 6.2 (Velasquez a Hester: WSA/
 
 ---
 
+### 5C2. AHP aplikovaný — český recenzovaný článek (✅ staženo)
+
+| Stav | Zdroj | Poznámka |
+|---|---|---|
+| ✅ staženo | **VLČKOVÁ, Jana a Lukáš FRIEBEL.** Využití metody AHP při výběru poskytovatele outsourcingu účetnictví. *Český finanční a účetní časopis*. 2015, **10**(2). ISSN 1802-2367. DOI: 10.18267/j.cfuc.439. Umístění: `literatura/AHP/Vlckova_Friebel_2015_AHP_outsourcing_uctectnictvi.pdf`. | Český recenzovaný open-access článek s aplikací AHP v praxi. Nenahrazuje obecnou teorii (Saaty, Ishizaka & Labib), ale doplňuje ji o doložitelný příklad. Citovat v BP v kapitole o AHP nebo metodice. Poznámka: ověřit čísla stran a přesné číslo ročníku v PDF. |
+
+---
+
 ### 5D. MCDM a AHP — kandidáti k sehnání (nižší priorita)
 
 | Stav | Zdroj | Poznámka |
@@ -161,12 +166,12 @@ Použití: **HOTOVO (18. 6.)** — přidáno do SP 6.2 (Velasquez a Hester: WSA/
 
 ---
 
-### 5E. AHP aplikovaný na výběr softwaru / DBMS — kandidáti
+### 5E. AHP aplikovaný na výběr softwaru / DBMS — ✅ staženo
 
 | Stav | Zdroj | Poznámka |
 |---|---|---|
-| 🔍 dohledat | **CATAK, M. Kemal, N. KARABAS a S. YILDIRIM.** A Fuzzy AHP-based Decision Model for Database Management System Selection. *IJASUC*. 2012, **3**(4), 19–30. DOI: 10.5121/ijasuc.2012.3402. | Přímo o výběru DBMS pomocí AHP — velmi relevantní pro zdůvodnění metodiky. |
-| 🔍 dohledat | **EBRAHIMI, Seyed Babak a Maryam TAHERI.** Selection of Database Management System Using Fuzzy AHP. *IJIEEB*. 2015, **7**(2), 34–40. DOI: 10.5815/ijieeb.2015.02.05. | Dtto; alternativa k Catak et al. |
+| ✅ staženo | **CATAK, M. Kemal, N. KARABAS a S. YILDIRIM.** A Fuzzy AHP-based Decision Model for Database Management System Selection. *IJASUC*. 2012, **3**(4), 19–30. DOI: 10.5121/ijasuc.2012.3402. Umístění: `literatura/AHP/Catak_2012_Fuzzy_AHP_DBMS_selection.pdf`. | Navrhují fuzzy AHP model pro výběr DBMS; hodnotí 8 kategorií a 27 subkritérií. Přímo relevantní pro zdůvodnění metodiky BP. |
+| ✅ staženo | **EBRAHIMI, Seyed Babak a Maryam TAHERI.** Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *IJIEEB*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01. Umístění: `literatura/AHP/Ebrahimi_Taheri_2015_Fuzzy_AHP_DBMS_EMR.pdf`. | Výběr DBMS pro elektronické zdravotní záznamy pomocí fuzzy AHP; kritéria: podpora OS, programovacího jazyka, indexování, replikace, access control; porovnává PostgreSQL, MySQL, Oracle, DB2, SQL Server. Alternativa nebo doplněk k Catak et al. |
 
 ---
 
@@ -210,6 +215,17 @@ Ve `smazat/` zůstaly hlavně duplicity, rozbité soubory, slabé materiály neb
 - `smazat/Uvod_datove_modelovani.pdf` - slabší zdroj bez jasného bibliografického záznamu.
 - `smazat/Vicekriterialni_metody_hodnoceni_2.pdf` - slidy; vhodnější je učební text Soukopové.
 - `smazat/VRfinal.pdf` - slidy bez jasného bibliografického záznamu.
+- `smazat/04-databazove-systemy.pdf` - přednáškové slidy (Honza Havelka, 5 stran), necitovatelné.
+- `smazat/databazove_systemy.pdf` - skenované slidy (čistě obrázky), necitovatelné.
+- `smazat/mcdm19(14)_7.pdf` - polský MCDM článek 2019, neidentifikovaný, není v ZDROJE.md.
+- `smazat/pekin_et_al_ims2006.pdf` - neidentifikovaný konferenční článek 2006, skenované obrázky.
+- `smazat/Codd_1970_A_relational_model.pdf` - duplicita, nahrazeno Codd_1970_Relational_model.pdf.
+- `smazat/Codd_1970_A_relational_model (1).pdf` - duplicita z kořene literatura/.
+- `smazat/Multiple criteria decision making techniques...pdf` - stará kopie Mardaniho, nahrazeno.
+- `smazat/Alkahtani_2019_MCDM_supplier_selection_AHP_TOPSIS.pdf` - nezdokumentovaný soubor z inspirace.
+- `smazat/fundamentals-of-database-systems.pdf` - menší duplicita Elmasriho, nahrazeno 7th Edition.
+- `smazat/Ivanytska_DanceSport_scoring_2015.pdf` - práce o hodnocení tanečního sportu, tematicky zcela mimo.
+- `smazat/Vopenka_Kvantitativni_analyza_projektu_2016.pdf` - práce o kvantitativní analýze projektů, tematicky mimo.
 
 ## 7. Poznámky k dalším úpravám textu práce
 

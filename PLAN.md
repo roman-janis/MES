@@ -11,7 +11,7 @@ Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární
 ### Co je hotovo
 
 - ✅ Struktura a číslování kapitol 0–11.
-- ✅ 22 citovaných zdrojů, vše spárované se seznamem (SP 11).
+- ✅ 23 citovaných zdrojů, vše spárované se seznamem (SP 11).
 - ✅ Rosenthal a Reiner (1994) přidán do SP 4 a SP 11.
 - ✅ Velasquez & Hester (2013) a Ishizaka & Labib (2011) — do SP 6, SP 11.
 - ✅ Chen (1976) — do SP 5.1, SP 11.

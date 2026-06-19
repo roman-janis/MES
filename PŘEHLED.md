@@ -1,6 +1,6 @@
 # Přehled stavu práce a složky
 
-Aktualizace: 16. 6. 2026.
+Aktualizace: 19. 6. 2026.
 
 Tento dokument říká, co je kde uloženo a jak se s tím pracuje.
 
@@ -53,11 +53,14 @@ Seminární práce je obsahově **kompletní jako první verze**:
 - 14 citovaných zdrojů, in-text autor–rok, seznam podle ČSN ISO 690:2022, rozdělený na tištěné a internetové zdroje; všechny citace párují se seznamem;
 - jazyk projitý, sjednocená typografie (česká pomlčka), bez šablonovitých výčtů.
 
-Zbývá:
+Zbývá (po e-mailu vedoucího 17. 6. 2026):
 
-- převést na `.docx`, aktualizovat obsah (F9), doplnit datum v prohlášení;
-- odeslat první verzi vedoucímu;
-- po připomínkách odevzdat v Olivě a splnit zápočtový test.
+- **Smazat z metodiky** větu o citacích (vedoucí výslovně požadoval).
+- **Doplnit zdroje:** ideálně 4–5 zdrojů na každou teoretickou kapitolu; priorita: sehnat DB knihy ze `ZDROJE.md` §5A (Connolly, Elmasri, Garcia-Molina, Korth).
+- **Dohledat 2–3 MCDM survey články** pro zdůvodnění volby AHP v metodice (Google Scholar: „A survey on multi criteria decision making methods").
+- **Vložit práci do šablony z Olivy** — vedoucí chce příště dostat práci v officiálním Word dokumentu šablony, ne holý konvertovaný .docx.
+- Po vložení do šablony ověřit rozsah (min. 10 stran teorie) a odeslat vedoucímu.
+- Po připomínkách odevzdat v Olivě a splnit zápočtový test.
 
 ## 4. Složky
 

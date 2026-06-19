@@ -1,6 +1,6 @@
 # Požadavky vedoucího a kontrola jejich splnění
 
-> **Pozn. (16. 6. 2026):** Aktuální stav splnění je v `POZADAVKY_UCITELE.md` (§9) a v `PŘEHLED.md`. Údaje níže jsou starší (mj. uvádějí 19 zdrojů – aktuálně je jich 14 – a odkazují na dřívější číslování kapitol). Ponecháno jako historický záznam.
+> **Pozn. (19. 6. 2026):** Aktuální stav splnění je v `POZADAVKY_UCITELE.md` (§9, §10) a v `PŘEHLED.md`. Údaje níže jsou starší a odkazují na dřívější číslování kapitol. Ponecháno jako historický záznam. Nové pokyny z e-mailu 17. 6. 2026 jsou zpracovány v `POZADAVKY_UCITELE.md` §9.
 
 Stav ke dni 2026-06-14. Sestaveno z `Email konverzace.txt` (vedoucí Ing. et Ing. Martin Lněnička, Ph.D.) a z pokynů kurzu KRCR-MES (Oliva). Porovnáno s aktuálním stavem `Seminární práce.md`.
 
@@ -51,10 +51,13 @@ Stav ke dni 2026-06-14. Sestaveno z `Email konverzace.txt` (vedoucí Ing. et Ing
 ## D. Co zbývá k dořešení
 
 1. **Gramatická chyba v §1** (odstavec 2): „použít postupy, **který** umožňují…" → má být „postupy, **které** umožňují…". Věta je navíc nešťastně zalomená.
-2. **P2 — rozsah:** přegenerovat `.docx` a spočítat strany teorie (cíl ≥ 10 stran vč. seznamu zdrojů).
+2. **P2 — rozsah:** ověřit v šabloně Olivy (ne holý .docx), min. 10 stran teorie.
 3. **P5 — terminologie:** sladit „fáze vývoje" vs. „fáze návrhu" databáze.
-4. **P10 — odevzdání:** přegenerovat `.docx` a poslat vedoucímu první verzi.
-5. **Mimo seminárku (S1–S3):** STAG zadávací list (název v AJ + literatura), návrh požadavků pro praktickou část BP a podpůrná AHP aplikace — patří do bakalářské práce, ne do této seminárky.
+4. **Smazat větu o citacích z metodiky** — vedoucí to výslovně požadoval v e-mailu 17. 6. 2026 (viz `POZADAVKY_UCITELE.md` §9).
+5. **Doplnit 4–5 zdrojů na kapitolu** — zejména DB knihy (Connolly, Elmasri, Garcia-Molina, Korth) a sehnat je; viz `ZDROJE.md` §5A.
+6. **Dohledat 2–3 MCDM survey články** pro zdůvodnění AHP v metodice — Google Scholar: „A survey on multi criteria decision making methods".
+7. **Vložit práci do šablony z Olivy** a odeslat vedoucímu v tomto formátu.
+8. **Mimo seminárku (S1–S3):** STAG zadávací list (název v AJ + literatura), návrh požadavků pro praktickou část BP a podpůrná AHP aplikace — patří do bakalářské práce, ne do této seminárky.
 
 ---
 
