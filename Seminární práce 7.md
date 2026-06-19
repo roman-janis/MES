@@ -1,6 +1,6 @@
 # 7 Metoda AHP
 
-Metoda *Analytic Hierarchy Process* (AHP) patří mezi nejznámější metody vícekriteriálního rozhodování. Jejím autorem je Thomas L. Saaty. Podstatou této metody je rozklad složitého rozhodovacího problému do hierarchické struktury, která obsahuje cíl, kritéria, případně subkritéria a alternativy. Tento rozklad umožňuje lépe zachytit strukturu rozhodovací úlohy a následně jednotlivé prvky systematicky porovnat (Saaty, 1990; Saaty, 2008).
+Metoda *Analytic Hierarchy Process* (AHP) patří mezi nejznámější metody vícekriteriálního rozhodování. Jejím autorem je Thomas L. Saaty. Podstatou této metody je rozklad složitého rozhodovacího problému do hierarchické struktury, která obsahuje cíl, kritéria, případně subkritéria a alternativy. Tento rozklad umožňuje lépe zachytit strukturu rozhodovací úlohy a následně jednotlivé prvky systematicky porovnat (Saaty, 1990; Saaty, 2008; Vaidya a Kumar, 2006).
 
 Na nejvyšší úrovni hierarchie stojí cíl rozhodování, například výběr nejvhodnějšího databázového nástroje. Na nižších úrovních se nacházejí kritéria, případně subkritéria, a na nejnižší úrovni alternativy. Klíčovým principem metody je párové porovnávání prvků na stejné úrovni vzhledem k prvku nadřazenému (Saaty, 2008).
 
@@ -14,6 +14,10 @@ Výsledkem párového porovnání je čtvercová reciproční matice, označovan
 
 Protože párové porovnávání vychází z lidského úsudku, není vždy dokonale konzistentní. Součástí metody AHP je proto kontrola konzistence. K tomu slouží *Consistency Index* (CI), *Random Consistency Index* (RI) a *Consistency Ratio* (CR). V praxi se uvádí, že hodnota CR menší než 0,1 značí přijatelnou úroveň konzistence; vyšší hodnoty obvykle vedou k přehodnocení porovnání (Saaty, 1990; Saaty, 2008).
 
+> *[POZNÁMKA]: Pro BP — Saaty (1990) uvádí tabulku hodnot RI pro matice velikosti n = 1 až 10. Při zpracování praktické části ji vložit sem nebo do přílohy; bez ní není ověření CR doložitelné.*
+
 ## 7.3 Výhody a omezení AHP
 
-Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a transparentně zdůvodnit, jak bylo dosaženo výsledného pořadí alternativ. Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí. Nevýhodou je vyšší pracnost při větším počtu kritérií a alternativ a určitá míra subjektivity, která je s párovým porovnáváním spjata (Saaty, 2008). V literatuře se v souvislosti s AHP diskutuje také jev tzv. rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu (Saaty, 2008).
+Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a transparentně zdůvodnit, jak bylo dosaženo výsledného pořadí alternativ. Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí. Nevýhodou je vyšší pracnost při větším počtu kritérií a alternativ a určitá míra subjektivity, která je s párovým porovnáváním spjata (Saaty, 2008; Ishizaka a Labib, 2011; Ho, 2008). V literatuře se v souvislosti s AHP diskutuje také jev tzv. rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu (Saaty, 2008).
+
+> *[POZNÁMKA]: Pro BP — zvážit přidat Ebrahimi & Taheri (2015), kteří AHP použili přímo na výběr DBMS pro elektronické zdravotní záznamy. Přímá vazba na téma práce. DOI: 10.5815/ijieeb.2015.05.01 — ověřit správnost DOI na stránce časopisu před vložením do bibliografie.*

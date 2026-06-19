@@ -1,3 +1,21 @@
+17.6
+Dobrý den,
+
+zatím to vypadá dobře. Z metodiky práce smažte "Citace jsou v textu uváděny harvardským způsobem, tedy ve tvaru autor a rok. Seznam zdrojů je zpracován podle normy ČSN ISO 690:2022. U webových zdrojů je uvedeno datum citace." - to se tam nepíše.
+
+Pro tu teorii musíte kombinovat více zdrojů, pro každou kapitolu tak 4-5 zdrojů, ideálně knihy a články. Bakalářská práce by měla mít minimálně 30 zdrojů, když knih a článků v časopisech by mělo být minimálně 20 - ideálně převážně v angličtině, ale prvně hledejte v češtině. Nějaké argumenty v té teorii můžete podložit dvěma nebo i třemi zdroji. U databázi studenti používají ještě např. CONNOLLY, Thomas a BEGG, Carolyn. Database Systems: A Practical Approach to Design, Implementation, and Management. 6th ed. London: Pearson, 2015. ISBN 978-1292061184. ELMASRI, Ramez a NAVATHE, Sham. Fundamentals of Database Systems. 7th ed. Boston: Pearson, 2016. ISBN 978-0133970777. GARCIA-MOLINA, Hector, ULLMAN, Jeffrey D. a WIDOM, Jennifer. Database Systems: The Complete Book. 2nd ed. Upper Saddle River: Pearson Prentice Hall, 2008. ISBN 978-0131873254. KORTH, Henry F., SILBERSCHATZ, Abraham a SUDARSHAN, S. Database System Concepts. 7th ed. New York: McGraw-Hill, 2020. ISBN 978-0078022159. Ale i pro ty další části teorie si toho dohledejte více.
+Pro zdůvodnění výběru AHP v metodice práce tam dejte nějaké zdroje, např. Na Google Scholar vyhledat A survey on multi criteria decision making methods a použít 2 nebo 3 vhodné články, protože při obhajobě se pak někdo může zeptat.
+
+Pište to jako seminární práci, v bakalářské práci se to pak přeformuluje, resp. všude teď pište "práce" a pak se k tomu přidá slovo "bakalářská" a trochu doladí, aby to odpovídalo cíli bakalářské práce. Ty kapitoly od 4.1, které tam máte připravené, stačí 2 až 3 odstavce pro každou. Hlavně to mít podložené literárními zdroji. Pokud by toho bylo málo, tak se to později rozšíří. Ale v bakalářské práci to má max. 15 stran. Ty scénáře a aplikaci určitě naznačte, ale jen jako pokračování, které bude rozvedeno v bakalářské práci, zatím stačí tak na 1 stranu.
+
+Hlavně si z toho kurzu v Olivě stáhněte tu šablonu dokumentu pro seminární práci. Tam jsou názvy kapitol a pokyny, když nakonec musíte vygenerovat obsah a mít to formálně správně. Všechno už pište do té šablony, ať vidíte, kolik toho máte – to pak platí i pro bakalářskou práci, jinak s tím budete mít více práce kvůli formálním požadavkům. Na získání zápočtu, kromě toho testu v kurzu v Olivě, stačí, když ta teorii bude mít v tom dokumentu seminární práce min. 10 stran.
+
+Příště mi to už pošlete v tom oficiálním dokumentu a už by to snad mohlo stačit na odevzdání.
+
+Pěkný den,
+Martin Lněnička
+---------------------------------------------------------------
+
 11.5.
 Dobrý den,
 
