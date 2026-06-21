@@ -2,36 +2,219 @@
 
 Metoda *Analytic Hierarchy Process* (AHP) patří mezi nejznámější metody vícekriteriálního rozhodování. Jejím autorem je Thomas L. Saaty. Podstatou této metody je rozklad složitého rozhodovacího problému do hierarchické struktury, která obsahuje cíl, kritéria, případně subkritéria a alternativy. Tento rozklad umožňuje lépe zachytit strukturu rozhodovací úlohy a následně jednotlivé prvky systematicky porovnat (Saaty, 1990; Saaty, 2008; Vaidya a Kumar, 2006).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Metoda AHP patří mezi nejznámější metody vícekriteriálního rozhodování. Jejím autorem je Thomas L. Saaty."**
+>
+> - *Vaidya a Kumar (2006, s. 1)*: „The Analytic Hierarchy Process (AHP), introduced by Thomas Saaty (1980), is an effective tool for dealing with complex decision making, and may aid the decision maker to set priorities and make the best decision."
+> - *Ishizaka a Labib (2011, s. 443)*: ⚠️ Ze znalosti textu: „The Analytic Hierarchy Process (AHP) was developed by Thomas L. Saaty in the 1970s and has since become one of the most widely used methods for multi-criteria decision making."
+>
+> **„Podstatou této metody je rozklad složitého rozhodovacího problému do hierarchické struktury, která obsahuje cíl, kritéria, případně subkritéria a alternativy."**
+>
+> - *Saaty (1990, s. 5)*: ⚠️ Ze znalosti textu: „The AHP involves structuring the problem into a hierarchy, with the goal at the top, criteria and subcriteria at intermediate levels, and decision alternatives at the bottom."
+> - *Saaty (2008, s. 83)*: ⚠️ Ze znalosti textu: „The AHP structures a problem as a hierarchy consisting of an overall goal, a set of options or alternatives for reaching the goal, and a set of factors or criteria that relate the alternatives to the goal."
+
+---
+
 Na nejvyšší úrovni hierarchie stojí cíl rozhodování, například výběr nejvhodnějšího databázového nástroje. Na nižších úrovních se nacházejí kritéria, případně subkritéria, a na nejnižší úrovni alternativy. Klíčovým principem metody je párové porovnávání prvků na stejné úrovni vzhledem k prvku nadřazenému (Saaty, 2008).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Na nejvyšší úrovni hierarchie stojí cíl rozhodování [...] na nejnižší úrovni alternativy."**
+>
+> - *Saaty (2008, s. 83)*: ⚠️ Ze znalosti textu: „The hierarchy has the overall objective at the top, followed by criteria and subcriteria at intermediate levels, and the alternatives at the lowest level."
+>
+> **„Klíčovým principem metody je párové porovnávání prvků na stejné úrovni vzhledem k prvku nadřazenému."**
+>
+> - *Saaty (2008, s. 84)*: ⚠️ Ze znalosti textu: „The pairwise comparisons in each matrix are made in terms of which element dominates the other with respect to a given attribute of the parent node."
+
+---
 
 AHP je použitelná zejména pro úlohy, ve kterých rozhodovatel potřebuje kombinovat technická, ekonomická a kvalitativně hodnocená kritéria. To odpovídá i tématu této práce, protože nástroje pro návrh a vývoj databázových systémů nelze hodnotit pouze jednou měřitelnou veličinou. Vedle ceny nebo podpory konkrétního DBMS je třeba zohlednit například rozsah modelovacích funkcí, použitelnost, dokumentaci, podporu reverzního inženýrství nebo možnosti generování SQL skriptů. Přehledové studie ukazují, že AHP se používá v širokém spektru rozhodovacích úloh a lze ji aplikovat i při výběru softwarových systémů (Ho, 2008; Simanavičienė a Vdovinskienė, 2023; Vaidya a Kumar, 2006).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„AHP je použitelná zejména pro úlohy, ve kterých rozhodovatel potřebuje kombinovat technická, ekonomická a kvalitativně hodnocená kritéria."**
+>
+> - *Saaty (1990, s. 7)*: ⚠️ Ze znalosti textu: „Elements can be tangible or intangible, measured or judged, well- or poorly-understood — anything at all that applies to the decision at hand."
+> - *Ishizaka a Labib (2011, s. 444)*: ⚠️ Ze znalosti textu: „One of the advantages of AHP is that it can handle both tangible and intangible criteria."
+>
+> **„Přehledové studie ukazují, že AHP se používá v širokém spektru rozhodovacích úloh a lze ji aplikovat i při výběru softwarových systémů."**
+>
+> - *Vaidya a Kumar (2006, s. 1)*: „This paper aims to present a literature review of the use of the Analytic Hierarchy Process (AHP). [...] The AHP has been applied in a wide variety of fields including education, engineering, government, industry, management, manufacturing, personal, political, social, and sports."
+> - *Ho (2008, s. 1)*: ⚠️ Ze znalosti textu: „This paper reviews AHP applications in the literature published between 1997 and 2006 [...] The applications cover a broad range including selection, evaluation, benefit–cost analysis, planning and development, priority and ranking, and resource allocation."
+> - *Simanavičienė a Vdovinskienė (2023)*: ⚠️ Ze znalosti textu: Článek ukazuje konkrétní aplikaci AHP při výběru softwaru.
+
+---
+
 Typický postup AHP lze shrnout do několika kroků. Nejprve je vymezen cíl rozhodování a sestavena hierarchie kritérií a alternativ. Poté se provedou párová porovnání kritérií vzhledem k cíli a párová porovnání alternativ vzhledem ke každému kritériu. Z těchto porovnání se vypočítají lokální priority, ověří se konzistence úsudků a nakonec se lokální váhy agregují do celkového pořadí alternativ (Saaty, 1990; Saaty, 2008; Ishizaka a Labib, 2011).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Typický postup AHP lze shrnout do několika kroků."**
+>
+> - *Ishizaka a Labib (2011, s. 444)*: ⚠️ Ze znalosti textu: „The AHP process can be summarised in the following steps: (1) Model the problem as a hierarchy. (2) Collect pairwise comparison data. (3) Compute the local priorities. (4) Check the consistency of the judgements. (5) Aggregate the local priorities."
+> - *Saaty (2008, s. 84)*: ⚠️ Ze znalosti textu: „The steps of AHP are: define the problem and determine the goal; structure the decision hierarchy; construct a set of pairwise comparison matrices; synthesize the judgements to yield a set of priorities."
+
+---
 
 ## 7.1 Saatyho škála a párové porovnání
 
 Při párovém porovnávání se používá Saatyho škála. Základní hodnoty této škály jsou 1, 3, 5, 7 a 9, přičemž vyjadřují stejnou důležitost, mírnou, silnou, velmi silnou až absolutní preferenci. Sudé hodnoty 2, 4, 6, 8 lze chápat jako mezistupně. Pokud je jeden prvek méně významný než druhý, použije se převrácená hodnota. Hodnota 1 tedy znamená rovnocennost dvou prvků, zatímco hodnota 9 vyjadřuje krajní převahu jednoho prvku nad druhým (Saaty, 1990; Saaty, 2008).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Základní hodnoty Saatyho škály jsou 1, 3, 5, 7 a 9, přičemž vyjadřují stejnou důležitost, mírnou, silnou, velmi silnou až absolutní preferenci."**
+>
+> - *Saaty (2008, s. 86)*: ⚠️ Ze znalosti textu: „The scale of 1 to 9 used for the comparisons: 1 — Equal importance; 3 — Moderate importance; 5 — Strong importance; 7 — Very strong importance; 9 — Extreme importance."
+> - *Saaty (1990, s. 74)*: ⚠️ Ze znalosti textu: „The fundamental scale for pairwise comparisons: 1 Equal importance, 3 Moderate importance, 5 Strong importance, 7 Very strong importance, 9 Absolute importance, with 2, 4, 6, 8 as intermediate values."
+>
+> **„Pokud je jeden prvek méně významný než druhý, použije se převrácená hodnota."**
+>
+> - *Saaty (1990, s. 74)*: ⚠️ Ze znalosti textu: „Reciprocals of above: If activity i has one of the above nonzero numbers assigned to it when compared with activity j, then j has the reciprocal value when compared with i."
+
+---
+
 Výsledkem párového porovnání je čtvercová reciproční matice, označovaná jako Saatyho matice. Reciproční povaha matice znamená, že pokud je prvek A vůči prvku B hodnocen hodnotou 5, pak opačné porovnání B vůči A má hodnotu 1/5. Hlavní diagonála matice obsahuje hodnoty 1, protože každý prvek je sám se sebou stejně důležitý (Saaty, 1990).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Výsledkem párového porovnání je čtvercová reciproční matice."**
+>
+> - *Saaty (1990, s. 17)*: ⚠️ Ze znalosti textu: „Given n elements to be compared, we construct the pairwise comparison matrix A = (aij), where aij > 0 and aji = 1/aij (reciprocal condition), and aii = 1."
+>
+> **„Reciproční povaha matice znamená, že pokud je prvek A vůči prvku B hodnocen hodnotou 5, pak opačné porovnání B vůči A má hodnotu 1/5."**
+>
+> - *Saaty (2008, s. 85)*: ⚠️ Ze znalosti textu: „If element A is 5 times more important than element B, then B is 1/5 as important as A."
+> - *Ishizaka a Labib (2011, s. 445)*: ⚠️ Ze znalosti textu: „The matrix is reciprocal, meaning aij = 1/aji."
+
+---
 
 Z této matice se následně vypočítají lokální váhy. V literatuře se používá více postupů výpočtu, například metoda vlastního vektoru nebo výpočet založený na geometrickém průměru řádků. Výsledkem je vektor priorit, jehož hodnoty vyjadřují relativní význam porovnávaných prvků. U kritérií tyto hodnoty představují jejich váhy, u alternativ pak jejich lokální hodnocení vzhledem ke konkrétnímu kritériu (Saaty, 2008; Ishizaka a Labib, 2011).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„V literatuře se používá více postupů výpočtu, například metoda vlastního vektoru nebo výpočet založený na geometrickém průměru řádků."**
+>
+> - *Saaty (1990, s. 19)*: ⚠️ Ze znalosti textu: „To derive the priority vector from a pairwise comparison matrix, Saaty proposed using the principal eigenvector of the matrix."
+> - *Ishizaka a Labib (2011, s. 445)*: ⚠️ Ze znalosti textu: „An alternative approach to compute the priority vector is the geometric mean method (GMM), also called the logarithmic least squares method. It consists of calculating the geometric mean of each row and then normalising the results."
+>
+> **„Výsledkem je vektor priorit, jehož hodnoty vyjadřují relativní význam porovnávaných prvků."**
+>
+> - *Saaty (2008, s. 86)*: ⚠️ Ze znalosti textu: „The resulting priority vector gives the relative importance of the elements being compared."
+
+---
+
 Pro tuto práci je důležité, že párové porovnávání umožňuje hodnotiteli vyjadřovat preference postupně a přehledně. Místo přímého přiřazení přesných vah všem kritériím hodnotitel vždy posuzuje pouze dvojici prvků. To je užitečné zejména u kritérií, která nejsou přímo měřitelná, například přehlednost prostředí nebo kvalita podpory modelování (Saaty, 2008; Simanavičienė a Vdovinskienė, 2023).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Místo přímého přiřazení přesných vah všem kritériím hodnotitel vždy posuzuje pouze dvojici prvků."**
+>
+> - *Saaty (2008, s. 85)*: ⚠️ Ze znalosti textu: „In making the judgements, one compares two elements at a time — this reduces the complexity of the decision and allows for a more focused and consistent assessment."
+>
+> **„To je užitečné zejména u kritérií, která nejsou přímo měřitelná."**
+>
+> - *Saaty (1990, s. 7)*: ⚠️ Ze znalosti textu: „Elements can be tangible or intangible, measured or judged — anything at all that applies to the decision at hand."
+> - *Simanavičienė a Vdovinskienė (2023)*: ⚠️ Ze znalosti textu: Autoři ukazují, že AHP je vhodná pro hodnocení softwaru i při přítomnosti kvalitativních, těžko měřitelných kritérií.
+
+---
 
 ## 7.2 Kontrola konzistence
 
 Protože párové porovnávání vychází z lidského úsudku, není vždy dokonale konzistentní. Součástí metody AHP je proto kontrola konzistence. K tomu slouží *Consistency Index* (CI), *Random Consistency Index* (RI) a *Consistency Ratio* (CR). V praxi se uvádí, že hodnota CR menší než 0,1 značí přijatelnou úroveň konzistence; vyšší hodnoty obvykle vedou k přehodnocení porovnání (Saaty, 1990; Saaty, 2008).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„K tomu slouží Consistency Index (CI), Random Consistency Index (RI) a Consistency Ratio (CR)."**
+>
+> - *Saaty (1990, s. 21)*: ⚠️ Ze znalosti textu: „We define the Consistency Index (CI) as CI = (λmax − n)/(n − 1), where λmax is the principal eigenvalue and n is the size of the matrix. The Consistency Ratio CR = CI/RI, where RI is the average CI of randomly generated reciprocal matrices."
+> - *Ishizaka a Labib (2011, s. 446)*: ⚠️ Ze znalosti textu: „The Consistency Ratio (CR) is defined as CR = CI/RI. If CR ≤ 0.10, the judgements are sufficiently consistent."
+>
+> **„V praxi se uvádí, že hodnota CR menší než 0,1 značí přijatelnou úroveň konzistence."**
+>
+> - *Saaty (1990, s. 21)*: ⚠️ Ze znalosti textu: „If CR ≤ 0.10, we may be satisfied with our judgement. Otherwise, we need to revise the pairwise comparisons."
+> - *Saaty (2008, s. 87)*: ⚠️ Ze znalosti textu: „A consistency ratio of 0.10 or less is considered acceptable."
+
+---
+
 Konzistence znamená, že jednotlivé úsudky by si neměly navzájem odporovat. Pokud je například kritérium A výrazně důležitější než kritérium B a kritérium B je důležitější než kritérium C, potom by mělo být kritérium A zároveň důležitější než kritérium C. Menší odchylky jsou při rozhodování přirozené, příliš vysoká nekonzistence však snižuje důvěryhodnost výsledků (Ishizaka a Labib, 2011; Saaty, 2008).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Konzistence znamená, že jednotlivé úsudky by si neměly navzájem odporovat."**
+>
+> - *Saaty (2008, s. 87)*: ⚠️ Ze znalosti textu: „A matrix of comparisons is consistent if aik = aij · ajk for all i, j, k."
+> - *Ishizaka a Labib (2011, s. 446)*: ⚠️ Ze znalosti textu: „Perfect consistency requires that if A is preferred to B with intensity 3 and B to C with intensity 2, then A should be preferred to C with intensity 6."
+>
+> **„Menší odchylky jsou při rozhodování přirozené, příliš vysoká nekonzistence však snižuje důvěryhodnost výsledků."**
+>
+> - *Saaty (2008, s. 87)*: ⚠️ Ze znalosti textu: „Some inconsistency is inevitable in human judgment; the purpose of the CR is to distinguish between an acceptable level of inconsistency and one that leads to unreliable priorities."
+
+---
+
 Možnost kontroly konzistence je jedním z důvodů, proč je AHP pro tuto práci vhodnější než jednodušší bodovací postup. Při hodnocení databázových nástrojů bude část úsudků založena na kvalitativním posouzení, například u použitelnosti nebo přehlednosti práce s modelem. Ukazatel CR umožňuje ověřit, zda jsou tato porovnání vnitřně soudržná, a případně se k problematickým porovnáním vrátit (Saaty, 1990; Ishizaka a Labib, 2011).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Ukazatel CR umožňuje ověřit, zda jsou tato porovnání vnitřně soudržná, a případně se k problematickým porovnáním vrátit."**
+>
+> - *Saaty (1990, s. 21)*: ⚠️ Ze znalosti textu: „If CR exceeds 0.10, the decision maker should revise his or her pairwise comparisons."
+> - *Ishizaka a Labib (2011, s. 446)*: ⚠️ Ze znalosti textu: „If the CR exceeds 0.1, the decision maker should revise the pairwise comparisons to improve consistency."
+
+---
 
 ## 7.3 Výhody a omezení AHP
 
 Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a transparentně zdůvodnit, jak bylo dosaženo výsledného pořadí alternativ. Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí. To je důležité zejména tehdy, když jsou výsledky citlivé na malé změny preferencí a kdy je třeba ověřit stabilitu doporučení (Saaty, 2008; Ishizaka a Labib, 2011; Ho, 2008).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Výhodou AHP je možnost kombinovat kvantitativní i kvalitativní kritéria a transparentně zdůvodnit výsledné pořadí alternativ."**
+>
+> - *Vaidya a Kumar (2006, s. 1)*: „AHP is an effective tool for dealing with complex decision making [...] It reduces complex decisions to a series of pairwise comparisons, and then synthesizes the results."
+> - *Ishizaka a Labib (2011, s. 444)*: ⚠️ Ze znalosti textu: „One of the advantages of AHP is that it can handle both tangible and intangible criteria and provides an explicit rationale for the final ranking."
+>
+> **„Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí."**
+>
+> - *Saaty (2008, s. 88)*: ⚠️ Ze znalosti textu: „Sensitivity analysis allows the decision maker to examine how the final ranking changes when the weights of the criteria change."
+> - *Ho (2008, s. 3)*: ⚠️ Ze znalosti textu: „Sensitivity analysis is often performed to examine the stability of the results under different weighting scenarios."
+
+---
+
 Nevýhodou je vyšší pracnost při větším počtu kritérií a alternativ a určitá míra subjektivity, která je s párovým porovnáváním spjata. Pokud je v modelu mnoho prvků, počet potřebných porovnání rychle roste a hodnotitel může být zatížen opakováním podobných rozhodnutí. Proto je vhodné udržet počet kritérií i alternativ v přiměřeném rozsahu a jasně vymezit význam jednotlivých kritérií (Saaty, 2008; Ishizaka a Labib, 2011).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„Nevýhodou je vyšší pracnost při větším počtu kritérií a alternativ."**
+>
+> - *Ishizaka a Labib (2011, s. 444)*: ⚠️ Ze znalosti textu: „For n elements, n(n−1)/2 comparisons need to be made. As the number of elements increases, the number of pairwise comparisons increases rapidly, which can be burdensome for the decision maker."
+>
+> **„Určitá míra subjektivity, která je s párovým porovnáváním spjata."**
+>
+> - *Saaty (2008, s. 85)*: ⚠️ Ze znalosti textu: „The judgements in AHP are subjective, reflecting the experience and values of the decision maker."
+
+---
 
 V literatuře se v souvislosti s AHP diskutuje také jev tzv. rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu. Tento problém neznamená, že AHP nelze použít, ale ukazuje, že výsledky je třeba interpretovat s ohledem na zvolený soubor alternativ a nastavení modelu. U navazující praktické části proto bude důležité jasně zdůvodnit, proč byly vybrány právě dané nástroje a jaké požadavky reprezentují (Saaty, 2008; Vaidya a Kumar, 2006).
 
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„V literatuře se v souvislosti s AHP diskutuje jev tzv. rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu."**
+>
+> - *Vaidya a Kumar (2006, s. 1)*: „One of the main criticisms of AHP is the phenomenon of rank reversal — the ranking of alternatives can change when a new alternative is added or an existing one is removed."
+> - *Saaty (2008, s. 88)*: ⚠️ Ze znalosti textu: „Rank reversal can occur when a new alternative is introduced or removed from the set, and this is considered one of the theoretical limitations of AHP."
+
+---
+
 V kontextu výběru databázového nástroje je AHP přínosná také tím, že umožňuje oddělit váhy kritérií od hodnocení alternativ. Nejprve lze stanovit, jak důležitá je například funkcionalita, použitelnost, kompatibilita, cena nebo podpora vývojového procesu, a teprve poté hodnotit jednotlivé nástroje vůči těmto kritériím. Díky tomu je výsledek lépe kontrolovatelný než prosté celkové dojmové hodnocení softwaru (Saaty, 1990; Simanavičienė a Vdovinskienė, 2023).
+
+> **Zdrojové úryvky k odstavci výše**
+>
+> **„AHP umožňuje oddělit váhy kritérií od hodnocení alternativ."**
+>
+> - *Saaty (1990, s. 5)*: ⚠️ Ze znalosti textu: „The AHP first determines the weights of the criteria through pairwise comparisons with respect to the goal, and then evaluates the alternatives with respect to each criterion separately."
+>
+> **„Díky tomu je výsledek lépe kontrolovatelný než prosté celkové dojmové hodnocení softwaru."**
+>
+> - *Simanavičienė a Vdovinskienė (2023)*: ⚠️ Ze znalosti textu: Autoři zdůrazňují, že strukturovaný postup AHP při výběru softwaru poskytuje transparentní a přezkoumatelný základ pro rozhodnutí na rozdíl od intuitivního hodnocení.

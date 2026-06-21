@@ -1,6 +1,6 @@
 # Plán další práce
 
-Aktualizace: 18. 6. 2026.
+Aktualizace: 21. 6. 2026.
 
 Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární práce 11.md`. Finální `Seminární práce.md` a `.docx` se z nich jen generují (viz `PŘEHLED.md`).
 
@@ -23,15 +23,19 @@ Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární
 - ✅ Ho (2008) — do SP 7.3, SP 11.
 - ✅ Jazyková revize, typografie, terminologie.
 - ✅ Poslána první verze vedoucímu — zpětná vazba přijata 17. 6. 2026.
+- ✅ **SP 4** — pod každý odstavec přidány zdrojové úryvky (doslovné citáty z originálu ke každé myšlence/větě). Hotovo dříve.
+- ✅ **SP 5** — stejná struktura zdrojových úryvků doplněna 21. 6. 2026.
+- ✅ **SP 6** — stejná struktura zdrojových úryvků doplněna 21. 6. 2026.
+- ✅ **SP 7** — stejná struktura zdrojových úryvků doplněna 21. 6. 2026.
 
 ### Co je hotovo — stav kapitol po zdrojích
 
-| Kapitola | Zdrojů | Stav |
-|---|---|---|
-| 4 Databázové systémy | 3 | ⚠️ slabá — přidat 4. zdroj |
-| 5 Datové modely | 5 | ✅ |
-| 6 MCDM | 6 | ✅ |
-| 7 AHP | 5 | ✅ |
+| Kapitola | Zdrojů | Zdrojové úryvky | Stav |
+|---|---|---|---|
+| 4 Databázové systémy | 5 | ✅ doplněno | ✅ |
+| 5 Datové modely | 5 | ✅ doplněno 21. 6. | ✅ |
+| 6 MCDM | 6 | ✅ doplněno 21. 6. | ✅ |
+| 7 AHP | 5 | ✅ doplněno 21. 6. | ✅ |
 
 ---
 
@@ -45,11 +49,8 @@ Smazat: *„Citace jsou v textu uváděny harvardským způsobem, tedy ve tvaru 
 **2. Přidat MCDM články do metodiky** (`Seminární práce 1.md`)
 Přidat 1–2 věty do zdůvodnění volby AHP s citacemi (Velasquez a Hester 2013; Ishizaka a Labib 2011).
 
-**3. Sehnat 4. zdroj do kapitoly 4** (`Seminární práce 4.md`)
-Aktuálně jen 3 zdroje — vedoucí chce 4–5. Nejrychlejší cesta je jedna z těchto knih přes školní knihovnu:
-- **Connolly & Begg** — Database Systems (2015), ISBN 978-1292061184
-- **Elmasri & Navathe** — Fundamentals of Database Systems (2016), ISBN 978-0133970777
-Po sehnání přidat citaci do SP 4 (§4.1 nebo §4.3) a SP 11.
+**3. ✅ Sehnat 4. zdroj do kapitoly 4** — HOTOVO (19. 6. 2026)
+Elmasri & Navathe (2016) sehnán, citován v SP 4 (§4.1–4.4) a zařazen do SP 11. Kapitola 4 má nyní 5 zdrojů: Elmasri a Navathe, Pokorný a Valenta, Watt a Eng, Rosenthal a Reiner, Carvalho et al. Connolly & Begg zůstává jako další kandidát pro BP (viz `ZDROJE.md` §5A).
 
 **4. ✅ Stáhnout PDF pro Codd (1970) a Mardani et al. (2015)** — HOTOVO (19. 6. 2026)
 - `literatura/DB/Codd_1970_Relational_model.pdf` — staženo

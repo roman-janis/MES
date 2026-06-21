@@ -2,7 +2,7 @@
 
 Aktualizace: 19. 6. 2026.
 
-V práci je nyní **23 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Ho 2008; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Rosenthal a Reiner; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Vaidya a Kumar; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
+V práci je nyní **24 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Elmasri a Navathe; Ho 2008; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Rosenthal a Reiner; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Vaidya a Kumar; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
 
 Tento soubor popisuje, jak jsou v projektu rozdělené zdroje. Nerozlišuji zde zvlášť seminární práci a bakalářskou práci; beru to jako jeden pracovní základ pro budoucí BP.
 
@@ -20,14 +20,14 @@ Tyto soubory zůstávají v `literatura/DB`, protože se mohou použít jako zdr
   Umístění: `literatura/DB/Pokorny_Valenta_Databazove_systemy_2020.pdf`
 
 - **CHLAPEK, Dušan, Jan KUČERA a Helena PALOVSKÁ.** *Datové modelování a návrh relační databáze: Sbírka řešených úloh*. Praha: VŠE, Nakladatelství Oeconomica, 2019. ISBN 978-80-245-2331-6.  
-  Umístění: `literatura/DB/4IT218-skripta-datové-modelování_ekniha.pdf`
+  Umístění: `literatura/DB/Chlapek_Kucera_Palovska_2019_Datove_modelovani_relacni_databaze.pdf`
 
 - **JEDLIČKA, Jan.** *Key-value databázové systémy*. Ostrava, 2024. Diplomová práce. VŠB-TUO.  
   Umístění: `literatura/DB/JED0050_FEI_N2647_2612T025_2024.pdf`  
   Poznámka: ponecháno jako možný zdroj k širšímu přehledu databázových systémů. Pokud se v textu nebude řešit key-value / NoSQL oblast, není nutné ho citovat.
 
 - **ROSENTHAL, Arnon a David S. REINER.** *Tools and Transformations - Rigorous and Otherwise - for Practical Database Design*. ACM Transactions on Database Systems, 1994.  
-  Umístění: `literatura/DB/176567.176568.pdf`  
+  Umístění: `literatura/DB/Rosenthal_Reiner_1994_Tools_Transformations_DB_Design.pdf`  
   Poznámka: vhodné spíše pro BP, pokud se bude řešit návrh databáze, transformace modelů a nástroje podporující návrh.
 
 - **CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA.** Comparative Analysis of Data Modeling Design Tools. *IEEE Access*. 2022, 10, 3351-3365. DOI: 10.1109/ACCESS.2021.3139071.  
@@ -35,6 +35,10 @@ Tyto soubory zůstávají v `literatura/DB`, protože se mohou použít jako zdr
 
 - **CHEN, Peter Pin-Shan.** The entity-relationship model—toward a unified view of data. *ACM Transactions on Database Systems*. 1976, 1(1), 9–36. DOI: 10.1145/320434.320440.  
   Citováno v §5.1 (ER model — původní článek). Volně dostupné: <http://bit.csc.lsu.edu/~chen/pdf/erd-5-pages.pdf> a ACM DL. Nalezeno přes reference Carvalho et al. (2022), ref [25].
+
+- **ELMASRI, Ramez a Sham NAVATHE.** *Fundamentals of Database Systems*. 7th ed. Boston: Pearson, 2016. ISBN 978-0133970777.  
+  Umístění: `literatura/DB/Elmasri_Navathe_2016_Fundamentals_of_Database_Systems.pdf`  
+  Citováno v §4.1 (základní pojmy, funkce DBMS), §4.2 (schéma, instance, metadata), §4.3 (víceúrovňová architektura ANSI/SPARC) a §4.4 (fáze návrhu databáze). Čtvrtý zdroj kapitoly 4, doplněn 19. 6. 2026 podle doporučení vedoucího.
 
 ### Dokumentace nástrojů
 
@@ -50,7 +54,7 @@ Tyto soubory zůstávají v `literatura/DB`, protože se mohou použít jako zdr
 Tady je schválně ponechaný menší počet zdrojů. Pro AHP není potřeba mít velké množství bakalářských a diplomových prací. Stačí jeden český učební text, původní zdroje metody a jeden článek, který ukazuje použití AHP při výběru softwaru.
 
 - **SOUKOPOVÁ, Jana.** *Vícekriteriální metody hodnocení*. Brno: Masarykova univerzita, 2016. Učební text.  
-  Umístění: `literatura/AHP/Studijni_text_metody_vicekriterialniho_rozhodovani.pdf`
+  Umístění: `literatura/AHP/Soukopova_2016_Vicekriterialni_metody_hodnoceni.pdf`
 
 - **SAATY, Thomas L.** How to make a decision: The Analytic Hierarchy Process. *European Journal of Operational Research*. 1990, 48(1), 9-26.  
   Umístění: `literatura/AHP/Saaty_1990_How_to_make_a_decision_AHP.pdf`
@@ -59,7 +63,7 @@ Tady je schválně ponechaný menší počet zdrojů. Pro AHP není potřeba mí
   Umístění: `literatura/AHP/Saaty_2008_Decision_making_with_AHP.pdf`
 
 - **SIMANAVIČIENĖ, Rūta a Sonata VDOVINSKIENĖ.** Selection of Computer-Aided Design Software Systems Using the AHP Method. *Baltic Journal of Modern Computing*. 2023, 11(2), 272-284. DOI: 10.22364/bjmc.2023.11.2.04.  
-  Umístění: `literatura/AHP/11_2_04_Simanaviciene.pdf`
+  Umístění: `literatura/AHP/Simanaviciene_Vdovinskiene_2023_CAD_software_AHP_selection.pdf`
 
 - **VELASQUEZ, Mark a Patrick T. HESTER.** An Analysis of Multi-Criteria Decision Making Methods. *International Journal of Operations Research*. 2013, 10(2), 56–66. ISSN 1813-713X.  
   Umístění: `literatura/AHP/Velasquez_Hester_2013_Analysis_MCDM_Methods.pdf`  
@@ -115,10 +119,11 @@ Přehled zdrojů, které nejsou v práci, ale hodí se pro BP. Každý má stav:
 
 Tyto čtyři knihy vedoucí výslovně zmínil. Použití: SP 4 (základy, DBMS), SP 5 (modely, normalizace). Cíl BP: aspoň 2–3 z nich citovat.
 
+Elmasri & Navathe je už citován jako 4. zdroj kapitoly 4 (viz sekce 1 výše) a vyřazen z tohoto seznamu kandidátů. Zbývající tři zůstávají jako kandidáti pro BP.
+
 | Stav | Zdroj |
 |---|---|
 | 📚 sehnat | **CONNOLLY, Thomas a Carolyn BEGG.** *Database Systems: A Practical Approach to Design, Implementation, and Management*. 6th ed. London: Pearson, 2015. ISBN 978-1292061184. |
-| ✅ staženo | **ELMASRI, Ramez a Sham NAVATHE.** *Fundamentals of Database Systems*. 7th ed. Boston: Pearson, 2016. ISBN 978-0133970777. Umístění: `literatura/DB/Elmasri_Navathe_2016_Fundamentals_of_Database_Systems.pdf`. |
 | 📚 sehnat | **GARCIA-MOLINA, Hector, Jeffrey D. ULLMAN a Jennifer WIDOM.** *Database Systems: The Complete Book*. 2nd ed. Upper Saddle River: Pearson Prentice Hall, 2008. ISBN 978-0131873254. |
 | 📚 sehnat | **KORTH, Henry F., Abraham SILBERSCHATZ a S. SUDARSHAN.** *Database System Concepts*. 7th ed. New York: McGraw-Hill, 2020. ISBN 978-0078022159. |
 

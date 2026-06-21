@@ -12,11 +12,11 @@
 
 # Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP
 
-## Teoretická východiska – seminární práce
+## Teoretická východiska – práce
 
 &nbsp;
 
-Seminární práce v předmětu KRCR-MES Metodologický seminář
+Práce v předmětu KRCR-MES Metodologický seminář
 
 &nbsp;
 
@@ -70,7 +70,7 @@ Tímto bych rád poděkoval vedoucímu bakalářské práce Ing. et Ing. Martinu
 
 # Abstrakt
 
-Seminární práce představuje teoretická východiska bakalářské práce zaměřené na komparaci nástrojů pro návrh a vývoj databázových systémů s využitím metody vícekriteriálního rozhodování Analytic Hierarchy Process. V první části jsou vymezeny základní pojmy z oblasti databázových systémů, popsány fáze návrhu databáze a vysvětleny datové modely používané při návrhu, zejména entitně-relační model a model relační. Druhá část je věnována vícekriteriálnímu rozhodování, vymezení pojmů alternativa, kritérium a váha kritéria a podrobnému výkladu metody AHP, včetně párového porovnávání, Saatyho škály a kontroly konzistence. Třetí část představuje nástroje, které budou předmětem navazující praktické komparace v bakalářské práci, navrhuje hodnoticí kritéria a popisuje metodický rámec dalšího postupu. Výstupem práce je teoretický a metodický základ, na který přímo naváže praktická část bakalářské práce.
+Práce představuje teoretická východiska bakalářské práce zaměřené na komparaci nástrojů pro návrh a vývoj databázových systémů s využitím metody vícekriteriálního rozhodování Analytic Hierarchy Process. V první části jsou vymezeny základní pojmy z oblasti databázových systémů, popsány fáze návrhu databáze a vysvětleny datové modely používané při návrhu, zejména entitně-relační model a model relační. Druhá část je věnována vícekriteriálnímu rozhodování, vymezení pojmů alternativa, kritérium a váha kritéria a podrobnému výkladu metody AHP, včetně párového porovnávání, Saatyho škály a kontroly konzistence. Třetí část představuje nástroje, které budou předmětem navazující praktické komparace v bakalářské práci, navrhuje hodnoticí kritéria a popisuje metodický rámec dalšího postupu. Výstupem práce je teoretický a metodický základ, na který přímo naváže praktická část bakalářské práce.
 
 **Klíčová slova:** databázový systém, návrh databází, datové modelování, vícekriteriální rozhodování, Analytic Hierarchy Process.
 
@@ -80,7 +80,7 @@ Seminární práce představuje teoretická východiska bakalářské práce zam
 
 **Title:** Comparison of Database Design and Development Tools Using AHP – Theoretical Background
 
-This seminar paper presents the theoretical background of a bachelor thesis focused on the comparison of tools for the design and development of database systems using the Analytic Hierarchy Process, a multi-criteria decision-making method. The first part defines fundamental terms related to database systems, describes the phases of database design and explains the data models used in design, in particular the entity–relationship model and the relational model. The second part addresses multi-criteria decision making, defines the terms alternative, criterion and criterion weight, and provides a detailed explanation of the AHP method, including pairwise comparison, Saaty's scale and consistency checking. The third part introduces the tools that will be the subject of the follow-up practical comparison in the bachelor thesis, proposes evaluation criteria and describes the methodological framework of further work. The result is a theoretical and methodological foundation on which the practical part of the bachelor thesis will directly build.
+This paper presents the theoretical background of a bachelor thesis focused on the comparison of tools for the design and development of database systems using the Analytic Hierarchy Process, a multi-criteria decision-making method. The first part defines fundamental terms related to database systems, describes the phases of database design and explains the data models used in design, in particular the entity–relationship model and the relational model. The second part addresses multi-criteria decision making, defines the terms alternative, criterion and criterion weight, and provides a detailed explanation of the AHP method, including pairwise comparison, Saaty's scale and consistency checking. The third part introduces the tools that will be the subject of the follow-up practical comparison in the bachelor thesis, proposes evaluation criteria and describes the methodological framework of further work. The result is a theoretical and methodological foundation on which the practical part of the bachelor thesis will directly build.
 
 **Keywords:** database system, database design, data modelling, multi-criteria decision making, Analytic Hierarchy Process.
 
