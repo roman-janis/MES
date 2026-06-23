@@ -8,7 +8,7 @@ Datový model představuje formalizovaný prostředek pro popis dat, jejich stru
 >
 > **„Datový model představuje formalizovaný prostředek pro popis dat, jejich struktury a vztahů mezi nimi."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 21): „A *data model* — a collection of concepts that can be used to describe the structure of a database — provides the necessary means to achieve this abstraction. By *structure of a database* we mean the data types, relationships, and constraints that apply to the data."
+> - *Elmasri a Navathe (2016, s. 29)*: „A *data model*—a collection of concepts that can be used to describe the structure of a database—provides the necessary means to achieve this abstraction. By *structure of a database* we mean the data types, relationships, and constraints that apply to the data.“
 > - *Pokorný a Valenta (2020, s. 22)*: „Datový model je prostředek k definici struktury databáze, tedy k definování, které datové objekty jsou v databázi a jaké jsou mezi nimi vztahy a omezení."
 
 ---
@@ -20,12 +20,12 @@ Konceptuální modelování slouží k zachycení požadavků aplikační domén
 > **„Konceptuální modelování slouží k zachycení požadavků aplikační domény bez ohledu na konkrétní databázovou technologii."**
 >
 > - *Carvalho et al. (2022, s. 3351)*: „CM [Conceptual Model] describes the physical or social aspects of the world abstractly. [...] It will be easier to follow and adapt to user requirements and explore existing relationships between the concepts."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 22): „*High-level* or *conceptual data models* provide concepts that are close to the way many users perceive data."
+> - *Elmasri a Navathe (2016, s. 30)*: „*High-level* or *conceptual data models* provide concepts that are close to the way many users perceive data...“
 >
 > **„V praxi se pro tuto fázi velmi často používá entitně-relační model (ER model), případně jeho rozšířená varianta EER."**
 >
 > - *Chen (1976, s. 9)*: „The entity-relationship model can be used as a basis for unification of different views of data: the network model, the relational model, and the entity set model."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 45): „The *entity-relationship* (ER) *data model* is one of the most popular high-level conceptual data models. It is often used for the initial design of a database."
+> - *Elmasri a Navathe (2016, s. 59)*: „The *Entity-Relationship (ER) model* is a popular high-level conceptual data model. This model and its variations are frequently used for the conceptual design of database applications...“
 
 ---
 
@@ -57,12 +57,12 @@ Vztahy mezi entitami se popisují mimo jiné pomocí kardinality a participace. 
 >
 > **„Kardinalita určuje, kolik entit jedné množiny může být ve vztahu k entitě jiné množiny."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 55): „The *cardinality ratio* for a binary relationship specifies the maximum number of relationship instances that an entity can participate in."
+> - *Elmasri a Navathe (2016, s. 73)*: „The *cardinality ratio* for a binary relationship specifies the maximum number of relationship instances that an entity can participate in.“
 > - *Pokorný a Valenta (2020, s. 33)*: „Mohutnost (cardinality) binárního vztahu nám říká, kolik entit jednoho typu může být asociováno s jednou entitou druhého (druhé) entitní množiny."
 >
 > **„Participace vyjadřuje, zda je účast entity ve vztahu povinná nebo nepovinná."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 55): „The *participation constraint* specifies whether the existence of an entity depends on its being related to another entity via the relationship. This constraint specifies the minimum number of relationship instances that each entity can participate in, and is sometimes called the *minimum cardinality constraint*. There are two types of participation constraints — *total* and *partial*."
+> - *Elmasri a Navathe (2016, s. 74)*: „The *participation constraint* specifies whether the existence of an entity depends on its being related to another entity via the relationship type. This constraint specifies the minimum number of relationship instances that each entity can participate in, and is sometimes called the *minimum cardinality constraint*... There are two types of participation constraints—*total* and *partial*.“
 
 ---
 
@@ -72,16 +72,16 @@ Atributy jsou svázány s doménami, tedy s množinami přípustných hodnot. Ro
 >
 > **„Atributy jsou svázány s doménami, tedy s množinami přípustných hodnot."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 51): „Each simple attribute of an entity type is associated with a *value set* (or *domain*) of values. The value set specifies the set of values that may be assigned to that attribute for each individual entity."
+> - *Elmasri a Navathe (2016, s. 65)*: „Each simple attribute of an entity type is associated with a *value set* (or *domain*) of values. The value set specifies the set of values that may be assigned to that attribute for each individual entity.“
 >
 > **„Rozlišují se jednoduché a složené atributy, případně další typy atributů."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 51–52): „*Composite* attributes can be divided into smaller subparts, which represent more basic attributes with independent meanings. [...] *Simple* (or *atomic*) attributes are not divisible into smaller components."
+> - *Elmasri a Navathe (2016, s. 66)*: „*Composite* attributes can be divided into smaller subparts, which represent more basic attributes with independent meanings. [...] *Simple* (or *atomic*) attributes are not divisible into smaller components.“
 > - *Pokorný a Valenta (2020, s. 31)*: „Atribut může být jednoduchý nebo složený."
 >
 > **„Rozšířený ER model (EER) doplňuje základní ER model o supertřídy, podtřídy a dědičnost atributů."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (kap. 9): „The *enhanced* (or *extended*) *entity-relationship* (*EER*) *model* includes all of the original ER model concepts, plus the concepts of subclass/superclass, specialization/generalization, and union types (categories)."
+> - *Elmasri a Navathe (2016, s. 107)*: „The *enhanced* (or *extended*) *entity-relationship* (*EER*) *model* includes all of the original ER model concepts, plus the concepts of subclass/superclass, specialization/generalization, and union types (categories).“
 
 ---
 
@@ -109,11 +109,11 @@ Relační model je založen na relacích, které jsou v praxi reprezentovány ta
 > **„Relační model je založen na relacích, které jsou v praxi reprezentovány tabulkami."**
 >
 > - *Codd (1970, s. 377)*: „The term *relation* is used here in its accepted mathematical sense. Given sets S1, S2, ..., Sn (not necessarily distinct), R is a relation on these n sets if it is a set of n-tuples each of which has its first element from S1, its second element from S2, and so on."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 134): „The *relational model* represents the database as a collection of *relations*. Informally, each relation resembles a *table* of values."
+> - *Elmasri a Navathe (2016, s. 141)*: „The *relational model* represents the database as a collection of *relations*. Informally, each relation resembles a *table* of values.“
 >
 > **„Každá relace má své schéma, tedy jméno relace, seznam atributů a jejich domén."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 134–135): „A *relation schema* R, denoted by R(A1, A2, ..., An), is made up of a relation name R and a list of attributes A1, A2, ..., An. Each attribute Ai is the name of a role played by some domain D in the relation schema R."
+> - *Elmasri a Navathe (2016, s. 142)*: „A *relation schema* $R$, denoted by $R(A_1, A_2, \dots, A_n)$, is made up of a relation name $R$ and a list of attributes, $A_1, A_2, \dots, A_n$. Each attribute $A_i$ is the name of a role played by some domain $D$ in the relation schema $R$.“
 > - *Pokorný a Valenta (2020, s. 48)*: „Schéma relace obsahuje jméno relace a seznam jmen atributů spolu s jejich doménami."
 >
 > **„Relační model pracuje s atomickými hodnotami."**
@@ -128,17 +128,17 @@ Klíče jsou v relačním modelu zásadní. Primární klíč slouží k jednozn
 >
 > **„Primární klíč slouží k jednoznačné identifikaci řádku tabulky."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 138): „Usually, one of the candidate keys is designated to be the *primary key* of the relation. This is the candidate key whose values are used to identify tuples in the relation."
+> - *Elmasri a Navathe (2016, s. 146)*: „Usually, one of the candidate keys is designated to be the *primary key* of the relation. This is the candidate key whose values are used to identify tuples in the relation.“
 > - *Pokorný a Valenta (2020, s. 49)*: „Primárním klíčem relace R rozumíme takový kandidátní klíč relace R, který byl vybrán jako identifikátor n-tic."
 >
 > **„Cizí klíč umožňuje vyjádřit vazbu mezi tabulkami a je základem referenční integrity."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 141): „A set of attributes FK in relation schema R1 is a *foreign key* of R1 that references relation R2 if [...] the values of FK in each tuple t1 in the current state r1(R1) either occur as values of PK for some tuple t2 in the current state r2(R2) or are NULL."
+> - *Elmasri a Navathe (2016, s. 149)*: „A set of attributes *FK* in relation schema *R1* is a *foreign key* of *R1* that references relation *R2* if [...] the values of *FK* in each tuple *t1* in the current state *r1(R1)* either occur as values of *PK* for some tuple *t2* in the current state *r2(R2)* or are *NULL*.“
 > - *Watt a Eng (2014)* — online, kap. 8: „A *foreign key* is an attribute that references the primary key of another table. It creates a link between two tables and enforces *referential integrity*."
 >
 > **„Mezi obecné vlastnosti relačních tabulek patří nezávislost na pořadí řádků a sloupců a požadavek na neduplicitu řádků."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 135–136): „The tuples in a relation [...] are not considered to be ordered. [...] All values in a column are of the same data type. [...] Each tuple should be distinct; there should be no duplicate tuples."
+> - *Elmasri a Navathe (2016, s. 143)*: „The tuples in a relation [...] are not considered to be ordered. [...] All values in a column are of the same data type. [...] Each tuple should be distinct; there should be no duplicate tuples.“
 > - *Codd (1970, s. 377)*: „A relation of degree 1 is commonly called a unary relation [...]. Relations of arbitrary degree are permitted [...]. Unlike a mathematical relation, a relation stored in a computer is often considered to be ordered; that is, there is a first tuple, a second tuple, and so on."
 
 ---
@@ -161,13 +161,13 @@ Při přechodu od konceptuálního modelu k modelu relačnímu se entity obvykle
 >
 > **„Při přechodu od konceptuálního modelu k modelu relačnímu se entity obvykle převádějí na tabulky a atributy na sloupce."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 230–231): „Step 1: Mapping of Regular Entity Types. For each regular (strong) entity type E in the ER schema, create a relation R that includes all the simple attributes of E."
+> - *Elmasri a Navathe (2016, s. 290)*: „Step 1: Mapping of Regular Entity Types. For each regular (strong) entity type *E* in the ER schema, create a relation *R* that includes all the simple attributes of *E*.“
 > - *Chlapek, Kučera a Palovská (2019, s. 92)*: „Každá entitní množina ER diagramu se transformuje na jednu nebo více relací (tabulek). Atributy entity se stávají sloupci tabulky."
 >
 > **„Vztahy typu 1:N se zpravidla reprezentují pomocí cizího klíče na straně N, zatímco vztahy M:N vyžadují vytvoření samostatné spojovací tabulky."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 233–234): „Step 4: Mapping of Binary 1:N Relationship Types. For each regular binary 1:N relationship type R, identify the relation S that represents the participating entity type at the N-side of R. Include as foreign key in S the primary key of the relation T that represents the other participating entity type."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 234): „Step 5: Mapping of Binary M:N Relationship Types. For each binary M:N relationship type R, create a new relation S to represent R."
+> - *Elmasri a Navathe (2016, s. 292)*: „Step 4: Mapping of Binary 1:N Relationship Types. For each regular binary 1:N relationship type *R*, identify the relation *S* that represents the participating entity type at the N-side of *R*. Include as foreign key in *S* the primary key of the relation *T* that represents the other participating entity type.“
+> - *Elmasri a Navathe (2016, s. 293)*: „Step 5: Mapping of Binary M:N Relationship Types. For each binary M:N relationship type *R*, create a new relation *S* to represent *R*.“
 > - *Pokorný a Valenta (2020, s. 59)*: „Vztah M:N se realizuje novou tabulkou, jejímiž klíčovými atributy jsou primární klíče obou participujících entitních množin."
 >
 > **„Tato transformace je důležitým mostem mezi konceptuálním a logickým návrhem; pokud je provedena nekonzistentně, vede k problémům v navazující implementaci."**
@@ -197,11 +197,11 @@ Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcház
 > **„Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcházet anomáliím při vkládání, aktualizaci a mazání údajů."**
 >
 > - *Codd (1970, s. 380)*: „Normalization of the data base consists of the elimination of non-simple domains and the elimination of any relation whose information content can be obtained from other relations in a more elementary way."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 399): „The goals of normalization are to design a good set of relation schemas by *eliminating data redundancy* and the *update anomalies* (insertion, deletion, and modification anomalies) that accompany it."
+> - *Elmasri a Navathe (2016, s. 525)*: „The goals of normalization are to design a good set of relation schemas by *eliminating data redundancy* and the *update anomalies* (insertion, deletion, and modification anomalies) that accompany it.“
 >
 > **„Teoretickým základem normalizace jsou funkční závislosti."**
 >
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 397): „The concept of *functional dependency* [...] is a generalization of the concept of a *key*."
+> - *Elmasri a Navathe (2016, s. 528)*: „The concept of *functional dependency* [...] is a generalization of the concept of a *key*.“
 > - *Codd (1970, s. 381–382)*: „A nonkey attribute A of R is *functionally dependent* on the primary key of R if and only if [...] there is at most one value of A associated with each value of the primary key."
 
 ---
@@ -213,17 +213,17 @@ První normální forma vyžaduje atomické hodnoty a nepřipouští opakující
 > **„První normální forma vyžaduje atomické hodnoty a nepřipouští opakující se skupiny."**
 >
 > - *Codd (1970, s. 381)*: „A relation is in first normal form (1NF) if and only if none of its domains has elements which are themselves sets."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 401): „The *first normal form* (1NF) is now considered to be part of the formal definition of a relation in the basic (flat) relational model [...] It states that the domain of an attribute must include only *atomic* (simple, indivisible) values."
+> - *Elmasri a Navathe (2016, s. 532)*: „The *first normal form* (1NF) is now considered to be part of the formal definition of a relation in the basic (flat) relational model [...] It states that the domain of an attribute must include only *atomic* (simple, indivisible) values.“
 >
 > **„Druhá normální forma řeší závislost neklíčových atributů na celém klíči."**
 >
 > - *Codd (1970, s. 382)*: „A relation schema R is in second normal form (2NF) if every non-prime attribute of R is fully functionally dependent on the primary key."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 403): „A relation schema R is in *second normal form* (2NF) if every nonprime attribute A in R is fully functionally dependent on the primary key of R."
+> - *Elmasri a Navathe (2016, s. 534)*: „A relation schema *R* is in *second normal form* (2NF) if every nonprime attribute *A* in *R* is fully functionally dependent on the primary key of *R*.“
 >
 > **„Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy."**
 >
 > - *Codd (1970, s. 382)*: „A relation is in third normal form (3NF) if it is in second normal form and every non-prime attribute of R is non-transitively dependent on every candidate key of R."
-> - *Elmasri a Navathe (2016)* — ⚠️ Ze znalosti 7. vydání (s. 404): „A relation schema R is in *third normal form* (3NF) if, whenever a nontrivial functional dependency X → A holds in R, either (a) X is a superkey of R, or (b) A is a prime attribute of R."
+> - *Elmasri a Navathe (2016, s. 535)*: „A relation schema *R* is in *third normal form* (3NF) if, whenever a nontrivial functional dependency *X* → *A* holds in *R*, either (a) *X* is a superkey of *R*, or (b) *A* is a prime attribute of *R*.“
 
 ---
 
