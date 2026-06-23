@@ -10,7 +10,7 @@ Databáze pak představuje organizovanou kolekci vzájemně souvisejících dat,
 ****
 Při práci s databázemi je potřeba rozlišovat některé základní pojmy jako jsou data, informace, databáze a systém řízení báze dat.
 Za data lze považovat samostatně uložené hodnoty. Tyto hodnoty samy o sobě nemusí být nositelem žádného širšího významu.
-Informace pak vznikají právě přiřazením významu datům v určitém kontextu. [Pokorný a Valenta, 2020; Watt a Eng, 2014]
+Informace pak vznikají právě přiřazením významu datům v určitém kontextu. [Elmasri a Navathe, 2016; Watt a Eng, 2014]
 Pojem databáze pak představuje organizovanou sbírku vzájemně souvisejících dat, které jsou uloženy tak, aby s nimi bylo možné dále efektivně pracovat. [Elmasri a Navathe (2016, s. 4)]
 ****
 
@@ -40,7 +40,7 @@ Databázový systém v širším smyslu zahrnuje nejen samotnou databázi a DBMS
 Tento výčet funkcí — definici databáze, manipulaci s daty, souběžný přístup, ochranu dat a zotavení z chyb — shodně uvádějí jako základní služby DBMS Elmasri a Navathe i Pokorný a Valenta (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
 Systém řízení báze dat, běžně označovaný jako DBMS, je specializovaný software, který zajišťuje definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi. [Pokorný a Valenta, 2020]
-Konečné spojení databáze s DBMS vytvoří databázový systém (DBS). DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat. [Elmasri a Navathe (2016, s. 5)]
+Konečné spojení databáze s DBMS vytvoří databázový systém (DBS). [Elmasri a Navathe (2016, s. 5)] DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat. [Pokorný a Valenta (2020, s. 17)]
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -231,7 +231,7 @@ Pro následné porovnání nástrojů je tato architektura důležitá proto, ž
 [Rosenthal a Reiner, 1994]
 Některé se zaměřují především na konceptuální nebo logický model, jiné podporují i fyzické prvky konkrétního DBMS, například datové typy, indexy nebo generování SQL skriptů. 
 Při hodnocení nástrojů proto bude vhodné sledovat nejen možnosti vytváření diagramů, ale také podporu přechodu mezi jednotlivými úrovněmi návrhu a implementace
-[Elmasri a Navathe, 2016].
+[Rosenthal a Reiner, 1994].
 ****
 
 > **Zdrojové úryvky k odstavci výše**
