@@ -3,6 +3,7 @@
 # Použití (v PowerShellu, ze složky práce):
 #   .\spoj.ps1                 # spojí kapitoly 0..11 do "Seminární práce.md"
 #   .\spoj.ps1 2 3 8           # spojí jen kapitoly 2 + 3 + 8 (v tomto pořadí)
+#   .\spoj.ps1 2 3 4x 5x 8    # kombinace — čísla i verze s 'x' (čistý výstup z extrahuj.ps1)
 #   .\spoj.ps1 2 3 8 -Out vyber.md   # spojí 2+3+8 do souboru vyber.md
 #
 # Pozn.: bez -Out přepíše "Seminární práce.md". Když spojuješ jen výběr,
@@ -11,7 +12,7 @@
 
 param(
     [Parameter(Position = 0, ValueFromRemainingArguments = $true)]
-    [int[]]$Chapters,
+    [string[]]$Chapters,
 
     [string]$Out = "Seminární práce.md"
 )
@@ -20,10 +21,10 @@ Write-Host ""
 Write-Host "spoj.ps1 — použití:"
 Write-Host "  .\spoj.ps1                        # spojí kapitoly 0..11 -> 'Seminární práce.md'"
 Write-Host "  .\spoj.ps1 2 3 8                  # spojí jen kapitoly 2+3+8 -> 'Seminární práce.md'"
-Write-Host "  .\spoj.ps1 2 3 8 -Out vyber.md    # spojí 2+3+8 do vlastního souboru"
+Write-Host "  .\spoj.ps1 2 3 4x 5x 8 -Out výběr.md  # mix čísel a 'x' verzí do vlastního souboru"
 Write-Host ""
 
-if (-not $Chapters) { $Chapters = 0..11 }
+if (-not $Chapters) { $Chapters = @(0..11 | ForEach-Object { "$_" }) }
 
 $dir = $PSScriptRoot
 if (-not $dir) { $dir = (Get-Location).Path }
