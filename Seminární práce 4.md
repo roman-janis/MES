@@ -40,7 +40,7 @@ Databázový systém v širším smyslu zahrnuje nejen samotnou databázi a DBMS
 Tento výčet funkcí — definici databáze, manipulaci s daty, souběžný přístup, ochranu dat a zotavení z chyb — shodně uvádějí jako základní služby DBMS Elmasri a Navathe i Pokorný a Valenta (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
 Systém řízení báze dat, běžně označovaný jako DBMS, je specializovaný software, který zajišťuje definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi. (Pokorný a Valenta, 2020)
-Spojení databáze s DBMS vytvoří databázový systém (DBS). (Elmasri a Navathe, 2016, s. 5) DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat. (Pokorný a Valenta, 2020, s. 17)
+Spojení databáze s DBMS vytvoří databázový systém (DBS). (Elmasri a Navathe, 2016) DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat. (Pokorný a Valenta, 2020)
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -66,8 +66,8 @@ Spojení databáze s DBMS vytvoří databázový systém (DBS). (Elmasri a Navat
 Tradiční souborový přístup k ukládání dat se potýkal s řadou problémů, mezi něž patřila zejména vysoká redundance dat, nekonzistence a závislost aplikačních programů na fyzické struktuře souborů. Databázový přístup tyto nedostatky odstraňuje tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací. Díky tomu je zajištěna sdílenost dat mezi různými uživateli, vyšší bezpečnost a možnost centrálního řízení integritních omezení (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 ****
-Původně se používal především jednoduchý souborový přístup, který měl záhy řadu problémů a omezení napříkald v podobě nekonzistentnosti dat při aktualizaci, závislosti na aplikačním programu a na fyzické struktuře, často spojené s redundancí dat. (Elmasri a Navathe, 2016, s. 6) Databázový přístup tyto nedostatky odstraňuje, a to tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací (Pokorný a Valenta, 2020).
-Oddělením byla získána vyšší bezpečnost, možnost centrálního řízení integritních omezení a sdílenost dat mezi více uživateli. (Pokorný a Valenta, 2020, s. 16)
+Původně se používal především jednoduchý souborový přístup, který měl záhy řadu problémů a omezení napříkald v podobě nekonzistentnosti dat při aktualizaci, závislosti na aplikačním programu a na fyzické struktuře, často spojené s redundancí dat. (Elmasri a Navathe, 2016) Databázový přístup tyto nedostatky odstraňuje, a to tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací (Pokorný a Valenta, 2020).
+Oddělením byla získána vyšší bezpečnost, možnost centrálního řízení integritních omezení a sdílenost dat mezi více uživateli. (Pokorný a Valenta, 2020)
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -91,9 +91,9 @@ V teorii databází je třeba rozlišovat schéma databáze a instanci databáze
 ****
 V teorii databází je třeba rozlišovat mezi schématem databáze a instancí databáze. 
 Schéma databáze představuje popis struktury uložených dat a běžně se pod něj zahrnují také integritní omezení, kteraá obsahují určení entit, atributů, vazeb a omezení, která mají data splňovat. 
-(Pokorný a Valenta, 2020, s. 17)
+(Pokorný a Valenta, 2020)
 Pojem instance databáze naopak vyjadřuje konkrétní aktuální obsah databáze v určitém čase. 
-Toto rozlišení odděluje relativně stabilní strukturální návrh od proměnlivých datových hodnot. (Elmasri a Navathe, 2016, s. 29)
+Toto rozlišení odděluje relativně stabilní strukturální návrh od proměnlivých datových hodnot. (Elmasri a Navathe, 2016)
 ****
 
 
@@ -353,7 +353,7 @@ Návrh databáze proto nelze chápat jako striktně lineární proces, nýbrž j
 Z pohledu této práce je členění návrhu na konceptuální, logickou a fyzickou úroveň také východiskem pro pozdější hodnoticí kritéria. Nástroj určený pro návrh databázového systému by měl umožnit srozumitelně zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit i technickou implementaci v konkrétním databázovém prostředí. Míra podpory těchto fází proto představuje jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
 Z pohledu práce, právě členění návrhu databáze na konceptuální, logickou a fyzickou, představuje vhodný výchozí bod pro pozdější definici hodnoticích kritérií. 
-Nástroj určený pro návrh databázového systému by měl umožnit zachytávat požadavky, převést je do konzistentního schématu a podle potřeby podpořit i technickou implementaci v konkrétním databázovém prostředí. (Rosenthal a Reiner, 1994, s. 168)
+Nástroj určený pro návrh databázového systému by měl umožnit zachytávat požadavky, převést je do konzistentního schématu a podle potřeby podpořit i technickou implementaci v konkrétním databázovém prostředí. (Rosenthal a Reiner, 1994)
 Právě míra podpory těchto kroků představuje jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
 > **Zdrojové úryvky k odstavci výše**
