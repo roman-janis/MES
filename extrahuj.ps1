@@ -28,7 +28,7 @@ foreach ($i in $Chapters) {
     $blockContent = [System.Collections.Generic.List[string]]::new()
 
     foreach ($line in $lines) {
-        if ($line -eq '****') {
+        if ($line -match '^\*{3,4}$') {
             if (-not $inBlock) {
                 # vstup do bloku
                 $inBlock = $true
