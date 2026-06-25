@@ -349,7 +349,7 @@ Návrh databáze proto nelze chápat jako striktně lineární proces, nýbrž j
 
 ---
 
-Z pohledu této práce je členění návrhu na konceptuální, logickou a fyzickou úroveň také východiskem pro pozdější hodnoticí kritéria. Nástroj určený pro návrh databázového systému by měl umožnit srozumitelně zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit i technickou implementaci v konkrétním databázovém prostředí. Míra podpory těchto fází proto představuje jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
+Rozdělení návrhu do konceptuální, logické a fyzické úrovně tvoří v této práci základ pro formulaci pozdějších hodnoticích kritérií. Nástroj určený pro návrh databázového systému by měl umožnit srozumitelně zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit i samotnou technickou implementaci v konkrétním databázovém prostředí. Rozsah podpory jednotlivých fází návrhu tvoří jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
 Z pohledu práce, právě členění návrhu databáze na konceptuální, logickou a fyzickou, představuje vhodný výchozí bod pro pozdější definici hodnoticích kritérií.
 Nástroj určený pro návrh databázového systému by měl umožnit zachytávat požadavky, převést je do konzistentního schématu a podle potřeby podpořit i technickou implementaci v konkrétním databázovém prostředí. (Rosenthal a Reiner, 1994)
