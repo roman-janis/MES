@@ -65,8 +65,7 @@ Spojení databáze s DBMS vytvoří databázový systém (DBS). (Elmasri a Navat
 Tradiční souborový přístup k ukládání dat se potýkal s řadou problémů, mezi něž patřila zejména vysoká redundance dat, nekonzistence a závislost aplikačních programů na fyzické struktuře souborů. Databázový přístup tyto nedostatky odstraňuje tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací. Díky tomu je zajištěna sdílenost dat mezi různými uživateli, vyšší bezpečnost a možnost centrálního řízení integritních omezení (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 ****
-Původně se používal především jednoduchý souborový přístup, který měl záhy řadu problémů a omezení napříkald v podobě nekonzistentnosti dat při aktualizaci, závislosti na aplikačním programu a na fyzické struktuře, často spojené s redundancí dat. (Elmasri a Navathe, 2016) Databázový přístup tyto nedostatky odstraňuje, a to tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací (Pokorný a Valenta, 2020).
-Oddělením byla získána vyšší bezpečnost, možnost centrálního řízení integritních omezení a sdílenost dat mezi více uživateli. (Pokorný a Valenta, 2020)
+Původně se používal především jednoduchý souborový přístup, který měl však řadu problémů a omezení. Například v podobě nekonzistentnosti dat při aktualizaci, závislosti na aplikačním programu a na fyzické struktuře, často spojené s redundancí dat. (Elmasri a Navathe, 2016) Databázový přístup tyto nedostatky odstraňuje, a to tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací (Pokorný a Valenta, 2020). Oddělením byla získána vyšší bezpečnost, možnost centrálního řízení integritních omezení a sdílenost dat mezi více uživateli. (Pokorný a Valenta, 2020)
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -89,7 +88,7 @@ V teorii databází je třeba rozlišovat schéma databáze a instanci databáze
 
 ****
 V teorii databází je třeba rozlišovat mezi schématem databáze a instancí databáze.
-Schéma databáze představuje popis struktury uložených dat a běžně se pod něj zahrnují také integritní omezení, kteraá obsahují určení entit, atributů, vazeb a omezení, která mají data splňovat.
+Schéma databáze představuje popis struktury uložených dat a běžně se pod něj zahrnují také integritní omezení, která obsahují určení entit, atributů, vazeb a omezení, která mají data splňovat.
 (Pokorný a Valenta, 2020)
 Pojem instance databáze naopak vyjadřuje konkrétní aktuální obsah databáze v určitém čase.
 Toto rozlišení odděluje relativně stabilní strukturální návrh od proměnlivých datových hodnot. (Elmasri a Navathe, 2016)
@@ -297,7 +296,7 @@ Konceptuální návrh zachycuje strukturu aplikační domény bez vazby na konkr
 
 Na konceptuální návrh navazuje logický návrh. V této fázi se konceptuální model převádí do zvoleného datového modelu, v případě této práce zejména do modelu relačního. Dochází k návrhu relací, atributů, klíčů, cizích klíčů a integritních omezení. Výsledkem je logické schéma databáze, které lze implementovat v konkrétním DBMS (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
-Na konceptuální návrh navazuje v logický návrh.
+Na konceptuální návrh navazuje logický návrh.
 V této části se konceptuální model převádí do zvoleného datového modelu, v případě této práce jde zejména o model relační. (Rosenthal a Reiner, 1994)
 Dochází k návrhu relací, atributů, klíčů, cizích klíčů a integritních omezení. (Pokorný a Valenta, 2020)
 Výsledkem je pak logické schéma databáze, které lze implementovat v konkrétním DBMS. (Pokorný a Valenta, 2020)
