@@ -241,8 +241,7 @@ Automatické generování relačního schématu může práci urychlit, ale je p
 
 Normalizace je postup, kterým upravujeme strukturu databáze tak, aby v ní nebyla zbytečná data a nevznikaly chyby při vkládání, aktualizaci a mazání údajů. Teoretickým základem normalizace jsou funkční závislosti. Pro potřeby této práce je dostačující vysvětlit první až třetí normální formu (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ***
-Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcházet anomáliím při vkládání, aktualizaci a mazání údajů.
-Teoretickým základem normalizace jsou funkční závislosti, které určují vztahy mezi atributy a umožňují identifikovat nadbytečnost a anomálie v databázovém schématu. Pro tuto práci by mělo být dostačující vysvětlit první, druhou a třetí normální formu (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcházet anomáliím při vkládání, aktualizaci a mazání údajů. Teoretickým základem normalizace jsou funkční závislosti, které určují vztahy mezi atributy a umožňují identifikovat nadbytečnost a anomálie v databázovém schématu. Pro tuto práci by mělo být dostačující vysvětlit první, druhou a třetí normální formu (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ***
 
 > **Zdrojové úryvky k odstavci výše**
@@ -261,10 +260,7 @@ Teoretickým základem normalizace jsou funkční závislosti, které určují v
 
 První normální forma vyžaduje, aby všechny atributy obsahovaly atomické hodnoty a aby se v tabulce nevyskytovaly opakující se skupiny. Druhá normální forma zajišťuje, že žádný neklíčový atribut není závislý pouze na části složeného klíče. Třetí normální forma odstraňuje tranzitivní závislosti, tedy situace, kdy neklíčový atribut závisí na jiném neklíčovém atributu. Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Chlapek, Kučera a Palovská, 2019).
 ***
-První normální forma vyžaduje atomické hodnoty a nepřipouští skupiny, které se opakují (Codd, 1970; Elmasri a Navathe, 2016).
-Druhá normální forma řeší závislost neklíčových atributů na celém klíči (Codd, 1970; Elmasri a Navathe, 2016).
-Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy (Codd, 1970; Elmasri a Navathe, 2016).
-Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+První normální forma vyžaduje atomické hodnoty a nepřipouští skupiny, které se opakují (Codd, 1970; Elmasri a Navathe, 2016). Druhá normální forma řeší závislost neklíčových atributů na celém klíči (Codd, 1970; Elmasri a Navathe, 2016). Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy (Codd, 1970; Elmasri a Navathe, 2016). Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 ***
 
@@ -290,8 +286,6 @@ Tyto formy postačují k zajištění základní konzistence relačního schéma
 Normalizace zároveň ukazuje, že kvalita návrhového nástroje nespočívá pouze v grafické podobě diagramu. Důležité je, zda nástroj podporuje konzistenci modelu, upozorňuje na chybějící klíče nebo problematické vazby a umožňuje vytvořit návrh, který lze převést do udržitelného relačního schématu. Tato hlediska navazují na pozdější výběr hodnoticích kritérií pro komparaci nástrojů.
 ***
 Normalizace zároveň ukazuje, že kvalita návrhového nástroje nespočívá jen v grafické podobě diagramu.
-Důležité je, zda nástroj podporuje konzistenci modelu, upozorňuje na chybějící klíče nebo problematické vazby a umožňuje vytvořit návrh,
-který lze převést do udržitelného relačního schématu.
-Tato hlediska navazují na pozdější výběr hodnoticích kritérií pro komparaci nástrojů (Carvalho et al., 2022).
+Důležité je, zda nástroj podporuje konzistenci modelu, upozorňuje na chybějící klíče nebo problematické vazby a umožňuje vytvořit návrh, který lze převést do udržitelného relačního schématu. Tato hlediska navazují na pozdější výběr hodnoticích kritérií pro komparaci nástrojů (Carvalho et al., 2022).
 
 ***

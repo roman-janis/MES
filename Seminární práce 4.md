@@ -88,8 +88,7 @@ V teorii databází je třeba rozlišovat schéma databáze a instanci databáze
 
 ****
 V teorii databází je třeba rozlišovat mezi schématem databáze a instancí databáze.
-Schéma databáze představuje popis struktury uložených dat a běžně se pod něj zahrnují také integritní omezení, která obsahují určení entit, atributů, vazeb a omezení, která mají data splňovat.
-(Pokorný a Valenta, 2020)
+Schéma databáze představuje popis struktury uložených dat, zahrnuje určení entit, atributů, vazeb a integritních omezení, která mají data splňovat. (Pokorný a Valenta, 2020)
 Pojem instance databáze naopak vyjadřuje konkrétní aktuální obsah databáze v určitém čase.
 Toto rozlišení odděluje relativně stabilní strukturální návrh od proměnlivých datových hodnot. (Elmasri a Navathe, 2016)
 ****
@@ -255,7 +254,7 @@ Při hodnocení nástrojů proto bude vhodné sledovat nejen možnosti vytváře
 Návrh databáze je jednou z klíčových etap vývoje databázového systému a sám probíhá v několika na sebe navazujících fázích. Přímý přechod k fyzické implementaci tabulek v konkrétním systému může vést k chybám v návrhu, zbytečné redundanci a problémům s budoucí rozšiřitelností. Proto se v literatuře běžně rozlišuje konceptuální, logický a fyzický návrh (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Rosenthal a Reiner, 1994).
 
 ****
-Návrh databáze je jednou z klíčových etap vývoje databázového systému a sám probíhá v několika na sebe navazujících fázích. Přímý přechod k fyzické implementaci tabulek v konkrétním systému může vést k chybám v návrhu, zbytečné redundanci a problémům s budoucí rozšiřitelností. Proto se v literatuře běžně rozlišuje konceptuální, logický a fyzický návrh (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Rosenthal a Reiner, 1994).
+Návrh databáze představuje jednu z klíčových etap vývoje databázového systému a probíhá v několika na sebe navazujících fázích. Přímý přechod k fyzické implementaci tabulek v konkrétním systému může vést k chybám v návrhu, nadbytečné redundanci a omezené rozšiřitelnosti. Z tohoto důvodu se v literatuře standardně rozlišuje konceptuální, logický a fyzický návrh (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Rosenthal a Reiner, 1994).
 
 ****
 > **Zdrojové úryvky k odstavci výše**
@@ -278,6 +277,8 @@ Návrh databáze je jednou z klíčových etap vývoje databázového systému a
 
 Konceptuální návrh zachycuje strukturu aplikační domény bez vazby na konkrétní databázový systém. V této fázi jsou identifikovány entity, vztahy mezi nimi, atributy a základní omezení. Cílem je vytvořit model reality, který bude dostatečně přesný a současně technologicky nezávislý (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
+Konceptuální návrh zachycuje strukturu aplikační domény bez vazby na konkrétní databázový systém (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
+V této fázi jsou identifikovány entity, vztahy mezi nimi, atributy a základní integritní omezení. Výsledkem je konceptuální schéma, které věrně popisuje realitu a je nezávislé na zvoleném DBMS (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -353,7 +354,7 @@ Návrh databáze proto nelze chápat jako striktně lineární proces, nýbrž j
 
 Rozdělení návrhu do konceptuální, logické a fyzické úrovně tvoří v této práci základ pro formulaci pozdějších hodnoticích kritérií. Nástroj určený pro návrh databázového systému by měl umožnit srozumitelně zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit i samotnou technickou implementaci v konkrétním databázovém prostředí. Rozsah podpory jednotlivých fází návrhu tvoří jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
-Z pohledu práce, právě členění návrhu databáze na konceptuální, logickou a fyzickou, představuje vhodný výchozí bod pro pozdější definici hodnoticích kritérií.
+Rozdělení návrhu databáze na konceptuální, logickou a fyzickou úroveň tvoří vhodný výchozí bod pro pozdější definici hodnoticích kritérií.
 Nástroj určený pro návrh databázového systému by měl umožnit zachytávat požadavky, převést je do konzistentního schématu a podle potřeby podpořit i technickou implementaci v konkrétním databázovém prostředí. (Rosenthal a Reiner, 1994)
 Právě míra podpory těchto kroků představuje jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
