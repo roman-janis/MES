@@ -1,9 +1,5 @@
 # 5 Datové modely
 
-## 5.1 Konceptuální modelování a ER/EER model
-
-### 5.1.1 Konceptuální modelování a základní pojmy ER modelu
-
 Datový model představuje formalizovaný prostředek pro popis dat, jejich struktury a vztahů mezi nimi. Datové modely umožňují zachytit realitu tak, aby s ní bylo možné systematicky pracovat při návrhu databází i při jejich následné implementaci (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ***
 Datový model poskytuje formalizovaný nástroj, který slouží k popisu dat, jejich struktur a vztahů mezi nimi. Definuje datové objekty a jejich vzájemné vztahy včetně omezení, která se jich týkají (Pokorný a Valenta, 2020). Datový model je zjednodušený popis reality, který je vytvořen tak, aby se podle něj dala navrhnout databáze a později také implementovat. (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
@@ -17,6 +13,10 @@ Datový model poskytuje formalizovaný nástroj, který slouží k popisu dat, j
 > - *Pokorný a Valenta (2020, s. 22)*: „Datový model je prostředek k definici struktury databáze, tedy k definování, které datové objekty jsou v databázi a jaké jsou mezi nimi vztahy a omezení.”
 
 ---
+
+## 5.1 Konceptuální modelování a ER/EER model
+
+### 5.1.1 Konceptuální modelování a základní pojmy ER modelu
 
 Konceptuální modelování slouží k zachycení požadavků aplikační domény bez ohledu na konkrétní databázovou technologii.
 Jeho cílem je vytvořit srozumitelný a logicky konzistentní model reality.
