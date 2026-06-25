@@ -117,7 +117,6 @@ Toto rozlišení odděluje relativně stabilní strukturální návrh od proměn
 
 S databázovým systémem úzce souvisejí také metadata. Metadata jsou data o datech, tedy informace popisující strukturu databáze, význam atributů, integritní omezení nebo přístupová práva. Metadata bývají ukládána v systémovém katalogu, který slouží jako centrální zdroj informací o databázových objektech (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
-
 ****
 S databázovým systémem souvisí také pojem metadata.
 Metadata jsou data o datech. Tyto data tedy popisují strukturu databáze, význam atributů, integritní omezení nebo například přístupová práva.
@@ -163,6 +162,8 @@ Správa a údržba schématu databáze je klíčovou rolí správce databáze (D
 DBMS obvykle poskytuje několik základních skupin funkcí: definici dat, manipulaci s daty, řízení souběžného přístupu více uživatelů, ochranu dat a obnovu po chybě. V souvislosti s těmito funkcemi se používají pojmy DDL pro jazyk definice dat, DML pro jazyk manipulace s daty a transakce pro logický celek operací, který má být proveden buď celý, nebo vůbec (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Watt a Eng, 2014).
 
 ****
+DBMS obvykle poskytuje několik základních skupin funkcí: definici dat, manipulaci s daty, řízení souběžného přístupu více uživatelů, ochranu dat a obnovu po chybě (Pokorný a Valenta, 2020). V souvislosti s těmito funkcemi se používají pojmy DDL pro jazyk definice dat, DML pro jazyk manipulace s daty a transakce pro logický celek operací, který má být proveden buď celý, nebo vůbec (Elmasri a Navathe, 2016; Watt a Eng, 2014).
+
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -254,6 +255,8 @@ Při hodnocení nástrojů proto bude vhodné sledovat nejen možnosti vytváře
 Návrh databáze je jednou z klíčových etap vývoje databázového systému a sám probíhá v několika na sebe navazujících fázích. Přímý přechod k fyzické implementaci tabulek v konkrétním systému může vést k chybám v návrhu, zbytečné redundanci a problémům s budoucí rozšiřitelností. Proto se v literatuře běžně rozlišuje konceptuální, logický a fyzický návrh (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Rosenthal a Reiner, 1994).
 
 ****
+Návrh databáze je jednou z klíčových etap vývoje databázového systému a sám probíhá v několika na sebe navazujících fázích. Přímý přechod k fyzické implementaci tabulek v konkrétním systému může vést k chybám v návrhu, zbytečné redundanci a problémům s budoucí rozšiřitelností. Proto se v literatuře běžně rozlišuje konceptuální, logický a fyzický návrh (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Rosenthal a Reiner, 1994).
+
 ****
 > **Zdrojové úryvky k odstavci výše**
 >
