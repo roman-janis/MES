@@ -22,7 +22,7 @@ V praxi se pro tuto fázi velmi často používá entitně-relační model (ER m
 varianta EER (Chen, 1976; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ***
 Konceptuální modelování slouží k zachycení požadavků aplikační domény bez ohledu na konkrétní databázovou technologii.
-Jeho cílem je abstraktně popsat fyzický a sociální model reality (Carvalho et al., 2022).
+Jeho cílem je vytvořit přehledný a věrný model reálného světa (Carvalho et al., 2022).
 V praxi se pro tuto fázi velmi často používá entitně-relační model (ER model), případně jeho rozšířená varianta EER (Chen, 1976; Elmasri a Navathe, 2016).
 
 ***
@@ -71,7 +71,7 @@ Vztah vyjadřuje vazbu mezi entitami nebo entitními množinami a atribut předs
 
 Vztahy mezi entitami se popisují mimo jiné pomocí kardinality a participace. Kardinalita určuje, kolik entit jedné množiny může být ve vztahu k entitě jiné množiny. Typickými případy jsou vazby 1:1, 1:N a M:N. Participace vyjadřuje, zda je účast entity ve vztahu povinná nebo nepovinná. Tyto pojmy jsou důležité nejen na konceptuální úrovni, ale i pro následnou transformaci do relačního modelu (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ***
-Vztahy mezi entitami se popisují pomocí kardinality a participace. Kardinalita udává, kolik entit jedné množiny může být ve vztahu k entitě jiné množiny (Elmasri a Navathe, 2016). Typickými případy jsou vazby 1:1, 1:N a M:N. Participace vyjadřuje, zda je účast entity ve vztahu povinná nebo nepovinná. Tyto pojmy jsou důležité nejen na konceptuální úrovni, ale i pro následnou transformaci do relačního modelu (Pokorný a Valenta, 2020).
+Vztahy mezi entitami lze popsat například kardinalitou a participací. Kardinalita udává, kolik entit jedné množiny může být ve vztahu k entitě jiné množiny (Elmasri a Navathe, 2016). Typickými případy jsou vazby 1:1, 1:N a M:N. Participace vyjadřuje, zda je účast entity ve vztahu povinná nebo nepovinná. Tyto pojmy jsou důležité nejen na konceptuální úrovni, ale i pro následnou transformaci do relačního modelu (Pokorný a Valenta, 2020).
 ***
 
 > **Zdrojové úryvky k odstavci výše**
@@ -203,7 +203,7 @@ Relační model je pro tuto práci důležitý také proto, že většina běžn
 
 Při přechodu od konceptuálního modelu k modelu relačnímu se entity obvykle převádějí na tabulky a atributy na sloupce. Vztahy typu 1:N se zpravidla reprezentují pomocí cizího klíče na straně N, zatímco vztahy M:N vyžadují vytvoření samostatné spojovací tabulky. Specifické případy představují vztahy 1:1, atributy vztahů nebo převod supertříd a podtříd. Tato transformace je důležitým mostem mezi konceptuálním a logickým návrhem; pokud je provedena nekonzistentně, vede k problémům v navazující implementaci (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Chlapek, Kučera a Palovská, 2019).
 ***
-Při přechodu z konceptuálního modelu k modelu relačnímu se entity obvykle převádějí na tabulky a atributy se převádějí na sloupce (Chlapek, Kučera a Palovská, 2019).
+Při přechodu z konceptuálního modelu k modelu relačnímu se entity obvykle převádějí na tabulky a atributy na sloupce (Chlapek, Kučera a Palovská, 2019).
 Vztahy typu 1:N se zpravidla reprezentují pomocí cizího klíče na straně N, zatímco pro vztahy M:N je vyžadováno vytvoření samostatné spojovací tabulky. Specifické případy představují vztahy 1:1, atributy vztahů nebo převod supertříd a podtříd (Elmasri a Navathe, 2016).
 Tato transformace je důležitým přechodem mezi konceptuálním a logickým návrhem. Pokud je tato transformace provedena nekonzistentně, vede k problémům v následné implementaci (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ***
@@ -268,8 +268,8 @@ Pro potřeby této práce je dostačující vysvětlit první až třetí normá
 
 První normální forma vyžaduje atomické hodnoty a nepřipouští opakující se skupiny. Druhá normální forma řeší závislost neklíčových atributů na celém klíči. Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy. Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Chlapek, Kučera a Palovská, 2019).
 ***
-První normální forma vyžaduje atomické hodnoty a nepřipouští prvky, které jsou samy množinami (Codd, 1970; Elmasri a Navathe, 2016).
-Druhá normální forma řeší závislost neklíčových atributů na části složeného klíče (Codd, 1970; Elmasri a Navathe, 2016).
+První normální forma vyžaduje atomické hodnoty a nepřipouští skupiny, které se opakují (Codd, 1970; Elmasri a Navathe, 2016).
+Druhá normální forma řeší závislost neklíčových atributů na celém klíči (Codd, 1970; Elmasri a Navathe, 2016).
 Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy (Codd, 1970; Elmasri a Navathe, 2016).
 Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
@@ -296,9 +296,9 @@ Tyto formy postačují k zajištění základní konzistence relačního schéma
 
 Normalizace zároveň ukazuje, že kvalita návrhového nástroje nespočívá pouze v grafické podobě diagramu. Důležité je, zda nástroj podporuje konzistenci modelu, upozorňuje na chybějící klíče nebo problematické vazby a umožňuje vytvořit návrh, který lze převést do udržitelného relačního schématu. Tato hlediska navazují na pozdější výběr hodnoticích kritérií pro komparaci nástrojů.
 ***
-Normalizace zároveň ukazuje, že kvalita návrhového nástroje není pouze v grafické podobě diagramu.
+Normalizace zároveň ukazuje, že kvalita návrhového nástroje nespočívá jen v grafické podobě diagramu.
 Důležité je, zda nástroj podporuje konzistenci modelu, upozorňuje na chybějící klíče nebo problematické vazby a umožňuje vytvořit návrh,
-který je možné později převést do relačního schématu.
+který lze převést do udržitelného relačního schématu.
 Tato hlediska navazují na pozdější výběr hodnoticích kritérií pro komparaci nástrojů (Carvalho et al., 2022).
 
 ***
