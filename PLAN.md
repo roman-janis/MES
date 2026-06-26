@@ -1,6 +1,6 @@
 # Plán další práce
 
-Aktualizace: 21. 6. 2026.
+Aktualizace: 25. 6. 2026.
 
 Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární práce 11.md`. Finální `Seminární práce.md` a `.docx` se z nich jen generují (viz `PŘEHLED.md`).
 
@@ -43,45 +43,40 @@ Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární
 
 Seřazeno od nejnutnějšího:
 
-**1. Smazat větu o citacích z metodiky** (`Seminární práce 1.md`)
-Smazat: *„Citace jsou v textu uváděny harvardským způsobem, tedy ve tvaru autor a rok. Seznam zdrojů je zpracován podle normy ČSN ISO 690:2022. U webových zdrojů je uvedeno datum citace."*
+**1. ✅ Smazat větu o citacích z metodiky** — HOTOVO (věta v SP 1 není)
 
-**2. Přidat MCDM články do metodiky** (`Seminární práce 1.md`)
-Přidat 1–2 věty do zdůvodnění volby AHP s citacemi (Velasquez a Hester 2013; Ishizaka a Labib 2011).
+**2. Přidat MCDM citace do metodiky** (`Seminární práce 1.md`)
+V úvodu/metodice přidat 1–2 věty ke zdůvodnění volby AHP s citacemi (Velasquez a Hester 2013; Ishizaka a Labib 2011).
 
-**3. ✅ Sehnat 4. zdroj do kapitoly 4** — HOTOVO (19. 6. 2026)
-Elmasri & Navathe (2016) sehnán, citován v SP 4 (§4.1–4.4) a zařazen do SP 11. Kapitola 4 má nyní 5 zdrojů: Elmasri a Navathe, Pokorný a Valenta, Watt a Eng, Rosenthal a Reiner, Carvalho et al. Connolly & Begg zůstává jako další kandidát pro BP (viz `ZDROJE.md` §5A).
+**3. ✅ Sehnat zdroje do kapitoly 4** — HOTOVO (19. 6. 2026)
 
 **4. ✅ Stáhnout PDF pro Codd (1970) a Mardani et al. (2015)** — HOTOVO (19. 6. 2026)
-- `literatura/DB/Codd_1970_Relational_model.pdf` — staženo
-- `literatura/AHP/Mardani_2015_MCDM_review.pdf` — staženo
 
-**5. Rozepsat kapitoly 4.1–4.4** (`Seminární práce 4.md`)
-Každá podkapitola min. 2–3 odstavce s citacemi.
+**5. Dopsat prázdné bloky ve vrstvě 2 v kapitole 4** (`Seminární práce 4.md`)
+- 4.3 — první blok (funkce DBMS: DDL, DML, transakce) — vrstva 2 prázdná
+- 4.4 — první blok (úvod do fází návrhu) — vrstva 2 prázdná
+- 4.4 — druhý blok (konceptuální návrh) — vrstva 2 prázdná
 
-**6. Sekce scénáře/aplikace zkrátit na ~1 stranu**
+**6. Upravit vrstvu 1 (helper odstavce) v kapitolách 4 a 5**
+Přepsat text nad markery tak, aby byl čistý samostatný odstavec; případně sloučit bloky, které k sobě logicky patří.
+
+**7. Sekce scénáře/aplikace zkrátit na ~1 stranu**
 Explicitně označit jako základ pro navazující bakalářskou práci.
 
-**7. Přepsat „seminární práce" → „práce"** v celém textu.
+**8. Přepsat „seminární práce" → „práce"** v celém textu.
 
-**8. Přesunout do šablony SP z Olivy** (`oliva/sablony/`)
+**9. Přesunout do šablony SP z Olivy** (`oliva/sablony/`)
 Vložit text do šablony, zkontrolovat formátování.
 
-**9. Spojit a vygenerovat výstupní soubory**
+**10. Vygenerovat výstupní soubory a ověřit rozsah**
 ```
-.\spoj.ps1
+.\extrahuj.ps1
+.\spoj.ps1 0 1 2 3 4x 5x 6x 7x 8 9 10 11 -Out seminarka_kontrola.md
+pandoc "seminarka_kontrola.md" -o "Seminární práce.docx" --reference-doc="Seminární práce_backup_2026-06-25.docx"
 ```
-nebo
-```
-python sestavit_seminarni_praci.py
-```
-
-**10. Ověřit rozsah**
 Teorie (kapitoly 4–7) musí mít ≥ 10 stran.
 
 **11. Smazat `NAVRHY_CITACI_KAPITOLY_4-7.md`** — obsah je zapracovaný.
-
-**12. Odeslat vedoucímu v šabloně**
 
 ---
 
@@ -118,7 +113,9 @@ Seminárka slouží jako teoretický základ. BP doplní:
 
 | Termín | Úkol |
 |---|---|
-| červen 2026 | Zapracovat připomínky, odeslat druhou verzi vedoucímu v šabloně. |
+| 26. 6. 2026 (pátek) | Poslat vedoucímu průběžnou ukázku — draft bez šablony pro kontrolu. |
+| 27. 6. 2026 (sobota) | Dokončit všechny zbývající úkoly (body 2–11 výše). |
+| 30. 6. 2026 (pondělí) | Odeslat vedoucímu finální druhou verzi v šabloně. |
 | červen/srpen 2026 | Odevzdat v Olivě, splnit zápočtový test. |
 | do 31. 8. 2026 | Doplnit a odeslat STAG zadávací list. |
 | podzim 2026 | Otestovat nástroje, připravit AHP výpočty. |
