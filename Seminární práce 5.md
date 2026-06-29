@@ -1,4 +1,4 @@
-# 5 Datové modely
+Normální formy# 5 Datové modely
 
 Datový model představuje formalizovaný prostředek pro popis dat, jejich struktury a vztahů mezi nimi. Datové modely umožňují zachytit realitu tak, aby s ní bylo možné systematicky pracovat při návrhu databází i při jejich následné implementaci (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
@@ -260,7 +260,7 @@ Normalizace je proces, jehož cílem je odstranit nadbytečnost dat a předcház
 
 První normální forma vyžaduje, aby všechny atributy obsahovaly atomické hodnoty a aby se v tabulce nevyskytovaly opakující se skupiny. Druhá normální forma zajišťuje, že žádný neklíčový atribut není závislý pouze na části složeného klíče. Třetí normální forma odstraňuje tranzitivní závislosti, tedy situace, kdy neklíčový atribut závisí na jiném neklíčovém atributu. Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Chlapek, Kučera a Palovská, 2019).
 ****
-První normální forma vyžaduje atomické hodnoty a nepřipouští skupiny, které se opakují (Codd, 1970; Elmasri a Navathe, 2016). Druhá normální forma řeší závislost neklíčových atributů na celém klíči (Codd, 1970; Elmasri a Navathe, 2016). Třetí normální forma odstraňuje tranzitivní závislosti mezi neklíčovými atributy (Codd, 1970; Elmasri a Navathe, 2016). Tyto formy postačují k zajištění základní konzistence relačního schématu a tvoří standard, který by každý nástroj pro návrh databází měl uživateli umožňovat respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+Normální formy představují soubor pravidel pro návrh relační databáze, jejichž cílem je omezit redundanci dat a snížit riziko nekonzistence. První normální forma vyžaduje, aby atributy obsahovaly pouze atomické hodnoty a aby se v tabulkách nevyskytovaly skupiny, které se opakují (Codd, 1970; Elmasri a Navathe, 2016). Druhá normální forma se zaměřuje na tabulky se složeným klíčem a požaduje, aby každý neklíčový atribut závisel na celém klíči, nikoli pouze na jeho části (Codd, 1970; Elmasri a Navathe, 2016). Třetí normální forma dále odstraňuje tranzitivní závislosti, kdy jeden neklíčový atribut závisí na jiném neklíčovém atributu (Codd, 1970; Elmasri a Navathe, 2016). Dodržování těchto forem vede k zajištění základní konzistence relačního schématu a vytváří standard, který by každý nástroj pro návrh databází měl respektovat (Codd, 1970; Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 ****
 
