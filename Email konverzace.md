@@ -1,3 +1,12 @@
+26.6
+Dobrý den,
+
+přečetl jsem to a nic, co by teď bylo potřeba řešit jsem tam nenašel. V bakalářské práci na to půjde navázat. Dodělejte ty kapitoly o vícekriteriálním rozhodování a přidejte tam závěrečnou kapitolu, jak to bude pokračovat v bakalářské práci, tzn. ty scénáře a aplikace. Pak mi to pošlete na závěrečnou kontrolu a já pošlu zpět verzi pro odevzdání – ještě to trochu doladím a upravím po formální stránce. Nakonec napište tam zápočtový test a dostanete zápočet.
+
+Někdy v srpnu nebo září se ještě domluvíme a sejdeme se, protože se musí doladit ten zadávací list ve Stagu a ještě Vám k té bakalářské práci něco řeknu.
+
+Pěkný den,
+Martin Lněnička
 
 ---------------------------------------------------------------
 17.6
@@ -41,7 +50,7 @@ Od: Janiš Roman <roman.janis@uhk.cz>
 Odesláno: pátek 6. března 2026 9:45
 Komu: Lněnička Martin <martin.lnenicka@uhk.cz>
 Předmět: Re: Bakalářská práce – domluva konzultace
- 
+
 Dobrý den,
 
 děkuji za přidělení tématu ve STAGu. Prošel jsem si kurz MES v Olivě a stáhl šablonu seminární práce. Chtěl bych na tom začít postupně pracovat, jen si nejsem jistý, jaký má být správný první krok a jak prakticky začít.
@@ -56,7 +65,7 @@ Od: Lněnička Martin <martin.lnenicka@uhk.cz>
 Odesláno: pondělí 2. března 2026 11:13
 Komu: Janiš Roman <roman.janis@uhk.cz>
 Předmět: Re: Bakalářská práce – domluva konzultace
- 
+
 Dobrý den,
 
 téma máte oficiálně přidělené, teď ho tam uvidíte jako "Studentovi vytvořen podklad VŠKP k doplnění". Na to doplnění je čas do konce srpna.
@@ -69,7 +78,7 @@ Od: Janiš Roman <roman.janis@uhk.cz>
 Odesláno: pondělí 2. března 2026 9:43
 Komu: Lněnička Martin <martin.lnenicka@uhk.cz>
 Předmět: Re: Bakalářská práce – domluva konzultace
- 
+
 Dobrý den,
 děkuji za upřesnění. Rád bych si toto téma oficiálně nechal přidělit.
 Počítám s tím, že nejprve začnu s identifikací kritérií a alternativ, včetně jejich zdůvodnění a argumentace, proč jsem vybral právě tyto a následně pokračoval dále.
@@ -85,7 +94,7 @@ Od: Lněnička Martin <martin.lnenicka@uhk.cz>
 Odesláno: pátek 27. února 2026 6:52
 Komu: Janiš Roman <roman.janis@uhk.cz>
 Předmět: Re: Bakalářská práce – domluva konzultace
- 
+
 Dobrý den,
 
 nejdříve musíte začít s identifikací těch kritérií a alternativ (nástroje pro návrh a vývoj databázových systémů), včetně argumentace toho, proč jste vybral právě tyto. To je vlastně ta teoretická část, kde musíte najít literaturu, něco přečíst a sumarizovat. Toto byste dělal v té seminární práci v předmětu MES.
@@ -102,7 +111,7 @@ Od: Janiš Roman <roman.janis@uhk.cz>
 Odesláno: čtvrtek 26. února 2026 15:09
 Komu: Lněnička Martin <martin.lnenicka@uhk.cz>
 Předmět: Re: Bakalářská práce – domluva konzultace
- 
+
 Dobrý den,
 
 děkuji za upřesnění požadavků k tématu.
@@ -127,7 +136,7 @@ Od: Lněnička Martin <martin.lnenicka@uhk.cz>
 Odesláno: úterý 24. února 2026 19:48
 Komu: Janiš Roman <roman.janis@uhk.cz>
 Předmět: Re: Bakalářská práce – domluva konzultace
- 
+
 Dobrý den,
 
 nejprve se zamyslete, co byste k tomu tématu asi napsal. Já tam mám nějakou osnovu, kterou lze více či méně upravit, ale ty nástroje by měly být porovnány pomocí metod vícekriteriálního rozhodování, ideálně AHP. Byla by k tomu dobrá i nějaká jednoduchá aplikace, kterou by k té komparaci šlo využít.
