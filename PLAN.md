@@ -1,6 +1,6 @@
 # Plán další práce
 
-Aktualizace: 25. 6. 2026.
+Aktualizace: 29. 6. 2026.
 
 Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární práce 11.md`. Finální `Seminární práce.md` a `.docx` se z nich jen generují (viz `PŘEHLED.md`).
 
@@ -28,6 +28,11 @@ Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární
 - ✅ **SP 6** — stejná struktura zdrojových úryvků doplněna 21. 6. 2026.
 - ✅ **SP 7** — stejná struktura zdrojových úryvků doplněna 21. 6. 2026.
 
+- ✅ **SP 6 a SP 7** — citace přerozděleny po větách ve vrstvě 2 (29. 6. 2026).
+- ✅ **SP 6 a SP 7** — oddělovače vrstev sjednoceny na `****` (stejně jako SP 4 a SP 5).
+- ✅ **SP 7 vrstva 2** — zkontrolována logika, citace i gramatika; opravena kurzíva *rank reversal*.
+- ✅ **SP 6 vrstva 2** — zkontrolována logika a citace; nalezeno 10 chyb (viz níže → úkol A).
+
 ### Co je hotovo — stav kapitol po zdrojích
 
 | Kapitola | Zdrojů | Zdrojové úryvky | Stav |
@@ -36,6 +41,38 @@ Pracuje se po kapitolách v souborech `Seminární práce 0.md` – `Seminární
 | 5 Datové modely | 5 | ✅ doplněno 21. 6. | ✅ |
 | 6 MCDM | 6 | ✅ doplněno 21. 6. | ✅ |
 | 7 AHP | 5 | ✅ doplněno 21. 6. | ✅ |
+
+---
+
+---
+
+### Nejbližší úkoly (začít zde zítra)
+
+**A. Opravit chyby ve vrstvě 2, SP 6** (`Seminární práce 6.md`)
+
+Nalezené chyby z kontroly 29. 6. 2026 — opravit všechny najednou:
+
+| Blok | Chyba | Oprava |
+|---|---|---|
+| 1 | `jednoho hlediska` → `jediného kritéria` — pojmová záměna (termín zaveden až v 6.1) | vrátit `jednoho hlediska` |
+| 1 | `hodnoceny podle více kritériemi` — špatný pád (instrumentál místo genitivu) | `hodnoceny podle více kritérií` |
+| 1 | `tyto kritéria` — špatný rod (střední rod) | `tato kritéria` |
+| 1 | `kriteria` — překlep | `kritéria` |
+| 2 | `skládá se z několika možných variant, množinou hodnotících kritérií a vztahem mezi nimi` — smíchané pády po *skládá se z* | přepsat: `bývá popsána množinou variant, množinou hodnotících kritérií a vztahem mezi nimi` |
+| 2 | `(Velasquez a Hester (2013, s. 56))` — dvojité závorky a strana u parafráze | `(Velasquez a Hester, 2013)` |
+| 3 | `Bazální varianta je opak a představuje...` — neúplná formulace | `Bazální varianta naopak představuje...` |
+| 5 | `je vícekriteriální postup proto, že` — chybí přísudkové jméno | `je vícekriteriální přístup vhodný proto, že` |
+| 7 | `je požadován co nejvyšší hodnota` / `je naopak požadován co nejnižší hodnota` — špatná shoda rodu | `je požadována` / `je naopak požadována` |
+| 7 | `napříkald` — překlep | `například` |
+| 7 | `číselná i popisná` místo `kvantitativní nebo kvalitativní` — ztráta odborné terminologie | vrátit `kvantitativní nebo kvalitativní` |
+| 11 | `umožňuje AHP používá párové porovnávání` — dvojitý přísudek, věta nedává smysl | `AHP umožňuje párové porovnávání i pro samotné alternativy, a to vůči každému ze stanovených kritérií` |
+| 12 | `zejmény` — překlep | `zejména` |
+| 12 | `metody váženého součtu (WSA), metoda TOPSIS` — nesourodé číslo | `metoda váženého součtu (WSA), metoda TOPSIS` |
+| 13 | `z několika důvodů` + pouze dvě číslovaná `Za prvé / Za druhé` — logická nekonzistence | `ze tří důvodů` a doplnit `Za třetí` |
+
+**B. Zkontrolovat SP 3** (`Seminární práce 3.md`) — MCDM citace v metodice (bod 2 níže).
+
+**C. Zkontrolovat SP 10** (`Seminární práce 10.md`) — závěrečná kapitola, sekce scénáře/aplikace.
 
 ---
 
