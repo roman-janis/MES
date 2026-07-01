@@ -179,7 +179,7 @@ Při volbě vah je důležité vycházet z toho, k čemu hodnocení slouží (Sa
 
 Pro odhad vah kritérií lze použít několik postupů. Jednodušší přístupy zahrnují metodu pořadí nebo bodovací metodu. Tyto metody jsou snadno použitelné, ale méně jemné při vyjadřování intenzity preference. Pokročilejší přístupy pracují s párovým porovnáváním kritérií, kam patří i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 2008; Soukopová, 2016).
 ****
-Pro odhad vah kritérií lze použít několik postupů (Saaty, 2008; Soukopová, 2016). Jednodušší přístupy zahrnují metodu pořadí nebo bodovací metodu. Tyto metody jsou snadno použitelné, ale méně přesné při vyjadřování síly preference. Pokročilejší přístupy pracují s párovým porovnáváním kritérií a do této skupiny patří i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 1990; Soukopová, 2016).
+Pro odhadnutí vah jednotlivých kritérií lze použít několik postupů (Saaty, 2008; Soukopová, 2016). Mezi nejznámější jednoduché přístupy patří metoda pořadí nebo bodovací metoda. Tyto metody jsou jednoduše použitelné, ale nejsou tak přesné při popisu toho, jak výrazně je jedna možnost důležitější než druhá. Pokročilejší přístupy pracují s párovým porovnáváním kritérií a do této skupiny patří i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 1990; Soukopová, 2016).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -198,7 +198,7 @@ Pro odhad vah kritérií lze použít několik postupů (Saaty, 2008; Soukopová
 
 Z hlediska porovnání samotných alternativ umožňuje AHP aplikovat stejný princip párového porovnávání i pro alternativy, a to vůči každému z dříve stanovených kritérií. Výhodou je systematičnost a transparentnost, nevýhodou vyšší pracnost při větším počtu prvků. Počet porovnání roste s počtem kritérií i alternativ, a proto je vhodné zvolit přiměřený rozsah rozhodovacího modelu (Saaty, 2008; Ishizaka a Labib, 2011).
 ****
-AHP umožňuje párové porovnávání i pro samotné alternativy, a to vůči každému ze stanovených kritérií (Saaty, 2008; Vaidya a Kumar, 2006). Výhodou je systematičnost a transparentnost, nevýhodou vyšší pracnost při větším počtu prvků. Počet porovnání roste s počtem kritérií i alternativ, a proto je vhodné zvolit přiměřený rozsah rozhodovacího modelu (Ishizaka a Labib, 2011).
+Při hodnocení samotných alternativ umožňuje AHP použít stejný princip párového porovnávání i pro alternativy, a to vzhledem ke každému z dříve stanovených kritérií (Saaty, 2008; Vaidya a Kumar, 2006). Výhodou pake je systematičnost a transparentnost, naopak nevýhodou je vyšší pracnost při větším počtu prvků. Počet porovnání roste s počtem kritérií a alternativ. Proto je tedy vhodné zvolit přiměřený rozsah rozhodovacího modelu (Ishizaka a Labib, 2011).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -213,7 +213,7 @@ AHP umožňuje párové porovnávání i pro samotné alternativy, a to vůči k
 
 Z dalších metod vícekriteriálního hodnocení variant jsou v literatuře rozšířeny zejména metoda váženého součtu (WSA), metoda TOPSIS a metody založené na outrankingu. Metoda váženého součtu pracuje s normalizovanými hodnotami kritérií a výsledné skóre alternativy vypočítá jako vážený součet. TOPSIS hodnotí alternativy podle jejich vzdálenosti od ideální a bazální varianty. Komplexnější strukturou se vyznačuje rodina metod ELECTRE, které pracují s koncepty převahy jedné varianty nad druhou (Soukopová, 2016; Velasquez a Hester, 2013; Mardani et al., 2015).
 ****
-Z dalších metod vícekriteriálního hodnocení variant jsou rozšířeny zejména metoda váženého součtu (WSA), metoda TOPSIS a metody založené na outrankingu. Metoda váženého součtu pracuje s normalizovanými hodnotami kritérií a výsledné skóre alternativy vypočítá jako vážený součet (Soukopová, 2016; Velasquez a Hester, 2013). TOPSIS hodnotí alternativy podle jejich vzdálenosti od ideální a bazální varianty (Velasquez a Hester, 2013). Komplexnější strukturou se vyznačuje rodina metod ELECTRE, které pracují s koncepty převahy jedné varianty nad druhou (Mardani et al., 2015; Velasquez a Hester, 2013).
+Z dalších metod vícekriteriálního hodnocení variant jsou rozšířeny především metody váženého součtu (WSA), metoda TOPSIS a metody založené na outrankingu. Metoda váženého součtu pracuje s normalizovanými hodnotami kritérií a výsledné skóre alternativy vypočítá jako vážený součet (Soukopová, 2016; Velasquez a Hester, 2013). TOPSIS hodnotí alternativy podle jejich vzdálenosti od ideální a bazální varianty (Velasquez a Hester, 2013). Komplexnější strukturou se vyznačuje rodina metod ELECTRE, které pracují s koncepty převahy jedné varianty nad druhou (Mardani et al., 2015; Velasquez a Hester, 2013).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -236,7 +236,7 @@ Z dalších metod vícekriteriálního hodnocení variant jsou rozšířeny zejm
 
 Pro potřeby navazující bakalářské práce bylo zvoleno AHP ze tří důvodů. Za prvé umožňuje kombinovat kvantitativní i kvalitativní kritéria bez nutnosti převést všechna hodnocení na jednu původní měrnou jednotku, což odpovídá povaze hodnocení softwaru. Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ. Za třetí nabízí prostřednictvím poměru konzistence CR mechanismus ověření soudržnosti úsudků, který je přínosný zejména tehdy, když párové porovnávání provádí jeden hodnotitel (Saaty, 1990; Saaty, 2008; Ishizaka a Labib, 2011).
 ****
-Pro potřeby navazující práce bylo zvoleno AHP ze tří důvodů. Za prvé umožňuje kombinovat kvantitativní i kvalitativní kritéria bez nutnosti převést všechna hodnocení na jednu původní měrnou jednotku (Ishizaka a Labib, 2011; Saaty, 1990). Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ (Saaty, 2008). Za třetí AHP pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda jsou úsudky hodnotitele vzájemně v souladu. To je obzvlášť užitečné v situaci, kdy párové porovnávání provádí jen jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
+Pro potřeby další práce je motoda AHP vhodná ze tří důvodů. AHP totiž umožňuje pracovat současně s kvantitativními i kvalitativními kritérii, a to dokonce bez nutnosti převádět jednotlivá hodnocení na jednotnou měrnou škálu (Ishizaka a Labib, 2011; Saaty, 1990). Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ (Saaty, 2008). Za třetí AHP pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda na sebe jednotlivá hodnocení logicky navazují. To je zvlášť užitečné v situacích, kdy párové porovnávání provádí jen jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
