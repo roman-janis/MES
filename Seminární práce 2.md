@@ -6,7 +6,7 @@ Cílem práce je připravit teoretická a metodická východiska pro porovnání
 - vysvětlit principy vícekriteriálního rozhodování, metodu AHP a její použitelnost pro porovnání softwarových nástrojů,
 - vybrat a charakterizovat nástroje, které budou předmětem porovnávání, a navrhnout hodnoticí kritéria.
 
-Výzkumné otázky navazují na cíl práce a na potřebu postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů. Od vymezení databázových systémů a jejich vývoje, přes vysvětlení, jak nástroje hodnotit podle více kritérií, až po volbu kritérií a konečně postupné porovnání. Metoda AHP umožní rozdělit rozhodování na menší přehledné části a systematicky porovnat, jak jednotlivá kritéria, tak také hodnocené nástroje.
+Výzkumné otázky navazují na cíl práce a na potřebu postupně připravit teoretický a metodický rámec pro budoucí porovnání nástrojů – od vymezení databázových systémů a jejich vývoje, přes vysvětlení, jak nástroje hodnotit podle více kritérií, až po volbu kritérií a konečně postupné porovnání. Metoda AHP umožní rozdělit rozhodování na menší přehledné části a systematicky porovnat, jak jednotlivá kritéria, tak také hodnocené nástroje.
 
 Tomuto zaměření odpovídají následující výzkumné otázky:
 - **VO1:** Jaké klíčové pojmy, modely a postupy se využívají při návrhu a vývoji databázových systémů?
