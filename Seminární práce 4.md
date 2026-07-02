@@ -223,7 +223,7 @@ Hlavním smyslem tohoto členění je podpora datové nezávislosti, tedy odděl
 Pro navazující komparaci nástrojů je tato architektura důležitá proto, že návrhové nástroje nepokrývají všechny úrovně databázového systému stejným způsobem. Některé se zaměřují především na konceptuální nebo logický model, jiné podporují i fyzické prvky konkrétního DBMS, například datové typy, indexy nebo generování SQL skriptů. Při hodnocení nástrojů proto není vhodné sledovat pouze možnost vytváření diagramů, ale také podporu přechodu mezi jednotlivými úrovněmi návrhu a implementace (Elmasri a Navathe, 2016; Rosenthal a Reiner, 1994).
 
 ****
-Rozsahy podpory jednotlivých úrovní (od konceptuální po fyzickou) se u modelovacích softwarů liší, což z této architektury činí jedno z klíčových kritérií komparace (Rosenthal a Reiner, 1994). Některé se zaměřují především na konceptuální nebo logický model, jiné podporují i fyzické prvky konkrétního DBMS, například datové typy, indexy nebo generování SQL skriptů (Carvalho et al., 2022). Při hodnocení nástrojů je proto podstatné sledovat nejen možnosti vytváření diagramů, ale také podporu přechodu mezi jednotlivými úrovněmi návrhu a implementace (Rosenthal a Reiner, 1994).
+Pro následné porovnání nástrojů v této práci je toto rozdělení vhodné proto, že nástroje nepokrývají všechny úrovně databázového systému stejným způsobem (Rosenthal a Reiner, 1994). Některé se zaměřují především na konceptuální nebo logický model, jiné podporují i fyzické prvky konkrétního DBMS, například datové typy, indexy nebo generování SQL skriptů (Carvalho et al., 2022). Při hodnocení nástrojů proto bude vhodné sledovat nejen možnosti vytváření diagramů, ale také podporu přechodu mezi jednotlivými úrovněmi návrhu a implementace (Rosenthal a Reiner, 1994).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -346,7 +346,7 @@ Návrh databáze proto nelze chápat jako striktně lineární proces, ale jako 
 
 Rozdělení návrhu na konceptuální, logickou a fyzickou úroveň tvoří v této práci základ pro formulaci pozdějších hodnoticích kritérií. Nástroj určený pro návrh databázového systému by měl umožnit srozumitelně zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit i samotnou technickou implementaci v konkrétním databázovém prostředí. Rozsah podpory jednotlivých fází návrhu tvoří jeden z praktických rozdílů mezi porovnávanými nástroji (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
-Rozdělení návrhu databáze na konceptuální, logickou a fyzickou úroveň poskytuje základní rámec pro stanovení kritérií komparace. Nástroj určený pro návrh databázového systému by měl umožnit zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit technickou implementaci v konkrétním databázovém prostředí (Rosenthal a Reiner, 1994). Úroveň podpory těchto kroků představuje důležitý ukazatel kvality daného nástroje (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
+Rozdělení návrhu databáze na konceptuální, logickou a fyzickou úroveň tvoří vhodný výchozí bod pro pozdější definici hodnoticích kritérií. Nástroj určený pro návrh databázového systému by měl umožnit zachytit požadavky, převést je do konzistentního schématu a podle potřeby podpořit technickou implementaci v konkrétním databázovém prostředí (Rosenthal a Reiner, 1994). Úroveň podpory těchto kroků představuje důležitý ukazatel kvality daného nástroje (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
 ****
 > **Zdrojové úryvky k odstavci výše**
 >
