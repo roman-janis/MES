@@ -24,14 +24,14 @@ Vícekriteriální rozhodování se zabývá situacemi, ve kterých nejde rozhod
 
 Rozhodovací úloha bývá popsána množinou variant, množinou kritérií a vztahem mezi nimi. Varianty představují jednotlivé posuzované možnosti. Kritéria vyjadřují hlediska, podle kterých jsou varianty hodnoceny. Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice, která umožňuje přehledně zachytit hodnoty alternativ vzhledem k jednotlivým kritériím (Soukopová, 2016; Saaty, 2008).
 ****
-Rozhodovací úloha je běžně popsána množinou variant, množinou hodnotících kritérií a vztahem mezi nimi (Soukopová, 2016). Varianty představují jednotlivé posuzované možnosti, mezi kterými se rozhoduje. Kritéria určují, z jakých hledisek jsou jednotlivé varianty hodnoceny (Velasquez a Hester, 2013). Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice. Tato matice umožňuje zachytit přehledně hodnoty alternativ vzhledem k jednotlivým kritériím (Soukopová, 2016).
+Rozhodovací úloha je běžně popsána množinou variant, množinou hodnoticích kritérií a vztahem mezi nimi (Soukopová, 2016). Varianty představují jednotlivé posuzované možnosti, mezi kterými se rozhoduje. Kritéria určují, z jakých hledisek jsou jednotlivé varianty hodnoceny (Velasquez a Hester, 2013). Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice. Tato matice umožňuje zachytit přehledně hodnoty alternativ vzhledem k jednotlivým kritériím (Soukopová, 2016).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
 >
 > **„Rozhodovací úloha bývá popsána množinou variant, množinou kritérií a vztahem mezi nimi."**
 >
-> - *Soukopová (2016, s. 1)*: „Vícekriteriální rozhodovací problémy jsou popsány množinou variant, množinou hodnotících kritérií a řadou vazeb mezi kritérii a variantami..."
+> - *Soukopová (2016, s. 1)*: „Vícekriteriální rozhodovací problémy jsou popsány množinou variant, množinou hodnoticích kritérií a řadou vazeb mezi kritérii a variantami..."
 > - *Fiala, Jablonský a Maňas (1994, cit. dle Soukopová, 2016, s. 1)*: „Rozhodovací problémy, v nichž jsou varianty posuzovány podle více kritérií, jsou v praxi velmi časté."
 >
 > **„Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice."**
