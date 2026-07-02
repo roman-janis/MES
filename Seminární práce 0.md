@@ -12,7 +12,7 @@
 
 # Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP
 
-## Teoretická východiska – práce
+## Teoretická a metodická východiska
 
 &nbsp;
 
