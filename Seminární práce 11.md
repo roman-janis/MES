@@ -52,7 +52,6 @@ SOUKOPOVÁ, Jana. *Vícekriteriální metody hodnocení* [online]. Brno: Masaryk
 
 WATT, Adrienne a Nelson ENG. *Database Design* [online]. 2nd ed. Victoria: BCcampus, 2014 [cit. 2026-06-18]. Dostupné z: <https://opentextbc.ca/dbdesign01/>
 
-## Zdroje nenásledované v textu [potenciálně pro BP]
 
 `[101]` CATAK, F. Ozgur, Servet KARABAS a Serkan YILDIRIM. Fuzzy Analytic Hierarchy Based DBMS Selection in Turkish National Identity Card Management Project. *International Journal of Information Sciences and Techniques*. 2012, **2**(4), 29–38. DOI: 10.5121/ijist.2012.2403. — `literatura/AHP/`
 
