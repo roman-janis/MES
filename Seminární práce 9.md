@@ -19,7 +19,7 @@ Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 
 Význam jednotlivých kritérií je blíže popsán níže.
 
-**K1 Funkcionalita.** Rozsah funkcí nástroje – typy modelů (konceptuální, logický, fyzický), validace, dokumentace a podpora objektů jako tabulky, pohledy, indexy nebo triggery.
+**K1 Funkcionalita.** Rozsah funkcí nástroje – typy modelů (konceptuální, logický, fyzický), validace, dokumentace a podpora objektů, jako jsou tabulky, pohledy, indexy nebo triggery.
 
 **K2 Použitelnost.** Vyjadřuje, jak snadno se s nástrojem pracuje – jak rychle se v něm uživatel zorientuje, nakolik je prostředí editoru modelu přehledné a jak náročné je provést běžné úkony.
 
