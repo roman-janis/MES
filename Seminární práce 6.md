@@ -63,7 +63,7 @@ S vícekriteriálním rozhodováním souvisejí i pojmy jako ideální a bazáln
 
 Pro tuto práci je podstatné zejména vícekriteriální hodnocení variant, protože navazující praktická část bude porovnávat konečný seznam databázových nástrojů. Jde tedy o situaci, kdy jsou předem dány alternativy a je nutné z nich určit nejvhodnější řešení. Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 1990; Soukopová, 2016).
 ****
-Pro tuto práci je důležité zejména vícekriteriální hodnocení variant. Důvodem je navazující část, kde se bude porovnávat konečný seznam databázových nástrojů. Jde tedy o případ, kdy jsou předem dány alternativy a z těchto alternativ je nutné určit nejvhodnější řešení (Mardani et al., 2015; Saaty, 1990). Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 2008; Soukopová, 2016).
+Srovnání databázových nástrojů v navazující části představuje klasickou úlohu vícekriteriálního hodnocení variant nad konečnou a předem definovanou množinou alternativ. V tomto typu úloh jsou předem dány konkrétní možnosti a je nutné z nich určit nejvhodnější řešení (Mardani et al., 2015; Saaty, 1990). Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 2008; Soukopová, 2016).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -141,7 +141,7 @@ Samotná kritéria lze uspořádat různými způsoby podle potřeb konkrétní 
 
 ---
 
-Váha kritéria vyjadřuje jeho relativní význam v rámci rozhodovacího procesu. Ne všechna kritéria mají stejnou důležitost, a proto je nutné jejich význam určit explicitně. Určení vah kritérií je jedním z klíčových kroků většiny vícekriteriálních metod, protože právě váhy často zásadně ovlivňují výsledné pořadí alternativ (Saaty, 1990; Soukopová, 2016).
+Váha kritéria vyjadřuje jeho relativní význam v rámci rozhodovacího procesu. Ne všechna kritéria mají stejnou důležitost, a proto je nutné jejich význam určit explicitně. Určení vah kritérií je jedním z důležitých kroků většiny vícekriteriálních metod, protože právě váhy často zásadně ovlivňují výsledné pořadí alternativ (Saaty, 1990; Soukopová, 2016).
 ****
 Váha kritéria vyjadřuje jeho relativní význam v rámci rozhodovacího procesu (Saaty, 1990; Soukopová, 2016). Ne všechna kritéria mají stejnou důležitost, a proto je nutné jejich význam určit explicitně. Určení vah kritérií je jedním z klíčových kroků většiny vícekriteriálních metod. Právě váhy často zásadně ovlivňují výsledné pořadí alternativ (Saaty, 1990).
 ****
@@ -236,7 +236,7 @@ Z dalších metod vícekriteriálního hodnocení variant jsou rozšířeny pře
 
 Pro potřeby navazující bakalářské práce bylo zvoleno AHP ze tří důvodů. Za prvé umožňuje kombinovat kvantitativní i kvalitativní kritéria bez nutnosti převést všechna hodnocení na jednu původní měrnou jednotku, což odpovídá povaze hodnocení softwaru. Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ. Za třetí nabízí prostřednictvím poměru konzistence CR mechanismus ověření soudržnosti úsudků, který je přínosný zejména tehdy, když párové porovnávání provádí jeden hodnotitel (Saaty, 1990; Saaty, 2008; Ishizaka a Labib, 2011).
 ****
-Pro potřeby práce je motoda AHP vhodná ze tří důvodů. AHP totiž umožňuje pracovat současně s kvantitativními i kvalitativními kritérii, a to dokonce bez nutnosti převádět jednotlivá hodnocení na jednotnou měrnou škálu (Ishizaka a Labib, 2011; Saaty, 1990). Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ (Saaty, 2008). Za třetí AHP pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda na sebe jednotlivá hodnocení logicky navazují. To je zvlášť užitečné v situacích, kdy párové porovnávání provádí jen jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
+Metoda AHP byla pro navazující komparaci vybrána především proto, že umožňuje pracovat současně s kvantitativními i kvalitativními kritérii bez nutnosti převádět jednotlivá hodnocení na jednotnou měrnou škálu (Ishizaka a Labib, 2011; Saaty, 1990). Hierarchická struktura cíle, kritérií a alternativ navíc přispívá k lepší srozumitelnosti a vysvětlitelnosti celého postupu (Saaty, 2008). Metoda AHP navíc pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda na sebe jednotlivá hodnocení logicky navazují, což je užitečné zejména tehdy, kdy párové porovnávání provádí pouze jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
