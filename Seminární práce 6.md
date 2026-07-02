@@ -2,7 +2,7 @@
 
 Vícekriteriální rozhodování se zabývá situacemi, ve kterých nelze rozhodovat podle jediného hlediska. V reálných rozhodovacích úlohách jsou alternativy obvykle posuzovány podle více kritérií, která mohou být navzájem v konfliktu. Z tohoto důvodu se používají metody, které umožňují tato kritéria systematicky zahrnout do rozhodovacího procesu a výsledek rozhodnutí zdůvodnit (Mardani et al., 2015; Soukopová, 2016; Velasquez a Hester, 2013).
 ****
-Vícekriteriální rozhodování se zabývá situacemi, ve kterých nelze rozhodovat podle jednoho hlediska (Mardani et al., 2015; Velasquez a Hester, 2013). V reálných rozhodovacích úlohách jsou alternativy obvykle hodnoceny podle více kritérií. Tato kritéria mohou být ve vzájemném konfliktu (Velasquez a Hester, 2013). Z tohoto důvodu se používají metody, které umožňují tato kritéria systematicky zahrnout do rozhodovacího procesu a výsledek rozhodnutí zdůvodnit (Mardani et al., 2015; Soukopová, 2016).
+Vícekriteriální rozhodování se zabývá situacemi, ve kterých nejde rozhodnout podle jednoho kriteria (Mardani et al., 2015). V běžných rozhodovacích úlohách jsou alternativy obvykle běžně hodnoceny podle více kritérií. Tato kritéria však mohou být ve vzájemném konfliktu (Velasquez a Hester, 2013). Z tohoto důvodu se používají metody, které umožňují tato kritéria systematicky zahrnout do rozhodovacího procesu a výsledek rozhodnutí zdůvodnit (Soukopová, 2016).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -24,7 +24,7 @@ Vícekriteriální rozhodování se zabývá situacemi, ve kterých nelze rozhod
 
 Rozhodovací úloha bývá popsána množinou variant, množinou kritérií a vztahem mezi nimi. Varianty představují jednotlivé posuzované možnosti. Kritéria vyjadřují hlediska, podle kterých jsou varianty hodnoceny. Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice, která umožňuje přehledně zachytit hodnoty alternativ vzhledem k jednotlivým kritériím (Soukopová, 2016; Saaty, 2008).
 ****
-Rozhodovací úloha bývá popsána množinou variant, množinou hodnotících kritérií a vztahem mezi nimi (Soukopová, 2016). Varianty představují jednotlivé posuzované možnosti, mezi kterými se rozhoduje. Kritéria vyjadřují hlediska, podle kterých jsou varianty hodnoceny (Velasquez a Hester, 2013). Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice, která umožňuje přehledně zachytit hodnoty alternativ vzhledem k jednotlivým kritériím (Saaty, 2008).
+Rozhodovací úloha jě běžně popsána množinou variant, množinou hodnotících kritérií a vztahem mezi nimi (Soukopová, 2016). Varianty představují jednotlivé posuzované možnosti, mezi kterými se rozhoduje. Kritéria určují, z jakých hledisek jsou jednotlivé varianty hodnoceny. (Velasquez a Hester, 2013). Hodnocení variant podle jednotlivých kritérií se často zapisuje do kriteriální matice. Tato matice umožňuje zachytit přehledně hodnoty alternativ vzhledem k jednotlivým kritériím (Saaty, 2008).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -44,7 +44,7 @@ Rozhodovací úloha bývá popsána množinou variant, množinou hodnotících k
 
 K vícekriteriálnímu rozhodování patří také pojmy ideální a bazální varianta, dominance a nedominované řešení. Ideální varianta je hypotetická varianta, která dosahuje ve všech kritériích nejlepších možných hodnot. Bazální varianta naopak představuje hypotetickou variantu s nejhoršími hodnotami. Nedominovaná varianta je taková varianta, pro kterou neexistuje jiná varianta lepší alespoň v jednom kritériu a současně ne horší v ostatních. Tyto pojmy jsou užitečné zejména u metod, které pracují se vzdáleností od ideálního řešení nebo s porovnáváním dominance mezi variantami (Soukopová, 2016; Velasquez a Hester, 2013).
 ****
-K vícekriteriálnímu rozhodování patří také pojmy ideální a bazální varianta, dominance a nedominované řešení. Ideální varianta je hypotetická varianta, která dosahuje ve všech kritériích nejlepších možných hodnot (Soukopová, 2016; Velasquez a Hester, 2013). Bazální varianta naopak představuje hypotetickou variantu s nejhoršími hodnotami (Soukopová, 2016). Nedominovaná varianta je taková varianta, pro kterou neexistuje jiná varianta lepší alespoň v jednom kritériu a současně ne horší v ostatních (Ishizaka a Labib, 2011; Soukopová, 2016). Tyto pojmy jsou užitečné zejména u metod, které pracují se vzdáleností od ideálního řešení nebo s porovnáváním dominance mezi variantami (Velasquez a Hester, 2013).
+S vícekriteriálním rozhodováním souvisejí i pojmy jako ideální a bazální varianta, dominance a nedominované řešení. Ideální varianta je hypotetická varianta, která ve všech kritériích získává nejlepší možné hodnoty (Soukopová, 2016; Velasquez a Hester, 2013). Bazální varianta naopak představuje hypotetickou variantu s nejhoršími hodnotami (Soukopová, 2016). Nedominovaná varianta je taková varianta, pro kterou neexistuje jiná varianta lepší alespoň v jednom kritériu a současně ne horší v ostatních (Ishizaka a Labib, 2011). Tyto pojmy se používají především u metod, které pracují se vzdáleností od ideálního řešení nebo s porovnáváním dominance mezi variantami (Velasquez a Hester, 2013).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -63,7 +63,7 @@ K vícekriteriálnímu rozhodování patří také pojmy ideální a bazální v
 
 Pro tuto práci je podstatné zejména vícekriteriální hodnocení variant, protože navazující praktická část bude porovnávat konečný seznam databázových nástrojů. Jde tedy o situaci, kdy jsou předem dány alternativy a je nutné z nich určit nejvhodnější řešení. Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 1990; Soukopová, 2016).
 ****
-Pro tuto práci je důležité zejména vícekriteriální hodnocení variant, protože navazující část bude porovnávat konečný seznam databázových nástrojů. Jde tedy o situaci, kdy jsou předem dány alternativy a je nutné z nich určit nejvhodnější řešení (Mardani et al., 2015; Saaty, 1990). Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 2008; Soukopová, 2016).
+Pro tuto práci je důležité zejména vícekriteriální hodnocení variant. Důvodem je navazující část, kde se bude porovnávat konečný seznam databázových nástrojů. Jde tedy o případ, kdy jsou předem dány alternativy a z těchto alternativ je nutné určit nejvhodnější řešení (Mardani et al., 2015; Saaty, 1990). Cílem přitom není určit  jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 2008; Soukopová, 2016).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -82,7 +82,7 @@ Pro tuto práci je důležité zejména vícekriteriální hodnocení variant, p
 
 V oblasti výběru softwarových nástrojů je vícekriteriální přístup vhodný proto, že rozhodnutí obvykle zahrnuje technická, ekonomická i uživatelská hlediska. U databázových nástrojů mohou být některá kritéria měřitelná přímo, například cena, licence nebo dostupnost pro konkrétní platformu. Jiná kritéria mají kvalitativní povahu, například přehlednost uživatelského rozhraní, podpora modelování nebo srozumitelnost dokumentace. Vícekriteriální metody poskytují rámec, jak tato různorodá hlediska zahrnout do jednoho rozhodovacího postupu (Mardani et al., 2015; Velasquez a Hester, 2013).
 ****
-Při výběru softwarových nástrojů je vícekriteriální přístup vhodný proto, že rozhodnutí obvykle zahrnuje technická, ekonomická a uživatelská hlediska (Mardani et al., 2015; Velasquez a Hester, 2013). U databázových nástrojů mohou být některá kritéria měřitelná přímo, například cena, licence nebo dostupnost pro konkrétní platformu. Jiná kritéria mají kvalitativní povahu, například přehlednost uživatelského rozhraní, podpora modelování nebo srozumitelnost dokumentace. Vícekriteriální metody pomáhají přehledně spojit všechna důležitá hlediska do jednoho rozhodovacího procesu (Mardani et al., 2015).
+Při rozhodování o výběru softwarových nástrojů je vícekriteriální přístup vhodný proto, že rozhodnutí obvykle zahrnuje technická, ekonomická a uživatelská hlediska (Mardani et al., 2015; Velasquez a Hester, 2013). A u databázových nástrojů jsou obvykle některá kritéria měřitelná přímo, například cena, licence nebo dostupnost pro konkrétní platformu. Jiná kritéria maopak mají popisnou povahu, například přehlednost uživatelského rozhraní, podpora modelování nebo srozumitelnost dokumentace. Vícekriteriální metody pomáhají přehledně spojit všechna důležitá hlediska do jednoho rozhodovacího procesu (Mardani et al., 2015).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -102,7 +102,7 @@ Při výběru softwarových nástrojů je vícekriteriální přístup vhodný p
 
 Alternativa představuje jednu z možných variant rozhodnutí. V kontextu této práce bude alternativou konkrétní software určený pro návrh a vývoj databázových systémů. Kritérium je hledisko, podle kterého se jednotlivé alternativy posuzují. Může jít například o funkcionalitu, použitelnost, kompatibilitu s různými DBMS, podporu reverzního inženýrství nebo cenu (Soukopová, 2016; Carvalho et al., 2022).
 ****
-Alternativa představuje jednu z možných variant rozhodnutí (Soukopová, 2016). V kontextu této práce bude alternativou konkrétní software určený pro návrh a vývoj databázových systémů. Kritérium je hledisko, podle kterého se jednotlivé alternativy posuzují (Soukopová, 2016; Velasquez a Hester, 2013). Může jít například o funkcionalitu, použitelnost, kompatibilitu s různými DBMS, podporu reverzního inženýrství nebo cenu (Carvalho et al., 2022).
+Alternativa představuje jednu z možných variant rozhodnutí (Soukopová, 2016). V rámci této práce bude každá alternativa představovat konkrétní softwarový nástroj určený pro návrh a vývoj databázových systémů. Kritérium je hledisko, podle kterého se jednotlivé alternativy posuzují (Soukopová, 2016; Velasquez a Hester, 2013). Může jít například o funkcionalitu, použitelnost, kompatibilitu s různými DBMS, podporu reverzního inženýrství nebo cenu (Carvalho et al., 2022).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -124,7 +124,7 @@ Alternativa představuje jednu z možných variant rozhodnutí (Soukopová, 2016
 
 Kritéria lze členit různými způsoby. Základní dělení odlišuje kritéria maximalizační a minimalizační. U maximalizačních kritérií je žádoucí co nejvyšší hodnota, například rozsah funkcionality nebo počet podporovaných databázových platforem. U minimalizačních kritérií je naopak žádoucí co nejnižší hodnota, typicky cena, časová náročnost zavedení nebo složitost práce s nástrojem. Kritéria mohou být dále kvantitativní nebo kvalitativní; právě kombinace těchto dvou typů je u hodnocení softwaru běžná (Soukopová, 2016; Velasquez a Hester, 2013).
 ****
-Kritéria lze uspořádat různými způsoby, podle potřeb konkrétní rozhodovací úlohy. Základní dělení odlišuje kritéria maximalizační a minimalizační (Soukopová, 2016). U maximalizačních kritérií je požadována co nejvyšší hodnota, například rozsah funkcí nebo počet podporovaných databázových platforem. U minimalizačních kritérií je naopak požadována co nejnižší hodnota, například cena, časová náročnost zavedení nebo složitost práce. Kritéria mohou být kvantitativní nebo kvalitativní, a jejich kombinace je u hodnocení softwaru naprosto běžná (Soukopová, 2016; Velasquez a Hester, 2013).
+Samotná kritéria jde uspořádat různými způsoby podle potřeb konkrétní rozhodovací úlohy. Základní dělení odlišuje kritéria maximalizační a minimalizační (Soukopová, 2016). U maximalizačních kritérií je požadována co nejvyšší hodnota, například rozsah funkcí nebo počet podporovaných databázových platforem. U minimalizačních kritérií je naopak požadována co nejnižší hodnota, například cena, časová náročnost zavedení nebo složitost práce. Kritéria mohou být kvantitativní nebo kvalitativní, a jejich kombinace je u hodnocení softwaru naprosto běžná (Soukopová, 2016; Velasquez a Hester, 2013).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -198,7 +198,7 @@ Pro odhadnutí vah jednotlivých kritérií lze použít několik postupů (Saat
 
 Z hlediska porovnání samotných alternativ umožňuje AHP aplikovat stejný princip párového porovnávání i pro alternativy, a to vůči každému z dříve stanovených kritérií. Výhodou je systematičnost a transparentnost, nevýhodou vyšší pracnost při větším počtu prvků. Počet porovnání roste s počtem kritérií i alternativ, a proto je vhodné zvolit přiměřený rozsah rozhodovacího modelu (Saaty, 2008; Ishizaka a Labib, 2011).
 ****
-Při hodnocení samotných alternativ umožňuje AHP použít stejný princip párového porovnávání i pro alternativy, a to vzhledem ke každému z dříve stanovených kritérií (Saaty, 2008; Vaidya a Kumar, 2006). Výhodou pake je systematičnost a transparentnost, naopak nevýhodou je vyšší pracnost při větším počtu prvků. Počet porovnání roste s počtem kritérií a alternativ. Proto je tedy vhodné zvolit přiměřený rozsah rozhodovacího modelu (Ishizaka a Labib, 2011).
+Při hodnocení samotných alternativ umožňuje AHP použít stejný princip párového porovnávání i pro alternativy, a to vzhledem ke každému z dříve stanovených kritérií (Saaty, 2008; Vaidya a Kumar, 2006). Výhodou pak je systematičnost a transparentnost, naopak nevýhodou je vyšší pracnost při větším počtu prvků. Počet porovnání roste s počtem kritérií a alternativ. Proto je tedy vhodné zvolit přiměřený rozsah rozhodovacího modelu (Ishizaka a Labib, 2011).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -236,7 +236,7 @@ Z dalších metod vícekriteriálního hodnocení variant jsou rozšířeny pře
 
 Pro potřeby navazující bakalářské práce bylo zvoleno AHP ze tří důvodů. Za prvé umožňuje kombinovat kvantitativní i kvalitativní kritéria bez nutnosti převést všechna hodnocení na jednu původní měrnou jednotku, což odpovídá povaze hodnocení softwaru. Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ. Za třetí nabízí prostřednictvím poměru konzistence CR mechanismus ověření soudržnosti úsudků, který je přínosný zejména tehdy, když párové porovnávání provádí jeden hodnotitel (Saaty, 1990; Saaty, 2008; Ishizaka a Labib, 2011).
 ****
-Pro potřeby další práce je motoda AHP vhodná ze tří důvodů. AHP totiž umožňuje pracovat současně s kvantitativními i kvalitativními kritérii, a to dokonce bez nutnosti převádět jednotlivá hodnocení na jednotnou měrnou škálu (Ishizaka a Labib, 2011; Saaty, 1990). Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ (Saaty, 2008). Za třetí AHP pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda na sebe jednotlivá hodnocení logicky navazují. To je zvlášť užitečné v situacích, kdy párové porovnávání provádí jen jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
+Pro potřeby práce je motoda AHP vhodná ze tří důvodů. AHP totiž umožňuje pracovat současně s kvantitativními i kvalitativními kritérii, a to dokonce bez nutnosti převádět jednotlivá hodnocení na jednotnou měrnou škálu (Ishizaka a Labib, 2011; Saaty, 1990). Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ (Saaty, 2008). Za třetí AHP pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda na sebe jednotlivá hodnocení logicky navazují. To je zvlášť užitečné v situacích, kdy párové porovnávání provádí jen jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
