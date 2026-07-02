@@ -38,7 +38,7 @@ Systém řízení báze dat, běžně označovaný zkratkou DBMS, je specializov
 Databázový systém v širším smyslu zahrnuje nejen samotnou databázi a DBMS, ale také uživatele, aplikační software, pravidla provozu a další prostředky potřebné pro práci s daty.
 Tento výčet funkcí – definice databáze, manipulace s daty, souběžný přístup, ochrana dat a zotavení z chyb – shodně uvádějí jako základní služby DBMS Elmasri a Navathe i Pokorný a Valenta (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 ****
-Systém řízení báze dat, běžně označovaný jako DBMS, je specializovaný software, který zajiždí definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+Systém řízení báze dat, běžně označovaný jako DBMS, je specializovaný software, který zajišťuje definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 Spojení databáze s DBMS vytvoří databázový systém (DBS) (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat (Pokorný a Valenta, 2020).
 ****
 
