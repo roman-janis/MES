@@ -62,7 +62,7 @@ Spojení databáze s DBMS vytvoří databázový systém (DBS) (Elmasri a Navath
 
 ---
 
-Tradiční souborový přístup k ukládání dat se potýkal s řadou problémů, mezi něž patřila zejména vysoká redundance dat, nekonzistence a závislost aplikačních programů na fyzické struktuře souborů. Databázový přístup tyto nedostatky odstraňuje tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací. Díky tomu je zajištěna sdílenost dat mezi různými uživateli, vyšší bezpečnost a možnost centrálního řízení integritních omezení (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+Tradiční souborový přístup k ukládání dat se potýkal s řadou problémů, mezi něž patřily zejména vysoká redundance dat, nekonzistence a závislost aplikačních programů na fyzické struktuře souborů. Databázový přístup tyto nedostatky odstraňuje tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací. Díky tomu je zajištěna sdílení dat mezi různými uživateli, vyšší bezpečnost a možnost centrálního řízení integritních omezení (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 ****
 Původně se používal především jednoduchý souborový přístup, který měl však řadu problémů a omezení, například v podobě nekonzistentnosti dat při aktualizaci, závislosti na aplikačním programu a na fyzické struktuře, často spojené s redundancí dat (Elmasri a Navathe, 2016). Databázový přístup tyto nedostatky odstraňuje, a to tím, že integruje data do jednoho logického celku a odděluje definici dat od samotných aplikací (Pokorný a Valenta, 2020). Oddělením byla získána vyšší bezpečnost, možnost centrálního řízení integritních omezení a sdílenost dat mezi více uživateli (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
