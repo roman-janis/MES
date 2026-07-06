@@ -1,6 +1,6 @@
 # Přehled stavu práce a složky
 
-Aktualizace: 19. 6. 2026.
+Aktualizace: 6. 7. 2026.
 
 Tento dokument říká, co je kde uloženo a jak se s tím pracuje.
 
@@ -30,37 +30,40 @@ Kapitoly jdou číselně po sobě (0–11), bez děr. Žádné jiné soubory s t
 
 - `Seminární práce.md` – vznikne spojením kapitol 0–11.
 - `Seminární práce.docx` – Word výstup pro odevzdání (z `Seminární práce.md`).
-- `Seminární práce - pro vedoucího.md` / `.DOCX` – starší generované verze, ignorovat.
 
 ## 2. Jak vyrobit finální dokument
 
-Ze složky práce stačí jedno z:
+Kapitoly 4–7 mají dvě vrstvy:
+- `Seminární práce 4.md` – `7.md` — zdrojové soubory s textem **a** citačními bloky (řádky začínající `>`). Citační bloky jsou viditelné v Obsidianu a slouží jako reference při psaní, ale do exportu se nezahrnují.
+- `Seminární práce 4x.md` – `7x.md` — čisté exportní verze bez citačních bloků, generované skriptem `extrahuj.ps1`.
+- `Seminární práce 4z.md` – `7z.md` — záložní kopie zdrojových souborů (záloha struktury pro případ potřeby).
 
-- `python sestavit_seminarni_praci.py` – spojí 0–11 do `Seminární práce.md` a po cestě odstraní případné NUL byty z Google Disku.
-- `.\spoj.ps1` – totéž v PowerShellu (výchozí rozsah 0–11).
-- `.\spojit.ps1` – automaticky najde kapitoly a sám přeskočí rezervy 12 a 13.
+Postup sestavení:
 
-Pak se `Seminární práce.md` převede do `.docx`, ve Wordu se aktualizuje pole obsahu (F9), doplní datum v prohlášení a soubor se odešle vedoucímu.
+```powershell
+.\extrahuj.ps1                          # vygeneruje 4x–7x z 4–7 (odstraní řádky začínající ">")
+.\spoj.ps1 0 1 2 3 4x 5x 6x 7x 8 9 10 11 -Out "Seminární práce.md"
+pandoc "Seminární práce.md" -o "Seminární práce.docx" --reference-doc="oliva/sablony/sablona_MES.docx"
+```
+
+Ve Wordu pak aktualizovat pole obsahu (F9), doplnit datum v prohlášení a odeslat vedoucímu.
 
 > Pozn.: Google Disk při živém synchronizování občas dočasně „usekne" soubor nebo do něj vloží NUL byty. Skript `sestavit_seminarni_praci.py` to ošetřuje. Po spojení vždy zkontroluj, že dokument končí seznamem zdrojů a že kapitola 9 obsahuje kritérium K8.
 
-## 3. Stav obsahu (k 16. 6. 2026)
+## 3. Stav obsahu (k 6. 7. 2026)
 
-Seminární práce je obsahově **kompletní jako první verze**:
+Seminární práce je obsahově **kompletní a připravená na finální sloučení a formátování**:
 
-- struktura odpovídá šabloně MES (Oliva): abstrakt + klíčová slova, úvod, cíl a výzkumné otázky, metodika, teoretická východiska, závěry a doporučení, seznam zdrojů;
-- praktická část a diskuse výsledků se zde vynechávají – jde o rešerši, výsledky patří až do bakalářské práce (vedoucí to v e-mailu výslovně připustil);
-- 14 citovaných zdrojů, in-text autor–rok, seznam podle ČSN ISO 690:2022, rozdělený na tištěné a internetové zdroje; všechny citace párují se seznamem;
-- jazyk projitý, sjednocená typografie (česká pomlčka), bez šablonovitých výčtů.
+- **Struktura** odpovídá šabloně MES: obsahuje abstrakt, klíčová slova, úvod, cíl, metodiku, teoretickou rešerši (databáze, modely, rozhodování, AHP), charakteristiku 4 nástrojů, návrh 8 hodnoticích kritérií a metodický rámec pro navazující komparaci.
+- **Teoretická i metodická část** je dostatečně hluboká a splňuje požadavky na rozsah (min. 10 normostran teorie).
+- **Zdroje:** Celkem 23 unikátních zdrojů, in-text citace jsou spárované se seznamem. Na každou teoretickou kapitolu připadá požadovaných 4–5 odborných zdrojů.
+- **Opravy:** Byly odstraněny téměř všechny dříve zjištěné gramatické a stylistické chyby (včetně nesouladů rodů v kap. 10 a chyb v citacích u Cataka).
 
-Zbývá (po e-mailu vedoucího 17. 6. 2026):
+Zbývá (finální kroky):
 
-- **Smazat z metodiky** větu o citacích (vedoucí výslovně požadoval).
-- **Doplnit zdroje:** ideálně 4–5 zdrojů na každou teoretickou kapitolu; priorita: sehnat DB knihy ze `ZDROJE.md` §5A (Connolly, Elmasri, Garcia-Molina, Korth).
-- **Dohledat 2–3 MCDM survey články** pro zdůvodnění volby AHP v metodice (Google Scholar: „A survey on multi criteria decision making methods").
-- **Vložit práci do šablony z Olivy** — vedoucí chce příště dostat práci v officiálním Word dokumentu šablony, ne holý konvertovaný .docx.
-- Po vložení do šablony ověřit rozsah (min. 10 stran teorie) a odeslat vedoucímu.
-- Po připomínkách odevzdat v Olivě a splnit zápočtový test.
+- **Opravit nově vzniklé chyby a překlepy** z nedávných úprav (překlepy v kap. 0 a 2, gramatické chyby v kap. 3 a zmatený text `Tento datábázový systém který usnadňuje...` v kap. 4).
+- **Dočistit Kapitolu 11 (Seznam zdrojů):** Odstranit pomocné indexy `[101]`, `[102]` u zdrojů Catak a Ebrahimi a seřadit je správně abecedně.
+- **Převést spojený dokument do oficiální Word šablony** a provést závěrečnou vizuální kontrolu.
 
 ## 4. Složky
 
@@ -73,8 +76,11 @@ Zbývá (po e-mailu vedoucího 17. 6. 2026):
 | `vzory_praci/` | Vzorové BP/DP k AHP a databázím. | Ponechat jako inspirace. |
 | `nastroje/` | Instalátory porovnávaných nástrojů. | Ponechat pro praktickou část BP. |
 | `prezentace UHK/` | Slidy k databázovým předmětům. | Podpůrný materiál. |
-| `smazat/` | Duplicity a slabé materiály. | Zkontrolovat a smazat později. |
 
 ## 5. Návaznost na bakalářskou práci
 
-Seminární práce je teoretický a metodický základ. Pro BP se založí nový dokument (až podle schváleného zadávacího listu ve STAGu) a doplní se praktická část: instalace a testování čtyř nástrojů, jednotný testovací scénář, Saatyho matice kritérií i alternativ, výpočet vah a konzistence (CR), analýza citlivosti, doporučení pro praxi a rozšíření literatury.
+Seminární práce tvoří ucelený teoretický a metodický základ. Pro praktickou část bakalářské práce (BP) bude následovat:
+1. Instalace a testování 4 nástrojů nad navrženým testovacím scénářem (tvorba modelu, generování SQL schématu, reverzní inženýrství).
+2. Matematické vyhodnocení pomocí metody AHP (sestavení Saatyho matic, výpočet vah kritérií i variant, ověření poměru konzistence CR < 0,1).
+3. Provedení analýzy citlivosti vah kritérií a modelování různých scénářů (např. s ohledem na omezený rozpočet nebo specifické technologické nároky).
+4. Rozšíření seznamu literatury na minimálně 30 odborných zdrojů.
