@@ -13,7 +13,7 @@ Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 | K5 | Reverse engineering | maximalizační | testovací scénář (import z existující DB) |
 | K6 | Dokumentace a komunitní podpora | maximalizační | kvalitativní hodnocení |
 | K7 | Import a export modelu | maximalizační | testovací scénář a podporované formáty |
-| K8 | Náklady a licence | minimalizační | typ licence, omezení bezplatné verze, celková cena |
+| K8 | Náklady a výhodnost licence | minimalizační | typ licence, omezení bezplatné verze, celková cena |
 
 *Tabulka 2 – Přehled navržených hodnoticích kritérií (vlastní zpracování na základě Carvalho et al., 2022)*
 
@@ -33,4 +33,4 @@ Význam jednotlivých kritérií je blíže popsán níže.
 
 **K7 Import a export modelu.** Zaměřuje se na podporované formáty importu a exportu a na propojení s verzovacími systémy.
 
-**K8 Náklady a licence.** Bere v úvahu typ licence (open-source, freeware, komerční), omezení bezplatné verze a celkové náklady na zavedení.
+**K8 Náklady a výhodnost licence.** Bere v úvahu typ licence (open-source, freeware, komerční), omezení bezplatné verze a celkové náklady na zavedení.
