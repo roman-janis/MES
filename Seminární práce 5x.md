@@ -23,7 +23,7 @@ Jednotlivé nástroje se přitom mohou lišit použitou notací, úrovní podpor
 
 ## 5.2 Relační model
 
-Relační model je založen na relacích, které jsou v praxi neformálně reprezentovány tabulkami (Elmasri a Navathe, 2016).
+Relační model je založen na relacích, které se v praxi obvykle zobrazují jako tabulky (Elmasri a Navathe, 2016).
 Každá relace má své schéma, tedy jméno relace, seznam atributů a jejich domén (Pokorný a Valenta, 2020).
 Konkrétní řádky tabulky odpovídají n-ticím (Codd, 1970; Elmasri a Navathe, 2016).
 Relační model pracuje s atomickými hodnotami a s přesně vymezenými atributy (Codd, 1970; Elmasri a Navathe, 2016).
