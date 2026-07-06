@@ -2,7 +2,7 @@
 
 Aktualizace: 19. 6. 2026.
 
-V práci je nyní **25 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Catak et al. 2012; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Elmasri a Navathe; Ho 2008; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Rosenthal a Reiner; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Vaidya a Kumar; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
+V práci je nyní **26 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Catak et al. 2012; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Ebrahimi a Taheri 2015; Elmasri a Navathe; Ho 2008; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Rosenthal a Reiner; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Vaidya a Kumar; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
 
 Tento soubor popisuje, jak jsou v projektu rozdělené zdroje. Nerozlišuji zde zvlášť seminární práci a bakalářskou práci; beru to jako jeden pracovní základ pro budoucí BP.
 

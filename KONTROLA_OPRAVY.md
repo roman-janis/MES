@@ -1,60 +1,50 @@
-# KONTROLA_OPRAVY.md (Seznam chyb a úprav v práci)
+# KONTROLA OPRAVY
 
-*Tento soubor slouží jako hlavní pracovní místo pro evidenci chyb a navržených oprav před odevzdáním finální verze. Aktualizováno k 6. 7. 2026 po sloučení textu do jediné vrstvy.*
-
----
-
-## 📚 1. Chyby v citacích a zdrojových úryvcích
-
-### ✅ Kapitola 7 (Metoda AHP) - [HOTOVO]
-* **Místo:** `Seminární práce 7.md` (řádek 188 a úryvky na konci kapitoly)
-* **Změna:**
-  1. Do textu na řádku 188 byly doplněny citace pro Ebrahimiho a Simanavičienė.
-  2. Do zdrojových úryvků na konec bloku byl doplněn citát z Catak et al. (2012).
-
-### ✅ Kapitola 11 (Seznam zdrojů) - [HOTOVO]
-* **Místo:** `Seminární práce 11.md`
-* **Změna:** Zdroje **Catak et al. (2012)** a **Ebrahimi a Taheri (2015)** byly úspěšně zařazeny abecedně do sekce **Tištěné zdroje**.
+Evidence chyb v textu seminární práce (SP 0–11.md).
+Komplexní kontrola citací, gramatiky a logiky provedena 6. 7. 2026.
 
 ---
 
-## 🚨 2. Poslední zbývající stylistické úpravy
+## Zbývá opravit
 
-### ✅ Kapitola 8 (sekce 8.4 pgModeler) - [HOTOVO]
-* **Místo:** `Seminární práce 8.md` (řádek 32)
-* **Změna:** Zobecněný text o testování stabilní verze pgModeler byl upraven a nahrazen konkrétní verzí **1.1** pro zachování konzistentního stylu s ostatními nástroji.
+### 1. Neúplné jméno v bibliografii — Ebrahimi (SP11)
 
----
+**Soubor:** `Seminární práce 11.md`
 
-## ✍️ 3. Doporučené jazykové a stylistické úpravy
+**Aktuální text:**
 
-Při zpětné kontrole souborů se ukázalo, že navrhované jazykové korekce byly již v textu provedeny:
+> EBRAHIMI, M. a M. TAHERI. Selection of Database Management System...
 
-### ✅ Kapitola 2 (Cíl práce a výzkumné otázky) - [HOTOVO - opraveno uživatelem]
-* **Místo:** `Seminární práce 2.md` (řádek 9)
-* **Oprava:** Změněno na plynulejší `...porovnat jak jednotlivá kritéria, tak i jednotlivě hodnocené nástroje.`
+**Problém:** Jméno je zkrácené na iniciály. Plná jména podle ZDROJE.md sekce 5E jsou: **Seyed Babak EBRAHIMI** a **Maryam TAHERI**.
 
-### ✅ Kapitola 4 (Databázové systémy) - [HOTOVO - opraveno uživatelem]
-* **Místo:** `Seminární práce 4.md` (řádek 118)
-* **Oprava:** Věta byla úspěšně přepsána na: `...Vedle toho se používá pojem transakce, což je logický celek operací, který má...`
+**Návrh opravy:**
 
-### ✅ Kapitola 6 (Vícekriteriální rozhodování) - [HOTOVO - opraveno uživatelem]
-* **Místo:** `Seminární práce 6.md` (řádek 35)
-* **Oprava:** Spojeno s mezerou na významově přesné `...a současně ne horší v ostatních...`
-
-### ➖ Kapitola 9 (Návrh hodnoticích kritérií) - [PONECHÁNO BEZ ZMĚNY]
-* **Místo:** `Seminární práce 9.md` (řádek 3)
-* **Poznámka:** Ponecháno v původním znění („rozšiřuje ho“) dle výslovného přání uživatele.
+> EBRAHIMI, Seyed Babak a Maryam TAHERI. Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *I.J. Information Engineering and Electronic Business*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01.
 
 ---
 
-## 🔍 4. Logická koherence, konzistence a soulad se zadáním
+### 2. Normativní tvrzení citované jako výrok ze zdroje (SP5)
 
-Provedl jsem komplexní revizi logické stavby a věcného souladu celé práce.
+**Soubor:** `Seminární práce 5.md`, sekce 5.4, poslední věta odstavce o normálních formách
 
-* **Stav:** **100% v pořádku.**
-* **Výsledek kontroly:**
-  1. **Soulad se zadáním:** Práce důsledně naplňuje zadání *Seminární práce* – tj. buduje robustní teoretický a metodický základ. V souladu s pokyny se nepouští do samotné praktické komparace, ale precizně ji připravuje (definice 4 nástrojů v kapitole 8 a 8 hodnoticích kritérií v kapitole 9).
-  2. **Koherence kapitol:** Logická posloupnost kapitol (Úvod -> Cíle -> Metodika -> DB teorie -> AHP teorie -> Nástroje -> Kritéria -> Závěr) na sebe bezvadně navazuje. Žádná z kapitol neobsahuje logické rozpory nebo protimluvy.
-  3. **Aktivní práce se zdroji:** V práci se nevyskytují neoficiální nebo zakázané inspirační zdroje v in-text citacích (např. bc/diplomové práce z inspirace). Používány jsou pouze vědecky podložené zdroje z `ZDROJE.md`.
-  4. **Přirozenost textu:** Tón práce je přísně akademický, věcný a střízlivý. Nevyskytují se zde žádné nápadné šablony, prázdné fráze nebo klišé typické pro generativní AI.
+**Aktuální text:**
+
+> Dodržování těchto forem vede k zajištění základní konzistence relačního schématu a vytváří standard, který by každý nástroj pro návrh databází měl respektovat (Codd, 1970; Elmasri a Navathe, 2016).
+
+**Problém:** Tvrzení, že normalizace je „standard, který by každý nástroj měl respektovat", je autorova syntéza — Codd ani Elmasri & Navathe to takto formulují. Citovat za ním jejich zdroje je zavádějící.
+
+**Možnosti:**
+- A) Vypustit závorku — věta zůstane jako autorský závěr bez citace.
+- B) Přeformulovat: „Základy normalizace popsané Coddem (1970) a Elmasrim a Navatheem (2016) tak tvoří referenční rámec, s nímž by měl být každý návrhový nástroj kompatibilní."
+
+---
+
+## Vše ostatní je opraveno
+
+- ✅ SP1: „použity" (shoda přísudku se smíšeným podmětem)
+- ✅ SP4: „redundanci dat" (tautologie „nadbytečné redundanci" odstraněna)
+- ✅ SP4: „úroveň" (sjednocena terminologie ANSI/SPARC — „rovina" odstraněna)
+- ✅ SP6: „nelze rozhodnout" (hovorové „nejde" opraveno)
+- ✅ SP7: Catak et al. (2012) + Ebrahimi a Taheri (2015) doplněny do hlavního textu i do SP11
+- ✅ SP8: pgModeler verze 1.1 doplněna
+- ✅ SP11: bibliografie obsahuje 26 zdrojů, všechny in-text citace mají záznam
