@@ -153,7 +153,11 @@ Použití: **HOTOVO (18. 6.)** — přidáno do SP 6.2 (Velasquez a Hester: WSA/
 
 ---
 
-### 5C2. AHP aplikovaný — český recenzovaný článek (✅ staženo)
+### 5C2. AHP aplikovaný — české recenzované články (✅ staženo)
+
+| Stav | Zdroj | Poznámka |
+|---|---|---|
+| ✅ staženo | **TOMEŠ, Rostislav a Július ALCNAUER.** Konzistence matice párových porovnání při použití Analytického hierarchického procesu (AHP). *Business & IT*. 2014, (2), 114–?. ISSN ověřit. Umístění: `literatura/AHP/Tomes_Alcnauer_2014_AHP_konzistence_matice.pdf`. | Pokrývá sestavení matice párových porovnání, výpočet vlastního vektoru a ověření konzistence (CI, CR) na příkladech v Excelu. Zatím necitováno — záloha pro BP k sekci o konzistenci AHP, doplněk k Ishizaka & Labib (2011). Přidáno 6. 7. 2026. |
 
 | Stav | Zdroj | Poznámka |
 |---|---|---|
@@ -175,8 +179,8 @@ Použití: **HOTOVO (18. 6.)** — přidáno do SP 6.2 (Velasquez a Hester: WSA/
 
 | Stav | Zdroj | Poznámka |
 |---|---|---|
-| ✅ staženo | **CATAK, M. Kemal, N. KARABAS a S. YILDIRIM.** A Fuzzy AHP-based Decision Model for Database Management System Selection. *IJASUC*. 2012, **3**(4), 19–30. DOI: 10.5121/ijasuc.2012.3402. Umístění: `literatura/AHP/Catak_2012_Fuzzy_AHP_DBMS_selection.pdf`. | Navrhují fuzzy AHP model pro výběr DBMS; hodnotí 8 kategorií a 27 subkritérií. Přímo relevantní pro zdůvodnění metodiky BP. |
-| ✅ staženo | **EBRAHIMI, Seyed Babak a Maryam TAHERI.** Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *IJIEEB*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01. Umístění: `literatura/AHP/Ebrahimi_Taheri_2015_Fuzzy_AHP_DBMS_EMR.pdf`. | Výběr DBMS pro elektronické zdravotní záznamy pomocí fuzzy AHP; kritéria: podpora OS, programovacího jazyka, indexování, replikace, access control; porovnává PostgreSQL, MySQL, Oracle, DB2, SQL Server. Alternativa nebo doplněk k Catak et al. |
+| ✅ staženo | **CATAK, F. Ozgur, Servet KARABAS a Serkan YILDIRIM.** Fuzzy Analytic Hierarchy Based DBMS Selection in Turkish National Identity Card Management Project. *International Journal of Information Sciences and Techniques*. 2012, **2**(4), 29–38. DOI: 10.5121/ijist.2012.2403. Umístění: `literatura/AHP/Catak_2012_Fuzzy_AHP_DBMS_selection.pdf`. | Aplikace fuzzy AHP na výběr DBMS pro projekt eID v Turecku. Přímo relevantní pro zdůvodnění metodiky BP. Zatím necitováno v textu SP. |
+| ✅ staženo | **EBRAHIMI, Seyed Babak a Maryam TAHERI.** Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *I.J. Information Engineering and Electronic Business*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01. Umístění: `literatura/AHP/Ebrahimi_Taheri_2015_Fuzzy_AHP_DBMS_EMR.pdf`. | Výběr DBMS pro elektronické zdravotní záznamy pomocí fuzzy AHP; porovnává PostgreSQL, MySQL, Oracle, DB2, SQL Server. Alternativa nebo doplněk k Catak et al. Zatím necitováno v textu SP. |
 
 ---
 
