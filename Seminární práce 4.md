@@ -115,7 +115,7 @@ Správa a údržba schématu databáze je klíčovou rolí správce databáze (D
 
 ## 4.3 Funkce DBMS a víceúrovňová architektura
 
-DBMS obvykle poskytuje několik základních skupin funkcí: definici dat, manipulaci s daty, řízení souběžného přístupu více uživatelů, ochranu dat a obnovu po chybě (Pokorný a Valenta, 2020). Pro tyto funkce se používají pojmy jako DDL (Data Definition Language) pro jazyk definice dat, DML (Data Manipulation Language) pro jazyk manipulace s daty a transakce pro logický celek operací, který má být proveden buď celý, nebo vůbec (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+DBMS obvykle poskytuje několik základních skupin funkcí: definici dat, manipulaci s daty, řízení souběžného přístupu více uživatelů, ochranu dat a obnovu po chybě (Pokorný a Valenta, 2020). Pro tyto funkce se používají pojmy jako DDL (Data Definition Language) pro jazyk definice dat, DML (Data Manipulation Language) pro manipulaci s daty. Vedle toho se používá pojem transakce, což je logický celek operací, který má být proveden buď celý, nebo vůbec (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 > **Zdrojové úryvky k odstavci výše**
 >

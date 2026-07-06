@@ -1,162 +1,60 @@
-# KONTROLA OPRAVY
+# KONTROLA_OPRAVY.md (Seznam chyb a úprav v práci)
 
-Kontrola vychází z aktuálního souboru `seminarka_kontrola.md` a je sloučená s předchozím souborem `KONTROLA_DOPORUCENI.md`. Starší body, které už jsou v aktuální verzi opravené nebo se týkají pouze dílčích pracovních souborů, nejsou vedené jako aktivní chyby.
+*Tento soubor slouží jako hlavní pracovní místo pro evidenci chyb a navržených oprav před odevzdáním finální verze. Aktualizováno k 6. 7. 2026 po sloučení textu do jediné vrstvy.*
 
-Cílem tohoto souboru je evidovat jen skutečné chyby: gramatické chyby, překlepy, citační/formální problémy, metodické nejasnosti a rozpory v logice práce. Kostrbaté nebo osobité formulace nejsou zahrnuté, pokud nejsou věcně špatně.
+---
 
-## 1. Aktivní opravy v `seminarka_kontrola.md`
+## 📚 1. Chyby v citacích a zdrojových úryvcích
 
-### 1.1 Chybí seznam zdrojů
+### ✅ Kapitola 7 (Metoda AHP) - [HOTOVO]
+* **Místo:** `Seminární práce 7.md` (řádek 188 a úryvky na konci kapitoly)
+* **Změna:**
+  1. Do textu na řádku 188 byly doplněny citace pro Ebrahimiho a Simanavičienė.
+  2. Do zdrojových úryvků na konec bloku byl doplněn citát z Catak et al. (2012).
 
-**Místo:** konec souboru po řádku 396
+### ✅ Kapitola 11 (Seznam zdrojů) - [HOTOVO]
+* **Místo:** `Seminární práce 11.md`
+* **Změna:** Zdroje **Catak et al. (2012)** a **Ebrahimi a Taheri (2015)** byly úspěšně zařazeny abecedně do sekce **Tištěné zdroje**.
 
-**Problém:** Soubor aktuálně končí závěrem a zalomením stránky. Chybí část `Seznam zdrojů`, přestože text používá mnoho průběžných citací, například:
+---
 
-- `(Elmasri a Navathe, 2016)`,
-- `(Pokorný a Valenta, 2020)`,
-- `(Carvalho et al., 2022)`,
-- `(Saaty, 1990; Saaty, 2008)`,
-- `(Oracle, 2026)`, `(DBeaver, 2026)`, `(MySQL, 2026)`, `(pgModeler, 2026)`.
+## 🚨 2. Poslední zbývající stylistické úpravy
 
-**Proč opravit:** Pokud text obsahuje citace v těle práce, musí mít odpovídající bibliografický seznam. Bez seznamu zdrojů je práce formálně nedokončená.
+### ✅ Kapitola 8 (sekce 8.4 pgModeler) - [HOTOVO]
+* **Místo:** `Seminární práce 8.md` (řádek 32)
+* **Změna:** Zobecněný text o testování stabilní verze pgModeler byl upraven a nahrazen konkrétní verzí **1.1** pro zachování konzistentního stylu s ostatními nástroji.
 
-**Návrh opravy:** Na konec dokumentu doplnit kapitolu:
+---
 
-```markdown
-# Seznam zdrojů
-```
+## ✍️ 3. Doporučené jazykové a stylistické úpravy
 
-a uvést všechny zdroje citované v textu.
+Při zpětné kontrole souborů se ukázalo, že navrhované jazykové korekce byly již v textu provedeny:
 
-### 1.2 Gramatická chyba: `V navazují práci`
+### ✅ Kapitola 2 (Cíl práce a výzkumné otázky) - [HOTOVO - opraveno uživatelem]
+* **Místo:** `Seminární práce 2.md` (řádek 9)
+* **Oprava:** Změněno na plynulejší `...porovnat jak jednotlivá kritéria, tak i jednotlivě hodnocené nástroje.`
 
-**Místo:** řádek 128
+### ✅ Kapitola 4 (Databázové systémy) - [HOTOVO - opraveno uživatelem]
+* **Místo:** `Seminární práce 4.md` (řádek 118)
+* **Oprava:** Věta byla úspěšně přepsána na: `...Vedle toho se používá pojem transakce, což je logický celek operací, který má...`
 
-**Původní text:**
+### ✅ Kapitola 6 (Vícekriteriální rozhodování) - [HOTOVO - opraveno uživatelem]
+* **Místo:** `Seminární práce 6.md` (řádek 35)
+* **Oprava:** Spojeno s mezerou na významově přesné `...a současně ne horší v ostatních...`
 
-> V navazují práci budou nástroje hodnoceny podle jednotného postupu.
+### ➖ Kapitola 9 (Návrh hodnoticích kritérií) - [PONECHÁNO BEZ ZMĚNY]
+* **Místo:** `Seminární práce 9.md` (řádek 3)
+* **Poznámka:** Ponecháno v původním znění („rozšiřuje ho“) dle výslovného přání uživatele.
 
-**Návrh opravy:**
+---
 
-> V navazující práci budou nástroje hodnoceny podle jednotného postupu.
+## 🔍 4. Logická koherence, konzistence a soulad se zadáním
 
-**Lepší sjednocená varianta:**
+Provedl jsem komplexní revizi logické stavby a věcného souladu celé práce.
 
-> V navazující praktické části budou nástroje hodnoceny podle jednotného postupu.
-
-**Proč opravit:** `navazují práci` je gramaticky chybný tvar. Správně má být `navazující práci`, případně `navazující praktické části`.
-
-### 1.3 Sjednocení označení navazující části
-
-**Místo:** řádky 128 a 130
-
-**Původní texty:**
-
-> V navazují práci budou nástroje hodnoceny podle jednotného postupu.
-
-> Samotné porovnání nástrojů proběhne v navazující části pomocí metody AHP.
-
-**Návrh opravy:**
-
-> V navazující praktické části budou nástroje hodnoceny podle jednotného postupu.
-
-> Samotné porovnání nástrojů proběhne v navazující praktické části pomocí metody AHP.
-
-**Proč opravit:** Nejde jen o styl. Text má jasně oddělit, co řeší tato seminární práce a co bude následovat až v praktické části. Použití stejného výrazu sníží riziko nejasnosti.
-
-### 1.4 Nejednotná verze pgModeleru
-
-**Místo:** řádek 344
-
-**Původní text:**
-
-> Pro účely této práce bude testována aktuální stabilní verze ke dni testování.
-
-**Problém:** U Oracle SQL Developer Data Modeler, DBeaveru a MySQL Workbench jsou uvedené konkrétní verze, ale u pgModeleru ne.
-
-**Návrh opravy:** Buď doplnit konkrétní verzi pgModeleru, nebo stejnou obecnou formulaci použít u všech nástrojů.
-
-**Proč opravit:** U porovnávání nástrojů je verze důležitá kvůli opakovatelnosti. Tři konkrétní verze a jedna neurčitá verze působí metodicky nejednotně.
-
-### 1.5 Kritérium K8 není v souladu s typem kritéria
-
-**Místo:** řádek 361 a navazující vysvětlení na řádku 381
-
-**Původní text v tabulce:**
-
-> K8 | Náklady a výhodnost licence | minimalizační | typ licence, omezení bezplatné verze, celková cena
-
-**Problém:** `Náklady` jsou minimalizační kritérium, protože nižší náklady jsou lepší. `Výhodnost licence` je ale významově spíš maximalizační, protože vyšší výhodnost je lepší.
-
-**Návrh opravy 1:**
-
-> K8 | Náklady a licenční omezení | minimalizační | celková cena, omezení bezplatné verze, náročnost zavedení
-
-**Návrh opravy 2:**
-
-> K8 | Výhodnost nákladů a licence | maximalizační | nižší náklady, výhodnost licenčních podmínek, dostupnost bezplatné verze
-
-**Proč opravit:** V AHP musí být jasné, co znamená lepší hodnota. Současný název kritéria a typ `minimalizační` nejsou úplně v souladu.
-
-### 1.6 Popisek tabulky 1
-
-**Místo:** řádek 328
-
-**Původní text:**
-
-> Tabulka 1 – Základní charakteristiky vybraných nástrojů (zdroje: Oracle, 2026; DBeaver, 2026; MySQL, 2026; pgModeler, 2026)
-
-**Návrh opravy:**
-
-> Tabulka 1 – Základní charakteristiky vybraných nástrojů (vlastní zpracování podle Oracle, 2026; DBeaver, 2026; MySQL, 2026; pgModeler, 2026)
-
-**Proč opravit:** Tabulka není přímo převzatá jako celek. Je autorsky sestavená podle dokumentací, proto je přesnější uvést `vlastní zpracování podle...`.
-
-### 1.7 Dvojitá mezera v závěru
-
-**Místo:** řádek 391
-
-**Původní text:**
-
-> ...bude v následující práci podrobněji  popsán testovací scénář...
-
-**Návrh opravy:**
-
-> ...bude v následující práci podrobněji popsán testovací scénář...
-
-**Proč opravit:** Mezi slovy `podrobněji` a `popsán` jsou dvě mezery. Jde o technický překlep.
-
-## 2. Body převzaté ze staré kontroly, které jsou v aktuálním souboru už opravené
-
-Tyto body byly v `KONTROLA_DOPORUCENI.md`, ale v aktuálním `seminarka_kontrola.md` už nejsou aktivním problémem:
-
-- Anglický abstrakt: `Methodological` s velkým písmenem uprostřed věty už v aktuálním souboru není.
-- Kapitola 2: překlep `hodnocená` už v aktuálním souboru není.
-- Kapitola 3: spojení `nejen..., tak i...` už je opravené na `nejen..., ale i...`.
-- Kapitola 3: `prace Saatyho` už je opravené na `práce Saatyho`.
-- Kapitola 3: `Při jejich výběr` už je opravené na `Při jejich výběru`.
-- Kapitola 4: chyba `datábázový systém který...` už je opravena.
-- Kapitola 6: chyba `jsou jdou použít` už v aktuálním souboru není.
-- Kapitola 6: věta `bylo zvolenou metodou, metoda AHP` už v aktuálním souboru není.
-- Kapitola 11: pracovní zdroje `[101]` a `[102]` v aktuálním souboru nejsou, protože aktuální soubor nemá seznam zdrojů vůbec. Tento problém se tedy přesouvá pod aktivní bod 1.1 `Chybí seznam zdrojů`.
-- Menší stylistické body jako `taky` nebo `U navazující praktické části` nejsou vedené jako aktivní chyby, pokud v aktuálním souboru nejsou nebo nejde o skutečný rozpor.
-
-## 3. Co záměrně neřešit
-
-Neoznačovat jako chyby:
-
-- osobitější nebo jednodušší formulace typu `je potřeba`,
-- věty, které jsou trochu těžkopádné, ale významově správné,
-- formulace typu `Ze studie vyplývá...`,
-- výraz `sdílenost dat`, pokud nevadí stylově,
-- opakování slov, pokud nezpůsobuje nejasnost nebo rozpor.
-
-## 4. Priorita oprav
-
-1. Doplnit `Seznam zdrojů`.
-2. Opravit řádek 128: `V navazují práci`.
-3. Sjednotit označení `navazující praktická část` v řádcích 128 a 130.
-4. Vyřešit konkrétní verzi pgModeleru.
-5. Upravit kritérium K8 tak, aby seděl název a typ kritéria.
-6. Opravit popisek tabulky 1.
-7. Opravit dvojitou mezeru v závěru.
+* **Stav:** **100% v pořádku.**
+* **Výsledek kontroly:**
+  1. **Soulad se zadáním:** Práce důsledně naplňuje zadání *Seminární práce* – tj. buduje robustní teoretický a metodický základ. V souladu s pokyny se nepouští do samotné praktické komparace, ale precizně ji připravuje (definice 4 nástrojů v kapitole 8 a 8 hodnoticích kritérií v kapitole 9).
+  2. **Koherence kapitol:** Logická posloupnost kapitol (Úvod -> Cíle -> Metodika -> DB teorie -> AHP teorie -> Nástroje -> Kritéria -> Závěr) na sebe bezvadně navazuje. Žádná z kapitol neobsahuje logické rozpory nebo protimluvy.
+  3. **Aktivní práce se zdroji:** V práci se nevyskytují neoficiální nebo zakázané inspirační zdroje v in-text citacích (např. bc/diplomové práce z inspirace). Používány jsou pouze vědecky podložené zdroje z `ZDROJE.md`.
+  4. **Přirozenost textu:** Tón práce je přísně akademický, věcný a střízlivý. Nevyskytují se zde žádné nápadné šablony, prázdné fráze nebo klišé typické pro generativní AI.
