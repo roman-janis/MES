@@ -179,7 +179,7 @@ Při volbě vah je důležité vycházet z účelu hodnocení (Saaty, 2008; Souk
 
 Pro odhad vah kritérií lze použít několik postupů. Jednodušší přístupy zahrnují metodu pořadí nebo bodovací metodu. Tyto metody jsou snadno použitelné, ale méně jemné při vyjadřování intenzity preference. Pokročilejší přístupy pracují s párovým porovnáváním kritérií, kam patří i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 2008; Soukopová, 2016).
 ****
-Pro odhadnutí vah jednotlivých kritérií lze použít několik postupů (Saaty, 2008; Soukopová, 2016). Mezi nejznámější jednoduché přístupy patří metoda pořadí nebo bodovací metoda. Tyto metody jsou jdou použít jednoduše, ale nejsou dostatečně přesné při popisu toho, jak výrazně je jedna z možností důležitější než druhá. Pokročilejší postupy pracují s párovým porovnáváním kritérií a do této skupiny patří právě i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 1990; Soukopová, 2016).
+Pro odhadnutí vah jednotlivých kritérií lze použít několik postupů (Saaty, 2008; Soukopová, 2016). Mezi nejznámější jednoduché přístupy patří metoda pořadí nebo bodovací metoda. Tyto metody jdou použít jednoduše, ale nejsou dostatečně přesné při popisu toho, jak výrazně je jedna z možností důležitější než druhá. Pokročilejší postupy pracují s párovým porovnáváním kritérií a do této skupiny patří právě i Saatyho metoda, která je s metodou AHP přímo spojena (Saaty, 1990; Soukopová, 2016).
 ****
 
 > **Zdrojové úryvky k odstavci výše**
@@ -233,7 +233,6 @@ Z dalších metod vícekriteriálního hodnocení variant jsou rozšířeny pře
 > - *Velasquez a Hester (2013, s. 62)*: „ELECTRE, along with its many iterations, is an outranking method based on concordance analysis."
 
 ---
-
  Pro potřeby navazující práce bylo zvolenou metodou, metoda AHP a to ze tří důvodů. Za prvé umožňuje kombinovat kvantitativní i kvalitativní kritéria bez nutnosti převést všechna hodnocení na jednu původní měrnou jednotku, což odpovídá povaze hodnocení softwaru. Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ. Za třetí nabízí prostřednictvím poměru konzistence CR mechanismus ověření soudržnosti úsudků, který je přínosný zejména tehdy, když párové porovnávání provádí jeden hodnotitel (Saaty, 1990; Saaty, 2008; Ishizaka a Labib, 2011).
 ****
 Pro potřeby práce je metoda AHP vhodná ze tří důvodů. Za prvé AHP umožňuje pracovat současně s kvantitativními i kvalitativními kritérii, a to dokonce bez nutnosti převádět jednotlivá hodnocení na jednotnou měrnou škálu (Ishizaka a Labib, 2011; Saaty, 1990). Za druhé je postup metody srozumitelný a vysvětlitelný, protože pracuje s hierarchií cíle, kritérií a alternativ (Saaty, 2008). Za třetí AHP pomocí poměru konzistence (CR) umožňuje zkontrolovat, zda na sebe jednotlivá hodnocení logicky navazují. To je zvlášť užitečné v situacích, kdy párové porovnávání provádí jen jedna osoba (Ishizaka a Labib, 2011; Saaty, 1990).
