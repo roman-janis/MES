@@ -1,155 +1,157 @@
-# KONTROLA OPRAVY
+# Kontrola práce a doporučení k opravám
 
-Aktualizace: 7. 7. 2026.
+Datum kontroly: 7. 7. 2026
 
-Kontrola vychází z aktuálního souboru `seminarka_kontrola.md`. Posuzováno bylo splnění požadavků vedoucího, zadání práce a požadavků seminární práce v MES. Kontrola záměrně neřeší osobitý nebo těžkopádnější styl, pokud věta není gramaticky, citačně nebo logicky chybná.
+Kontrolovaný soubor: `seminarka_kontrola.md`
 
-## 1. Verdikt
+Podklady kontroly:
+- `POZADAVKY_UCITELE.md`
+- `Email konverzace.md`
+- zadání práce ve složce `zadani/`
+- požadavky na seminární práci podle šablony a struktury UHK/MES
 
-**Práce je po obsahové, citační a logické stránce připravená k převodu do Wordu.**
+## Celkový verdikt
 
-V aktuální verzi `seminarka_kontrola.md` nejsou zjištěny blokující chyby, které by bránily tvorbě dokumentu ve Wordu. Před odesláním vedoucímu je ale nutná ještě běžná technická kontrola výsledného `.docx`: vzhled v šabloně, obsah, zalomení stran, tabulky, číslování a datum v prohlášení.
+Práce je po gramatické, citační, logické a požadavkové stránce připravená k převodu do Wordu.
 
-## 2. Kontrola podle požadavků vedoucího
+V aktuálním souboru `seminarka_kontrola.md` jsem nenašel žádnou blokující chybu, která by bránila pokračování. Zůstávají už jen technické kroky převodu do šablony Wordu a následná vizuální kontrola formátování.
 
-### Rešeršní a teoretické zaměření
+## Gramatická kontrola
 
-**Stav: splněno.**
+### Stav
 
-Práce je pojatá jako teoretický a metodický základ pro bakalářskou práci. Neobsahuje hotovou praktickou komparaci, Saatyho matice ani výsledné pořadí nástrojů. To odpovídá pokynům vedoucího, že seminární práce má být rešeršní a praktická část má přijít až v bakalářské práci.
+Nebyly nalezeny nové podstatné gramatické chyby typu špatný pád, shoda podmětu s přísudkem, chybné skloňování, překlep měnící význam nebo věta, která by byla jazykově vadná.
 
-### Vymezení základních pojmů
+### Ověřené dřívější problémy
 
-**Stav: splněno.**
+Dříve zapsané chyby jsou v aktuálním souboru opravené:
 
-Text vysvětluje požadované oblasti:
+- formulace `který slouží k definici dat, a pak jazyk DML...` už obsahuje správnou interpunkci,
+- formulace u praktického testování nástrojů je sjednocená jako `Pro účely navazující bakalářské práce...`,
+- staré problémové citační odkazy typu `[101]` a `[102]` se v textu nevyskytují,
+- výraz `Náklady a licenční omezení` je v kritériu K8 použit konzistentně.
 
-- databázový systém, DBMS, data, informace, databáze,
-- schéma, instance, metadata,
-- fáze návrhu databáze,
-- datové modely, ER/EER model, relační model a normalizaci,
-- vícekriteriální rozhodování,
-- alternativu, kritérium a váhu kritéria,
-- princip metody AHP, párové porovnávání, Saatyho škálu a kontrolu konzistence.
+### Doporučení
 
-### Kritéria a alternativy
+Neopravovat věty jen proto, že jsou trochu kostrbaté nebo osobní. V aktuální verzi jsem nenašel formulaci, která by byla reálnou gramatickou chybou nebo by měnila význam práce.
 
-**Stav: splněno.**
+## Citační kontrola
 
-Práce identifikuje čtyři nástroje:
+### Stav
 
-- Oracle SQL Developer Data Modeler,
-- DBeaver Community Edition,
-- MySQL Workbench Community Edition,
-- pgModeler.
+Citační aparát je použitelný pro převod do Wordu.
 
-Nástroje jsou stručně charakterizované a jejich výběr je zdůvodněn pomocí studie Carvalho et al. (2022), dokumentace nástrojů a rozšířenosti databázových platforem.
+V práci je samostatná kapitola `Seznam zdrojů`. Zdroje jsou rozdělené na:
 
-Navrženo je osm hodnoticích kritérií K1-K8. Kritérium K8 je nyní formulováno jako `Náklady a licenční omezení`, což je v souladu s typem `minimalizační`.
+- tištěné zdroje,
+- internetové zdroje.
 
-### Zdůvodnění AHP
+Celkem je uvedeno 26 zdrojů. To je pro seminární rešeršní práci dostatečné a odpovídá požadavku, aby text nebyl jen obecný, ale byl opřený o literaturu.
 
-**Stav: splněno.**
+### Ověřené body
 
-Volba AHP je podložena zdroji k vícekriteriálnímu rozhodování a AHP. V textu jsou použity mimo jiné zdroje Saaty (1990, 2008), Ishizaka a Labib (2011), Vaidya a Kumar (2006), Ho (2008), Velasquez a Hester (2013), Simanavičienė a Vdovinskienė (2023), Catak et al. (2012) a Ebrahimi a Taheri (2015).
+- Citace v textu používají číselné odkazy v hranatých závorkách.
+- Kapitola o metodách vícekriteriálního rozhodování a AHP je podložená odbornými zdroji.
+- U zdrojů nejsou zjevné technické chyby typu chybějící seznam literatury nebo očividně rozbité odkazy.
+- V metodice už není formulace o tom, že práce používá harvardský citační styl. To bylo správně odstraněno, protože text pracuje s číselnými odkazy.
 
-### Scénáře a aplikace jako pokračování
+### Omezení kontroly
 
-**Stav: splněno.**
+Bez ručního dohledání všech původních dokumentů nelze stoprocentně potvrdit, že každá citace přesně odpovídá konkrétní straně nebo konkrétnímu tvrzení ve zdroji. Z hlediska vnitřní konzistence práce ale citace nevykazují zjevný problém.
 
-Závěr doporučuje navazující praktickou část, testovací scénář, analýzu citlivosti, modelové scénáře firem a případnou podpůrnou aplikaci. To odpovídá e-mailu vedoucího z 26. 6. 2026, kde požadoval dodělat kapitoly o vícekriteriálním rozhodování a závěrečnou kapitolu o pokračování v bakalářské práci.
+## Logická kontrola
 
-### Věta o citační normě v metodice
+### Stav
 
-**Stav: splněno.**
+Logická stavba práce je v pořádku.
 
-V metodice není ponechána věta typu:
+Text drží správnou návaznost:
 
-> Citace jsou v textu uváděny harvardským způsobem...
+1. vysvětlení tématu databázového návrhu,
+2. vymezení cíle a výzkumné otázky,
+3. metodika rešerše a výběru nástrojů,
+4. teoretické kapitoly k databázovým systémům, modelování a CASE nástrojům,
+5. vícekriteriální rozhodování a AHP,
+6. výběr alternativ,
+7. návrh hodnoticích kritérií,
+8. závěr a návaznost na bakalářskou práci.
 
-Tento požadavek vedoucího z e-mailu 17. 6. 2026 je splněn.
+### Důležité zjištění
 
-## 3. Kontrola podle zadání práce
+Práce správně neobsahuje praktické výsledky porovnání, Saatyho matice, výpočty vah ani finální pořadí nástrojů. To odpovídá požadavku učitele, že seminární práce má být hlavně teoretická a rešeršní a praktická část má navazovat až v bakalářské práci.
 
-Oficiální zadání bakalářské práce požaduje porovnání nástrojů pro návrh a vývoj databázových systémů z hlediska funkcionality, použitelnosti a podpory vývojového procesu.
+### Soulad cíle a obsahu
 
-**Stav seminární práce: odpovídá jako teoretický základ.**
+Cíl práce je formulovaný jako příprava podkladů pro navazující komparaci. Tomu odpovídá i obsah:
 
-Seminární práce pokrývá části zadání, které do této fáze patří:
+- práce vybírá nástroje,
+- definuje hodnoticí kritéria,
+- připravuje metodiku,
+- nepředbíhá praktické vyhodnocení.
 
-- vymezení problému a cíle práce,
-- teoretická východiska,
-- přehled a charakteristika vybraných nástrojů,
-- definice hodnoticích kritérií,
-- metodický rámec budoucí praktické komparace.
+Není zde rozpor mezi cílem, strukturou a závěrem.
 
-Praktická komparace a vyhodnocení výsledků nejsou v seminární práci provedeny, což je správně. Patří až do bakalářské práce.
+## Splnění požadavků učitele
 
-## 4. Gramatická kontrola
+### Splněno
 
-**Stav: bez blokujících chyb.**
+Požadavky učitele jsou splněné v rozsahu potřebném pro seminární práci:
 
-Cíleně byly hledány dřívější chyby a překlepy:
+- práce je rešeršní a teoretická,
+- rozsah teoretické části je dostatečný,
+- jsou popsány databázové systémy, fáze návrhu, datové modely a CASE nástroje,
+- jsou vysvětleny pojmy alternativa, kritérium, váha a metoda vícekriteriálního rozhodování,
+- je popsána metoda AHP,
+- jsou vybrané alternativy nástrojů,
+- jsou navržena kritéria hodnocení,
+- je vysvětleno, že praktické testování bude navazovat v bakalářské práci,
+- závěr odpovídá tomu, co práce skutečně udělala.
 
-- `navazují práci`,
-- `podrobněji  popsán`,
-- `datábázový`,
-- `Při jejich výběr`,
-- `prace Saatyho`,
-- `jsou jdou`,
-- `hodnocená`,
-- `Methodological`,
-- chybné nebo pracovní značky `[101]`, `[102]`.
+### Zbývá technicky
 
-V aktuálním `seminarka_kontrola.md` se tyto chyby nevyskytují. Některé formulace jsou jednodušší nebo trochu těžkopádné, ale nejsou gramaticky špatně a není nutné je měnit.
+Před odevzdáním je nutné práci převést do oficiální šablony Oliva/Word a zkontrolovat, že odpovídá požadovanému formátu.
 
-## 5. Citační a bibliografická kontrola
+## Splnění požadavků školy a zadání
 
-**Stav: splněno.**
+### Seminární práce
 
-Soubor obsahuje část `Seznam zdrojů`. Bibliografie je rozdělena na:
+Pro seminární práci je struktura splněná:
 
-- `Tištěné zdroje`,
-- `Internetové zdroje`.
+- český abstrakt,
+- anglický abstrakt,
+- klíčová slova,
+- úvod,
+- cíl práce a výzkumná otázka,
+- metodika,
+- teoretická část,
+- výběr alternativ,
+- návrh kritérií,
+- závěr,
+- seznam zdrojů.
 
-V seznamu je 26 zdrojů: 17 tištěných/odborných zdrojů a 9 internetových zdrojů. Pracovní poznámky `[101]`, `[102]` byly odstraněny. Zdroje Catak et al. a Ebrahimi a Taheri jsou zařazeny do hlavního seznamu literatury.
+### Návaznost na zadání bakalářské práce
 
-Poznámka: u internetových zdrojů jsou roky uváděny jako 2026. Bez nové kontroly webů nelze ověřit, zda je rok opravdu rok vydání stránky, nebo jen rok přístupu. Pro seminární práci to nepovažuji za blokující problém, protože je uvedeno i datum citace.
+Seminární práce odpovídá zadání bakalářské práce jako přípravná fáze. Zadání bakalářské práce požaduje komparaci nástrojů pro návrh a vývoj databázových systémů. Aktuální seminární práce vytváří teoretický a metodický základ pro tuto komparaci.
 
-## 6. Logická a strukturální kontrola
+Praktická komparace, testování nástrojů, výpočet vah kritérií a finální vyhodnocení mají zůstat až do bakalářské práce. To není chyba, ale správné oddělení seminární a bakalářské části.
 
-**Stav: splněno.**
+## Připravenost k převodu do Wordu
 
-Text drží jasnou hranici mezi seminární prací a budoucí bakalářskou prací:
+Můžeme začít tvořit Word dokument.
 
-- seminární práce připravuje teoretická a metodická východiska,
-- praktická komparace je výslovně přesunuta do navazující praktické části,
-- závěr neprezentuje výsledky porovnání, ale shrnuje teoretický rámec a doporučuje další postup.
+Při převodu je potřeba pohlídat hlavně:
 
-Výzkumné otázky odpovídají obsahu kapitol. Cíl práce není v rozporu se závěrem. Kapitoly 8 a 9 navazují na předchozí teoretické kapitoly a tvoří podklad pro budoucí praktickou část.
+- použít oficiální šablonu Oliva,
+- převést nadpisy jako skutečné styly nadpisů,
+- po vložení aktualizovat obsah,
+- zkontrolovat zalomení stran,
+- zkontrolovat tabulky a delší seznamy,
+- zkontrolovat seznam zdrojů,
+- doplnit datum v prohlášení, pokud ho šablona vyžaduje,
+- po exportu ještě jednou projít vizuální podobu dokumentu.
 
-## 7. Rozsah a forma
+## Závěr kontroly
 
-**Stav: pravděpodobně splněno, definitivně ověřit až ve Wordu.**
+V aktuálním stavu není potřeba vracet se k obsahovým opravám. Soubor `seminarka_kontrola.md` lze použít jako podklad pro převod do Wordu.
 
-Hrubý rozsah aktuálního `seminarka_kontrola.md` je přibližně 7 300 slov a zhruba 31 normostran podle počtu znaků. Přesný počet stran ale závisí na šabloně, řádkování, okrajích, tabulkách a zalomení stran.
-
-Požadavek vedoucího byl minimálně 10 stran teorie v dokumentu seminární práce. Podle rozsahu textu by měl být splněn, ale definitivně se to ověří až po převodu do oficiální šablony.
-
-## 8. Doporučení před tvorbou Wordu
-
-Před samotným převodem do `.docx` doporučuji:
-
-1. Vycházet z aktuálního `seminarka_kontrola.md` nebo nejprve znovu sestavit finální Markdown z kapitol, aby se do Wordu nedostala starší verze.
-2. Použít oficiální šablonu z Olivy, protože vedoucí výslovně požadoval dokument v oficiální šabloně.
-3. Po převodu ve Wordu aktualizovat obsah klávesou F9.
-4. Zkontrolovat, že dokument končí seznamem zdrojů.
-5. Zkontrolovat, že tabulky 1 a 2 nejsou rozbité přes stránku.
-6. Doplnit datum v prohlášení, pokud má být dokument posílán jako finální verze.
-7. Projít vizuálně nadpisy, číslování kapitol, zalomení stran a seznam zdrojů.
-
-## 9. Závěr kontroly
-
-**Doporučení: můžeme začít tvořit Word dokument.**
-
-Nevidím obsahový, citační ani logický problém, který by převodu do `.docx` bránil. Další krok má být technický: převod do oficiální šablony, aktualizace obsahu a vizuální kontrola výsledného dokumentu.
+Další krok: převod do dokumentu Word podle oficiální šablony a následná kontrola formátu.
