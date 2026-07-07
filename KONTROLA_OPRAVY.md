@@ -155,3 +155,17 @@ Při převodu je potřeba pohlídat hlavně:
 V aktuálním stavu není potřeba vracet se k obsahovým opravám. Soubor `seminarka_kontrola.md` lze použít jako podklad pro převod do Wordu.
 
 Další krok: převod do dokumentu Word podle oficiální šablony a následná kontrola formátu.
+
+## Kontrola proti Metodickým pokynům FIM UHK (výnos děkanky č. 9/2025, platnost od 1. 9. 2025)
+
+Datum kontroly: 7. 7. 2026.
+
+Struktura práce, rozsah abstraktu (113 slov CZ / 150 slov EN) a délka vlastního textu (~27 normostran) odpovídají pokynům. Nalezeny tři reálné rozdíly:
+
+1. Prohlášení nemělo povinnou větu o AI nástrojích – **opraveno** (doplněno do `Seminární práce 0.md`: "V případě využití nástrojů umělé inteligence jsem plně deklaroval(a) způsob jejich využití při vypracování této práce.").
+2. Seznam zdrojů byl dělený na Tištěné/Internetové zdroje, což nové pokyny zakazují ("bez třídění podle typu zdrojů") – **opraveno**, `Seminární práce 11.md` je teď jeden abecedně řazený seznam.
+3. Kapitola 3 (Metodika práce) nepopisuje využití AI nástrojů, jak pokyny vyžadují (bod 7: nutno uvést název a verzi nástroje, účel, způsob, místo a rozsah použití, viz kapitola 5 pokynů). Autor práci konzultoval a nechal kontrolovat pomocí AI asistenta (kontrola gramatiky, stylu, konzistence citací a shody mezi verzemi textu; AI negeneroval obsah kapitol).
+
+### Otevřená otázka pro vedoucího práce
+
+Přesná formulace odstavce o využití AI v kapitole Metodika práce (bod 3 výše) – **je potřeba probrat s vedoucím práce**, jak podrobně a v jaké formě má být použití AI popsáno, případně jestli má stačit obecná formulace nebo se má popsat i konkrétní rozsah (kontrola gramatiky/stylu/citací/konzistence mezi DOCX a MD verzemi). Do vyjasnění není tento odstavec do kapitoly 3 zapsán.
