@@ -1,50 +1,155 @@
 # KONTROLA OPRAVY
 
-Evidence chyb v textu seminární práce (SP 0–11.md).
-Komplexní kontrola citací, gramatiky a logiky provedena 6. 7. 2026.
+Aktualizace: 7. 7. 2026.
 
----
+Kontrola vychází z aktuálního souboru `seminarka_kontrola.md`. Posuzováno bylo splnění požadavků vedoucího, zadání práce a požadavků seminární práce v MES. Kontrola záměrně neřeší osobitý nebo těžkopádnější styl, pokud věta není gramaticky, citačně nebo logicky chybná.
 
-## Zbývá opravit
+## 1. Verdikt
 
-### 1. Neúplné jméno v bibliografii — Ebrahimi (SP11)
+**Práce je po obsahové, citační a logické stránce připravená k převodu do Wordu.**
 
-**Soubor:** `Seminární práce 11.md`
+V aktuální verzi `seminarka_kontrola.md` nejsou zjištěny blokující chyby, které by bránily tvorbě dokumentu ve Wordu. Před odesláním vedoucímu je ale nutná ještě běžná technická kontrola výsledného `.docx`: vzhled v šabloně, obsah, zalomení stran, tabulky, číslování a datum v prohlášení.
 
-**Aktuální text:**
+## 2. Kontrola podle požadavků vedoucího
 
-> EBRAHIMI, M. a M. TAHERI. Selection of Database Management System...
+### Rešeršní a teoretické zaměření
 
-**Problém:** Jméno je zkrácené na iniciály. Plná jména podle ZDROJE.md sekce 5E jsou: **Seyed Babak EBRAHIMI** a **Maryam TAHERI**.
+**Stav: splněno.**
 
-**Návrh opravy:**
+Práce je pojatá jako teoretický a metodický základ pro bakalářskou práci. Neobsahuje hotovou praktickou komparaci, Saatyho matice ani výsledné pořadí nástrojů. To odpovídá pokynům vedoucího, že seminární práce má být rešeršní a praktická část má přijít až v bakalářské práci.
 
-> EBRAHIMI, Seyed Babak a Maryam TAHERI. Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *I.J. Information Engineering and Electronic Business*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01.
+### Vymezení základních pojmů
 
----
+**Stav: splněno.**
 
-### 2. Normativní tvrzení citované jako výrok ze zdroje (SP5)
+Text vysvětluje požadované oblasti:
 
-**Soubor:** `Seminární práce 5.md`, sekce 5.4, poslední věta odstavce o normálních formách
+- databázový systém, DBMS, data, informace, databáze,
+- schéma, instance, metadata,
+- fáze návrhu databáze,
+- datové modely, ER/EER model, relační model a normalizaci,
+- vícekriteriální rozhodování,
+- alternativu, kritérium a váhu kritéria,
+- princip metody AHP, párové porovnávání, Saatyho škálu a kontrolu konzistence.
 
-**Aktuální text:**
+### Kritéria a alternativy
 
-> Dodržování těchto forem vede k zajištění základní konzistence relačního schématu a vytváří standard, který by každý nástroj pro návrh databází měl respektovat (Codd, 1970; Elmasri a Navathe, 2016).
+**Stav: splněno.**
 
-**Problém:** Tvrzení, že normalizace je „standard, který by každý nástroj měl respektovat", je autorova syntéza — Codd ani Elmasri & Navathe to takto formulují. Citovat za ním jejich zdroje je zavádějící.
+Práce identifikuje čtyři nástroje:
 
-**Možnosti:**
-- A) Vypustit závorku — věta zůstane jako autorský závěr bez citace.
-- B) Přeformulovat: „Základy normalizace popsané Coddem (1970) a Elmasrim a Navatheem (2016) tak tvoří referenční rámec, s nímž by měl být každý návrhový nástroj kompatibilní."
+- Oracle SQL Developer Data Modeler,
+- DBeaver Community Edition,
+- MySQL Workbench Community Edition,
+- pgModeler.
 
----
+Nástroje jsou stručně charakterizované a jejich výběr je zdůvodněn pomocí studie Carvalho et al. (2022), dokumentace nástrojů a rozšířenosti databázových platforem.
 
-## Vše ostatní je opraveno
+Navrženo je osm hodnoticích kritérií K1-K8. Kritérium K8 je nyní formulováno jako `Náklady a licenční omezení`, což je v souladu s typem `minimalizační`.
 
-- ✅ SP1: „použity" (shoda přísudku se smíšeným podmětem)
-- ✅ SP4: „redundanci dat" (tautologie „nadbytečné redundanci" odstraněna)
-- ✅ SP4: „úroveň" (sjednocena terminologie ANSI/SPARC — „rovina" odstraněna)
-- ✅ SP6: „nelze rozhodnout" (hovorové „nejde" opraveno)
-- ✅ SP7: Catak et al. (2012) + Ebrahimi a Taheri (2015) doplněny do hlavního textu i do SP11
-- ✅ SP8: pgModeler verze 1.1 doplněna
-- ✅ SP11: bibliografie obsahuje 26 zdrojů, všechny in-text citace mají záznam
+### Zdůvodnění AHP
+
+**Stav: splněno.**
+
+Volba AHP je podložena zdroji k vícekriteriálnímu rozhodování a AHP. V textu jsou použity mimo jiné zdroje Saaty (1990, 2008), Ishizaka a Labib (2011), Vaidya a Kumar (2006), Ho (2008), Velasquez a Hester (2013), Simanavičienė a Vdovinskienė (2023), Catak et al. (2012) a Ebrahimi a Taheri (2015).
+
+### Scénáře a aplikace jako pokračování
+
+**Stav: splněno.**
+
+Závěr doporučuje navazující praktickou část, testovací scénář, analýzu citlivosti, modelové scénáře firem a případnou podpůrnou aplikaci. To odpovídá e-mailu vedoucího z 26. 6. 2026, kde požadoval dodělat kapitoly o vícekriteriálním rozhodování a závěrečnou kapitolu o pokračování v bakalářské práci.
+
+### Věta o citační normě v metodice
+
+**Stav: splněno.**
+
+V metodice není ponechána věta typu:
+
+> Citace jsou v textu uváděny harvardským způsobem...
+
+Tento požadavek vedoucího z e-mailu 17. 6. 2026 je splněn.
+
+## 3. Kontrola podle zadání práce
+
+Oficiální zadání bakalářské práce požaduje porovnání nástrojů pro návrh a vývoj databázových systémů z hlediska funkcionality, použitelnosti a podpory vývojového procesu.
+
+**Stav seminární práce: odpovídá jako teoretický základ.**
+
+Seminární práce pokrývá části zadání, které do této fáze patří:
+
+- vymezení problému a cíle práce,
+- teoretická východiska,
+- přehled a charakteristika vybraných nástrojů,
+- definice hodnoticích kritérií,
+- metodický rámec budoucí praktické komparace.
+
+Praktická komparace a vyhodnocení výsledků nejsou v seminární práci provedeny, což je správně. Patří až do bakalářské práce.
+
+## 4. Gramatická kontrola
+
+**Stav: bez blokujících chyb.**
+
+Cíleně byly hledány dřívější chyby a překlepy:
+
+- `navazují práci`,
+- `podrobněji  popsán`,
+- `datábázový`,
+- `Při jejich výběr`,
+- `prace Saatyho`,
+- `jsou jdou`,
+- `hodnocená`,
+- `Methodological`,
+- chybné nebo pracovní značky `[101]`, `[102]`.
+
+V aktuálním `seminarka_kontrola.md` se tyto chyby nevyskytují. Některé formulace jsou jednodušší nebo trochu těžkopádné, ale nejsou gramaticky špatně a není nutné je měnit.
+
+## 5. Citační a bibliografická kontrola
+
+**Stav: splněno.**
+
+Soubor obsahuje část `Seznam zdrojů`. Bibliografie je rozdělena na:
+
+- `Tištěné zdroje`,
+- `Internetové zdroje`.
+
+V seznamu je 26 zdrojů: 17 tištěných/odborných zdrojů a 9 internetových zdrojů. Pracovní poznámky `[101]`, `[102]` byly odstraněny. Zdroje Catak et al. a Ebrahimi a Taheri jsou zařazeny do hlavního seznamu literatury.
+
+Poznámka: u internetových zdrojů jsou roky uváděny jako 2026. Bez nové kontroly webů nelze ověřit, zda je rok opravdu rok vydání stránky, nebo jen rok přístupu. Pro seminární práci to nepovažuji za blokující problém, protože je uvedeno i datum citace.
+
+## 6. Logická a strukturální kontrola
+
+**Stav: splněno.**
+
+Text drží jasnou hranici mezi seminární prací a budoucí bakalářskou prací:
+
+- seminární práce připravuje teoretická a metodická východiska,
+- praktická komparace je výslovně přesunuta do navazující praktické části,
+- závěr neprezentuje výsledky porovnání, ale shrnuje teoretický rámec a doporučuje další postup.
+
+Výzkumné otázky odpovídají obsahu kapitol. Cíl práce není v rozporu se závěrem. Kapitoly 8 a 9 navazují na předchozí teoretické kapitoly a tvoří podklad pro budoucí praktickou část.
+
+## 7. Rozsah a forma
+
+**Stav: pravděpodobně splněno, definitivně ověřit až ve Wordu.**
+
+Hrubý rozsah aktuálního `seminarka_kontrola.md` je přibližně 7 300 slov a zhruba 31 normostran podle počtu znaků. Přesný počet stran ale závisí na šabloně, řádkování, okrajích, tabulkách a zalomení stran.
+
+Požadavek vedoucího byl minimálně 10 stran teorie v dokumentu seminární práce. Podle rozsahu textu by měl být splněn, ale definitivně se to ověří až po převodu do oficiální šablony.
+
+## 8. Doporučení před tvorbou Wordu
+
+Před samotným převodem do `.docx` doporučuji:
+
+1. Vycházet z aktuálního `seminarka_kontrola.md` nebo nejprve znovu sestavit finální Markdown z kapitol, aby se do Wordu nedostala starší verze.
+2. Použít oficiální šablonu z Olivy, protože vedoucí výslovně požadoval dokument v oficiální šabloně.
+3. Po převodu ve Wordu aktualizovat obsah klávesou F9.
+4. Zkontrolovat, že dokument končí seznamem zdrojů.
+5. Zkontrolovat, že tabulky 1 a 2 nejsou rozbité přes stránku.
+6. Doplnit datum v prohlášení, pokud má být dokument posílán jako finální verze.
+7. Projít vizuálně nadpisy, číslování kapitol, zalomení stran a seznam zdrojů.
+
+## 9. Závěr kontroly
+
+**Doporučení: můžeme začít tvořit Word dokument.**
+
+Nevidím obsahový, citační ani logický problém, který by převodu do `.docx` bránil. Další krok má být technický: převod do oficiální šablony, aktualizace obsahu a vizuální kontrola výsledného dokumentu.
