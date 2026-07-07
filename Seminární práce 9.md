@@ -1,18 +1,18 @@
 # 9 Návrh hodnoticích kritérií
 
-Při vytváření kritérií pro hodnocení je potřeba zohlednit, že nástroje budou porovnávány podle toho, jak dokážou podpořit návrh a vývoj databáze, nikoliv pouze podle toho, jak zvládají její provoz a správu. Hodnoticí kritéria vycházejí ze studie Carvalho et al. (2022). Tato studie porovnávala nástroje pro datové modelování podle kategorií, jako jsou funkcionalita, provozní vlastnosti softwaru, dokumentace a komunitní podpora. Předkládaná práce toto členění přebírá a rozšiřuje ho o kritéria specifická pro návrh databázových systémů. U kritérií, která nelze vyjádřit číselně, se použije kvalitativní hodnocení podle zkušenosti a každé porovnání se krátce zdůvodní.
+Při vytváření kritérií pro hodnocení je potřeba zohlednit, že nástroje budou porovnávány podle toho, jak dokážou podpořit návrh a vývoj databáze, nikoliv pouze podle toho, jak zvládají její provoz a správu. Hodnoticí kritéria vycházejí ze studie Carvalho et al. (2022) jak už bylo dříve uvedeno. Tato studie porovnávala nástroje pro datové modelování podle kategorií, jako jsou funkcionalita, provozní vlastnosti softwaru, dokumentace a komunitní podpora. Předkládaná práce toto členění přebírá a rozšiřuje ho o kritéria specifická pro návrh databázových systémů. U kritérií, která nelze vyjádřit číselně, se použije kvalitativní hodnocení podle zkušenosti a každé porovnání se krátce zdůvodní.
 
 Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 
 | ID | Název kritéria | Typ kritéria | Způsob a zdroj hodnocení |
 |---|---|---|---|
-| K1 | Funkcionalita | maximalizační | testovací scénář a dokumentace nástroje |
-| K2 | Použitelnost | maximalizační | kvalitativní hodnocení v testovacím scénáři |
+| K1 | Funkcionalita | maximalizační | dokumentace nástroje |
+| K2 | Použitelnost | maximalizační | kvalitativní hodnocení |
 | K3 | Kompatibilita s DBMS | maximalizační | počet oficiálně podporovaných DBMS |
-| K4 | Forward engineering | maximalizační | testovací scénář (generování DDL) |
-| K5 | Reverse engineering | maximalizační | testovací scénář (import z existující DB) |
+| K4 | Forward engineering | maximalizační | generování DDL |
+| K5 | Reverse engineering | maximalizační | import z existující DB |
 | K6 | Dokumentace a komunitní podpora | maximalizační | kvalitativní hodnocení |
-| K7 | Import a export modelu | maximalizační | testovací scénář a podporované formáty |
+| K7 | Import a export modelu | maximalizační | dokumentace a podporované formáty |
 | K8 | Náklady a licenční omezení | minimalizační | typ licence, omezení bezplatné verze, celková cena |
 
 *Tabulka 2 – Přehled navržených hodnoticích kritérií (vlastní zpracování na základě Carvalho et al., 2022)*
@@ -29,7 +29,7 @@ Význam jednotlivých kritérií je blíže popsán níže.
 
 **K5 Reverse engineering.** Hodnotí se schopnost nástroje sestavit model zpětně z existující databáze, tedy naimportovat její strukturu. Ověřuje se to importem z existující databáze.
 
-**K6 Dokumentace a komunitní podpora.** Hodnotí se množství a aktuálnost oficiální dokumentace nástroje a zároveň dostupnost podpory ze strany komunity. Zároveň se zjištujě jak často nástroj dostává aktualizace.
+**K6 Dokumentace a komunitní podpora.** Hodnotí se množství a aktuálnost oficiální dokumentace nástroje a zároveň dostupnost podpory ze strany komunity. Zároveň se zjišťuje, jak často nástroj dostává aktualizace.
 
 **K7 Import a export modelu.** Hodnotí se, jaké formáty importu a exportu nástroj podporuje a jestli umí pracovat s verzovacím systémem.
 
