@@ -19,18 +19,18 @@ Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 
 Význam jednotlivých kritérií je blíže popsán níže.
 
-**K1 Funkcionalita.** Rozsah funkcí nástroje – typy modelů (konceptuální, logický, fyzický), validace, dokumentace a podpora objektů, jako jsou tabulky, pohledy, indexy nebo triggery.
+**K1 Funkcionalita.** Hodnotí se, kolik úrovní modelu nástroj podporuje (konceptuální, logický, fyzický), zda umí validovat a jaké databázové objekty podporuje – například tabulky, pohledy, indexy nebo triggery.
 
-**K2 Použitelnost.** Vyjadřuje, jak snadno se s nástrojem pracuje – jak rychle se v něm uživatel zorientuje, nakolik je prostředí editoru modelu přehledné a jak náročné je provést běžné úkony.
+**K2 Použitelnost.** Hodnotí se, jak snadno se nástroj používá, jak přehledné je grafické prostředí a jak jednoduše se provádějí běžné úkony, jako je přidání entity, úprava atributu nebo vytvoření vztahu.
 
-**K3 Kompatibilita s DBMS.** Udává, kolik databázových systémů nástroj oficiálně podporuje.
+**K3 Kompatibilita s DBMS.** Hodnotí se počet databázových systémů, s nimiž nástroj umí oficiálně pracovat.
 
-**K4 Forward engineering.** Sleduje, jak nástroj generuje DDL skript nebo schéma databáze z navrženého modelu.
+**K4 Forward engineering.** Hodnotí se, jestli a jak nástroj z navrženého modelu vygeneruje funkční DDL skript nebo schéma databáze. Výsledek se ověřuje vygenerováním a testem výsledného skriptu.
 
-**K5 Reverse engineering.** Týká se schopnosti nástroje sestavit model z již existující databáze.
+**K5 Reverse engineering.** Hodnotí se schopnost nástroje sestavit model zpětně z existující databáze, tedy naimportovat její strukturu. Ověřuje se to importem z existující databáze.
 
-**K6 Dokumentace a komunitní podpora.** Posuzuje rozsah a aktuálnost oficiální dokumentace i dostupnost komunitní podpory a aktualizací.
+**K6 Dokumentace a komunitní podpora.** Hodnotí se množství a aktuálnost oficiální dokumentace nástroje a zároveň dostupnost podpory ze strany komunity. Zároveň se zjištujě jak často nástroj dostává aktualizace.
 
-**K7 Import a export modelu.** Zaměřuje se na podporované formáty importu a exportu a na propojení s verzovacími systémy.
+**K7 Import a export modelu.** Hodnotí se, jaké formáty importu a exportu nástroj podporuje a jestli umí pracovat s verzovacím systémem.
 
-**K8 Náklady a licenční omezení.** Bere v úvahu typ licence (open-source, freeware, komerční), omezení bezplatné verze a celkové náklady na zavedení.
+**K8 Náklady a licenční omezení.** Hodnotí se druh licence nástroje (open-source, freeware, komerční), případná omezení bezplatné verze a celková cena zavedení nástroje do provozu.
