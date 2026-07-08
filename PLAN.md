@@ -1,48 +1,27 @@
 # Plán další práce
 
-Aktualizace: 7. 7. 2026.
+Aktualizace: 8. 7. 2026.
 
-Text seminární práce je obsahově hotový a zkontrolovaný (viz `KONTROLA_OPRAVY.md`). Zbývají technické kroky sestavení dokumentu a odevzdání.
-
----
-
-## 1. Sestavit finální dokument (nyní)
-
-Soubory kapitol 0–11 jsou hotové, soubory `4x–7x.md` existují.
-
-**Co chybí:**
-- `Seminární práce.md` — spustit `spoj.ps1`
-- `Seminární práce.docx` — spustit pandoc se šablonou
-
-**Postup:**
-```powershell
-.\spoj.ps1 0 1 2 3 4x 5x 6x 7x 8 9 10 11 -Out "Seminární práce.md"
-```
-
-Pak pandoc — **pozor:** v `oliva/sablony/` jsou tři soubory šablon, je potřeba zjistit, která je správná pro MES:
-- `Sablona pro tvorbu SP.docx`
-- `šablona( nová (1).docx`
-- `Sablona SP.docx`
-
-```powershell
-pandoc "Seminární práce.md" -o "Seminární práce.docx" --reference-doc="oliva/sablony/<SPRÁVNÁ ŠABLONA>.docx"
-```
+Text seminární práce je obsahově hotový (viz `KONTROLA_OPRAVY.md`) a dnes byl dokončen i formální převod do šablony a oprava formátu (viz `SHRNUTI_POKYNU_A_KONTROLA_SP.md`). Dokument je připravený k odeslání vedoucímu k závěrečné kontrole — to je teď jediný podstatný zbývající krok, ne další přepracování obsahu.
 
 ---
 
-## 2. Zkontrolovat Word dokument
+## 1. Sestavit finální dokument — ✅ hotovo (8. 7. 2026)
 
-- Teorie (kapitoly 4–7) musí mít **min. 10 normostran** (úvodní strana, abstrakt, obsah se nepočítají).
-- Zkontrolovat nadpisy jako styly, obsah, zalomení stran, tabulky, seznam zdrojů.
-- Zkontrolovat, že citace v textu odpovídají seznamu v kapitole 11.
+`Seminární práce.docx` je sestavená ve správné šabloně (`oliva/sablony/Sablona SP.docx` — ověřeno, je to ta správná šablona pro SP, viz `SHRNUTI_POKYNU_A_KONTROLA_SP.md`), s opraveným formátem: A4, okraje 2,5 cm, číslování stran restartované na straně 1 u Úvodu, skutečné TOC pole, skutečné tabulkové objekty.
 
----
+**Před odesláním ve Wordu ještě:**
+- Aktualizovat pole Obsahu (klik pravým → Aktualizovat celou tabulku) — čísla stran se po opravě stránkování posunula.
+- Zkontrolovat/doplnit datum na titulní straně, pokud tam zůstal placeholder.
+- Zvážit doplnění odstavce o použití AI nástrojů do kapitoly 3 (Metodika práce) — viz bod 2 níže, je to teď jediná věcná mezera oproti závazným pokynům.
 
-## 3. Odeslat vedoucímu (co nejdříve, nejpozději do konce července)
+## 2. Otevřená otázka: odstavec o AI nástrojích v metodice
 
-Vedoucí (email 26. 6.) řekl: pošle zpět verzi upravenou po formální stránce pro odevzdání.
+Nové Metodické pokyny FIM (výnos děkanky č. 9/2025) vyžadují, aby autor v metodické části práce uvedl použití AI nástrojů (název/verze, účel, způsob, místo a rozsah použití). Kapitola 3 tuto informaci zatím neobsahuje. Návrh formulace je připravený v draftu e-mailu níže (`Email pro vedoucího — draft.md` / viz chat) — než se vloží do `Seminární práce 3.md`, je vhodné potvrdit rozsah/formu s vedoucím.
 
-→ Odeslat `Seminární práce.docx` na martin.lnenicka@uhk.cz.
+## 3. Odeslat vedoucímu (teď, nejpozději do konce července)
+
+Vedoucí (email 26. 6.) řekl: pošle zpět verzi upravenou po formální stránce pro odevzdání. → Poslat `Seminární práce.docx` na martin.lnenicka@uhk.cz, ideálně s krátkým dotazem na formulaci o AI nástrojích (bod 2).
 
 ---
 
@@ -60,17 +39,21 @@ Vyplnit ve STAGu:
 - 4–5 zdrojů (alespoň 2–3 knihy + článek/web), citace dle ISO 690:2022
 - Odeslat ke schválení vedoucímu
 
+Vedoucí zmínil schůzku v srpnu/září ke zadávacímu listu a k bakalářské práci — na tu prakticky navazuje bod 6.
+
 ---
 
-## 6. Bakalářská práce (podzim 2026 / 2027)
+## 6. Bakalářská práce — praktická část (po schůzce v srpnu/září 2026)
 
-Seminárka slouží jako teoretický základ. BP doplní:
-1. Instalace a testování nástrojů (MySQL Workbench, Oracle SQL Developer Data Modeler, DBeaver CE, pgModeler).
-2. Jednotný testovací scénář (model → SQL → reverzní inženýrství).
-3. AHP výpočty: Saatyho matice, váhy, CR < 0,1, analýza citlivosti.
-4. Jednoduchá podpůrná aplikace pro výpočet AHP.
-5. Doporučení pro praxi (scénáře malá / střední firma).
-6. Rozšíření literatury na min. 30 zdrojů (20 knih/článků).
+Podle vedoucího nemá smysl začínat praktickou část dřív, než se v srpnu/září osobně domluví na dalších pokynech k BP. Do té doby lze bez rizika souběžně:
+- rozšiřovat literaturu směrem k min. 30 zdrojům pro BP (20+ knih/článků, viz `ZDROJE.md`),
+- nainstalovat a orientačně vyzkoušet 4 porovnávané nástroje (soubory v `nastroje/`), bez psaní závěrů do práce.
+
+Po schůzce pak BP doplní:
+1. Jednotný testovací scénář (model → SQL → reverzní inženýrství) pro všechny 4 nástroje.
+2. AHP výpočty: Saatyho matice, váhy, kontrola konzistence CR < 0,1, analýza citlivosti.
+3. Jednoduchá podpůrná aplikace pro výpočet AHP.
+4. Doporučení pro praxi (scénáře malá / střední firma).
 
 ---
 
@@ -79,7 +62,9 @@ Seminárka slouží jako teoretický základ. BP doplní:
 | Termín | Úkol | Stav |
 |---|---|---|
 | 26. 6. 2026 | Poslat vedoucímu průběžnou ukázku. | ✅ Splněno |
-| 7. 7. 2026 | Sestavit finální dokument a odeslat vedoucímu. | ⏳ Dnes |
-| červenec 2026 | Obdržet verzi od vedoucího, odevzdat v Olivě, splnit test. | ⏳ |
+| 8. 7. 2026 | Sestavit finální dokument, opravit formát. | ✅ Splněno |
+| co nejdříve (do konce července) | Odeslat vedoucímu k závěrečné kontrole. | ⏳ Teď |
+| po obdržení odpovědi | Odevzdat v Olivě, splnit zápočtový test. | ⏳ |
 | do 31. 8. 2026 | Vyplnit a odeslat zadávací list do STAGu. | ⏳ |
-| podzim 2026 / 2027 | Realizace praktické části bakalářské práce. | ⏳ |
+| srpen/září 2026 | Schůzka s vedoucím ke STAGu a BP. | ⏳ |
+| po schůzce | Realizace praktické části bakalářské práce. | ⏳ |
