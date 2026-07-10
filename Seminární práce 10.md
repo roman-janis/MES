@@ -1,4 +1,4 @@
-# 10 Závěry a doporučení
+# 9 Závěry a doporučení
 
 Cíl práce, tedy zpracování teoretických a metodických východisek pro praktickou část, byl splněn. Odpovědi na výzkumné otázky lze stručně shrnout takto:
 

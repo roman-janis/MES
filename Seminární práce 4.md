@@ -24,7 +24,7 @@ Pojem databáze pak představuje organizovanou sbírku vzájemně souvisejícíc
 > - *Elmasri a Navathe (2016, s. 4)*: „A database is a logically coherent collection of related data with some inherent meaning."
 > - *Watt a Eng (2014)* — online. Z textu kap. 1: „A *database* is a set of related data and the way it is organized."
 
-Systém řízení báze dat, běžně označovaný jako DBMS, je specializovaný software, který zajišťuje definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Spojení databáze s DBMS vytvoří databázový systém (DBS), který usnadňuje definování, vytváření, manipulaci a sdílení databáze mezi různými uživateli a aplikacemi (Elmasri a Navathe, 2016). DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat (Pokorný a Valenta, 2020).
+Systém řízení báze dat, běžně označovaný jako DBMS, je specializovaný software, který zajišťuje definici, ukládání, manipulaci, zabezpečení a správu dat uložených v databázi (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Spojení databáze s DBMS vytvoří databázový systém, který usnadňuje definování, vytváření, manipulaci a sdílení databáze mezi různými uživateli a aplikacemi (Elmasri a Navathe, 2016). DBMS v rámci tohoto systému zajišťuje transakční zpracování, obnovení dat po pádu, souběžný přístup více uživatelů i řízení ochrany dat (Pokorný a Valenta, 2020).
 
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -99,7 +99,7 @@ Metadata bývají ukládána v systémovém katalogu, který slouží jako centr
 > - *Pokorný a Valenta (2020, s. 18–19)*: „Veškeré definice obsažené ve schématu (vzhledem k datům z databáze jde o metadata) jsou organizovány v modulu DBMS, který se nazývá systémový katalog."
 > - *Elmasri a Navathe (2016, s. 6)*: „This definition is stored in the DBMS catalog... The DBMS catalog stores the schema and is called metadata — it is data about data."
 
-Správa a údržba schématu databáze je klíčovou rolí správce databáze (DBA), přičemž změny schématu v průběhu životního cyklu systému musí být pečlivě kontrolovány (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Metadata uložená v systémovém katalogu jsou využívána nejen samotným DBMS pro optimalizaci dotazů a kontrolu přístupových práv, ale také externími nástroji (Elmasri a Navathe, 2016). Tyto nástroje dokážou metadata z katalogu načíst a vizualizovat je ve formě diagramů (Elmasri a Navathe, 2016). Tato vizualizace pak usnadňuje pochopení existující struktury databáze a její další rozvoj (Elmasri a Navathe, 2016).
+Správa a údržba schématu databáze je klíčovou rolí správce databáze (DBA), přičemž změny schématu v průběhu životního cyklu systému musí být pečlivě kontrolovány (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Metadata uložená v systémovém katalogu jsou využívána nejen samotným DBMS pro optimalizaci dotazů a kontrolu přístupových práv, ale také externími nástroji (Elmasri a Navathe, 2016). Tyto nástroje dokážou metadata z katalogu načíst a vizualizovat je ve formě diagramů. Tato vizualizace pak usnadňuje pochopení existující struktury databáze a její další rozvoj (Pokorný a Valenta, 2020).
 
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -134,8 +134,8 @@ DBMS obvykle poskytuje několik základních skupin funkcí: definici dat, manip
 > - *Pokorný a Valenta (2020, s. 19)*: „Transakce představuje logickou jednotku práce s databází. Jde vlastně o program, který se buď provede celý nebo se neprovede vůbec. Snahou samozřejmě je, aby transakce převedla databázi z jednoho konzistentního stavu do druhého."
 > - *Elmasri a Navathe (2016, s. 45)*: „A transaction is an executing program or process that includes one or more database accesses, such as reading or updating of database records."
 
-Další významnou myšlenkou bylo chápat DBMS jako víceúrovňový systém podle modelu ANSI/SPARC (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Tento přístup představuje databázi jako hierarchii abstrakcí, které oddělují externí, konceptuální a interní úroveň (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Ve zprávě výboru ANSI/X3/SPARC z roku 1975 se toto členění upřesňuje takto: externí úroveň odpovídá pohledům jednotlivých skupin uživatelů, konceptuální úroveň představuje globální logický model celé databáze a interní úroveň popisuje fyzické uložení dat (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
-Hlavním smyslem tohoto členění je podpora datové nezávislosti, tedy oddělení aplikací a uživatelských pohledů od fyzické implementace databáze (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
+Další významnou myšlenkou bylo chápat DBMS jako víceúrovňový systém podle modelu ANSI/SPARC. Tento přístup představuje databázi jako hierarchii abstrakcí, které oddělují externí, konceptuální a interní úroveň (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020). Ve zprávě výboru ANSI/X3/SPARC z roku 1975 se toto členění upřesňuje takto: externí úroveň odpovídá pohledům jednotlivých skupin uživatelů, konceptuální úroveň představuje globální logický model celé databáze a interní úroveň popisuje fyzické uložení dat.
+Hlavním smyslem tohoto členění je podpora datové nezávislosti, tedy oddělení aplikací a uživatelských pohledů od fyzické implementace databáze (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020; Watt a Eng, 2014).
 
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -203,7 +203,7 @@ Návrh databáze představuje jednu z hlavních fází v rámci životního cykl
 > - *Elmasri a Navathe (2016, s. 61)*: „The database design process [...] consists of two parallel activities: the design of the data content (data structure and constraints) and the design of the database applications... The database design process is typically divided into phases: requirements collection, conceptual design, logical design, and physical design."
 
 Konceptuální návrh zachycuje strukturu aplikační domény bez vazby na konkrétní databázový systém (Carvalho et al., 2022; Rosenthal a Reiner, 1994).
-V této fázi jsou identifikovány entity, vztahy mezi nimi, atributy a základní integritní omezení (Rosenthal a Reiner, 1994). Výsledkem je konceptuální schéma, které věrně popisuje realitu a je nezávislé na zvoleném DBMS (Carvalho et al., 2022; Pokorný a Valenta, 2020).
+V této fázi jsou identifikovány entity, vztahy mezi nimi, atributy a základní integritní omezení. Výsledkem je konceptuální schéma, které věrně popisuje realitu a je nezávislé na zvoleném DBMS (Carvalho et al., 2022; Pokorný a Valenta, 2020).
 
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -223,8 +223,8 @@ V této fázi jsou identifikovány entity, vztahy mezi nimi, atributy a základn
 
 Na konceptuální návrh navazuje logický návrh.
 V této části se konceptuální model převádí do zvoleného datového modelu, v případě této práce jde zejména o model relační (Rosenthal a Reiner, 1994).
-Dochází k návrhu relací, atributů, klíčů, cizích klíčů a integritních omezení (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
-Výsledkem je pak logické schéma databáze, které lze implementovat v konkrétním DBMS (Pokorný a Valenta, 2020).
+Dochází k návrhu relací, atributů, klíčů, cizích klíčů a integritních omezení.
+Výsledkem je logické schéma databáze, které lze implementovat v konkrétním DBMS (Elmasri a Navathe, 2016; Pokorný a Valenta, 2020).
 
 > **Zdrojové úryvky k odstavci výše**
 >

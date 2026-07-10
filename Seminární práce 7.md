@@ -1,6 +1,6 @@
-# 7 Metoda AHP
+## 6.3 Metoda AHP
 
-Metoda *Analytic Hierarchy Process* (AHP) patří mezi nejznámější metody vícekriteriálního rozhodování (Ishizaka a Labib, 2011; Vaidya a Kumar, 2006). Jejím autorem je Thomas L. Saaty. Podstata této metody spočívá v rozdělení složitého rozhodovacího problému do přehledné hierarchie, která obsahuje hlavní cíl, kritéria, případně subkritéria a jednotlivé alternativy (Saaty, 1990; Saaty, 2008). Díky tomuto rozkladu lze lépe porozumět struktuře rozhodovací úlohy a následně jednotlivé prvky systematicky porovnat (Vaidya a Kumar, 2006).
+Metoda AHP patří mezi nejznámější metody vícekriteriálního rozhodování (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Vaidya a Kumar, 2006). Jejím autorem je Thomas L. Saaty. Podstata této metody spočívá v rozdělení složitého rozhodovacího problému do přehledné hierarchie, která obsahuje hlavní cíl, kritéria, případně subkritéria a jednotlivé alternativy (Saaty, 1990; Saaty, 2008). Díky tomuto rozkladu lze lépe porozumět struktuře rozhodovací úlohy a následně jednotlivé prvky systematicky porovnat (Vaidya a Kumar, 2006).
 
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -28,7 +28,7 @@ Na nejvyšší úrovni hierarchie se nachází hlavní cíl rozhodování, např
 > - *Saaty (2008, s. 84)*: „Pairwise comparisons are made of the elements in each level of the hierarchy with respect to an element in the next higher level."
 > - *Saaty (1990, s. 13)*: „Pairwise comparisons of the elements are made with respect to a criterion in the next higher level. We construct the pairwise comparison matrix..."
 
-AHP se využívá hlavně v případech, kdy je potřeba při rozhodování spojit různé typy kritérií, například technické parametry, ekonomické ukazatele a kritéria, která se hodnotí spíše subjektivně nebo kvalitativně (Ishizaka a Labib, 2011; Saaty, 1990). Pro tuto práci je tato metoda vhodná, protože jednotlivé nástroje pro návrh a vývoj databázových systémů nelze hodnotit jen kvantitativně jednou měřitelnou veličinou. Kromě ceny nebo podpory konkrétního DBMS je třeba zohlednit i další vlastnosti – například jaké modelovací funkce nabízí, jak se s ním pracuje, jak kvalitní je dokumentace, zda podporuje reverzní inženýrství a jaké možnosti poskytuje pro generování SQL skriptů. Přehledové studie ukazují, že AHP se využívá v mnoha různých typech rozhodovacích úloh a je vhodná i pro situace, kdy je potřeba vybírat mezi softwarovými systémy (Ho, 2008; Simanavičienė a Vdovinskienė, 2023; Vaidya a Kumar, 2006).
+AHP se využívá hlavně v případech, kdy je potřeba při rozhodování spojit různé typy kritérií, například technické parametry, ekonomické ukazatele a kritéria, která se hodnotí spíše subjektivně nebo kvalitativně (Ishizaka a Labib, 2011; Saaty, 1990). Pro tuto práci je tato metoda vhodná, protože jednotlivé nástroje pro návrh a vývoj databázových systémů nelze hodnotit jen kvantitativně jednou měřitelnou veličinou. Kromě ceny nebo podpory konkrétního DBMS je třeba zohlednit i další vlastnosti – například jaké modelovací funkce nabízí, jak se s ním pracuje, jak kvalitní je dokumentace, zda podporuje reverzní inženýrství a jaké možnosti poskytuje pro generování SQL skriptů. Přehledové studie ukazují, že AHP se využívá v mnoha různých typech rozhodovacích úloh a je vhodná i pro situace, kdy je potřeba vybírat mezi softwarovými systémy (Ho, 2008; Moreno-Jiménez a Vargas, 2018; Simanavičienė a Vdovinskienė, 2023; Vaidya a Kumar, 2006).
 
 > **Zdrojové úryvky k odstavci výše**
 >
@@ -53,7 +53,7 @@ Typický postup AHP lze shrnout do několika kroků. Nejprve je vymezen cíl roz
 > - *Saaty (2008, s. 84)*: „The steps of AHP are: define the problem and determine the goal; structure the decision hierarchy; construct a set of pairwise comparison matrices; synthesize the judgements to yield a set of priorities."
 > - *Saaty (1990, s. 13)*: „First, structure the problem into a hierarchy. Next, construct pairwise comparison matrices. Then, synthesize the judgments..."
 
-## 7.1 Saatyho škála a párové porovnání
+### 6.3.1 Saatyho škála a párové porovnání
 
 Při párovém porovnávání se používá Saatyho škála. Základní hodnoty této škály jsou 1, 3, 5, 7 a 9, které vyjadřují stejnou důležitost, mírnou, silnou, velmi silnou až absolutní preferenci (Saaty, 1990; Saaty, 2008). Sudé hodnoty 2, 4, 6, 8 jsou chápány jako mezistupně. Pokud je jeden prvek méně významný než druhý, použije se převrácená hodnota (Ishizaka a Labib, 2011; Saaty, 1990). Hodnota 1 tedy znamená rovnocennost dvou prvků, zatímco hodnota 9 vyjadřuje krajní převahu jednoho prvku nad druhým.
 
@@ -109,7 +109,7 @@ Pro tuto práci je důležité, že párové porovnávání umožňuje hodnotite
 > - *Saaty (1990, s. 10)*: „The AHP is a method for structuring, representing, and solving decision problems... It can handle tangible and intangible criteria..."
 > - *Simanavičienė a Vdovinskienė (2023, s. 1)*: „The paper aims to evaluate and select the most appropriate software package... using the Analytic Hierarchy Process..."
 
-## 7.2 Kontrola konzistence
+### 6.3.2 Kontrola konzistence
 
 Protože párové porovnávání vychází z lidského úsudku, není vždy dokonale konzistentní. Součástí metody AHP je proto kontrola konzistence. K tomu slouží *Consistency Index* (CI), *Random Consistency Index* (RI) a *Consistency Ratio* (CR) (Ishizaka a Labib, 2011; Saaty, 1990). V praxi se uvažuje, že hodnota CR menší než 0,1 značí přijatelnou úroveň konzistence. Vyšší hodnoty poměru konzistence (CR) obvykle vedou k přehodnocení porovnání (Saaty, 1990; Saaty, 2008).
 
@@ -149,7 +149,7 @@ Možnost ověřit konzistenci je jedním z důvodů, proč je AHP pro tuto prác
 > - *Ishizaka a Labib (2011, s. 446)*: „If the CR exceeds 0.1, the decision maker should revise the pairwise comparisons to improve consistency."
 > - *Saaty (2008, s. 87)*: „If the CR is much larger than 0.10, we must take steps to improve consistency by revising the comparisons."
 
-## 7.3 Výhody a omezení AHP
+### 6.3.3 Výhody a omezení AHP
 
 Výhody metody AHP byly stručně naznačeny již v kapitole 6.2, a to možnost kombinovat kvantitativní i kvalitativní kritéria, srozumitelnost postupu a kontrola konzistence úsudků. Následující text pak tyto výhody rozvádí a doplňuje je o další přínosy metody a uvádí i její hlavní omezení. Metoda současně umožňuje analýzu citlivosti, tedy sledování dopadu změny vah kritérií na výsledné pořadí (Ho, 2008; Saaty, 2008). To je důležité zejména tehdy, když jsou výsledky citlivé na malé změny preferencí a kdy je třeba ověřit stabilitu doporučení.
 
