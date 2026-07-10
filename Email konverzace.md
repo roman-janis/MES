@@ -1,3 +1,13 @@
+9.7
+Dobrý den,
+
+posílám finální verzi. Upravoval jsem to po formální stránce, přidal jeden literární zdroj, odmazal některé citace, protože jich bylo na jednom místě moc, něco trochu přeformuloval atd. Tuto verzi odevzdejte do toho kurzu v Olivě do úkolu Odeslání seminární práce. Pak v tom kurzu napište Zápočtový test. Až to všechno budete mít, tak mi napište, já tam zapíšu body za tu seminární práci, zkontroluji konečný počet bodů, a nakonec do Stagu zapíšu zápočet.
+
+Pěkný den,
+Martin Lněnička
+
+---------------------------------------------------------------
+
 26.6
 Dobrý den,
 
