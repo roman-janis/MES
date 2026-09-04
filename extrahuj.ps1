@@ -13,8 +13,8 @@ if (-not $dir) { $dir = (Get-Location).Path }
 $enc = New-Object System.Text.UTF8Encoding($false)
 
 foreach ($i in $Chapters) {
-    $src = Join-Path $dir "Seminární práce $i.md"
-    $dst = Join-Path $dir "Seminární práce ${i}x.md"
+    $src = Join-Path $dir "BP $i.md"
+    $dst = Join-Path $dir "BP ${i}x.md"
 
     if (-not (Test-Path -LiteralPath $src)) {
         Write-Warning "Chybí soubor: $src"
@@ -42,5 +42,5 @@ foreach ($i in $Chapters) {
     [System.IO.File]::WriteAllText($dst, $text, $enc)
 
     $contentLines = ($output | Where-Object { $_.Trim() -ne '' }).Count
-    Write-Host "Vytvořen: Seminární práce ${i}x.md  (řádků s obsahem: $contentLines)"
+    Write-Host "Vytvořen: BP ${i}x.md  (řádků s obsahem: $contentLines)"
 }

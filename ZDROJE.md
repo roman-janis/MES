@@ -1,8 +1,8 @@
 # Zdroje a literatura
 
-Aktualizace: 19. 6. 2026.
+Aktualizace: 28. 8. 2026.
 
-V práci je nyní **26 citovaných zdrojů**; v seznamu jsou seřazené abecedně a rozdělené na tištěné (Carvalho et al.; Catak et al. 2012; Chen 1976; Chlapek, Kučera a Palovská; Codd 1970; Ebrahimi a Taheri 2015; Elmasri a Navathe; Ho 2008; Ishizaka a Labib; Mardani et al. 2015; Pokorný a Valenta; Rosenthal a Reiner; Saaty 1990; Saaty 2008; Simanavičienė a Vdovinskienė; Vaidya a Kumar; Velasquez a Hester) a internetové (DBeaver; DB-Engines; Laranjeiro a Pinto; MySQL; Oracle; pgModeler; PostgreSQL; Soukopová; Watt a Eng). Všechny in-text citace párují se seznamem.
+Finální odevzdaná seminární práce obsahuje **27 položek** v seznamu zdrojů. Tento seznam byl převzat do `BP 14.md`; `BP.md` jej zahrnuje při sloučení kapitol. Zastoupeno je 18 odborných a knižních zdrojů (včetně Moreno-Jiménez a Vargas, 2018) a 9 online zdrojů. Před odevzdáním BP je nutné dosáhnout nejméně 30 skutečně použitých zdrojů a znovu ověřit požadované zastoupení knih a odborných článků. Tento soubor eviduje jejich dostupnost, rozdělení a kandidáty pro další rozšíření BP.
 
 Tento soubor popisuje, jak jsou v projektu rozdělené zdroje. Nerozlišuji zde zvlášť seminární práci a bakalářskou práci; beru to jako jeden pracovní základ pro budoucí BP.
 
@@ -47,7 +47,8 @@ Tyto soubory zůstávají v `literatura/DB`, protože se mohou použít jako zdr
 - **Oracle SQL Developer Data Modeler** - `literatura/DB/Oracle_SQL_Developer_Data_Modeler.url`
 - **pgModeler - PostgreSQL Database Modeler** - `literatura/DB/pgModeler.url`
 - **PostgreSQL Documentation** - `literatura/DB/PostgreSQL_Documentation.url`
-- **DB-Engines Ranking** [online]. solid IT gmbh, 2026 - citováno v §8 (rozšířenost DBMS). <https://db-engines.com/en/ranking>
+- **DB-Engines Ranking** [online]. solid IT gmbh, 2026 - citováno v BP 7 (rozšířenost DBMS). <https://db-engines.com/en/ranking>
+- **LARANJEIRO, Nuno a Alexandre Miguel PINTO.** *ONDA: ONLine Database Architect* [online]. arXiv:2401.16552, 2024. DOI: 10.48550/arXiv.2401.16552. Citováno v BP 7; lokální kopie není v projektu evidována.
 
 ## 2. Zdroje k vícekriteriálnímu rozhodování a AHP
 
@@ -71,11 +72,17 @@ Tady je schválně ponechaný menší počet zdrojů. Pro AHP není potřeba mí
 
 - **ISHIZAKA, Alessio a Ashraf LABIB.** Review of the main developments in the Analytic Hierarchy Process. *Expert Systems with Applications*. 2011, 38(11), 14336–14345. DOI: 10.1016/j.eswa.2011.04.143.  
   Umístění: `literatura/AHP/Ishizaka_Labib_2011_Review_AHP_Developments.pdf`  
-  Citováno v §6.2 (index konzistence CR, zdůvodnění volby AHP) a §7.3 (omezení AHP — pracnost a subjektivita). Přesunuto ze sekce 5C, přidáno do bibliografie 18. 6.
+  Citováno v BP 6.2 (index konzistence CR, zdůvodnění volby AHP) a BP 6.3.3 (omezení AHP — pracnost a subjektivita). Přesunuto ze sekce 5C, přidáno do bibliografie 18. 6.
 
 - **MARDANI, Abbas, Ahmad JUSOH, Khalil MD NOR, Zainab KHALIFAH, Norhayati ZAKWAN a Alireza VALIPOUR.** Multiple criteria decision-making techniques and their applications – a review of the literature from 2000 to 2014. *Economic Research – Ekonomska Istraživanja*. 2015, 28(1), 516–571. ISSN 1331-677X. DOI: 10.1080/1331677X.2015.1075139.  
   PDF uloženo: `literatura/AHP/Mardani_2015_MCDM_review.pdf` (Croatian Academic Repository, open access, staženo 19. 6. 2026).  
-  Citováno v §6 (úvod — systematické zahrnutí kritérií do rozhodování) a §6.2 (výčet metod WSA/TOPSIS/ELECTRE). Přidáno 18. 6.
+  Citováno v BP 6 (úvod — systematické zahrnutí kritérií do rozhodování) a BP 6.2 (výčet metod WSA/TOPSIS/ELECTRE). Přidáno 18. 6.
+
+- **HO, William.** Integrated analytic hierarchy process and its applications – a literature review. *European Journal of Operational Research*. 2008, 186(1), 211–228. DOI: 10.1016/j.ejor.2007.01.004. Citováno v BP 6; vychází pouze na ScienceDirect (Elsevier, placené), žádná legální open-access kopie nebyla nalezena (ověřeno 28. 8.) — stáhnout přes knihovní/institucionální přístup UHK, nikoli z neautorizovaných zdrojů.
+
+- **MORENO-JIMÉNEZ, José María a Luis G. VARGAS.** Cognitive multiple criteria decision making and the legacy of the analytic hierarchy process. *Studies of Applied Economics*. 2018, 36(1), 67–80. DOI: 10.25115/eea.v36i1.2516. Citováno v BP 6. ✅ staženo (28. 8.) — open access z časopisu (OJS, Universidad de Almería). PDF uloženo: `literatura/AHP/Moreno-Jimenez_Vargas_2018_Cognitive_MCDM_AHP_legacy.pdf`.
+
+- **VAIDYA, Omkarprasad S. a Sushil KUMAR.** Analytic hierarchy process: An overview of applications. *European Journal of Operational Research*. 2006, 169(1), 1–29. DOI: 10.1016/j.ejor.2004.04.028. Citováno opakovaně v BP 6.2 a BP 6.3 (párové porovnání alternativ, rank reversal). Vychází pouze na ScienceDirect (Elsevier, placené), žádná legální open-access kopie nebyla nalezena (ověřeno 28. 8.) — stáhnout přes knihovní/institucionální přístup UHK, nikoli z neautorizovaných zdrojů.
 
 ## 3. Inspirace a vzory, které necitovat jako zdroje
 
@@ -84,7 +91,7 @@ Tyto soubory jsou přesunuté do `literatura/inspirace`. Slouží pro orientaci,
 ### Inspirace k databázím a návrhu databáze
 
 - `literatura/inspirace/DB/Kaspar_bc_final.pdf` - Zbyněk Kašpar, *Databázové systémy v praxi*, BP 2012.
-- `literatura/inspirace/DB/Chotenovsky_Tvorba_datovych_modelu_2023.pdf` - Tomáš Chotěnovský, BP 2023. Inspirace (necitováno; §3 a návrh databáze jsou opřeny o Chlapek, Kučera a Palovská, 2019).
+- `literatura/inspirace/DB/Chotenovsky_Tvorba_datovych_modelu_2023.pdf` - Tomáš Chotěnovský, BP 2023. Inspirace (necitováno; teorie návrhu databáze je opřena o Chlapek, Kučera a Palovská, 2019).
 - `literatura/inspirace/DB/Smahel_Porovnani_CASE_nastroju_2018.pdf` - David Šmahel, *Porovnání CASE nástrojů se zaměřením na podporu návrhu databáze*, BP 2018.
 
 ### Inspirace k AHP a vícekriteriálnímu rozhodování
@@ -117,7 +124,7 @@ Přehled zdrojů, které nejsou v práci, ale hodí se pro BP. Každý má stav:
 
 ### 5A. Databáze — doporučeno vedoucím (e-mail 17. 6. 2026) — prioritně sehnat
 
-Tyto čtyři knihy vedoucí výslovně zmínil. Použití: SP 4 (základy, DBMS), SP 5 (modely, normalizace). Cíl BP: aspoň 2–3 z nich citovat.
+Tyto čtyři knihy vedoucí výslovně zmínil. Použití: BP 4 (základy, DBMS) a BP 5 (modely, normalizace). Cíl BP: aspoň 2–3 z nich citovat.
 
 Elmasri & Navathe je už citován jako 4. zdroj kapitoly 4 (viz sekce 1 výše) a vyřazen z tohoto seznamu kandidátů. Zbývající tři zůstávají jako kandidáti pro BP.
 
@@ -138,7 +145,7 @@ Elmasri & Navathe je už citován jako 4. zdroj kapitoly 4 (viz sekce 1 výše) 
 | ✅ staženo | **HRONEK, Jiří.** *Databázové systémy*. Olomouc: Univerzita Palackého, Přírodovědecká fakulta, 2007. Učební text. Umístění: `literatura/DB/Hronek_2007_Databazove_systemy_UPOL.pdf`. | Pokrývá ER model, relační model, normalizaci, SQL — překryv s kapitolami 4 a 5. Zatím necitováno — záloha pro BP. |
 | 📚 sehnat | **DATE, C. J.** *An Introduction to Database Systems*. 8th ed. Pearson/Addison Wesley, 2004. | Klasická učebnice, ale starší; použít jen pokud nebude Connolly nebo Elmasri. |
 | 📚 sehnat | **RAMAKRISHNAN, Raghu a Johannes GEHRKE.** *Database Management Systems*. 3rd ed. McGraw-Hill, 2002. | Podobná úroveň jako Elmasri; alternativa. |
-| ✅ staženo (19. 6.) | **CODD, Edgar F.** A relational model of data for large shared data banks. *Communications of the ACM*. 1970, **13**(6), 377–387. DOI: 10.1145/362384.362685. PDF uloženo: `literatura/DB/Codd_1970_Relational_model.pdf`. | Citováno v §5.2 (atomické hodnoty relačního modelu) a §5.4 (normalizace — 1NF–3NF). Přidáno do bibliografie SP11. |
+| ✅ staženo (19. 6.) | **CODD, Edgar F.** A relational model of data for large shared data banks. *Communications of the ACM*. 1970, **13**(6), 377–387. DOI: 10.1145/362384.362685. PDF uloženo: `literatura/DB/Codd_1970_Relational_model.pdf`. | Citováno v BP 5.2 (atomické hodnoty relačního modelu) a BP 5.4 (normalizace — 1NF–3NF). Je v `BP 11.md`. |
 
 ---
 
@@ -149,7 +156,7 @@ Elmasri & Navathe je už citován jako 4. zdroj kapitoly 4 (viz sekce 1 výše) 
 | ✅ staženo | **VELASQUEZ, Manuel a Patrick HESTER.** An Analysis of Multi-Criteria Decision Making Methods. *International Journal of Operations Research*. 2013, **10**(2), 56–66. Umístění: `literatura/AHP/Velasquez_Hester_2013_Analysis_MCDM_Methods.pdf` |
 | ✅ staženo | **ISHIZAKA, Alessio a Ashraf LABIB.** Review of the main developments in the Analytic Hierarchy Process. *Expert Systems with Applications*. 2011, **38**(11), 14336–14345. DOI: 10.1016/j.eswa.2011.04.143. Umístění: `literatura/AHP/Ishizaka_Labib_2011_Review_AHP_Developments.pdf` |
 
-Použití: **HOTOVO (18. 6.)** — přidáno do SP 6.2 (Velasquez a Hester: WSA/TOPSIS/ELECTRE; Ishizaka a Labib: CR konzistence AHP). Také přidány jako záznamy do SP 11 (bibliografie).
+Použití: **HOTOVO (18. 6.)** — citováno v BP 6.2 (Velasquez a Hester: WSA/TOPSIS/ELECTRE; Ishizaka a Labib: CR konzistence AHP). Oba zdroje jsou v `BP 11.md`.
 
 ---
 
@@ -179,8 +186,8 @@ Použití: **HOTOVO (18. 6.)** — přidáno do SP 6.2 (Velasquez a Hester: WSA/
 
 | Stav | Zdroj | Poznámka |
 |---|---|---|
-| ✅ staženo | **CATAK, F. Ozgur, Servet KARABAS a Serkan YILDIRIM.** Fuzzy Analytic Hierarchy Based DBMS Selection in Turkish National Identity Card Management Project. *International Journal of Information Sciences and Techniques*. 2012, **2**(4), 29–38. DOI: 10.5121/ijist.2012.2403. Umístění: `literatura/AHP/Catak_2012_Fuzzy_AHP_DBMS_selection.pdf`. | Aplikace fuzzy AHP na výběr DBMS pro projekt eID v Turecku. Přímo relevantní pro zdůvodnění metodiky BP. Citováno v §7.3 (oddělení vah kritérií od hodnocení alternativ). Přidáno do SP11 6. 7. 2026. |
-| ✅ staženo | **EBRAHIMI, Seyed Babak a Maryam TAHERI.** Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *I.J. Information Engineering and Electronic Business*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01. Umístění: `literatura/AHP/Ebrahimi_Taheri_2015_Fuzzy_AHP_DBMS_EMR.pdf`. | Výběr DBMS pro elektronické zdravotní záznamy pomocí fuzzy AHP; porovnává PostgreSQL, MySQL, Oracle, DB2, SQL Server. Alternativa nebo doplněk k Catak et al. Zatím necitováno v textu SP. |
+| ✅ staženo | **CATAK, F. Ozgur, Servet KARABAS a Serkan YILDIRIM.** Fuzzy Analytic Hierarchy Based DBMS Selection in Turkish National Identity Card Management Project. *International Journal of Information Sciences and Techniques*. 2012, **2**(4), 29–38. DOI: 10.5121/ijist.2012.2403. Umístění: `literatura/AHP/Catak_2012_Fuzzy_AHP_DBMS_selection.pdf`. | Aplikace fuzzy AHP na výběr DBMS pro projekt eID v Turecku. Přímo relevantní pro zdůvodnění metodiky BP. Citováno v BP 6.3 (oddělení vah kritérií od hodnocení alternativ). Je v `BP 11.md`. |
+| ✅ staženo | **EBRAHIMI, Seyed Babak a Maryam TAHERI.** Selection of Database Management System with Fuzzy-AHP for Electronic Medical Record. *I.J. Information Engineering and Electronic Business*. 2015, **7**(5), 1–9. DOI: 10.5815/ijieeb.2015.05.01. Umístění: `literatura/AHP/Ebrahimi_Taheri_2015_Fuzzy_AHP_DBMS_EMR.pdf`. | Výběr DBMS pro elektronické zdravotní záznamy pomocí fuzzy AHP; porovnává PostgreSQL, MySQL, Oracle, DB2, SQL Server. Citováno v BP 6. |
 
 ---
 
@@ -198,7 +205,7 @@ Knihy z doporučené literatury kurzu v portálu UHK (`ucebny.uhk.cz` — intern
 
 | Stav | Zdroj | Relevance / poznámka |
 |---|---|---|
-| ✅ citováno (18. 6.) | **WATT, Adrienne a Nelson ENG.** *Database Design* [online]. 2nd ed. Victoria: BCcampus, 2014. Dostupné z: <https://opentextbc.ca/dbdesign01/>. Licence CC BY 4.0. | Volně dostupný open textbook. Citováno v SP 4.1 (databáze/DBMS) a SP 5.2 (relační model). Nalezeno přes reference Carvalho et al. (2022), ref [28]. |
+| ✅ citováno (18. 6.) | **WATT, Adrienne a Nelson ENG.** *Database Design* [online]. 2nd ed. Victoria: BCcampus, 2014. Dostupné z: <https://opentextbc.ca/dbdesign01/>. Licence CC BY 4.0. | Volně dostupný open textbook. Citováno v BP 4.1 (databáze/DBMS) a BP 5.2 (relační model). Nalezeno přes reference Carvalho et al. (2022), ref [28]. |
 | 🔍 online (zdarma) | **MONGE, Alvaro.** *Database Design with UML and SQL*. 4th ed. [online]. California State University Long Beach. Dostupné z: <http://web.csulb.edu/colleges/coe/cecs/dbdesign/> | Volně online; hodí se k SP 5 (notace ER/UML — Chen, Crow's Foot, UML). |
 | 📚 sehnat | **ULLMAN, Jeffrey D. a Jennifer WIDOM.** *A First Course in Database Systems*. 3rd ed. Upper Saddle River: Prentice Hall, 2007. ISBN 978-0136006374. | Relační model a datové modelování; nižší priorita (podobné Garcia-Molina/Ullman/Widom v 5A). |
 | 📚 sehnat | **BEAULIEU, Alan.** *Learning SQL: Generate, Manipulate, and Retrieve Data*. 3rd ed. Sebastopol: O'Reilly Media, 2020. ISBN 978-1492057611. | O psaní SQL; pro téma (návrhové nástroje) okrajové, spíš praktická část BP. |
@@ -208,9 +215,9 @@ Knihy z doporučené literatury kurzu v portálu UHK (`ucebny.uhk.cz` — intern
 
 Pravidlo: knihy o **návrhu databází** (Monge, Ullman & Widom) se hodí do teorie; knihy o **psaní SQL** (Beaulieu, Sheldon, Stephens & Plew) jsou pro toto téma okrajové.
 
-## 6. Co zůstalo ve `smazat/`
+## 6. Složka `smazat/`
 
-Ve `smazat/` zůstaly hlavně duplicity, rozbité soubory, slabé materiály nebo soubory mimo téma.
+**Stav k 28. 8. 2026: složka `smazat/` na disku už neexistuje** — obsah popsaný níže (duplicity, rozbitá stažení, necitovatelné slidy) byl mezitím fyzicky smazán. Seznam je ponechán jen jako historický záznam toho, co a proč bylo vyřazeno.
 
 - `smazat/Databázové systémy - Pokorný a Valenta - 4ca4af82-91fc-45cc-9e9c-46fd51abd17b.pdf` - duplicitní kopie knihy Pokorný a Valenta.
 - `smazat/BuresO_VyuzitiVicekriterialniho_HB_2018.pdf` - rozbité stažení, soubor má jen několik KB.
@@ -222,7 +229,6 @@ Ve `smazat/` zůstaly hlavně duplicity, rozbité soubory, slabé materiály neb
 - `smazat/PDBS2025.pdf` - prostorové databáze / Oracle Spatial, mimo hlavní zaměření práce.
 - `smazat/E80817_01.zip` - archiv dokumentace Oracle, nyní nadbytečný vůči online dokumentaci.
 - `smazat/Uvod_datove_modelovani.pdf` - slabší zdroj bez jasného bibliografického záznamu.
-- `smazat/Vicekriterialni_metody_hodnoceni_2.pdf` - slidy; vhodnější je učební text Soukopové.
 - `smazat/VRfinal.pdf` - slidy bez jasného bibliografického záznamu.
 - `smazat/04-databazove-systemy.pdf` - přednáškové slidy (Honza Havelka, 5 stran), necitovatelné.
 - `smazat/databazove_systemy.pdf` - skenované slidy (čistě obrázky), necitovatelné.
@@ -231,6 +237,8 @@ Ve `smazat/` zůstaly hlavně duplicity, rozbité soubory, slabé materiály neb
 - `smazat/Codd_1970_A_relational_model.pdf` - duplicita, nahrazeno Codd_1970_Relational_model.pdf.
 - `smazat/Codd_1970_A_relational_model (1).pdf` - duplicita z kořene literatura/.
 - `smazat/Multiple criteria decision making techniques...pdf` - stará kopie Mardaniho, nahrazeno.
+
+**Nedokončený úklid:** `literatura/AHP/Vicekriterialni_metody_hodnoceni_2.pdf` měl podle tohoto rozhodnutí skončit ve `smazat/` (slidy, nahrazeno učebním textem Soukopové), ale reálně zůstal ležet přímo v `literatura/AHP/` mezi platnými zdroji. Není nikde citován, takže práci to nepoškozuje, ale stojí za smazání nebo přesun, ať se v `literatura/AHP/` nepletou platné zdroje s vyřazenými.
 - `smazat/Alkahtani_2019_MCDM_supplier_selection_AHP_TOPSIS.pdf` - nezdokumentovaný soubor z inspirace.
 - `smazat/fundamentals-of-database-systems.pdf` - menší duplicita Elmasriho, nahrazeno 7th Edition.
 - `smazat/Ivanytska_DanceSport_scoring_2015.pdf` - práce o hodnocení tanečního sportu, tematicky zcela mimo.
@@ -238,9 +246,7 @@ Ve `smazat/` zůstaly hlavně duplicity, rozbité soubory, slabé materiály neb
 
 ## 7. Poznámky k dalším úpravám textu práce
 
-- **ROZHODNUTO (14. 6., finální):** všechny kvalifikační práce (Kašpar, Chotěnovský, Jandová, Vohradský, Jedlička) zůstávají jen jako **inspirace** a v textu se NEcitují. Citace jsou nahrazeny vlastněnými zdroji: §3 (návrh databází) → **Chlapek, Kučera a Palovská (2019)**; §8 (NoSQL) → **DB-Engines (2026)**; §7.3 (rank reversal) → **Saaty (2008)**.
+- **ROZHODNUTO (14. 6., finální):** všechny kvalifikační práce (Kašpar, Chotěnovský, Jandová, Vohradský, Jedlička) zůstávají jen jako **inspirace** a v textu se NEcitují. Citace jsou nahrazeny vlastněnými zdroji: BP 5 (návrh databází) → **Chlapek, Kučera a Palovská (2019)**; BP 7 (rozšířenost DBMS) → **DB-Engines (2026)**; BP 6.3.3 (rank reversal) → **Saaty (2008)**.
 - **Connolly & Begg (2015)** a **Sullivan (2015)** se zatím nedaří sehnat → přesunuty do sekce 5 (sehnat pro BP); v textu se NEcitují.
 - V metodice je nyní potřeba hlídat, aby nebylo napsané, že práce vychází ze zdrojů, které jsou ve skutečnosti jen ve složce `literatura/inspirace`.
-- **HOTOVO (16. 6.):** Seznam zdrojů je v souboru `Seminární práce 11.md`, seřazený abecedně a rozdělený na tištěné/internetové. Soubory `Seminární práce 12.md` a `13.md` jsou prázdné rezervy (NEPOUŽÍVAT).
-- **HOTOVO (18. 6.):** Přidány 4 nové zdroje do bibliografie (SP 11) a zapracovány citace do kapitol 4–6: **Chen (1976)** — ER model, §5.1; **Watt a Eng (2014)** — open textbook BCcampus, §4.1, §4.3, §5.2; **Velasquez a Hester (2013)** — MCDM metody, §6.2; **Ishizaka a Labib (2011)** — AHP konzistence, §6.2. Celkem 18 citovaných zdrojů.
-- **HOTOVO (18. 6., druhý průchod):** Přidány další 2 zdroje: **Codd (1970)** — relační model, §5.2 a §5.4; **Mardani et al. (2015)** — přehled MCDM, §6 úvod a §6.2. Navíc **Ishizaka a Labib (2011)** přidán i do §7.3. Celkem nyní **20 citovaných zdrojů**. PDF pro Codd a Mardani stáhnout ručně (viz sekce 5B a 2 výše). Zbývá sehnat knihy ze sekce 5A (Connolly, Elmasri, Garcia-Molina, Korth) pro BP.
+- **Stav k 28. 8. 2026:** Pracovní seznam v `BP 14.md` obsahuje 27 položek převzatých z finální seminární práce. Úplná pracovní struktura BP používá kapitoly 0–15; kapitoly 10–13 jsou vyhrazeny pro výsledky testování, AHP vyhodnocení, diskusi a závěr.

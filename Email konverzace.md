@@ -1,3 +1,68 @@
+2.9
+
+Dobrý den,
+
+technologie si můžete zvolit libovolné, hlavně si předem ověřte, jakým způsobem pak budete implementovat všechny ty výpočty.
+
+Ano, tu hranici musíme vymezit. Představoval bych si to tak, že ta aplikace bude primárně pro porovnání nástrojů pro návrh a správu databázových systémů, tzn., že si uživatel bude vybírat kritéria a alternativy z připraveného seznamu + možnost přidat vlastní kritéria nebo alternativy, z toho se sestaví matice, ohodnotí, provedou výpočty, a nakonec zobrazí výstup. Někde tam bude popis těch kritérií a hlavně alternativ, včetně odkazů, kde si uživatel může dohledat další informace, aby se mohl rozhodnout, jak to má podle svých preferencí hodnotit – ten základ je vždy daný, hodnocení je subjektivní podle požadavků, a výstup zase vypočítaný podle těch vzorců.
+
+Fungování té aplikace ukážete na nějakém konkrétním případu, takže bude stačit jeden scénář + tam bude muset být ta citlivost na změnu hodnocení toho scénáře, ale to stačí popsat nějaké 2 nebo 3 změny a co se stane s výsledky.
+
+Budeme se muset vyjádřit i k rozšiřitelnosti, což ale bude jednoduché, protože když to budete mít v databázových tabulkách, tak by se do nich přidala jen další sada kritérií a alternativ + v aplikaci bude nějaké tlačítko, kterým by se to přepnulo. Ale pokud toho budete mít dost, tak se to nebude muset implementovat, jen se to zmíní na konci práce.
+
+Pokud už v tom máte nějak jasno, tak můžete dopracovat to zadání práce VŠKP ve Stagu. Asi se bude muset upravit cíl a osnova, takže mi to před tím ještě pošlete a pak to tam vložíte.
+
+Pěkný den,
+
+Martin Lněnička
+
+
+
+19.8
+
+Dobrý den,
+
+nejdříve musíme vyřešit, jestli **1)** vytvoříte aplikaci pro komparaci nástrojů pro návrh a vývoj databázových systémů s využitím AHP, která bude univerzální a každý si budeme moci kritéria a alternativy porovnat s využitím AHP podle sebe, nebo **2)** jen navrhnete kritéria a alternativy a vytvoříte např. 3 use casy, kde ta kritéria a alternativy ohodnotíte pomocí AHP, vyjdou nějaké váhy a pořadí těch alternativ (nástrojů) pro dané případy užití těch nástrojů, když tady budou dané ty 3 ukázky pro konkrétní situace a požadavky.
+
+Co je hlavní, tak AHP je vždy subjektivní při hodnocení těch kritérií a alternativ, musíte mít jen správně spočítané ty vzorce. Kritéria a alternativy už máte v té seminární práci, jen je musíte finalizovat a použít buď jako 1) nebo 2). Podle toho upravíme zadávací list ve Stagu.
+
+V příloze posílám ZIP s projekty studentů, které měli vypracovat na předmět rozhodovací procesy - Saaty je AHP. Podívejte se, jak se to zobrazuje, počítá a co tam musí být. To by byl ten postup 2), kdybyste musel rozlišit 3 různé use casy, např. jeden use case je pro chudého studenta, který ale vyžaduje hodně funkcí, druhý use case by byl třeba pro střední firmu, která to potřebuje co nejvíce automatizovat a třetí by byl korporát, který má dost peněz a vyžaduje dokumentaci a podporu 24/7. Podle toho se to hodnotí a vyjdou váhy a pořadí alternativ.
+
+Druhý soubor je dokument z konference, kde jsem před lety vytvářel právě tu aplikaci, ale nikdy nedodělal, proto z toho zůstalo jen user interface a něco to možná počítalo. To je ten postup 1), kdy byste udělal rozhraní, implementoval ty vzorce pro výpočty a každý by si to mohl zhodnotit podle sebe.
+
+Teorii a podklady už víceméně máte, teď jen potřebujete tu praktickou část. Podle toho upravíme to zadání ve Stagu.
+
+Pěkný den,
+
+Martin Lněnička
+
+18.8.
+
+Dobrý den,
+
+konečný termín dopracování "Doplňovacího podkladu VŠKP" prostřednictvím IS/STAG je až 15.10.2026, takže to zatím nespěchá. Já budu na FIM fyzicky až v září. Pokud už něco máte hotového, tak to eventuálně můžeme probrat přes Teams. Pro ten "Doplňovacího podkladu VŠKP" – oficiálně se to jmenuje zadávací list, potřebujete Zásady pro vypracování, tzn. osnovu, což je cíl práce a několik odrážek, čemu se budete věnovat (většinou jsou to názvy kapitol, které budou v té práci) – ve Stagu už něco je, ale můžete to upravit, a Literaturu, což jsou zdroje, podle kterých bude práce vypracována – vyberete 4 až 5 zdrojů ze seminární práce.
+
+Pokud už máte nějakou představu, tak to můžete ve Stagu dopracovat rovnou, já to zkontroluji, případně doladím, a schválím.
+
+Pěkný den,
+
+Martin Lněnička
+
+13.7
+
+Dobrý den,
+
+předmět MES máte splněný, zkontrolujte si zápočet ve Stagu. Dal jsem tam datum 30.06.2026, protože teď jsou oficiálně letní prázdniny.
+
+Na AHP existuje online docela dost šablon (většinou v Excelu) a online webových aplikací. Určitě je dobré si to dohledat a porovnat, protože ty výpočty a vzorce jsou sice dané, ale třeba přehlednost a využitelnost pro běžné uživatele je někdy horší, protože je to často moc matematicko-technické. V té aplikaci je pak dobré se věnovat např. chybovým hláškám a upozorněním pro uživatele, aby AHP, resp. tu aplikaci, používali správně. Z toho si pak v bakalářské práci můžete vytvořit odstavec, že jste porovnal existující řešení a na základě toho implementoval nějaká vylepšení.
+
+V tom srpnu to bude asi ten týden od 17. nebo 24. Buď budu fyzicky na FIM nebo to uděláme přes Teams. Pak se ozvu.
+
+Pěkný den,
+Martin Lněnička
+
+---------------------------------------------------------------
+
 9.7
 Dobrý den,
 
@@ -19,6 +84,7 @@ Pěkný den,
 Martin Lněnička
 
 ---------------------------------------------------------------
+
 17.6
 Dobrý den,
 
@@ -35,6 +101,7 @@ Příště mi to už pošlete v tom oficiálním dokumentu a už by to snad mohl
 
 Pěkný den,
 Martin Lněnička
+
 ---------------------------------------------------------------
 
 11.5.
@@ -47,7 +114,9 @@ Do konce srpna je zároveň nutné ve Stagu doplnit zadávací list – měli by
 
 Pěkný den,
 Martin Lněnička
+
 ---------------------------------------------------------------
+
 Dobrý den,
 
 nejdříve musíte udělat rešerši existující literatury, protože do toho podkladu VŠKP musíte vložit i nějaké knížky, ze kterých čerpáte, aby to bylo teoreticky podložené. Teď si hledejte vhodné knihy k tomu tématu, např. na https://books.google.com/, nebo i nějaké články z časopisů, např. https://scholar.google.com/, ze kterých vytvoříte teoretický přehled. Cílem je definovat základní pojmy, např. co je databázový systém, fáze vývoje databázových systémů, datové modely, vícekriteriální rozhodování, alternativa, kritéria, metody porovnání alternativ a kritérií atd. Na tom se naučíte pracovat s literaturou a správně ji citovat. Až druhý krok bude nějaká sumarizace, např. ve formě tabulky nebo více tabulek, a popis nalezených kritérií a alternativ (nástrojů). Tam se také citují zdroje, ale je to více analytické a sumarizuje to tu znalost, kterou jste při studiu literatury získal. Takže to může být i trochu subjektivní. Ty základní pojmy jsou ale fakta, která jsou k nalezení v literatuře.
