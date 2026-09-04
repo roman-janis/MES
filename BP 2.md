@@ -1,4 +1,4 @@
-# Cíl práce a výzkumné otázky
+# 2 Cíl práce a výzkumné otázky
 
 Cílem práce je připravit teoretická a metodická východiska pro porovnání vybraných nástrojů pro návrh a vývoj databázových systémů. K dosažení hlavního cíle je potřeba splnit tyto dílčí cíle:
 

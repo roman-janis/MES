@@ -1,4 +1,4 @@
-# Úvod
+# 1 Úvod
 
 Návrh databáze obvykle předchází samotné implementaci databázového systému. Kvalita takového datového návrhu značně ovlivňuje spolehlivost, výkon a možnosti dalšího rozšiřování systému. V případě, že při návrhu vzniknou chyby, jejich odstranění je v dalších etapách složité a nákladné. Při návrhu a vývoji databází se proto využívají různé softwarové nástroje, jako například nástroje pro datové modelování, generování Structured Query Language (SQL) skriptů nebo správu databázových schémat. Jednotlivé nástroje se mezi sebou liší rozsahem nabízených funkcí, podporovanými databázovými systémy, možnostmi modelování nebo licenčními podmínkami.
 
