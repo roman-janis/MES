@@ -2,7 +2,7 @@
 
 ## Start Here: Load the Current Context
 
-Before substantive work, read `PŘEHLED.md`, `PLAN.md`, `POZADAVKY_UCITELE.md`, and `ZDROJE.md`. Then load `AHP_NAVOD_SAATY.md` for calculations, `CYKLOSERVIS_ZADANI.md` and `docker/README.md` for tool tests, or the relevant `BP <number>.md` chapter for writing. `.agents/AGENTS.md` describes an older seminar-paper layout; do not treat it as current.
+Before substantive work, read `PLAN.md`, `Email konverzace.md`, and `ZDROJE.md`. Then load `AHP_NAVOD_SAATY.md` for calculations, `CYKLOSERVIS_ZADANI.md` and `docker/README.md` for tool tests, or the relevant `BP <number>.md` chapter for writing. `.agents/AGENTS.md` describes an older seminar-paper layout; do not treat it as current.
 
 Discover project Markdown (excluding bundled third-party documentation) with `rg --files -g "*.md" -g "!nastroje/**"`. Read a file exactly in PowerShell with `Get-Content -Raw -LiteralPath '.\PLAN.md' -Encoding UTF8`. Re-check dated status instead of assuming it is still current.
 

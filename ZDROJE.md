@@ -112,7 +112,7 @@ Tyto soubory jsou přesunuté do `literatura/inspirace`. Slouží pro orientaci,
 - `zadani/vskp_-_zadani_vskp.pdf` - oficiální zadání BP.
 - `zadani/vskp_-_udaje_o_vskp.pdf` - údaje o VŠKP ze STAGu.
 - `Email konverzace.txt` - e-mailová komunikace s požadavky a poznámkami vedoucího.
-- `POZADAVKY_UCITELE.md` - pracovní souhrn toho, co chtěl vedoucí a co z toho plyne pro práci.
+- `Email konverzace.md` - původní e-mailová komunikace s požadavky a poznámkami vedoucího.
 - `oliva/pokyny/` - pravidla MES, metodické pokyny FIM UHK, citace a formát.
 - `oliva/sablony/` - šablony seminární práce.
 

@@ -204,7 +204,7 @@ Podle struktury naplánované v `PLAN.md` (blok 1, bod 4):
 | List 1 | Matice kritérií K1–K8 + váhy (GEOMEAN + normalizace) + CI/CR | 8×8 |
 | Listy 2–9 | Matice 4 nástrojů, jeden list na kritérium (K1 až K8) + váhy + CR | 4×4 (RI = 0,90) |
 | List 10 | Syntéza — tabulka nástroj × kritérium s lokálními váhami, násobení váhou kritéria, součet po řádku | 4 nástroje × 8 kritérií |
-| List 11 | Analýza citlivosti — změna váhy K1 nebo K8 (dle zadání vedoucího, `POZADAVKY_UCITELE.md`), přepočet ostatních vah tak, aby součet zůstal 1, a sledování, zda se změní vítěz | — |
+| List 11 | Analýza citlivosti — změna váhy K1 nebo K8 (dle zadání vedoucího v `Email konverzace.md`), přepočet ostatních vah tak, aby součet zůstal 1, a sledování, zda se změní vítěz | — |
 
 Praktické tipy pro Excel:
 
@@ -220,7 +220,7 @@ Praktické tipy pro Excel:
 
 ## 7. Dva scénáře podle zadání vedoucího
 
-Podle `POZADAVKY_UCITELE.md`: dva modelové scénáře se liší jen ve váhách
+Podle staršího zadání vedoucího v `Email konverzace.md`: dva modelové scénáře se liší jen ve váhách
 kritérií K1–K8 (matice alternativ pro každé kritérium zůstávají stejné —
 mění se jen to, jak moc na daném kritériu záleží):
 

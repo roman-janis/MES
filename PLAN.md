@@ -1,116 +1,150 @@
-# Plán přípravy bakalářské práce
+# Plán práce od začátku podle učitele
 
-Aktualizace: 28. 8. 2026.
+Aktualizace: 7. 9. 2026
 
-## Stav
+## Výchozí stav
 
-- Seminární práce **odevzdána** (12. 7. 2026, Oliva, KRCR-MES).
-- Zápočtový test **absolvován**.
-- **Zápočet MES zapsán** vedoucím do STAGu (datum 30. 6. 2026).
-- Vedoucí odpověděl 13. 7. 2026 — schůzka v srpnu (týden od 17. nebo 24. 8.), FIM nebo Teams.
-- 23. 7.: připraveno AHP zadání pro volbu AI, odkazy na AHP nástroje/Excel/PDF a staženy aktuální instalátory DBeaver 26.1.5 a MySQL Workbench 8.0.47. Historické podrobnosti: `archiv/priprava/AHP_AI_a_nastroje_priprava.md`.
-- 23. 7.: ověřeno omezení pgModeleru — Community je zdrojový kód a reverse engineering je pouze v Plus. Před instalací je nutné rozhodnout, jak s ním bude práce nakládat.
-- 13. 8.: **hotové Docker prostředí** se třemi databázovými servery (Oracle Database Free, MySQL 8.0, PostgreSQL 16) pro reverse engineering ve všech 4 nástrojích — `docker/` (spuštění, porty a přihlašovací údaje v `docker/README.md`).
-- 13. 8.: **připraveno zadání a rozsah testovací databáze cykloservisu** (10 entit, DDL skripty pro PostgreSQL/MySQL/Oracle, postup a časový odhad testování) — `CYKLOSERVIS_ZADANI.md`.
-- 13. 8.: **hotový český návod na Saatyho metodu (AHP)** s kompletně spočítaným kontrolním příkladem (3 kritéria × 3 alternativy, ověřitelné v Excelu) a postupem, jak z něj sestavit `AHP_vypocet.xlsx` — `AHP_NAVOD_SAATY.md`. Splňuje bod 1.3 níže.
-- 28. 8.: pracovní obsah BP je rozdělen do kapitol `BP 0.md`–`BP 15.md`; teorie zachovává finální text seminární práce, praktické kapitoly obsahují úplnou strukturu s jednoznačnými nečíselnými zástupnými značkami. Pro vedoucího je připraven `PODKLAD_PRO_VEDOUCIHO.md`. Skutečné testy, AHP matice, výsledky a závěr zůstávají otevřené.
-- 28. 8.: provedena úplná kontrola věcného souladu všech kapitol `BP 0.md`–`BP 15.md` proti požadavkům vedoucího, e-mailové komunikaci, `AHP_NAVOD_SAATY.md`, `CYKLOSERVIS_ZADANI.md` a `ZDROJE.md`. Opraveno: chybějící deklarace použití AI nástrojů v `BP 3.md` (zůstává jako otevřený `⟦DOPLNIT⟧`, nutno vyplnit skutečnými údaji), chybný neutrální placeholder v `BP 9.md` u referenční platformy DBeaveru (nahrazeno PostgreSQL podle `CYKLOSERVIS_ZADANI.md`), chybějící záznam Vaidya a Kumar (2006) v `ZDROJE.md`, nepřesná verze DBeaveru v tomto plánu (26.1.3 → 26.1.5 podle skutečně staženého instalátoru) a upřesněný komentář v `BP 14.md` k počtu a skladbě zdrojů (18 jednoznačných knih/článků z 27 položek, chybí ISSN u Catak a Ebrahimi). Žádná testovací data, AHP hodnoty ani závěry nebyly vymýšleny. Otevřené body k domluvě s vedoucím zůstávají tři z `PODKLAD_PRO_VEDOUCIHO.md` (DBeaver, pgModeler, rozsah AHP aplikace).
+- Teoretický základ práce se vrací na finální seminární verzi podle `seminární práce/MES_Janiš_final.txt`.
+- Praktická část se zatím neimplementuje.
+- Cílem první fáze je ujasnit přesný rozsah budoucí praktické části a až potom řešit aplikaci.
+- Soubor `hodnoceni_4_nastroju.xlsx` je založený jako pracovní sešit pro budoucí porovnání nástrojů. Vyplňovat se začne až po uzamčení seznamu alternativ a kritérií.
 
-### ▶ Další krok (pokračovat odsud)
+## Hlavní princip
 
-1. Nainstalovat 4 nástroje (blok 2, bod 1) — instalátory už jsou stažené v `nastroje/`, jen před pgModelerem rozhodnout edici.
-2. Nahrát DDL skripty z `CYKLOSERVIS_ZADANI.md` na kontejnery v `docker/` (příkazy jsou přímo v souboru u každého skriptu).
-3. Podle toho spustit testování 4 nástrojů (blok 3) postupem z `CYKLOSERVIS_ZADANI.md`, sekce 4.
-4. Souběžně/kdykoliv mezitím: sestavit `AHP_vypocet.xlsx` podle `AHP_NAVOD_SAATY.md`, sekce 6, a zkontrolovat proti kontrolnímu příkladu ze sekce 5.
+Nejdřív musí být jasné:
 
-Docker kontejnery (`mes-oracle`, `mes-mysql`, `mes-postgres`) aktuálně **běží** na pozadí. Pokud se v práci nebude pokračovat hned, lze je zastavit (`docker compose down` ve složce `docker/` — data ve volumes zůstanou zachována) a znovu nastartovat příště (`docker compose up -d`).
+- co přesně bude aplikace dělat,
+- jaké budou alternativy,
+- jaká budou kritéria,
+- jak bude vypadat jeden konkrétní scénář,
+- jak budou provedeny AHP výpočty,
+- a teprve potom má smysl řešit implementaci v PHP.
 
----
+## Pořadí kroků
 
-## 1. AHP — šablony, výpočet, Excel
-**22. 7. – 31. 7. 2026**
+### 1. Vymezit přesný účel aplikace
 
-1. ✅ Vyhledány AHP weby, Excel/Google Sheets zdroje a PDF návody; historický podklad k porovnání Codexu/ChatGPT, Gemini a Claude je uložen v `archiv/priprava/AHP_AI_a_nastroje_priprava.md`.
-2. ⏳ Otevřít BPMSG a prakticky otestovat nejméně 3 weby a BPMSG Excel šablonu: zapsat CR, chybové hlášky, přehlednost a použitelnost pro laika. Teprve pak napsat odstavec srovnání do BP.
-3. ✅ Projít 1 kompletní AHP příklad ze Saaty (1990, s. 9–26) ručně — sestavit matici → geometrický průměr → váhy → CR. Hotovo v `AHP_NAVOD_SAATY.md` (kontrolní příklad 3×3 + 3×3×3, plně dopočítaný).
-4. ⏳ Sestavit `AHP_vypocet.xlsx`: List 1 matice kritérií 8×8 + váhy + CR; Listy 2–9 matice nástrojů 4×4 (1 list / kritérium); List 10 syntéza; List 11 analýza citlivosti K1 nebo K8 (mění se jedna váha, ne obě zároveň). Struktura a Excel vzorce popsány v `AHP_NAVOD_SAATY.md`, sekce 6.
+**Stav: hotovo.**
 
----
+Účelem aplikace je podpořit výběr nástroje pro návrh a správu databázových systémů podle preferencí uživatele pomocí metody AHP. Uživatel si vybere porovnávané nástroje a hodnoticí kritéria z připravených seznamů, případně doplní vlastní. U alternativ a kritérií bude dostupný popis a odkazy na další informace.
 
-## 2. Instalace nástrojů + testovací DB
-**1. 8. – 10. 8. 2026**
+Uživatel párově porovná důležitost kritérií a následně nástroje podle jednotlivých kritérií. Aplikace zkontroluje úplnost a platnost vstupů, vypočítá váhy a konzistenci porovnání a zobrazí výsledné pořadí nástrojů. Při problematických vstupech nebo nedostatečné konzistenci zobrazí srozumitelné upozornění.
 
-1. ⏳ Nainstalovat nástroje: Oracle SQL Developer Data Modeler 24.3.1 (již rozbalen), DBeaver Community 26.1.5 a MySQL Workbench 8.0.47. **Před pgModelerem rozhodnout přesnou verzi a edici:** Community není hotový Windows instalátor; aktuální produktové členění označuje reverse engineering jako funkci Plus, ale dostupnost je nutné ověřit přímo v použité sestavě. Plus vyžaduje licenci nebo zkušební klíč.
-2. ✅ Připravit testovací DB cykloservisu: zadání, rozsah (10 entit), ER přehled a hotové DDL skripty pro PostgreSQL/MySQL/Oracle — `CYKLOSERVIS_ZADANI.md`. ✅ Lokální DB servery běží v Dockeru (`docker/`, viz Stav výše) — zbývá jen nahrát skripty a nainstalovat nástroje z bodu 1.
+Výsledek bude doporučením odpovídajícím zadaným preferencím, nikoli univerzálním určením nejlepšího nástroje. Funkčnost aplikace bude v práci předvedena na jednom konkrétním scénáři a dvou až třech změnách hodnocení pro ověření citlivosti výsledku. Rozsáhlá administrace a rozšíření na jiné oblasti rozhodování nejsou součástí základní verze.
 
----
+Vstupy aplikace:
 
-## 3. Testování 4 nástrojů na cykloservisu
-**11. 8. – 16. 8. 2026**
+- výběr připravených alternativ a kritérií,
+- případné vlastní alternativy a kritéria,
+- párová porovnání důležitosti kritérií,
+- párová porovnání alternativ podle jednotlivých kritérií.
 
-Pro každý ze 4 nástrojů projít 4 kroky se stejným cílovým rozsahem:
-1. Vytvořit strukturu cykloservisu podle textového zadání — u modelovacích nástrojů od prázdného modelu, u edice bez samostatného návrhu nejbližším podporovaným postupem na prázdném schématu; rozdíl výslovně zaznamenat.
-2. Forward engineering nebo ekvivalentní export DDL — skript spustit na prázdné lokální DB a zapsat nutné opravy.
-3. Reverse engineering — připojit k živé referenční DB a sestavit model nebo diagram; nedostupnost v přesné edici zaznamenat, nikoli nahrazovat jinou edicí bez uvedení změny.
-4. Export do skutečně dostupných formátů; odlišit nativní PDF/PNG od tisku nebo převodu.
+Výstupy aplikace:
 
-Výsledky zapsat do `nastroje/hodnoceni_NAZEV.md` (sekce K1–K8 + screenshoty). MySQL Workbench navíc: reverse engineering na firemním MySQL serveru.
+- vypočtené váhy kritérií a lokální váhy alternativ,
+- hodnoty kontroly konzistence a upozornění na problematické vstupy,
+- celkové priority a výsledné pořadí alternativ.
 
----
+### 2. Uzamknout seznam alternativ
 
-## 🏖 Dovolená: 17. 8. – 21. 8. 2026
+**Stav: hotovo.**
 
----
+Konečný seznam alternativ:
 
-## 4. AHP výpočty — 2 scénáře + citlivost
-**22. 8. – 26. 8. 2026**
+- Oracle SQL Developer Data Modeler,
+- DBeaver Community Edition,
+- MySQL Workbench Community Edition,
+- pgModeler.
 
-1. Vyplnit AHP matice na základě výsledků testování nástrojů.
-2. Scénář A (malá firma / cykloservis): vyšší váha K2 Použitelnost + K8 Náklady → výpočet → pořadí nástrojů.
-3. Scénář B (střední firma / výrobní): vyšší váha K1 Funkcionalita + K3 Kompatibilita → výpočet → pořadí.
-4. Analýza citlivosti: změnit 1 váhu → sledovat změnu pořadí alternativ.
+Výběr pokrývá tři nástroje zaměřené především na významné databázové platformy Oracle Database, MySQL a PostgreSQL a jeden univerzálnější nástroj podporující více DBMS. Všechny alternativy jsou dostupné v bezplatné, komunitní nebo open-source podobě a umožňují prakticky ověřovat funkce související s návrhem databáze. Čtyři alternativy zároveň zachovávají zvládnutelný rozsah párového porovnávání metodou AHP. Podrobné zdůvodnění výběru je uvedeno v kapitole `BP 7.md`; přesné verze se v práci zaznamenají podle skutečně testovaných instalací.
 
----
+### 3. Uzamknout seznam kritérií
 
-## 5. Zadávací list STAG + příprava schůzky
-**27. 8. – 31. 8. 2026**
+Stanovit konečný pracovní seznam hodnoticích kritérií.
 
-1. Vyplnit zadávací list ve STAGu: anglický název práce + 4–5 zdrojů ISO 690:2022 (min. 2–3 knihy + 1 článek). Odeslat vedoucímu ke schválení.
-2. Připravit podklady na schůzku s vedoucím (týden od 17. nebo 24. 8., FIM nebo Teams): shrnutí testování nástrojů (1 strana) + 3–5 otázek (rozsah testování v BP, počet scénářů, forma aplikace, anonymizace firemních dat).
+Výstup:
 
----
+- seznam kritérií,
+- stručný význam každého kritéria,
+- poznámka, zda je kritérium spíše objektivní nebo subjektivní.
 
-## 6. AHP aplikace — programování
-**1. 9. – 30. 9. 2026**
+### 4. Připravit jeden hlavní scénář
 
-Naprogramovat podpůrnou AHP kalkulačku (Python nebo JS):
-1. Vstup: Saatyho matice n×n.
-2. Výpočet vah: geometrický průměr řádků → normalizace.
-3. Výpočet CR → hlásit, zda CR < 0,1 (konzistence přijatelná).
-4. Zobrazit výsledné pořadí alternativ.
-5. Analýza citlivosti: posuvník váhy → přepočet pořadí v reálném čase.
+Zvolit jeden konkrétní případ použití, na kterém se ukáže fungování práce.
 
----
+Výstup:
 
-## 7. Psaní BP
-**říjen – podzim 2026**
+- popis jednoho scénáře,
+- proč je zvolen,
+- jaké preference v něm budou důležité.
 
-Teorie ze SP + praktická část: testování nástrojů, AHP výpočty, 2 scénáře, aplikace. Cíl: min. 40 stran bez příloh.
+### 5. Připravit změny pro citlivost
 
----
+Nevytvářet složitou analýzu předem, ale připravit 2 až 3 změny, které se později vyzkouší.
 
-## Milníky
+Výstup:
 
-| Termín | Úkol | Stav |
-|---|---|---|
-| 12. 7. 2026 | Odevzdat SP + test + email vedoucímu. | ✅ |
-| 13. 7. 2026 | Zápočet MES zapsán vedoucím do STAGu. | ✅ |
-| 31. 7. 2026 | AHP — šablony, výpočet, Excel. | 🟡 Zdroje, zadání a ruční kontrolní příklad hotové; praktický test webů a vlastní `AHP_vypocet.xlsx` čekají. |
-| 10. 8. 2026 | Instalace nástrojů + testovací DB. | 🟡 Testovací DB (zadání, DDL, docker servery) hotová; instalace nástrojů a rozhodnutí o pgModeleru čekají. |
-| 16. 8. 2026 | Testování 4 nástrojů na cykloservisu. | ⏳ |
-| 17.–21. 8. 2026 | Dovolená. | — |
-| 26. 8. 2026 | AHP výpočty — 2 scénáře + citlivost. | ⏳ |
-| 31. 8. 2026 | Zadávací list STAG + příprava schůzky. | ⏳ |
-| srpen 2026 | Schůzka s vedoucím (FIM nebo Teams). | ⏳ |
-| 30. 9. 2026 | AHP aplikace — programování. | ⏳ |
-| podzim 2026 | Psaní a odevzdání BP. | ⏳ |
+- seznam 2 až 3 změn vah nebo hodnocení,
+- stručný předpoklad, co mohou udělat s výsledkem.
+
+### 6. Připravit datový návrh aplikace
+
+Navrhnout, jaká data bude potřeba ukládat.
+
+Výstup:
+
+- návrh tabulek nebo datových entit,
+- vazby mezi alternativami, kritérii, scénářem, hodnocením a výsledkem.
+
+### 7. Připravit logiku AHP výpočtu
+
+Ujasnit výpočetní postup ještě před programováním.
+
+Výstup:
+
+- postup párového porovnání,
+- výpočet vah,
+- kontrola konzistence,
+- výpočet výsledného pořadí,
+- stručný popis citlivosti.
+
+### 8. Rozhodnout podobu implementace
+
+Až po předchozích bodech rozhodnout, jak jednoduchá bude aplikace v PHP.
+
+Výstup:
+
+- návrh minimální verze aplikace,
+- rozhodnutí, co bude povinné a co už by bylo navíc.
+
+## Pevné požadavky vedoucího
+
+- Aplikace bude zaměřena na porovnání nástrojů pro návrh a správu databázových systémů.
+- Nabídne připravená kritéria a alternativy a zároveň umožní přidat vlastní.
+- Z těchto vstupů sestaví párové matice, provede AHP výpočty a zobrazí výsledek.
+- U kritérií a alternativ uvede popis a odkazy na další informace.
+- Fungování bude předvedeno na jednom konkrétním scénáři a na 2 až 3 změnách pro citlivost.
+- Správnost výpočtů, kontroly vstupů a srozumitelná upozornění jsou důležitější než rozsáhlé vedlejší funkce.
+- Rozšiřitelnost o další sadu kritérií a alternativ stačí popsat, pokud na její implementaci nezbude prostor.
+- Před doplněním zadávacího listu do STAGu poslat vedoucímu ke kontrole upravený cíl, osnovu a 4 až 5 zdrojů. Termín podle e-mailu je 15. 10. 2026.
+- Bakalářská práce má mít nejméně 30 skutečně použitých zdrojů, z toho alespoň 20 knih nebo odborných článků.
+
+## Co později doplnit do bakalářské práce
+
+- Upravit anotaci, abstract, úvodní údaje a popis struktury podle skutečně dokončené práce.
+- V metodice uvést skutečně použité nástroje AI, jejich verzi, účel, způsob a rozsah použití.
+- Uvést přesné verze a edice testovaných databázových nástrojů.
+- Doplnit operacionalizaci kritérií, pravidla převodu pozorování na Saatyho škálu a aktuální údaje o cenách a licencích.
+- Praktické kapitoly naplnit pouze skutečnými testy, AHP maticemi, výsledky a jejich interpretací; nevytvářet odhady ani ilustrativní výsledky.
+- Nakonec zkontrolovat použité zdroje a připravit přílohy z reálně vzniklých diagramů, DDL skriptů, protokolů, matic a aplikace.
+
+## Co teď nedělat
+
+- nezačínat hned programovat celou aplikaci,
+- nerozšiřovat práci o zbytečně velkou administraci,
+- nepřidávat více scénářů, pokud pro to nebude důvod,
+- nepřipravovat složité funkce navíc bez vazby na požadavky vedoucího.
+
+## Bezprostřední další krok
+
+Dokončit bod 3: uzamknout seznam kritérií K1 až K8, zpřesnit význam každého kritéria a určit, která kritéria jsou převážně objektivní a která vyžadují subjektivní posouzení uživatele.
