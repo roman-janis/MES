@@ -2,26 +2,29 @@ Dobrý den,
 
 zkusil jsem podle Vašeho e-mailu upřesnit cíl a osnovu bakalářské práce a posílám návrh.
 
-V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to pomocí metody AHP. K tomu bych navrhl a vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní a následně zadá párová porovnání a zobrazí si vypočítaný výsledek. U připravených nástrojů a kritérií budou popisy a odkazy na další informace.
+V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to s pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí se mu výsledek.
 
-Fungování aplikace bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a u modelového případu posoudil vliv tří samostatných změn důležitosti kritérií na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon.
+Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon a ani citlivostní anylýza jelikož ta by slouřila na ověření aplikace.
 
-Mohl byste mi prosím napsat, jestli je takto navržený cíl, osnova a rozsah praktické části v pořádku, případně co bych měl upravit?
-
+Je takto navržený cíl, osnova a rozsah v pořádku, případně co bych měl upravit?
 Ještě nemám přesnou představu, jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
+A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běže v žádném projetu nepoužil a ted nevím zd mám testovacím modelu záměrně nechat nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
 
-U modelového případu mám ještě jednu věc k upřesnění. V jádře modelu je i vazba 1:1 (Zakázka–Faktura). V běžném projektu bych ji asi často nepoužil. Mám ji v testovacím modelu záměrně nechat, abych u nástrojů ověřil i méně častou kardinalitu, nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
+Děkuji.
+
+S pozdravem
+
+Roman Janiš
 
 
-
-**Název práce**
+Název práce
 Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP
 Comparison of Tools for Database System Design and Development Using AHP
 
-**Cíl práce**
+Cíl práce
 Cílem bakalářské práce je navrhnout a vytvořit jednoduchou webovou aplikaci pro podporu výběru nástrojů určených pro návrh a vývoj databázových systémů s použitím rozhodovací metody AHP a následně ověřit její funkčnost na modelovém případu. Samotná aplikace bude implementována v jazyce PHP a umožní uživateli vybírat si z připravených nástrojů a hodnoticích kritérií, případně doplňovat vlastní položky, a zadávat párová porovnání podle svých preferencí. Na základě jejich zadání aplikace vypočítá výsledné pořadí nástrojů. Ověření bude zahrnovat kontrolu správnosti výpočtů nezávislým kontrolním výpočtem a použití aplikace na modelovém případu se čtyřmi vybranými nástroji a kritérii K1 až K8, včetně posouzení vlivu tří samostatných změn důležitosti kritérií na výsledek.
 
-**Navrhovaná osnova**
+Navrhovaná osnova
 
 1. Vymezit problematiku návrhu relačních databází.
 2. Popsat metodu AHP a postup výpočtu vah a kontroly konzistence.
@@ -30,7 +33,7 @@ Cílem bakalářské práce je navrhnout a vytvořit jednoduchou webovou aplikac
 5. Ověřit správnost výpočtů a fungování aplikace na modelovém případu a posoudit vliv změn důležitosti kritérií na výsledek.
 6. Zhodnotit výsledky, omezení a možnosti dalšího rozšíření.
 
-**Literatura do zadání**
+Literatura
 
 Ze zdrojů seminární práce bych do zadání vybral těchto pět:
 
@@ -40,8 +43,4 @@ Ze zdrojů seminární práce bych do zadání vybral těchto pět:
 4. POKORNÝ, Jaroslav a Michal VALENTA. *Databázové systémy*. Praha: ČVUT v Praze, 2020. ISBN 978-80-01-06708-6.
 5. SAATY, Thomas L. How to make a decision: The Analytic Hierarchy Process. *European Journal of Operational Research*. 1990, 48(1), 9–26. DOI: 10.1016/0377-2217(90)90057-I.
 
-Děkuji.
 
-S pozdravem
-
-Roman Janiš
