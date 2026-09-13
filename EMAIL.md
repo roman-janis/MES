@@ -4,13 +4,13 @@ Zkusil jsem podle informaci z e-mailu upřesnit cíl a osnovu bakalářské prá
 
 V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to s pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí se mu výsledek.
 
-Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon. Při změně by se spíš hodnotilo, zda přepočet probíhá správně.
+Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon. Při změně by se spíš hodnotilo, zda přepočet probíhá správně a jak to ovlinilo výsledek. U připravených kritérií a nástrojů budou také popisy a odkazy na další informace, aby měl uživatel podklady pro vlastní hodnocení.
 
 Je takto navržený cíl, osnova a rozsah v pořádku, případně co bych měl upravit?
 
 Ještě nevím, jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
 
-A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běžně v žádném projektu nepoužil a teď nevím, zda ji mám v testovacím modelu záměrně nechat, nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
+A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běžně v žádném projektu nepoužil. Když jsme programy zkoušel tak si nejsem jist zda to mám takto detailně hodnotit nebo ne. Protože pak na to musím upravit ten testovací projekt a vymyslet nějakou takovou vazbu.
 
 Děkuji.
 
