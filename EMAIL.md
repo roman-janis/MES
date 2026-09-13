@@ -1,10 +1,10 @@
 Dobrý den,
 
-Zkusil jsem podle informaci z e-mailu upřesnit cíl a osnovu bakalářské práce a posílám návrh.
+Zkusil jsem podle informací z e-mailu upřesnit cíl a osnovu bakalářské práce a posílám návrh.
 
 V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to s pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí se mu výsledek.
 
-Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon. Při změně by se spíš hodnotilo, zda přepočet probíhá správně a jak to ovlinilo výsledek. U připravených kritérií a nástrojů budou také popisy a odkazy na další informace, aby měl uživatel podklady pro vlastní hodnocení.
+Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon. Při změně by se spíš hodnotilo, zda přepočet probíhá správně a jak to ovlivnilo výsledek. U připravených kritérií a nástrojů budou také popisy a odkazy na další informace, aby měl uživatel podklady pro vlastní hodnocení.
 
 Je takto navržený cíl, osnova a rozsah v pořádku, případně co bych měl upravit?
 
