@@ -10,7 +10,7 @@ Je takto navržený cíl, osnova a rozsah v pořádku, případně co bych měl 
 
 Ještě nevím, jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
 
-A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běžně v žádném projektu nepoužil. Když jsme programy zkoušel tak si nejsem jist zda to mám takto detailně hodnotit nebo ne. Protože pak na to musím upravit ten testovací projekt a vymyslet nějakou takovou vazbu.
+A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běžně v žádném projektu nepoužil. Když jsem programy zkoušel, nebyl jsem si jist, zda to mám takto detailně hodnotit, nebo ne. Pak totiž musím upravit ten testovací projekt a vymyslet nějakou takovou vazbu.
 
 Děkuji.
 
