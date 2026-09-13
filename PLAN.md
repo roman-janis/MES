@@ -1,7 +1,7 @@
 # Detailní prováděcí plán BP (krok za krokem)
 
 Aktualizace: 13. 9. 2026
-Zdroj cíle a osnovy: `EMAIL_VEDOUCIMU_A_CIL_BP.md`
+Zdroj cíle a osnovy: `CIL_BP.md` (dopis vedoucímu: `EMAIL.md`)
 Předpoklad: vedoucí schválí e-mailový cíl (případné změny hned propsat sem).
 
 **Jak s tímto souborem pracovat**
@@ -39,10 +39,10 @@ Předpoklad: vedoucí schválí e-mailový cíl (případné změny hned propsat
 
 ## Krok 0.1 — Opravit a odeslat e-mail
 
-**Kde:** `EMAIL_VEDOUCIMU_A_CIL_BP.md`
+**Kde:** `EMAIL.md` (dopis) + `CIL_BP.md` (cíl/osnova/literatura)
 
 1. Otevři soubor.
-2. ~~V odstavci **Cíl práce** najdi `přípdně` a oprav na `případně`.~~ **Hotovo 13. 9. 2026** — v `EMAIL_VEDOUCIMU_A_CIL_BP.md` je `případně`.
+2. ~~V odstavci **Cíl práce** najdi `přípdně` a oprav na `případně`.~~ **Hotovo 13. 9. 2026** — v `EMAIL.md / CIL_BP.md` je `případně`.
 3. Zkontroluj, že v mailu je odděleně: (a) název CZ+EN, (b) **cíl** (jen odstavec cíle — bez literatury), (c) osnova 1–6, (d) **literatura do zadání** jako samostatný blok 5 zdrojů, (e) otázka k formě kontrolního výpočtu. Literatura **nepatří do textu cíle**.
 4. Zkopíruj text do školního mailu vedoucímu (Ing. et Ing. Martin Lněnička, Ph.D.).
 5. Odešli.

@@ -2,13 +2,17 @@ Dobrý den,
 
 zkusil jsem podle Vašeho e-mailu upřesnit cíl a osnovu bakalářské práce a posílám návrh.
 
-V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to s pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí se mu výsledek.
+V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí si vypočítaný výsledek.
 
-Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon a ani citlivostní anylýza jelikož ta by slouřila na ověření aplikace.
+Fungování aplikace bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a u modelového případu posoudil vliv tří samostatných změn důležitosti kritérií na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon.
 
-Je takto navržený cíl, osnova a rozsah v pořádku, případně co bych měl upravit?
+Mohl byste mi prosím napsat, jestli je takto navržený cíl, osnova a rozsah praktické části v pořádku, případně co bych měl upravit?
+
 Ještě nemám přesnou představu, jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
-A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běže v žádném projetu nepoužil a ted nevím zd mám testovacím modelu záměrně nechat nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
+
+U modelového případu mám ještě jednu věc k upřesnění. V jádře modelu je i vazba 1:1 (Zakázka–Faktura). V běžném projektu bych ji asi často nepoužil. Mám ji v testovacím modelu záměrně nechat, abych u nástrojů ověřil i méně častou kardinalitu, nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
+
+Návrh názvu, cíle, osnovy a literatury posílám níže (stejné znění je v souboru CIL_BP.md).
 
 Děkuji.
 
@@ -33,14 +37,12 @@ Navrhovaná osnova
 5. Ověřit správnost výpočtů a fungování aplikace na modelovém případu a posoudit vliv změn důležitosti kritérií na výsledek.
 6. Zhodnotit výsledky, omezení a možnosti dalšího rozšíření.
 
-Literatura
+Literatura do zadání
 
 Ze zdrojů seminární práce bych do zadání vybral těchto pět:
 
-1. CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. *IEEE Access*. 2022, 10, 3351–3365. DOI: 10.1109/ACCESS.2021.3139071.
-2. CHLAPEK, Dušan, Jan KUČERA a Helena PALOVSKÁ. *Datové modelování a návrh relační databáze: Sbírka řešených úloh*. Praha: Oeconomica, 2019. ISBN 978-80-245-2331-6.
-3. ISHIZAKA, Alessio a Ashraf LABIB. Review of the main developments in the Analytic Hierarchy Process. *Expert Systems with Applications*. 2011, 38(11), 14336–14345. DOI: 10.1016/j.eswa.2011.04.143.
-4. POKORNÝ, Jaroslav a Michal VALENTA. *Databázové systémy*. Praha: ČVUT v Praze, 2020. ISBN 978-80-01-06708-6.
-5. SAATY, Thomas L. How to make a decision: The Analytic Hierarchy Process. *European Journal of Operational Research*. 1990, 48(1), 9–26. DOI: 10.1016/0377-2217(90)90057-I.
-
-
+1. CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. IEEE Access. 2022, 10, 3351–3365. DOI: 10.1109/ACCESS.2021.3139071.
+2. CHLAPEK, Dušan, Jan KUČERA a Helena PALOVSKÁ. Datové modelování a návrh relační databáze: Sbírka řešených úloh. Praha: Oeconomica, 2019. ISBN 978-80-245-2331-6.
+3. ISHIZAKA, Alessio a Ashraf LABIB. Review of the main developments in the Analytic Hierarchy Process. Expert Systems with Applications. 2011, 38(11), 14336–14345. DOI: 10.1016/j.eswa.2011.04.143.
+4. POKORNÝ, Jaroslav a Michal VALENTA. Databázové systémy. Praha: ČVUT v Praze, 2020. ISBN 978-80-01-06708-6.
+5. SAATY, Thomas L. How to make a decision: The Analytic Hierarchy Process. European Journal of Operational Research. 1990, 48(1), 9–26. DOI: 10.1016/0377-2217(90)90057-I.

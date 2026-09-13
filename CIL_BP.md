@@ -1,27 +1,17 @@
-Dobrý den,
+# Cíl, osnova a literatura do zadání BP
 
-zkusil jsem podle Vašeho e-mailu upřesnit cíl a osnovu bakalářské práce a posílám návrh.
+Zdroj pro STAG a text práce. E-mailový dopis je v `EMAIL.md` (sem nepatří).
 
-V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to pomocí metody AHP. K tomu bych navrhl a vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní a následně zadá párová porovnání a zobrazí si vypočítaný výsledek. U připravených nástrojů a kritérií budou popisy a odkazy na další informace.
+## Název práce
 
-Fungování aplikace bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a u modelového případu posoudil vliv tří samostatných změn důležitosti kritérií na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon.
-
-Mohl byste mi prosím napsat, jestli je takto navržený cíl, osnova a rozsah praktické části v pořádku, případně co bych měl upravit?
-
-Ještě nemám přesnou představu, jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
-
-U modelového případu mám ještě jednu věc k upřesnění. V jádře modelu je i vazba 1:1 (Zakázka–Faktura). V běžném projektu bych ji asi často nepoužil. Mám ji v testovacím modelu záměrně nechat, abych u nástrojů ověřil i méně častou kardinalitu, nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
-
-
-
-**Název práce**
-Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP
+Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP  
 Comparison of Tools for Database System Design and Development Using AHP
 
-**Cíl práce**
+## Cíl práce
+
 Cílem bakalářské práce je navrhnout a vytvořit jednoduchou webovou aplikaci pro podporu výběru nástrojů určených pro návrh a vývoj databázových systémů s použitím rozhodovací metody AHP a následně ověřit její funkčnost na modelovém případu. Samotná aplikace bude implementována v jazyce PHP a umožní uživateli vybírat si z připravených nástrojů a hodnoticích kritérií, případně doplňovat vlastní položky, a zadávat párová porovnání podle svých preferencí. Na základě jejich zadání aplikace vypočítá výsledné pořadí nástrojů. Ověření bude zahrnovat kontrolu správnosti výpočtů nezávislým kontrolním výpočtem a použití aplikace na modelovém případu se čtyřmi vybranými nástroji a kritérii K1 až K8, včetně posouzení vlivu tří samostatných změn důležitosti kritérií na výsledek.
 
-**Navrhovaná osnova**
+## Navrhovaná osnova
 
 1. Vymezit problematiku návrhu relačních databází.
 2. Popsat metodu AHP a postup výpočtu vah a kontroly konzistence.
@@ -30,7 +20,7 @@ Cílem bakalářské práce je navrhnout a vytvořit jednoduchou webovou aplikac
 5. Ověřit správnost výpočtů a fungování aplikace na modelovém případu a posoudit vliv změn důležitosti kritérií na výsledek.
 6. Zhodnotit výsledky, omezení a možnosti dalšího rozšíření.
 
-**Literatura do zadání**
+## Literatura do zadání
 
 Ze zdrojů seminární práce bych do zadání vybral těchto pět:
 
@@ -39,9 +29,3 @@ Ze zdrojů seminární práce bych do zadání vybral těchto pět:
 3. ISHIZAKA, Alessio a Ashraf LABIB. Review of the main developments in the Analytic Hierarchy Process. *Expert Systems with Applications*. 2011, 38(11), 14336–14345. DOI: 10.1016/j.eswa.2011.04.143.
 4. POKORNÝ, Jaroslav a Michal VALENTA. *Databázové systémy*. Praha: ČVUT v Praze, 2020. ISBN 978-80-01-06708-6.
 5. SAATY, Thomas L. How to make a decision: The Analytic Hierarchy Process. *European Journal of Operational Research*. 1990, 48(1), 9–26. DOI: 10.1016/0377-2217(90)90057-I.
-
-Děkuji.
-
-S pozdravem
-
-Roman Janiš

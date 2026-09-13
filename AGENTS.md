@@ -8,7 +8,7 @@ On Windows this file is the same as `Agents.md`. `.agents/AGENTS.md` describes a
 
 Before substantive work, re-read dated status in `PLAN.md`, then `EMAIL_KONVERZACE.md` and `ZDROJE.md`. Load extra files only as needed:
 
-- Goal / STAG proposal (source of truth for title, goal, outline, assignment literature; not yet sent): `EMAIL_VEDOUCIMU_A_CIL_BP.md`.
+- Goal / STAG proposal: source of truth for title, goal, outline, assignment literature is `CIL_BP.md`; outgoing letter is `EMAIL.md` (not yet sent).
 - Detailed step-by-step execution plan (phases 0, A–H with concrete file/Excel/app/chapter steps): `PLAN.md`.
 - AHP calculations: `AHP_NAVOD_SAATY.md` (recompute the worked example before treating it as a specification).
 - Tool tests: `CYKLOSERVIS_ZADANI.md`, `docker/README.md`.
@@ -19,19 +19,19 @@ Discover project Markdown with `rg --files -g "*.md" -g "!nastroje/**"`. Read fi
 
 ## Current Status (13 September 2026)
 
-`EMAIL_VEDOUCIMU_A_CIL_BP.md` is the current proposal of title, goal, 6-point outline, and five assignment sources. It is prepared to send; the supervisor has not approved it. Do not treat it as an approved STAG assignment.
+`EMAIL.md` + `CIL_BP.md` is the current proposal of title, goal, 6-point outline, and five assignment sources. It is prepared to send; the supervisor has not approved it. Do not treat it as an approved STAG assignment.
 
 `PLAN.md` is the full roadmap to submission (phases 0, A–H), aligned to that email. Phase A locks **scope only** (app purpose, four alternatives, K1–K8, one Cykloservis case, three sensitivity changes) — that is not a finished thesis. Next real work is phase B (data design, one AHP procedure, small control example), then C–D (minimal PHP app + verify), E–F (tool tests → pairwise matrices → run + sensitivity), G–H (write BP text, formal DOCX, submit).
 
 **Do not rewrite BP chapters yet** to match the new goal. `BP 0.md`–`BP 3.md` and `BP 9.md` still use seminar framing. After supervisor approval and practical results, reframe them in phase G.
 
-Immediate work: send `EMAIL_VEDOUCIMU_A_CIL_BP.md`; after the reply, edit STAG (phase 0). In parallel start phase B (AHP spec + control example) and tool install notes for phase E. Do not start full PHP coding before phase B.
+Immediate work: send `EMAIL.md` + `CIL_BP.md`; after the reply, edit STAG (phase 0). In parallel start phase B (AHP spec + control example) and tool install notes for phase E. Do not start full PHP coding before phase B.
 
 STAG assignment-sheet deadline: 15 October 2026. The thesis needs at least 30 used sources, of which at least 20 are books or journal articles. `ZDROJE.md` already tracks 27 seminar items plus 3 approved extras; bibliography edits belong in `BP 10.md` and must stay in sync with `ZDROJE.md`.
 
 ## Locked Decisions
 
-Keep these unless the supervisor changes them. They match `EMAIL_VEDOUCIMU_A_CIL_BP.md` plus working detail in `PLAN.md`:
+Keep these unless the supervisor changes them. They match `EMAIL.md` + `CIL_BP.md` plus working detail in `PLAN.md`:
 
 - **Contribution / goal:** design, implement, and verify a simple PHP web AHP app for choosing tools for *návrh a vývoj databázových systémů*; verify on one model case. Comparing tools is the demonstration domain, not a second parallel thesis.
 - **Terminology:** “návrh a vývoj databázových systémů”. Operating, backup, and DBMS performance are out of scope (email: správa serverů, zálohování, výkon).
@@ -87,7 +87,7 @@ Search `rg -n -g "BP *.md" "BP-(ZMĚNA|DOPLNIT|OVĚŘIT)|⟦"` before handoff. `
 - Do not treat helper checklist scores 1–5 as Saaty inputs.
 - Do not treat the control example in `AHP_NAVOD_SAATY.md` as verified until independently recomputed; rounded figures and λmax claims there are not a spec.
 - Describe any AI use in the methodology: tool, version, purpose, method, and scope.
-- Source of truth for proposed STAG goal/outline: `EMAIL_VEDOUCIMU_A_CIL_BP.md`. Keep `PLAN.md` aligned to it. Do not silently expand scope beyond the email.
+- Source of truth for proposed STAG goal/outline: `EMAIL.md` + `CIL_BP.md`. Keep `PLAN.md` aligned to it. Do not silently expand scope beyond the email.
 
 ## Verification
 
