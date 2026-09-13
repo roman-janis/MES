@@ -2,17 +2,15 @@ Dobrý den,
 
 zkusil jsem podle Vašeho e-mailu upřesnit cíl a osnovu bakalářské práce a posílám návrh.
 
-V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí si vypočítaný výsledek.
+V práci bych se chtěl zaměřit na podporu výběru nástroje pro návrh a vývoj databázových systémů a to s pomocí metody AHP. K tomu bych vytvořil jednoduchou webovou aplikaci v PHP. Aplikace by fungovala tak, že si uživatel vybere nástroje a kritéria, případně si doplní vlastní, a následně zadá párová porovnání a zobrazí se mu výsledek.
 
-Fungování aplikace bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a u modelového případu posoudil vliv tří samostatných změn důležitosti kritérií na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon.
+Aplikaci bych pak ověřil na modelovém případu se čtyřmi nástroji a kritérii K1 až K8 ze seminární práce. Správnost výpočtů bych zkontroloval nezávislým kontrolním výpočtem a posoudil vliv tří samostatných změn na výsledek. Nehodnotila by se správa serverů, zálohování ani výkon. při změně by se spíš hodnotila zda přepošet probíhá správně, než jeho význam.
 
-Mohl byste mi prosím napsat, jestli je takto navržený cíl, osnova a rozsah praktické části v pořádku, případně co bych měl upravit?
+Je takto navržený cíl, osnova a rozsah v pořádku, případně co bych měl upravit?
 
-Ještě nemám přesnou představu, jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
+Ještě nevím jak provést nezávislé ověření správnosti výpočtů. Bylo by vhodnější použít jiný nástroj, nebo provést ruční kontrolní výpočet?
 
-U modelového případu mám ještě jednu věc k upřesnění. V jádře modelu je i vazba 1:1 (Zakázka–Faktura). V běžném projektu bych ji asi často nepoužil. Mám ji v testovacím modelu záměrně nechat, abych u nástrojů ověřil i méně častou kardinalitu, nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
-
-Návrh názvu, cíle, osnovy a literatury posílám níže (stejné znění je v souboru CIL_BP.md).
+A u modelového případu mám ještě jeden dotaz. Například vazbu 1:1 bych běžně v žádném projektu nepoužil a teď nevím, zda ji mám v testovacím modelu záměrně nechat, nebo ji spíš vynechat a držet jen to, co bych v praxi běžně modeloval?
 
 Děkuji.
 
@@ -37,7 +35,7 @@ Navrhovaná osnova
 5. Ověřit správnost výpočtů a fungování aplikace na modelovém případu a posoudit vliv změn důležitosti kritérií na výsledek.
 6. Zhodnotit výsledky, omezení a možnosti dalšího rozšíření.
 
-Literatura do zadání
+Literatura
 
 Ze zdrojů seminární práce bych do zadání vybral těchto pět:
 
