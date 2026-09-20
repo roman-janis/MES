@@ -47,15 +47,39 @@ Keep these unless the supervisor changes them. They match `EMAIL.md` + `CIL_BP.m
 
 Edit numbered chapter sources. `BP.md` is generated.
 
-| Files | Role now |
-|---|---|
-| `BP 0.md`–`BP 3.md` | Front matter, introduction, objectives, methodology (**still seminar framing**; do not rewrite until goal is approved). |
-| `BP 4.md`–`BP 8.md` | Theory, tools, criteria. Keep unless a documented error or required continuity change. |
-| `BP 9.md` | Seminar conclusion. Do not present it as the finished BP conclusion. |
-| `BP 10.md` | Bibliography. |
-| `BP 11.md`–`BP 15.md` | Not present. Older instructions and `spoj.ps1` still assume 0–15. Do not rebuild `BP.md` from an incomplete chapter set. |
+Soubory `BP 0.md` až `BP 10.md` obsahují text ze schválené verze seminární práce `seminární práce/MES_Janiš_final.txt` s minimem změn:
 
-Treat `seminární práce/` as read-only. Assignment PDFs are in `zadani/`, research in `literatura/`, Cykloservis artefacts in `cykloservis/`, databases in `docker/`. Installers belong in `nastroje/` (gitignored; currently absent). Working Excel `hodnoceni_4_nastroju.xlsx` stays empty until alternatives and criteria stay locked and real tests exist.
+| Files | Kapitola v seminárce (`MES_Janiš_final.txt`) | Role v BP |
+|---|---|---|
+| `BP 0.md` | Titulní strana, anotace, obsah, seznam tabulek | Úvodní náležitosti (přizpůsobí se pro BP po schválení cíle). |
+| `BP 1.md` | 1 Úvod | Úvod (přerámuje se na BP v souladu s novým cílem). |
+| `BP 2.md` | 2 Cíl práce a výzkumné otázky | Cíl a VO (převezme cíl z `CIL_BP.md` / `EMAIL.md`). |
+| `BP 3.md` | 3 Metodika práce | Metodika (rozšíří se o popis vývoje app, testů a AI). |
+| `BP 4.md` | 4 Databázové systémy (4.1–4.4) | Teorie DB (hotovo ze seminárky, minimální změny). |
+| `BP 5.md` | 5 Datové modely (5.1–5.4) | Teorie datových modelů (hotovo ze seminárky, minimální změny). |
+| `BP 6.md` | 6 Vícekriteriální rozhodování (vč. 6.3 AHP) | Teorie MCDM a AHP (hotovo ze seminárky, sladí se s `AHP_SPECIFIKACE.md`). |
+| `BP 7.md` | 7 Nástroje pro návrh a vývoj databází (7.1–7.4) | Přehled 4 nástrojů (doplní se přesné testované verze). |
+| `BP 8.md` | 8 Návrh hodnoticích kritérií | Kritéria K1–K8 (pod `---` je připraven návrh operacionalizace). |
+| `BP 9.md` | 9 Shrnutí, diskuse výsledků a doporučení | Závěr seminárky (nenahrazuje závěr BP; bude nahrazen novým zhodnocením). |
+| `BP 10.md` | Seznam zdrojů (26 položek) | Bibliografie (rozšiřuje se na 30 položek dle `ZDROJE.md`). |
+| `BP 11.md`–`BP 13.md` | Budoucí praktické kapitoly BP dle osnovy | 11: Návrh a app PHP, 12: Ověření + Cykloservis + citlivost, 13: Zhodnocení. |
+
+### Přehled klíčových souborů – kde co najít
+
+- **Zadání a cíle:** `CIL_BP.md` (zdroj pro STAG: název, cíl, 6 bodů osnovy, 5 zdrojů), `EMAIL.md` (dopis vedoucímu), `EMAIL_KONVERZACE.md` (historie e-mailů s vedoucím Ing. Lněničkou).
+- **Plán postupu:** `PLAN.md` (prováděcí plán krok za krokem, fáze 0, A–H, checklisty).
+- **Literatura a citace:** `ZDROJE.md` (audit všech 30 zdrojů, odkazy na PDF v `literatura/`, připravené citace ISO 690 pro `BP 10.md`).
+- **AHP matematika:** `AHP_NAVOD_SAATY.md` (postup geometrického průměru, Saatyho matice, konzistence CI/CR, kontrolní 3×3 příklad).
+- **Modelový scénář:** `CYKLOSERVIS_ZADANI.md` (10 entit jádra cykloservisu, referenční DDL pro PostgreSQL, MySQL i Oracle, 4 kroky testování).
+- **Databázové prostředí:** `docker/` (`docker-compose.yml`, README pro PostgreSQL 16, MySQL 8, Oracle Free 23).
+- **Excelové soubory:**
+  - `hodnoceni_4_nastroju.xlsx` — hlavní pracovní sešit v rootu (struktura listů pro záznam testů a AHP matic).
+  - `z emailu/Projekty_s_AHP/` — vzorové studentské projekty a šablony zaslané vedoucím (`Priklad_Vyber susicky.xlsx`, `cv3_michalkova.xlsx`, `example1_methods.xlsx`, `example2_methods.xlsx`).
+- **Formální požadavky a šablony fakulty (`oliva/`):**
+  - `oliva/pokyny/Metodické pokyny pro vypracování bakalářských a diplomových prací.pdf` — Výnos děkana FIM č. 6/2023 (závazná pravidla FIM UHK: doporučený rozsah BP 35–45 stran / cca 70 000 znaků, struktura od titulního listu po zadání, pasivum v textu, pravidla pro citace a povinná deklarace využití AI v metodice).
+  - `oliva/sablony/šablona( nová (1).docx` — oficiální šablona FIM pro finální bakalářskou práci (přednastavené styly, okraje 3,5 cm u hřbetu / 2 cm ostatní, písmo Cambria 12 pt text / bezpatkové nadpisy, řádkování 1,5, prohlášení včetně AI).
+  - `oliva/pokyny/` a `oliva/vzory/` — doplňkové metodické pokyny k psaní odborných prací a vzory prací z kurzu MES.
+- **Zdrojová seminární práce (pouze ke čtení):** `seminární práce/MES_Janiš_final.txt` a `seminární práce/MES_Janis_final.docx`.
 
 When rewriting an existing chapter later, keep under a horizontal rule a dated block “Pracovní poznámka – původní znění před úpravou, datum, důvod” with the exact original passage. Those blocks are working comparison only and must be excluded from the final assembly. `BP 8.md` already has such a draft section.
 

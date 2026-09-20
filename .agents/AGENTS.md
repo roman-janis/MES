@@ -1,46 +1,14 @@
-# AGENTS.md
+# AGENTS.md (Pracovní kontext pro bakalářskou práci)
 
-Pracovní kontext a pravidla pro AI asistenty (Antigravity). Složka není kódový projekt, ale pracovní adresář pro seminární a následně bakalářskou práci.
+Tento soubor je synchronizován s hlavním [AGENTS.md](../AGENTS.md) v kořeni projektu.
 
-## Aktuální hlavní soubory
-
-- `Seminární práce.docx` - aktuální Word dokument pro kontrolu, vedoucího a odevzdání.
-- `Seminární práce.md` - zdrojová Markdown verze seminární práce.
-- `PŘEHLED.md` - mapa složky a stav projektu.
-- `PLAN.md` - plán dalších kroků.
-- `ZDROJE.md` - literatura, zdroje a poznámky k citacím.
-
-Staré pracovní soubory `Bakalářská práce.docx`, `Bakalářská práce.md` a `Seminární práce.txt` byly odstraněny.
-
-## Téma
-
-**Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP**
-
-Hlavní oblasti:
-
-1. Databázové systémy, datové modelování, ER/EER, relační model, normalizace.
-2. Vícekriteriální rozhodování a metoda AHP.
-3. Praktická komparace nástrojů v navazující bakalářské práci.
-
-## Porovnávané nástroje
-
-- MySQL Workbench
-- Oracle SQL Developer Data Modeler
-- DBeaver Community Edition
-- pgModeler
-
-## Důležitá pravidla
-
-- Pracovat česky a akademickým stylem.
-- Citace držet podle ISO 690:2022.
-- Pro seminární práci neupravovat praktickou část do podoby hotové komparace; má jít hlavně o teoretický a metodický základ.
-- Před odevzdáním kontrolovat shodu citací v textu a seznamu zdrojů.
-
-## Struktura kapitol a vrstev v MD souborech
-
-Kapitolové soubory (`Seminární práce <N>.md`, 0–11) mají specifickou strukturu textových bloků oddělených `---`. Každý blok obsahuje dvě vrstvy oddělené `****`:
-
-1. **Vrstva 1 (nad prvním `****`):** Finální, stylisticky a jazykově vyhlazená akademická verze textu. Citace jsou sloučené na koncích odstavců (např. `(ZdrojA; ZdrojB)`), aby text plynule navazoval.
-2. **Vrstva 2 (mezi prvním a druhým `****`):** Pracovní a verifikační verze. Citace jsou striktně rozděleny přímo za jednotlivé věty, pro které platí (věta po větě). Tato vrstva se skriptem `extrahuj.ps1` ukládá do verzí s příponou `x` (např. `Seminární práce 6x.md`) a slouží k sestavení finální kontrolované verze.
-3. **Zdrojové úryvky (pod druhým `****`):** Doslovné citáty z cizojazyčného originálu literatury, které slouží jako věcný podklad pro obě vrstvy.
-
+Aktuální kontext a pravidla:
+- Téma: **Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP** (vedoucí Ing. et Ing. Martin Lněnička, Ph.D.).
+- Soubory `BP 0.md` až `BP 10.md` obsahují text schválené seminární práce `seminární práce/MES_Janiš_final.txt` s minimem změn.
+- Zdroj pro cíl a STAG: [CIL_BP.md](../CIL_BP.md) a [EMAIL.md](../EMAIL.md).
+- Detailní prováděcí plán: [PLAN.md](../PLAN.md).
+- Evidence literatury a citací: [ZDROJE.md](../ZDROJE.md).
+- AHP výpočty a kontrolní příklad: [AHP_NAVOD_SAATY.md](../AHP_NAVOD_SAATY.md).
+- Zadání testovacího scénáře: [CYKLOSERVIS_ZADANI.md](../CYKLOSERVIS_ZADANI.md).
+- Formální požadavky a šablony FIM UHK: složka [oliva/](../oliva/) (výnos děkana č. 6/2023 v `pokyny/`, oficiální šablona BP v `sablony/šablona( nová (1).docx`, vzorové práce ve `vzory/`).
+- Hlavní pravidla a strukturu projektu naleznete v [AGENTS.md](../AGENTS.md).

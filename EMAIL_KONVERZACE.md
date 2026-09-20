@@ -1,3 +1,39 @@
+15.9
+Dobrý den,
+
+cíl a osnovu jsem trochu zobecnil, protože oponent nebo pak komise se může chytat každého slova a řešit, jestli je to v práci splněno. Takto to můžete vložit do Stagu a dát uložit nebo finalizovat nebo co tam v tom rozhraní dole uvidíte pro schválení úprav.
+
+Ověření bych udělal jednak ručně, tzn. stejný modelový příklad nezávisle spočítat v Excelu (viz ten soubor, který jsem posílal minule), a zároveň bych to zkusil zadat i do nějakého existujícího nástroje, jestli to vyjde stejně. Ale ten ruční výpočet podle daného vzorce je základ. Možná do práce i napíšeme, že jsem to nezávisle přepočítal i já. Samozřejmě pak dáme aplikaci někomu i k dispozici, aby si ji vyzkoušel a otestoval.
+
+Jelikož už se v tomto tématu dobře orientujete a netlačí nás čas, tak bych šel na maximální podrobnost funkcionalit těch nástrojů, tzn. včetně vazby 1:1, protože pak to můžeme opravdu prodat tak, že je to podrobné a pokrývá to téměř vše, co může uživatel po tom nástroji chtít.
+
+Pěkný den,
+Martin Lněnička
+
+
+Finální text pro vložení do Stagu:
+Název práce
+Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP
+Comparison of Tools for Database System Design and Development Using AHP
+
+Cíl práce
+Cílem bakalářské práce je navrhnout a vytvořit webovou aplikaci pro podporu výběru nástrojů určených pro návrh a vývoj databázových systémů s využitím rozhodovací metody AHP. Aplikace bude umožňovat hodnocení a porovnávání vybraných nástrojů na základě předdefinovaných i uživatelem vytvořených kritérií a preferencí. Součástí práce bude ověření správnosti implementace a demonstrace využití aplikace na vybraném příkladu.
+
+Osnova
+Charakterizovat problematiku návrhu a vývoje databázových systémů a nástroje využívané při jejich návrhu.
+Popsat metodu AHP a její využití při vícekriteriálním rozhodování.
+Vymezit hodnoticí kritéria a vybrat nástroje určené k porovnání.
+Navrhnout a implementovat webovou aplikaci pro podporu rozhodování pomocí metody AHP.
+Ověřit správnost implementace a demonstrovat využití aplikace na vybraném příkladu.
+Zhodnotit dosažené výsledky, omezení navrženého řešení a možnosti jeho dalšího rozvoje.
+
+Literatura
+CARVALHO, Gonçalo, Sergii MYKOLYSHYN, Bruno CABRAL, Jorge BERNARDINO a Vasco PEREIRA. Comparative Analysis of Data Modeling Design Tools. IEEE Access. 2022, 10, 3351–3365. DOI: 10.1109/ACCESS.2021.3139071.
+CHLAPEK, Dušan, Jan KUČERA a Helena PALOVSKÁ. Datové modelování a návrh relační databáze: Sbírka řešených úloh. Praha: Oeconomica, 2019. ISBN 978-80-245-2331-6.
+ISHIZAKA, Alessio a Ashraf LABIB. Review of the main developments in the Analytic Hierarchy Process. Expert Systems with Applications. 2011, 38(11), 14336–14345. DOI: 10.1016/j.eswa.2011.04.143.
+POKORNÝ, Jaroslav a Michal VALENTA. Databázové systémy. Praha: ČVUT v Praze, 2020. ISBN 978-80-01-06708-6.
+SAATY, Thomas L. How to make a decision: The Analytic Hierarchy Process. European Journal of Operational Research. 1990, 48(1), 9–26. DOI: 10.1016/0377-2217(90)90057-I.
+
 2.9
 
 Dobrý den,
