@@ -1,0 +1,160 @@
+Model Cykloservisu – 11 tabulek |  |  |  |  |  | 
+Zákazník vlastní kola; kolo má zakázky. Elektrokolo rozšiřuje jedno kolo o motor a baterii. Mechanik zakázky a hlavní dodavatel dílu mohou být neurčeni. |  |  |  |  |  | 
+Zakázka–Faktura a Kolo–Elektrokolo jsou 1 ku 0..1. Faktura používá vlastní PK a FK UNIQUE; elektrokolo používá jediný sdílený PK/FK. Rodič smí existovat bez potomka. |  |  |  |  |  | 
+Služba/díl je na zakázce jednou, počet vyjadřuje množství. Cena položky je historická cena při opravě. Celková částka faktury je zadaná hodnota; její výpočet zde netestujeme. |  |  |  |  |  | 
+Typy: MySQL použije DATETIME místo TIMESTAMP; Oracle NUMBER(10) místo INT, NUMBER(5) místo SMALLINT, NUMBER(p,s) místo DECIMAL a VARCHAR2 místo VARCHAR. Automatické ID: AUTO_INCREMENT v MySQL, identity v PostgreSQL/Oracle. |  |  |  |  |  | 
+NULL dovoluje chybějící hodnotu; NOT NULL ji zakazuje. DEFAULT se použije při vynechání hodnoty. PK identifikuje řádek, FK odkazuje na rodiče, UNIQUE zakazuje duplicity vyplněných hodnot, CHECK kontroluje podmínku. |  |  |  |  |  | 
+Všechny FK bez kaskád: odkazovaného rodiče nelze smazat. Model v tomto sešitu rozšiřuje starší zadání 10 tabulek. Referenční SQL je připravený návrh, nikoli doložený výsledek testování. |  |  |  |  |  | 
+ |  |  |  |  |  | 
+Tabulka | Sloupec | Typ | NULL? | DEFAULT | Klíč / vazba | Přesné nastavení
+zakaznik | id_zakaznik | INT | NE | žádný | PK | Zapnout automatické číslování.
+zakaznik | jmeno | VARCHAR(50) | NE | žádný |  | Bez automatického číslování.
+zakaznik | prijmeni | VARCHAR(50) | NE | žádný |  | Bez automatického číslování.
+zakaznik | telefon | VARCHAR(20) | ANO | žádný |  | Bez automatického číslování.
+zakaznik | email | VARCHAR(100) | ANO | žádný | UNIQUE | Bez automatického číslování.
+zakaznik | adresa | VARCHAR(200) | ANO | žádný |  | Bez automatického číslování.
+zakaznik | datum_registrace | DATE | NE | CURRENT_DATE |  | Bez automatického číslování.
+zamestnanec | id_zamestnanec | INT | NE | žádný | PK | Zapnout automatické číslování.
+zamestnanec | jmeno | VARCHAR(50) | NE | žádný |  | Bez automatického číslování.
+zamestnanec | prijmeni | VARCHAR(50) | NE | žádný |  | Bez automatického číslování.
+zamestnanec | pozice | VARCHAR(30) | NE | žádný |  | Bez automatického číslování.
+zamestnanec | telefon | VARCHAR(20) | ANO | žádný |  | Bez automatického číslování.
+zamestnanec | datum_nastupu | DATE | NE | žádný |  | Bez automatického číslování.
+dodavatel | id_dodavatel | INT | NE | žádný | PK | Zapnout automatické číslování.
+dodavatel | nazev | VARCHAR(100) | NE | žádný |  | Bez automatického číslování.
+dodavatel | kontaktni_osoba | VARCHAR(100) | ANO | žádný |  | Bez automatického číslování.
+dodavatel | telefon | VARCHAR(20) | ANO | žádný |  | Bez automatického číslování.
+dodavatel | email | VARCHAR(100) | ANO | žádný |  | Bez automatického číslování.
+kolo | id_kolo | INT | NE | žádný | PK | Zapnout automatické číslování.
+kolo | id_zakaznik | INT | NE | žádný | FK → zakaznik.id_zakaznik | Bez automatického číslování.
+kolo | znacka | VARCHAR(50) | NE | žádný |  | Bez automatického číslování.
+kolo | model | VARCHAR(50) | ANO | žádný |  | Bez automatického číslování.
+kolo | typ | VARCHAR(30) | ANO | žádný |  | Bez automatického číslování.
+kolo | rok_vyroby | SMALLINT | ANO | žádný |  | Bez automatického číslování.
+kolo | seriove_cislo | VARCHAR(50) | ANO | žádný | UNIQUE | Bez automatického číslování.
+elektrokolo | id_kolo | INT | NE | žádný | PK; FK → kolo.id_kolo | Jeden sloupec tvoří celý PK i FK. Bez automatického ID.
+elektrokolo | vyrobce_motoru | VARCHAR(80) | NE | žádný |  | Bez automatického číslování.
+elektrokolo | vykon_motoru_w | INT | NE | žádný |  | Bez automatického číslování.
+elektrokolo | kapacita_baterie_wh | DECIMAL(8,2) | NE | žádný |  | Bez automatického číslování.
+elektrokolo | CHECK | integritní omezení | — | — | CHECK (vykon_motoru_w > 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+elektrokolo | CHECK | integritní omezení | — | — | CHECK (kapacita_baterie_wh > 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+sluzba | id_sluzba | INT | NE | žádný | PK | Zapnout automatické číslování.
+sluzba | nazev | VARCHAR(100) | NE | žádný |  | Bez automatického číslování.
+sluzba | popis | VARCHAR(300) | ANO | žádný |  | Bez automatického číslování.
+sluzba | cena_zakladni | DECIMAL(10,2) | NE | žádný |  | Bez automatického číslování.
+sluzba | odhad_doby_min | INT | ANO | žádný |  | Bez automatického číslování.
+sluzba | CHECK | integritní omezení | — | — | CHECK (cena_zakladni >= 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+sluzba | CHECK | integritní omezení | — | — | CHECK (odhad_doby_min IS NULL OR odhad_doby_min > 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+dil | id_dil | INT | NE | žádný | PK | Zapnout automatické číslování.
+dil | nazev | VARCHAR(100) | NE | žádný |  | Bez automatického číslování.
+dil | cena_prodejni | DECIMAL(10,2) | NE | žádný |  | Bez automatického číslování.
+dil | mnozstvi_sklad | INT | NE | 0 |  | Bez automatického číslování.
+dil | id_dodavatel | INT | ANO | žádný | FK → dodavatel.id_dodavatel | Bez automatického číslování.
+dil | CHECK | integritní omezení | — | — | CHECK (cena_prodejni >= 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+dil | CHECK | integritní omezení | — | — | CHECK (mnozstvi_sklad >= 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+zakazka | id_zakazka | INT | NE | žádný | PK | Zapnout automatické číslování.
+zakazka | id_kolo | INT | NE | žádný | FK → kolo.id_kolo | Bez automatického číslování.
+zakazka | id_zamestnanec | INT | ANO | žádný | FK → zamestnanec.id_zamestnanec | Bez automatického číslování.
+zakazka | datum_prijeti | TIMESTAMP | NE | CURRENT_TIMESTAMP |  | Bez automatického číslování.
+zakazka | datum_dokonceni | TIMESTAMP | ANO | žádný |  | Bez automatického číslování.
+zakazka | stav | VARCHAR(20) | NE | 'přijato' |  | Bez automatického číslování.
+zakazka | poznamka | VARCHAR(500) | ANO | žádný |  | Bez automatického číslování.
+zakazka | CHECK | integritní omezení | — | — | CHECK (stav IN ('přijato','v opravě','hotovo','vyzvednuto','stornováno')) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+zakazka | CHECK | integritní omezení | — | — | CHECK (datum_dokonceni IS NULL OR datum_dokonceni >= datum_prijeti) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+zakazka_sluzba | id_zakazka | INT | NE | žádný | část složeného PK; FK → zakazka.id_zakazka | Společný PK (id_zakazka, id_sluzba). Bez automatického ID.
+zakazka_sluzba | id_sluzba | INT | NE | žádný | část složeného PK; FK → sluzba.id_sluzba | Společný PK (id_zakazka, id_sluzba). Bez automatického ID.
+zakazka_sluzba | mnozstvi | INT | NE | 1 |  | Bez automatického číslování.
+zakazka_sluzba | cena_za_jednotku | DECIMAL(10,2) | NE | žádný |  | Bez automatického číslování.
+zakazka_sluzba | CHECK | integritní omezení | — | — | CHECK (mnozstvi > 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+zakazka_sluzba | CHECK | integritní omezení | — | — | CHECK (cena_za_jednotku >= 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+zakazka_dil | id_zakazka | INT | NE | žádný | část složeného PK; FK → zakazka.id_zakazka | Společný PK (id_zakazka, id_dil). Bez automatického ID.
+zakazka_dil | id_dil | INT | NE | žádný | část složeného PK; FK → dil.id_dil | Společný PK (id_zakazka, id_dil). Bez automatického ID.
+zakazka_dil | mnozstvi | INT | NE | 1 |  | Bez automatického číslování.
+zakazka_dil | cena_za_jednotku | DECIMAL(10,2) | NE | žádný |  | Bez automatického číslování.
+zakazka_dil | CHECK | integritní omezení | — | — | CHECK (mnozstvi > 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+zakazka_dil | CHECK | integritní omezení | — | — | CHECK (cena_za_jednotku >= 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+faktura | id_faktura | INT | NE | žádný | PK | Zapnout automatické číslování.
+faktura | id_zakazka | INT | NE | žádný | FK → zakazka.id_zakazka; UNIQUE | Bez automatického číslování.
+faktura | datum_vystaveni | DATE | NE | CURRENT_DATE |  | Bez automatického číslování.
+faktura | castka_celkem | DECIMAL(10,2) | NE | žádný |  | Bez automatického číslování.
+faktura | zpusob_platby | VARCHAR(20) | NE | žádný |  | Bez automatického číslování.
+faktura | stav_platby | VARCHAR(20) | NE | 'nezaplaceno' |  | Bez automatického číslování.
+faktura | CHECK | integritní omezení | — | — | CHECK (castka_celkem >= 0) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+faktura | CHECK | integritní omezení | — | — | CHECK (zpusob_platby IN ('hotově','kartou','převodem')) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+faktura | CHECK | integritní omezení | — | — | CHECK (stav_platby IN ('zaplaceno','nezaplaceno')) | Vytvoř v Constraints / Checks; později ověř v DDL i při vložení neplatné hodnoty.
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+Technický podklad | https://www.postgresql.org/docs/current/ddl-constraints.html |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 
+ |  |  |  |  |  | 

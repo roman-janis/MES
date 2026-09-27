@@ -1,0 +1,1030 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 189
+  },
+  {
+    "path": "extrahuj.ps1",
+    "bytes": 1364
+  },
+  {
+    "path": "MES Bakalářská práce.code-workspace",
+    "bytes": 97
+  },
+  {
+    "path": "EMAIL_KONVERZACE.md",
+    "bytes": 23926
+  },
+  {
+    "path": "spoj.ps1",
+    "bytes": 2087
+  },
+  {
+    "path": "BP 1.md",
+    "bytes": 2235
+  },
+  {
+    "path": "BP 2.md",
+    "bytes": 1624
+  },
+  {
+    "path": "BP 3.md",
+    "bytes": 3780
+  },
+  {
+    "path": "BP 4.md",
+    "bytes": 8968
+  },
+  {
+    "path": "BP 5.md",
+    "bytes": 8134
+  },
+  {
+    "path": "BP 6.md",
+    "bytes": 16250
+  },
+  {
+    "path": "BP 7.md",
+    "bytes": 5739
+  },
+  {
+    "path": "BP 8.md",
+    "bytes": 8692
+  },
+  {
+    "path": "BP 9.md",
+    "bytes": 2121
+  },
+  {
+    "path": "BP.md",
+    "bytes": 106487
+  },
+  {
+    "path": "ZDROJE.md",
+    "bytes": 16484
+  },
+  {
+    "path": "CYKLOSERVIS_ZADANI.md",
+    "bytes": 18560
+  },
+  {
+    "path": "AHP_NAVOD_SAATY.md",
+    "bytes": 9469
+  },
+  {
+    "path": "PLAN.md",
+    "bytes": 41035
+  },
+  {
+    "path": "BP 0.md",
+    "bytes": 2949
+  },
+  {
+    "path": "BP 10.md",
+    "bytes": 5218
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 13099
+  },
+  {
+    "path": "hodnoceni_4_nastroju.xlsx",
+    "bytes": 43614
+  },
+  {
+    "path": "VYSVETLENI_OSNOVY_A_NAVAZNOST_NA_SEMINARKU.md",
+    "bytes": 10773
+  },
+  {
+    "path": "CIL_BP.md",
+    "bytes": 2748
+  },
+  {
+    "path": "EMAIL.md",
+    "bytes": 4200
+  },
+  {
+    "path": "hodnoceni_4_nastroju_backup.xlsx",
+    "bytes": 40474
+  },
+  {
+    "path": "TEMP_STAG_VLOZENI.md",
+    "bytes": 3773
+  },
+  {
+    "path": "~$hodnoceni_4_nastroju.xlsx",
+    "bytes": 165
+  },
+  {
+    "path": "desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": ".agents\\AGENTS.md",
+    "bytes": 1108
+  },
+  {
+    "path": ".agents\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": ".claude\\settings.local.json",
+    "bytes": 3524
+  },
+  {
+    "path": ".claude\\settings.json",
+    "bytes": 172
+  },
+  {
+    "path": ".claude\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "seminární práce\\Seminární práce 2.md",
+    "bytes": 1620
+  },
+  {
+    "path": "seminární práce\\seminarka_kontrola.md",
+    "bytes": 61302
+  },
+  {
+    "path": "seminární práce\\Seminární práce 4x.md",
+    "bytes": 9129
+  },
+  {
+    "path": "seminární práce\\Seminární práce 0.md",
+    "bytes": 4893
+  },
+  {
+    "path": "seminární práce\\Seminární práce 5x.md",
+    "bytes": 8100
+  },
+  {
+    "path": "seminární práce\\Seminární práce 6x.md",
+    "bytes": 7810
+  },
+  {
+    "path": "seminární práce\\Seminární práce 7x.md",
+    "bytes": 8415
+  },
+  {
+    "path": "seminární práce\\Seminární práce.DOCX",
+    "bytes": 60750
+  },
+  {
+    "path": "seminární práce\\Seminární práce 1.md",
+    "bytes": 2234
+  },
+  {
+    "path": "seminární práce\\Seminární práce 3.md",
+    "bytes": 3775
+  },
+  {
+    "path": "seminární práce\\Seminární práce 4.md",
+    "bytes": 34016
+  },
+  {
+    "path": "seminární práce\\Seminární práce 5.md",
+    "bytes": 24642
+  },
+  {
+    "path": "seminární práce\\Seminární práce 6.md",
+    "bytes": 22254
+  },
+  {
+    "path": "seminární práce\\Seminární práce 7.md",
+    "bytes": 22334
+  },
+  {
+    "path": "seminární práce\\Seminární práce 8.md",
+    "bytes": 5844
+  },
+  {
+    "path": "seminární práce\\Seminární práce 9.md",
+    "bytes": 3430
+  },
+  {
+    "path": "seminární práce\\Seminární práce 10.md",
+    "bytes": 2166
+  },
+  {
+    "path": "seminární práce\\Seminární práce 11.md",
+    "bytes": 5358
+  },
+  {
+    "path": "seminární práce\\MES_Janis_final.docx",
+    "bytes": 63885
+  },
+  {
+    "path": "seminární práce\\MES_Janis_final_backup.docx",
+    "bytes": 63885
+  },
+  {
+    "path": "seminární práce\\MES_Janiš_final.txt",
+    "bytes": 58588
+  },
+  {
+    "path": "seminární práce\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "oliva\\SM_Lunter_25_04_2012_citace(4).pdf",
+    "bytes": 717498
+  },
+  {
+    "path": "oliva\\07 - studijní materiály(4).pdf",
+    "bytes": 2034598
+  },
+  {
+    "path": "oliva\\Portál UHK - IS_STAG - Kvalifikační práce.pdf",
+    "bytes": 151035
+  },
+  {
+    "path": "oliva\\vskp_-_zadani_vskp.pdf",
+    "bytes": 22377
+  },
+  {
+    "path": "oliva\\vskp_-_udaje_o_vskp.pdf",
+    "bytes": 22285
+  },
+  {
+    "path": "oliva\\temata_vskp_-_podklady_pro_zadani_vskp.pdf",
+    "bytes": 19500
+  },
+  {
+    "path": "oliva\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "zadani\\vskp_-_zadani_vskp.pdf",
+    "bytes": 22370
+  },
+  {
+    "path": "zadani\\vskp_-_udaje_o_vskp.pdf",
+    "bytes": 22471
+  },
+  {
+    "path": "zadani\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "docker\\docker-compose.yml",
+    "bytes": 1420
+  },
+  {
+    "path": "docker\\.env.example",
+    "bytes": 285
+  },
+  {
+    "path": "docker\\.env",
+    "bytes": 285
+  },
+  {
+    "path": "docker\\README.md",
+    "bytes": 3008
+  },
+  {
+    "path": "docker\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "archiv\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "cykloservis\\Analyza_Cykloservis_3strany.docx",
+    "bytes": 123980
+  },
+  {
+    "path": "cykloservis\\workbench_model_cykloservis.mwb",
+    "bytes": 15350
+  },
+  {
+    "path": "cykloservis\\workbench_model_cykloservis.mwb.bak",
+    "bytes": 15350
+  },
+  {
+    "path": "cykloservis\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "z emailu\\Lnenicka_MMK_2013.doc",
+    "bytes": 493568
+  },
+  {
+    "path": "z emailu\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-44-46-998Z.yml",
+    "bytes": 3234
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-45-22-637Z.yml",
+    "bytes": 5088
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\console-2026-06-08T11-45-40-876Z.log",
+    "bytes": 829
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-45-42-708Z.yml",
+    "bytes": 19814
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-45-46-280Z.yml",
+    "bytes": 3865
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-46-06-414Z.yml",
+    "bytes": 13295
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-47-01-987Z.yml",
+    "bytes": 0
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-58-34-133Z.yml",
+    "bytes": 680
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\console-2026-06-08T11-58-33-848Z.log",
+    "bytes": 5793
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T11-58-46-542Z.yml",
+    "bytes": 16631
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\console-2026-06-08T11-58-45-510Z.log",
+    "bytes": 11944
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T12-00-28-741Z.yml",
+    "bytes": 985
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\console-2026-06-08T12-00-28-563Z.log",
+    "bytes": 6602
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\console-2026-06-08T12-01-45-167Z.log",
+    "bytes": 3330
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T12-01-48-620Z.yml",
+    "bytes": 9116
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T12-03-03-003Z.yml",
+    "bytes": 0
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\page-2026-06-08T12-21-34-817Z.yml",
+    "bytes": 12052
+  },
+  {
+    "path": ".claude\\.playwright-mcp\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": ".claude\\commands\\kontrola-gramatiky.md",
+    "bytes": 718
+  },
+  {
+    "path": ".claude\\commands\\kontrola-citaci.md",
+    "bytes": 1024
+  },
+  {
+    "path": ".claude\\commands\\kontrola-bloku.md",
+    "bytes": 2684
+  },
+  {
+    "path": ".claude\\commands\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\prezentace UHK\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\AHP\\Saaty_1990_How_to_make_a_decision_AHP.pdf",
+    "bytes": 3638811
+  },
+  {
+    "path": "literatura\\AHP\\Saaty_2008_Decision_making_with_AHP.pdf",
+    "bytes": 993281
+  },
+  {
+    "path": "literatura\\AHP\\Bunruamkaew_2012_How_to_do_AHP_analysis_in_Excel.pdf",
+    "bytes": 3090318
+  },
+  {
+    "path": "literatura\\AHP\\Velasquez_Hester_2013_Analysis_MCDM_Methods.pdf",
+    "bytes": 199909
+  },
+  {
+    "path": "literatura\\AHP\\Ishizaka_Labib_2011_Review_AHP_Developments.pdf",
+    "bytes": 580843
+  },
+  {
+    "path": "literatura\\AHP\\Mardani_2015_MCDM_review.pdf",
+    "bytes": 673797
+  },
+  {
+    "path": "literatura\\AHP\\Catak_2012_Fuzzy_AHP_DBMS_selection.pdf",
+    "bytes": 497959
+  },
+  {
+    "path": "literatura\\AHP\\Ebrahimi_Taheri_2015_Fuzzy_AHP_DBMS_EMR.pdf",
+    "bytes": 653372
+  },
+  {
+    "path": "literatura\\AHP\\Vlckova_Friebel_2015_Kvalita_dat_financniho_ucetnictvi_AHP.pdf",
+    "bytes": 303838
+  },
+  {
+    "path": "literatura\\AHP\\Simanaviciene_Vdovinskiene_2023_CAD_software_AHP_selection.pdf",
+    "bytes": 770183
+  },
+  {
+    "path": "literatura\\AHP\\Soukopova_2016_Vicekriterialni_metody_hodnoceni.pdf",
+    "bytes": 225935
+  },
+  {
+    "path": "literatura\\AHP\\Tomes_Alcnauer_2014_AHP_konzistence_matice.pdf",
+    "bytes": 696564
+  },
+  {
+    "path": "literatura\\AHP\\Moreno-Jimenez_Vargas_2018_Cognitive_MCDM_AHP_legacy.pdf",
+    "bytes": 126212
+  },
+  {
+    "path": "literatura\\AHP\\Ho_2008_Integrated_AHP_Applications_Review.pdf",
+    "bytes": 287929
+  },
+  {
+    "path": "literatura\\AHP\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\DB\\Pokorny_Valenta_2020_Databazove_systemy.pdf",
+    "bytes": 9010551
+  },
+  {
+    "path": "literatura\\DB\\Oracle_SQL_Developer_Data_Modeler.url",
+    "bytes": 98
+  },
+  {
+    "path": "literatura\\DB\\MySQL_Workbench_Manual.url",
+    "bytes": 63
+  },
+  {
+    "path": "literatura\\DB\\DBeaver_Documentation.url",
+    "bytes": 49
+  },
+  {
+    "path": "literatura\\DB\\pgModeler.url",
+    "bytes": 45
+  },
+  {
+    "path": "literatura\\DB\\PostgreSQL_Documentation.url",
+    "bytes": 56
+  },
+  {
+    "path": "literatura\\DB\\Carvalho_2022_Comparative_Analysis_Data_Modeling_Design_Tools.pdf",
+    "bytes": 1941982
+  },
+  {
+    "path": "literatura\\DB\\Codd_1970_Relational_model.pdf",
+    "bytes": 236458
+  },
+  {
+    "path": "literatura\\DB\\Elmasri_Navathe_2016_Fundamentals_of_Database_Systems.pdf",
+    "bytes": 29408773
+  },
+  {
+    "path": "literatura\\DB\\Otte_2013_Databazove_systemy_VSBTUO.pdf",
+    "bytes": 57953850
+  },
+  {
+    "path": "literatura\\DB\\Hronek_2007_Databazove_systemy_UPOL.pdf",
+    "bytes": 2068980
+  },
+  {
+    "path": "literatura\\DB\\Rosenthal_Reiner_1994_Tools_Transformations_DB_Design.pdf",
+    "bytes": 3191317
+  },
+  {
+    "path": "literatura\\DB\\Chlapek_Kucera_Palovska_2019_Datove_modelovani_relacni_databaze.pdf",
+    "bytes": 3921246
+  },
+  {
+    "path": "literatura\\DB\\Laranjeiro_Pinto_2024_ONDA_Online_Database_Architect.pdf",
+    "bytes": 4695540
+  },
+  {
+    "path": "literatura\\DB\\Chen_1976_Entity_Relationship_model_full.pdf",
+    "bytes": 1724283
+  },
+  {
+    "path": "literatura\\DB\\Feinberg_2017_A_Design_Perspective_on_Data.pdf",
+    "bytes": 787914
+  },
+  {
+    "path": "literatura\\DB\\DB-Engines_Ranking.url",
+    "bytes": 59
+  },
+  {
+    "path": "literatura\\DB\\Watt_Eng_2014_Database_Design.pdf",
+    "bytes": 2956494
+  },
+  {
+    "path": "literatura\\DB\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\inspirace\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\duplicity\\Chen_1976_Entity_Relationship_model_vynatek_5stran.pdf",
+    "bytes": 362644
+  },
+  {
+    "path": "literatura\\duplicity\\Simanaviciene_Vdovinskiene_2023_CAD_software_AHP_selection_kopie.pdf",
+    "bytes": 770183
+  },
+  {
+    "path": "literatura\\duplicity\\Rosenthal_Reiner_1994_Tools_Transformations_DB_Design_kopie.pdf",
+    "bytes": 3191317
+  },
+  {
+    "path": "literatura\\duplicity\\Carvalho_2022_Comparative_Analysis_Data_Modeling_Design_Tools_kopie.pdf",
+    "bytes": 1941982
+  },
+  {
+    "path": "literatura\\duplicity\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\M1 - Základní pojmy a historie vývoje DBS - prezentace.pdf",
+    "bytes": 459914
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\M2 - ER modelování - prezentace.pdf",
+    "bytes": 447482
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\M3 -Relační model dar, normální formy relací - prezentace (1).pdf",
+    "bytes": 323062
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\M3 -Relační model dar, normální formy relací - prezentace.pdf",
+    "bytes": 323062
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\M4 - Transformace EER modelu - prezentace.pdf",
+    "bytes": 289139
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\M4a - EA vztahy mezi podtřídami - prezentace.pdf",
+    "bytes": 219927
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 1\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-01.pdf",
+    "bytes": 477975
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-02.pdf",
+    "bytes": 323894
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-03.pdf",
+    "bytes": 249827
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-04.pdf",
+    "bytes": 303893
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-05.pdf",
+    "bytes": 254524
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-06.pdf",
+    "bytes": 308488
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-07.pdf",
+    "bytes": 341019
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-08.pdf",
+    "bytes": 392956
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-09.pdf",
+    "bytes": 570366
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\D2-10.pdf",
+    "bytes": 212537
+  },
+  {
+    "path": "literatura\\prezentace UHK\\Databaze 2\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\inspirace\\DB\\Kaspar_2012_Databazove_systemy_v_praxi.pdf",
+    "bytes": 2161654
+  },
+  {
+    "path": "literatura\\inspirace\\DB\\Jedlicka_2024_Key-value_databazove_systemy.pdf",
+    "bytes": 1750492
+  },
+  {
+    "path": "literatura\\inspirace\\DB\\Smahel_Porovnani_CASE_nastroju_2018.pdf",
+    "bytes": 1537265
+  },
+  {
+    "path": "literatura\\inspirace\\DB\\Chotenovsky_Tvorba_datovych_modelu_2023.pdf",
+    "bytes": 1355637
+  },
+  {
+    "path": "literatura\\inspirace\\DB\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\inspirace\\ostatni\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Jandova_2012_AHP_jeji_silne_a_slabe_stranky.pdf",
+    "bytes": 4730148
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Vohradsky_2016_Pouziti_metod_vicekriterialniho_rozhodovani.pdf",
+    "bytes": 1676230
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Rysankova_Vicekriterialni_rozhodovani_2021.pdf",
+    "bytes": 2179558
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Mullerova_Vicekriterialni_rozhodovani_2020.pdf",
+    "bytes": 998563
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Patykova_Vicekriterialni_rozhodovani_2017.pdf",
+    "bytes": 1779823
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Vasileva_Metody_rozhodovani_2022.pdf",
+    "bytes": 945760
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Fruhauf_Vyber_dodavatele_MCDM_2025.pdf",
+    "bytes": 16625005
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Zadina_Vicekriterialni_rozhodovani_2022.pdf",
+    "bytes": 1767274
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Oberherrova_2025_DP_MCDM.pdf",
+    "bytes": 621186
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Urban_2022_vicekriterialniRozhodovani_klimatizace.pdf",
+    "bytes": 1817502
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\Jakubek_2017_Pouziti_metody_AHP_pri_vyberu_zamestnance.pdf",
+    "bytes": 3072091
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\IKLIM_Multi_criteria_decision_making.pdf",
+    "bytes": 1551954
+  },
+  {
+    "path": "literatura\\inspirace\\AHP\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "oliva\\pokyny\\Snímek obrazovky 2026-05-11 101714.png",
+    "bytes": 87427
+  },
+  {
+    "path": "oliva\\pokyny\\Výběr tématu práce(1).pdf",
+    "bytes": 234459
+  },
+  {
+    "path": "oliva\\pokyny\\Jak správně psát odborné práce(1).pdf",
+    "bytes": 189375
+  },
+  {
+    "path": "oliva\\pokyny\\Metodické pokyny pro vypracování bakalářských a diplomových prací.pdf",
+    "bytes": 715863
+  },
+  {
+    "path": "oliva\\pokyny\\Seminární práce - pojyny pro absolvovnání předmětu.pdf",
+    "bytes": 84675
+  },
+  {
+    "path": "oliva\\pokyny\\Metodické pokyny pro vypracování bakalářských a diplomových prací (1).pdf",
+    "bytes": 1212682
+  },
+  {
+    "path": "oliva\\pokyny\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "oliva\\sablony\\Sablona pro tvorbu SP.docx",
+    "bytes": 130073
+  },
+  {
+    "path": "oliva\\sablony\\šablona( nová (1).docx",
+    "bytes": 72037
+  },
+  {
+    "path": "oliva\\sablony\\Sablona SP.docx",
+    "bytes": 130073
+  },
+  {
+    "path": "oliva\\sablony\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "oliva\\vzory\\Ukázka seminární práce - Recyklace.2014.M.V.pdf",
+    "bytes": 875267
+  },
+  {
+    "path": "oliva\\vzory\\Ukázka seminární práce - Jana_Havlinova_INMCR_upravena.pdf",
+    "bytes": 1356374
+  },
+  {
+    "path": "oliva\\vzory\\Ukázka seminární práce - Seminární práce do INMCR - Jitka Červenková.pdf",
+    "bytes": 983875
+  },
+  {
+    "path": "oliva\\vzory\\Ukázka seminární práce - ZHODNOCENÍ WEBOVÝCH STRÁNEK WWW.CZCOT.CZ A POROVNÁNÍ SE STRÁNKAMI WWW.VISITBRITAIN.COM_2013_ZV.pdf",
+    "bytes": 1657000
+  },
+  {
+    "path": "oliva\\vzory\\Ukázka seminární práce - Genius loci_2013_EŠ.pdf",
+    "bytes": 1281993
+  },
+  {
+    "path": "oliva\\vzory\\Ukázka seminární práce - Seminární práce na téma gurmánský CR.pdf",
+    "bytes": 609315
+  },
+  {
+    "path": "oliva\\vzory\\Ukázky seminární práce - Jana_Havlinova_INMCR_upravena.pdf",
+    "bytes": 1356374
+  },
+  {
+    "path": "oliva\\vzory\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "oliva\\lekce\\Kde hledat informace 1(2).pdf",
+    "bytes": 240413
+  },
+  {
+    "path": "oliva\\lekce\\Kde hledat informace 2(2).pdf",
+    "bytes": 287291
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 2 - Druhy dokumentů a jejich vyhledávání.pdf",
+    "bytes": 211565
+  },
+  {
+    "path": "oliva\\lekce\\Jak hledat informace(2).pdf",
+    "bytes": 335989
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 1 - Jak hledat informace.pdf",
+    "bytes": 296448
+  },
+  {
+    "path": "oliva\\lekce\\P Lekce 7 Katalog Národní knihovny(5).ppsx",
+    "bytes": 623063
+  },
+  {
+    "path": "oliva\\lekce\\P Lekce 8 Katalog Státní technické knihovny(2)(1).ppsx",
+    "bytes": 223473
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 3 - Knihovny a jejich služby.pdf",
+    "bytes": 223737
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 5 - Elektronické informační zdroje.pdf",
+    "bytes": 246753
+  },
+  {
+    "path": "oliva\\lekce\\Elektronické informační zdroje 1(2).pdf",
+    "bytes": 212483
+  },
+  {
+    "path": "oliva\\lekce\\Elektronické informační zdroje 2(2).pdf",
+    "bytes": 177530
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 6 - Vyhledávání na internetu.pdf",
+    "bytes": 246287
+  },
+  {
+    "path": "oliva\\lekce\\Vyhledávací nástroje na internetu 1(2).pdf",
+    "bytes": 216359
+  },
+  {
+    "path": "oliva\\lekce\\Vyhledávací nástroje na internetu 2(2).pdf",
+    "bytes": 203741
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 4 - Sekundární informační zdroje.pdf",
+    "bytes": 233608
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 1 - Jak hledat informace (1).pdf",
+    "bytes": 296448
+  },
+  {
+    "path": "oliva\\lekce\\P Lekce 4 Základní vyhledávání(2).ppsx",
+    "bytes": 1216706
+  },
+  {
+    "path": "oliva\\lekce\\P Lekce 3 Aleph Logické operátory(2).ppsx",
+    "bytes": 356416
+  },
+  {
+    "path": "oliva\\lekce\\P Lekce 6 Vyhledávání z více polí(2).ppsx",
+    "bytes": 605516
+  },
+  {
+    "path": "oliva\\lekce\\P Lekce 5 Pokročilé vyhledávání(2).ppsx",
+    "bytes": 805070
+  },
+  {
+    "path": "oliva\\lekce\\T Lekce 8 - Jak psát odborné práce(1)(1).doc",
+    "bytes": 65024
+  },
+  {
+    "path": "oliva\\lekce\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "docker\\sql\\cykloservis_mysql.sql",
+    "bytes": 3817
+  },
+  {
+    "path": "docker\\sql\\cykloservis_postgres.sql",
+    "bytes": 3370
+  },
+  {
+    "path": "docker\\sql\\cykloservis_oracle.sql",
+    "bytes": 3594
+  },
+  {
+    "path": "docker\\sql\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "archiv\\seminarni-prace\\ROZDILY_VERZI_SP.md",
+    "bytes": 3249
+  },
+  {
+    "path": "archiv\\seminarni-prace\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "archiv\\priprava\\AHP_AI_a_nastroje_priprava.md",
+    "bytes": 15669
+  },
+  {
+    "path": "archiv\\priprava\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "cykloservis\\project\\Zadání.txt",
+    "bytes": 3960
+  },
+  {
+    "path": "cykloservis\\project\\sablona_projekt_databasove_systemy_2_prepracovana_v2.docx",
+    "bytes": 25259
+  },
+  {
+    "path": "cykloservis\\project\\Roman Janiš - Cykloservis.docx",
+    "bytes": 642553
+  },
+  {
+    "path": "cykloservis\\project\\Roman Janiš - Cykloservis.pdf",
+    "bytes": 2145767
+  },
+  {
+    "path": "cykloservis\\project\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Cykloservis DDL.svg",
+    "bytes": 110474
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Cykloservis DDL.png",
+    "bytes": 306182
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Cykloservis.qea",
+    "bytes": 1605632
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Cykloservis ER.svg",
+    "bytes": 49318
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Cykloservis ER.png",
+    "bytes": 93047
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Analyza_Cykloservis_3strany.pdf",
+    "bytes": 135535
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\Analyza_Cykloservis_3strany.docx",
+    "bytes": 123980
+  },
+  {
+    "path": "cykloservis\\project\\2. analýza\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "cykloservis\\project\\3. část\\03_objects.sql",
+    "bytes": 4274
+  },
+  {
+    "path": "cykloservis\\project\\3. část\\02_schema.sql",
+    "bytes": 13208
+  },
+  {
+    "path": "cykloservis\\project\\3. část\\01_database.sql",
+    "bytes": 256
+  },
+  {
+    "path": "cykloservis\\project\\3. část\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\example1_methods.xlsx",
+    "bytes": 41753
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\example2_methods.xlsx",
+    "bytes": 52724
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\lambda_matice.txt",
+    "bytes": 405
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Priklad_lambda_vypocet.m",
+    "bytes": 538
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Priklad_Vyber susicky.docx",
+    "bytes": 333046
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Priklad_Vyber susicky.xlsx",
+    "bytes": 40295
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\desktop.ini",
+    "bytes": 246
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Michalkova\\cv3-michalkova.docx",
+    "bytes": 677459
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Michalkova\\cv3_michalkova.xlsx",
+    "bytes": 48750
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Michalkova\\cv3_saatykontrola.m",
+    "bytes": 400
+  },
+  {
+    "path": "z emailu\\Projekty_s_AHP\\Michalkova\\desktop.ini",
+    "bytes": 246
+  }
+]

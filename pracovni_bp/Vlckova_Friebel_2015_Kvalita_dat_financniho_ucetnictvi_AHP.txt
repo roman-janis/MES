@@ -1,0 +1,537 @@
+PAGE 1
+58 
+Návrh metodiky na hodnocení kvality 
+dat finančního účetnictví metodou AHP 
+Miroslava Vlčková * – Ludvík Friebel **  
+Úvod 
+Zásadní význam při hodnocení kvality účetních dat m á otázka reálného 
+obrazu o podniku. Výstupní informace finančního úče tnictví jsou často pro 
+řízení nedostatečné a to z několika důvodů. Těmi js ou především možnosti 
+ovlivňování účetních dat a to i v rámci zákonem sta novených nařízení a 
+nedostatečné účetní informace potřebné pro řízení. Kvalita řízení závisí jak na 
+kvalitě účetních informací a výkazů a jejich shodě s realitou a legislativou, tak i 
+na  jejich  prezentaci.  Kvalitní  účetní  informace  umožňují  správně  měřit  výkonnost 
+podniku,  finanční  pozici  a měly  by  reagovat  na  požadavky  jednotlivých  uživatelů. 
+Cílem článku je navrhnout metodiku měření kvality ú četních dat. V tomto 
+případě je nutné použít některou z expertních metod vícekriteriálního hodnocení 
+variant. Po zhodnocení různých variant byla vybrána  metoda AHP (Analytic 
+Hierarchy Process). Tato metoda byla použita pro st anovení vah kritérií, 
+ovlivňujících  kvalitu  účetních  dat. Metoda  využívá  rozkladu  složité  
+nestrukturované situace na jednotlivá kritéria, kte rá budou v dalším kroku 
+uspořádána do hierarchické struktury. Na každé úrovni hierarchické struktury se 
+použije Saatyho metoda párového porovnávání a to ta k, že každé kritérium se 
+porovnává s ostatními kritérii. Výsledkem vzájemnéh o porovnávání jsou váhy 
+jednotlivých kritérií dat (Saaty, 2006). Tyto váhy následně určují, jaký mají 
+jednotlivá kritéria vliv na rozhodovací proces při určování kvality účetních dat 
+(Vlčková, 2014).  
+1 Metodika 
+1.1 Skupiny kritérií pro zhodnocení kvality dat finančního účetnictví 
+Při sestavování skupin kritérií pro hodnocení kvali ty dat finančního 
+účetnictví bylo vycházeno z propojení finančního úč etnictví s informačním 
+systémem podniku a se systémem řízení. Finanční úče tnictví je z jednoho 
+                                                           
+*  Ing. Miroslava Vlčková, Ph.D. – odborná asistentk a; Katedra účetnictví a financí, 
+Ekonomická fakulta, Jihočeská univerzita v Českých Bu dějovicích, Studentská 13, 
+České Budějovice; <mvlckova02@ef.jcu.cz>. 
+**   Ing. Ludvík Friebel, Ph.D. – odborný asistent; Ka tedra aplikované matematiky a 
+informatiky, Ekonomická fakulta, Jihočeská univerzi ta v Českých Budějovicích, 
+Studentská 13, České Budějovice; <friebel@ef.jcu.cz>. 
+
+PAGE 2
+Český finanční a účetní časopis, 2015, roč. 10, č. 2, s. 58-69. 
+ 59 
+pohledu subsystémem informačního systému podniku a z druhého pohledu je 
+podřízeným systémem, jehož nadřízeným systémem je systém řízení podniku.  
+Propojením těchto pohledů a pochopením vazeb mezi n imi je možné 
+rozdělit skutečnosti ovlivňující kvalitu finančního účetnictví do skupin a kritérií 
+uvedených níže. Faktem je, že jednotlivé skupiny se  v rámci určitých kritérií 
+mohou vzájemně prolínat. Například kreativní účetnictví by mohlo být zahrnuto 
+ve skupině zkreslování účetních dat, chyby a podvod y by v určitých ohledech 
+mohlo být i ve skupině účetní metodika. Proto byla jednotlivá kritéria začleněna 
+do té skupiny, se kterou nejčastěji věcně souvisejí. Byla vybrána ta kritéria, která 
+v nejvyšší míře negativním způsobem ovlivňují kvalitu účetních dat potřebných 
+pro řízení podniku. 
+1.1.1  Skupina F1 - Zkreslování dat, chyby a podvody  
+F11  – Účetní podvody prováděné managementem podniku, neetické chování 
+manažerů   
+Podvodné účetní vykazování se objevuje zejména na s traně zaměstnanců, 
+manažerů, příp. vlastníků. Důvodem mohou být předev ším snaha o snížení 
+kladného výsledku hospodaření z důvodu minimalizace  daní nebo zakrývání a 
+zkreslování údajů pro uživatele účetních výkazů, na př. banky či vlastníky. 
+Podvodná jednání u manažerů mohou mít formu manipul ace, falšování nebo 
+pozměňování účetních zápisů, záměrně chybné používá ní účetních zásad a 
+metod, záměrné neúčtování a nevykazování údajů, úmy slně složité transakce, 
+které skrývají jejich podstatu, přesunutí transakcí  do dalšího účetního období, 
+fiktivní záznamy, záměrně nesprávné odhady, např. p ři tvorbě rezerv apod. 
+(Kraftová, 2005; Müllerová, 2007) 
+F12  – Účetní podvody prováděné zaměstnanci podniku, neetické chování 
+zaměstnanců 
+Jako nejčastější podvodná jednání se vyskytují rozk rádání majetku a 
+podvodné účetní vykazování (Müllerová, 2007). Příle žitost zaměstnanců 
+rozkrádat majetek je tam, kde neexistuje ucelený vn itřní kontrolní systém, 
+neexistuje zodpovědnost, případně je odpovědnost be z kontroly. Pro etické 
+chování zaměstnanců v oblasti účetnictví mohou mana žeři přijmout mnoho 
+opatření, jako například zaměstnávat účetní s vysok ými etickými hodnotami, 
+vydávat etické kodexy a trvat na jejich dodržování,  definovat pracovní cíle, 
+provádět 
+ školení  v oblasti  etického chování,  sociální  audit  apod. (Vlčková,  2012). 
+F13  – Kreativní účetnictví 
+Kreativní účetnictví je prezentováno jako technika vykazování účetních dat 
+podniku, na základě kterých vypadá především rozvah a a výkaz zisku a ztráty 
+příznivěji, případně na základě kterých se výsledek  hospodaření minimalizuje 
+(z důvodu zakrývání úspěchů např. před konkurencí, vlastníky, státem) a 
+
+PAGE 3
+Vlčková, M. – Friebel, L.: Návrh metodiky na hodnocení kvality dat finančního účetnictví 
+metodou AHP.  
+ 60 
+vykazovaná daňová povinnost vůči státu se také sniž uje (Baba, 2009). Názory 
+na využívání kreativního účetnictví nejsou jednotné a rozdělují účetní odborníky 
+do dvou skupin (Armstrong, 2001). Do první skupiny jsou zahrnováni ti, kteří 
+takto vykazované účetnictví vnímají jako součást běžné praxe.  Do druhé skupiny 
+jsou zahrnováni ti, kteří ho vnímají jako nesprávnou a zkreslující činnost.  
+F14  – Účetní chyby vzniklé na základě neznalosti, lidské chyby účetních 
+Mezi základní účetní chyby z nedbalosti či neznalos ti patří riziko 
+nezaúčtování veškerých účetních operací, riziko špa tného zaúčtování (na 
+nesprávné účty, na nesprávné strany účtů), neplatno st hospodářské operace, 
+špatné ocenění majetku a závazků, zaúčtování do špa tného účetního období, 
+případně nesprávná prezentace účetních dat a informací (Eisen, 2000; Singleton 
+– Singleton, 2010).  
+1.1.2  Skupina F2 - Účetní metodika 
+F21  – Způsoby výpočtu odpisů 
+V řadě podniků se stále setkáváme s tím, že podniky  nedělají rozdíly mezi 
+účetními a daňovými odpisy a v rámci určitého zjednodušení účtují o daňových 
+odpisech. Daňové odpisy však nepodávají přesnou inf ormaci ohledně 
+opotřebení majetku a vykázaná dlouhodobá aktiva v ú četnictví pak nejsou 
+věrným obrazem skutečnosti. Daňové odpisy se často odlišují od ekonomické 
+reality, nezohledňují využití dlouhodobého aktiva v  účetní jednotce, zjišťují se 
+zpravidla jednou ročně a při pořízení majetku na konci účetního období lze navíc 
+uplatnit daňový odpis v roční výši. 
+F22  – Způsoby oceňování 
+Je zcela nesporné, že oceňování na bázi historických cen má mnoho výhod, 
+ale také nevýhod a v nedaleké budoucnosti bude čím dál tím větší tlak na 
+oceňování reálnou hodnotou. Zákon o účetnictví č. 5 63/1991 Sb. zatím pouze 
+taxativně vyjmenovává tituly, u kterých lze použít oceňování reálnou hodnotou. 
+F23  – Způsoby vedení a organizace účetnictví, technika zpracování účetnictví 
+V malých účetních jednotkách není nutné sestavovat samostatný útvar pro 
+vedení účetnictví, ale je možné mít vedení účetnictví zajištěno outsourcingovou 
+firmou (Spiller, 2004). Nutno zde vzít v úvahu před evším finanční hledisko, 
+náročnost na zpracování a časovou flexibilitu. 
+ 
+F24  – Vnitřní směrnice 
+Vnitropodnikové 
+ účetní  směrnice  standardizují účetní postupy  a napomáhají 
+tyto postupy automatizovat. Jsou určitým komunikačn ím nástrojem, který 
+
+PAGE 4
+Český finanční a účetní časopis, 2015, roč. 10, č. 2, s. 58-69. 
+ 61 
+eliminuje nejasnosti, a pro externího auditora jsou  alespoň minimální známkou 
+toho, že v podniku jsou stanoveny mantinely na základě platné legislativy.  
+F25  – Vnitřní kontrola 
+Úkolem vnitřní kontroly je odhalit odchylky mezi sk utečným a žádoucím 
+průběhem hospodářských procesů. Základním principem  vnitřní kontroly je, že 
+odpovědnost za provádění hospodářských operací musí být rozdělena mezi dvě 
+a více osob. 
+1.1.3  Skupina F3 – Vazby a vliv informačního systému 
+F31  – Nedostatečné informace, špatná vnitropodniková komunikace 
+Problém nastává, když je množství informací nedosta tečné a také naopak, 
+když jsou manažeři a další řídící složky nepotřebnými informacemi zahlcováni. 
+F32 – Vliv účetních legislativních změn na informační systém 
+Jak pro účetní, tak i manažery nejsou vhodné příliš  časté změny 
+v legislativě. Nejen, že tyto změny jsou nákladově náročné, např. na aktualizaci 
+softwaru zajištění, na proškolení zaměstnanců, náku p zákonů a odborné 
+literatury, ale přináší komplikace v oblasti nastavení účetního softwaru na nové 
+legislativní podmínky (především jsou-li rozsáhlejšího charakteru).  
+F33  – Požadavky manažerů na informační systém podniku 
+Požadavky manažerů na informační systém podniku se odvíjí především od 
+velikosti podniku, struktury řízení, předmětu činnosti a dalších. 
+1.2 Stanovení vah 
+Pro stanovení vah kritérií u tohoto modelu se využí vá výše zmíněná Saatyho 
+metoda. Je to metoda, která předpokládá, že rozhodo vatel je schopen určit jak 
+pořadí podle důležitosti kritérii, tak i poměr důle žitosti mezi veškerými 
+dvojicemi kritérií. Hierarchická struktura rozděluj e hodnocení do několika 
+úrovní a každá z těchto úrovní obsahuje několik prv ků. Na nejvyšší úrovni je 
+jeden prvek a tomu se přiřadí hodnota jedna, která určuje hodnotu váhy prvku. 
+Tato hodnota se dále dělí mezi jednotlivé prvky na nižších úrovních a součet 
+těchto hodnot na 
+ každé  úrovni je vždy jedna.  Jde o  preference,  které  rozhodovatel 
+pomocí vzájemného párového porovnávání přisuzuje je dnotlivým kritériím 
+(Saaty, 2006). Metoda při párovém porovnávání využívá devítibodové stupnice 
+1-9. Při hodnotě jedna jsou kritéria stejně významn á, při hodnotě 9 je kritérium 
+z řádku  devětkrát  významnější  než  kritérium  ze  sloupce.  Preference  rozhodovatele 
+se zanese do Saatyho matice: 
+
+PAGE 5
+Vlčková, M. – Friebel, L.: Návrh metodiky na hodnocení kvality dat finančního účetnictví 
+metodou AHP.  
+ 62 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+=
+nnnn
+n
+n
+wwwwww
+wwwwww
+wwwwww
+W
+/...//
+/...//
+/...//
+21
+22212
+12111
+MOM . (1) 
+Pro prvky matice musí platit vztahy, že wii  = 1 a w ij  = 1/ wji . 
+Váhy jednotlivých kritérií lze vypočítat na základě  normalizovaného 
+geometrického průměru řádků Saatyho matice. 
+ n
+n
+j
+iji wb ∏
+=
+=
+1
+, (2) 
+kde  bi = geometrický průměr hodnot i-tého řádku, 
+ n = počet řádků, 
+ wij  = prvek Saatyho matice. 
+Normalizací hodnot bi se následně vypočtou váhy kritérií vi podle 
+následujícího vztahu: 
+ ∑
+=
+= n
+t
+i
+i
+i
+b
+bv
+1
+, (3) 
+kde  vi = váhy kritérií. 
+Při výpočtu vah jednotlivých kritérií je důležitý i ndex konzistence. Tento 
+index udává, v jaké míře jsou subjektivní párová ohodnocení konzistentní, resp. 
+vyjadřuje, že pokud preferujeme X před Y a zároveň Y před Z, pak musí platit, 
+že X je preferováno před Z. Tento index by měl být menší než 0,1 a vypočte se 
+podle následujícího vztahu:  
+ 1
+max
+−
+−= n
+nI S
+λ , (4) 
+kde  λmax = maximální vlastní číslo matice, 
+ n = počet kritérií. 
+Pro výpočet vah a indexu konzistence byl použit pro gram SANNA. 
+
+PAGE 6
+Český finanční a účetní časopis, 2015, roč. 10, č. 2, s. 58-69. 
+ 63 
+1.3 Navržení škály pro hodnocení variant 
+Aby mohlo být dále pokračováno v analýze kvality úč etních dat 
+u jednotlivých podniků, bylo potřeba sestavit stupn ici hodnocení jednotlivých 
+kritérií. Protože se jedná o kritéria nákladového t ypu, byla stanovena pětibodová 
+stupnice od 0 do 4, s tím, že 0 znamená, že jev se v podniku nevyskytuje vůbec, 
+1 znamená slabý výskyt, 2 znamená střední výskyt, 3  znamená silný výskyt a 
+4 znamená, že negativní jev se v podniku vyskytuje v plném rozsahu. Jelikož se 
+jedná o velmi citlivá data a v pilotním výzkumu, kt erého se zúčastnilo 12 
+podniků, byla zaznamenána značná neochota odpovídat  na tyto otázky a byla 
+zde též pravděpodobnost zamlčování určitých informací či zkreslování dat, bylo 
+potřeba vytvořit rozhraní, v rámci kterého by podni ky mohly zcela anonymně 
+odpovídat na jednotlivé otázky. 
+1.4 Získání dat 
+V dalším kroku musela být získána data od jednotliv ých podniků, aby se 
+zjistilo, v jaké míře se v dotazovaných podnicích j ednotlivá kritéria vyskytují a 
+jaká je výsledná hodnota kvality dat jednotlivých podniků.  
+Software byl vytvořen v programovacím jazyku C# v M icrosoft Visual 
+Studio 2013. Tento software byl podnikům zdarma dis tribuován. Jednotliví 
+respondenti měli v daném softwaru možnost výběru z přednastaveného slovního 
+hodnocení jednotlivých kritérií a vybírali možnost,  která odpovídala konkrétní 
+situaci v jejich podniku. Software následně na základě metodiky uvedené v bodě 
+1.2 a hodnocení dle 1.3 stanovil výslednou hodnotu kvality účetních dat. 
+2 Výsledky 
+Analýza kvality účetních dat je zaměřena na odhalen í nedostatků 
+v účetnictví, které ovlivňují kvalitu účetních dat a informací potřebných pro 
+kvalitní řízení podniku. Jako nejvíce vhodná metoda byla zvolena metoda AHP. 
+Při této metodě je prvořadé sestavení souboru krité rií a jeho rozřazení do skupin. 
+Na základě modelů vícekriteriální analýzy variant s e následně pomocí 
+hodnocení párového porovnání stanovují váhy jednotl ivých kritérií. Principem 
+je rozklad složité nestrukturované situace na jedno dušší komponenty, sestavení 
+Saatyho matic, vytvoření hierarchického systému a n ásledně zobecnění 
+možností rozhodovacího modelu kvality účetních dat (Vlčková, 2013). 
+2.1 Stanovení vah 
+Průzkum v rámci kvality dat finančního účetnictví p robíhal na základě 
+strukturovaných rozhovorů se 78 manažery, finančním i řediteli a hlavními 
+účetními a 12 auditory (váhy skupin). Dotazovaní re spondenti určili poměry 
+významnosti jednotlivých kritérií v rámci každé sku piny; z těchto poměrů byly 
+následně sestaveny Saatyho matice, určeny body a vá hy pro jednotlivá kritéria 
+
+PAGE 7
+Vlčková, M. – Friebel, L.: Návrh metodiky na hodnocení kvality dat finančního účetnictví 
+metodou AHP.  
+ 64 
+a indexy  konzistence pro  jednotlivé matice. Dotazovaní  auditoři určovali poměry 
+významnosti jednotlivých skupin. Výsledné váhy jsou uvedeny v tabulce 1.  
+Tab. 1:  Váhy kritérií kvality a skupin 
+Kritéria 
+skupin y 
+F1 
+Aritm. 
+prům. 
+vah 
+Výsled. 
+váha 
+kritéria  
+Kritéria 
+skupin y 
+F2 
+Aritm. 
+prům. 
+vah 
+Výsled. 
+váha 
+kritéria  
+Kritéria 
+skupin y 
+F3 
+Aritm. 
+prům. 
+vah 
+Výsled. 
+váha 
+kritéria  
+F11 0,2756 0,1090 F21 0,1872 0,0886 F31 0,5021 0,0887 
+F12 0,1787 0,0707 F22 0,3391 0,1451 F32 0,1344 0,0237 
+F13 0,4641 0,1836 F23 0,1035 0,0486 F33 0,3635 0,0642 
+F14 0,0816 0,0323 F24 0,0818 0,0350    
+   F25 0,2584 0,1105    
+Váha 
+sk. F1 0,3955  Váha 
+sk. F2 0,4278  Váha 
+sk. F3 0,1767  
+Vysvětlivky: Aritm. prům. vah = aritmetický průměr vah, 
+Výsled. váha kritéria = výsledná váha kritéria, Váha sk. = Váha skupiny. 
+Zdroj: vlastní zpracování. 
+Z výsledných vah získaných metodou AHP bylo následn ě navrženo 
+integrální hodnotící kritérium, na základě kterého si podniky mohou určit 
+kvalitu účetních dat vykazovaných ve finančním účetnictví: 
+ 
+F33,F32F31
+F25F24F23
+F22F21 F14
+F13F12F11
+⋅+⋅+⋅+
++⋅+⋅+⋅+
++⋅+⋅+⋅+
++⋅+⋅+⋅=
+064200237008870
+110500350004860
+145100886003230
+183600707010900
+,,,
+,,,
+,,,
+,,,QADFA
+ (5) 
+kde  QAD FA  = Quality of Accounting Data for Financial Accounti ng 
+(kvalita účetních dat ve finančním účetnictví), 
+ F11… F33 = jednotlivá kritéria v rámci stanovených skupin. 
+2.2 Průzkum kvality dat v podnicích 
+Průzkum byl proveden u 78 podniků, kterými byly spo lečnosti s ručením 
+omezeným a akciové společnosti z Jihočeského kraje, jejichž počet zaměstnanců 
+byl od 10 do 1999, roční obrat od 10 mil. do 1 mld. Kč a převažující činnost dle 
+CZ-NACE zpracovatelský průmysl. Výsledky průzkumu uvádí tabulka 2. 
+
+PAGE 8
+Český finanční a účetní časopis, 2015, roč. 10, č. 2, s. 58-69. 
+ 65 
+Tab. 2:  Získané hodnoty kvality účetních dat 
+u jednotlivých podniků 
+Podnik QAD FA  Podnik QAD FA Podnik QAD FA  Podnik QAD FA  
+1 2,0417  21 1,7034  41 1,6788  61 0,6858  
+2 1,6247  22 1,2765  42 0,3649  62 1,8876  
+3 1,6493  23 1,3027  43 1,7310 63 1,2591  
+4 0,5524  24 2,1254  44 0,6639  64 1,4955  
+5 1,5143  25 2,0351  45 1,3222  65 1,2794  
+6 0,9150 26 1,9013  46 1,9307  66 2,7436  
+7 1,1777  27 0,9550 47 1,1697  67 1,4454  
+8 0,6871  28 0,9816  48 1,3035  68 0,9444  
+9 1,3112  29 1,1245  49 1,2674  69 1,8330 
+10 1,5454  30 1,2731  50 1,7632  70 1,5658  
+11 1,5722  31 1,9002  51 1,5526  71 1,7875  
+12 1,6738  32 0,7589  52 1,2406  72 1,5845  
+13 1,3207  33 1,3675  53 1,4238  73 1,6916  
+14 2,1511  34 2,2090 54 0,6012  74 1,1263  
+15 1,7852  35 1,1350 55 1,8849  75 0,9250 
+16 1,1682  36 1,6490 56 0,6791  76 2,1717  
+17 0,6071  37 1,3132  57 0,5534  77 1,9870 
+18 1,3012  38 1,2264  58 1,4328  78 0,9886  
+19 1,2063  39 0,5857  59 1,6628   
+20 1,4035  40 0,6629  60 1,1481  
+Průměrná hodnota 1,3778 
+Minimum 0,3649 
+Maximum 2,7436 
+Zdroj: vlastní výpočty. 
+Na základě výše uvedených hodnot byla sestavena pět istupňová hodnotící 
+stupnice kvality účetních dat. Tato stupnice koresp onduje s hodnotící škálou 
+používanou v rámci jednotlivých kritérií. Teoretick á minimální hodnota – 0 
+představuje stoprocentně kvalitní data, nejvyšší ho dnota – 4 reprezentuje 
+stoprocentně nekvalitní data. Délka jednotlivých stupňů hodnotící škály je dána 
+podílem rozpětí integrálního hodnotícího kritéria a počtu stupňů 
+Tabulka 3 uvádí rozdělení podniků podle výše uvedené stupnice. Zajímavé 
+zjištění bylo, že žádný podnik nemá velmi špatnou kvalitu dat a pouze 1 podnik 
+má špatnou kvalitu dat. Více než 66 % podniků má nadprůměrnou kvalitu dat. 
+
+PAGE 9
+Vlčková, M. – Friebel, L.: Návrh metodiky na hodnocení kvality dat finančního účetnictví 
+metodou AHP.  
+ 66 
+Tab. 3:  Přiřazení stupnicového ohodnocení u zkoumaných podniků 
+Interval Hodnocení Počet 
+podniků 
+Procentní 
+podíl 
+<0 – 0,8> velmi dobrá kvalita účetních dat 12 15,38 
+(0,8 – 1,6> dobrá kvalita účetních dat 40 51,28 
+(1,6 – 2,4> průměrná kvalita účetních dat 25 32,05 
+(2,4 – 3,2> špatná kvalita účetních dat 1 1,28 
+(3,2 – 4> velmi špatná kvalita účetních dat 0 0,00 
+Celkem  78 100,00 
+Zdroj: vlastní výpočty. 
+Obr. 1:  Četnost rozdělení podniků 
+ 
+Zdroj: vlastní zpracování.  
+Průzkum byl prováděn u společností s ručením omezen ým a u akciových 
+společností, jejichž počet zaměstnanců je v rozmezí od 10 do 1999 zaměstnanců, 
+roční obrat je od 10 mil. do 1 mld. Kč a převažujíc í činnost je zpracovatelský 
+průmysl. Vypovídací schopnost výsledků je tedy omez ena na tuto skupinu 
+společností. 
+Dalším limitujícím faktorem je subjektivní povaha h odnocení dle jednotlivých 
+kritérií, která byla získána na základě dotazníkového šetření. Tento hendikep je 
+částečně eliminován použitím metody AHP. Přesto by bylo vhodné pro 
+hodnocení kvality účetních dat využít nezávislé aud itory tak, jak je tomu třeba 
+v případě certifikací dle ISO nebo TQM (EFQM). 
+ 
+12 
+40 
+25 
+1 0
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+45 
+0,8 1,6 2,4 3,2 4
+Četnost 
+QAD FA 
+
+PAGE 10
+Český finanční a účetní časopis, 2015, roč. 10, č. 2, s. 58-69. 
+ 67 
+Závěr 
+Článek poskytuje pohled na problematiku kvality účetních dat při řízení podniku 
+a s ní spojené hodnocení kvality. V aplikační části  byla použita metoda AHP, 
+která slouží pro řešení úloh vícekriteriálního rozh odování. Bylo navrženo 12 
+nejvýznamnějších kritérií, která ovlivňují kvalitu dat finančního účetnictví. Tato 
+kritéria byla dále rozčleněna do tří skupin podle j ejich vzájemných vazeb. 
+Výsledkem vzájemného porovnávání bylo stanovení vah  jednotlivých kritérií. 
+Jako nejvýznamnější kritéria se projevila kreativní  účetnictví, způsoby 
+oceňování, vnitřní kontrolní systém, účetní podvody prováděné managementem 
+podniku, nedostatečné informace a špatná vnitropodn iková komunikace. 
+Následně byla sestavena intervalová hodnotící škála  pro hodnocení variant 
+v rámci jednotlivých kritérií. Výsledkem byl integrální model hodnocení kvality 
+účetních dat pro finanční účetnictví. Pro výpočet i ntegrálního hodnotícího 
+kritéria byl dále vyvinut software pro automatické vyhodnocení kvality účetních 
+dat v jednotlivých podnicích. Pomocí softwaru bylo zpracováno hodnocení u 78 
+podniků. Z průzkumu v podnicích vyplynulo, že více než polovina podniků 
+(51,28 %) má dobrou kvalitu účetních dat, 32,05 % průměrnou kvalitu a 15,38 % 
+velmi dobrou kvalitu účetních dat.  
+Literatura: 
+[1]  Armstrong, M. (2001): A Handbook of Management Techniques : The Best 
+Selling Guide to Modern Management Method . London, Kogan Page, 2001. 
+[2]  Baba, M. C. (2009): Quality Management of the Accou nting Services . 
+Bulletin of the Transilvania University of Brasov , 2009, roč. 2, č. 51, s. 59-
+66. 
+[3]  Eisen, P. J. (2000): Accounting . Haupauge, Barron’s Educational Series, 
+2000. 
+[4]  Kraftová, I. (2005): Kvalitativní stránka účetních informací . Účetnictví 
+v praxi, 2005, roč. 9, č. 7, s. 11-14. 
+[5]  Müllerová, L. (2007): Auditing pro manažery aneb proč a jak se ověřuje 
+účetní závěrka . Praha, ASPI, 2007. 
+[6]  Saaty, T. L. (2006): Fundamentals of Decision Making and Priority Theory 
+with the Analytic Hierarchy Process. Pittsburgh, RWS Publications, 2006. 
+[7]  Singleton, T. – Singleton, A. J. (2010): Fraud Auditing and Forensic 
+Accounting . Hoboken, Wiley, 2010. 
+[8]  Spiller, E. A. (2004): Financial Accounting : Basic Concepts . Homewood, 
+Irwin, 2004. 
+ 
+
+PAGE 11
+Vlčková, M. – Friebel, L.: Návrh metodiky na hodnocení kvality dat finančního účetnictví 
+metodou AHP.  
+ 68 
+[9]  Vlčková, M. (2014): Návrh modelu na zjišťování kvality informací 
+vykazovaných v manažerském účetnictví . In Jedlička, P. (ed.): Ekonomický 
+rozvoj a management regionů. Hradec Králové, Gaudeamus – Univerzita 
+Hradec Králové, 2014, s. 404-410, 2014. 
+[10]  Vlčková, M. (2013): Preference kvality účetních informací zjištěné na 
+základě Saatyho metody . In Jedlička, P. (ed.): Economic Development and 
+Management of Regions: Peer-Reviewed Conference Pro ceedings. Hradec 
+Králové,  Gaudeamus – Univerzita Hradec Králové, 2013, s. 329 -336. 
+[11]  Vlčková,  M.  (2012):  Etika,  podvody  a psychologické  nátlaky  zaměstnavatelů 
+při zpracování účetních dat. In Dušek, J. – Pána, L. – Svatoš, R. aj. (eds.): 
+Udržitelný rozvoj a funkce moderního evropského státu.  České Budějovice, 
+Vysoká škola evropských a regionálních studií, 2012, s.  134-139. 
+
+PAGE 12
+Český finanční a účetní časopis, 2015, roč. 10, č. 2, s. 58-69. 
+ 69 
+Návrh metodiky na hodnocení kvality dat finančního 
+účetnictví metodou AHP 
+Miroslava Vlčková – Ludvík Friebel 
+ABSTRAKT   
+Článek se zabývá problematikou kvality účetních dat  při řízení podniku. Bylo 
+navrženo 12 nejvýznamnějších kritérií, která ovlivň ují kvalitu dat finančního 
+účetnictví. Tato základní kritéria byla dále rozčleněna do tří skupin podle jejich 
+vzájemných vazeb a v rámci těchto skupin proběhlo e xpertní hodnocení jejich 
+významu. Pro výpočet vah jednotlivých kritérií byla  použita metoda AHP. 
+Zároveň byla navržena hodnotící škála pro každé kri térium. Výsledkem je 
+integrální hodnotící kritérium (model vícekriteriálního hodnocení) na posouzení 
+kvality účetních dat pro finanční účetnictví. Hodno cení bylo provedeno na 
+souboru českých podniků s obdobnými charakteristikami.  
+Klíčová slova:  Metoda AHP; Saatyho matice; Kritéria kvality účetní ch dat; 
+Váhy kritérií; Párové srovnávání.  
+The Draft of Methodology for Assessment of Quality 
+of Financial Accounting Data Using AHP Method 
+ABSTRACT   
+The article deals with the quality of accounting da ta for business management. 
+It has been suggested 12 the most important criteri ons that affect the quality of 
+financial accounting data. These main criterions we re further subdivided into 
+three groups according to their mutual relation. Cr iterions within mentioned 
+groups were evaluated by experts in order to determ ine their weights. For 
+calculating the weightings of the particular criter ions was used AHP method. 
+Subsequently was proposed a rating scale for each c riterion. The result is an 
+integrated criterion (multicriteria evaluation mode l) for assessment the quality 
+of accounting data for financial accounting. The evaluation was carried out on a 
+sample of Czech firms with similar characteristics.  
+Key words:  AHP Method; Saaty’s Matrix; Quality of Accounting D ata 
+Criteria; Criterion weights; Pairwise comparison. 
+JEL classification:  C44, M10, M41. 

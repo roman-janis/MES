@@ -1,0 +1,1657 @@
+PAGE 1
+European Journal of Operational Research 48 (1990) 9-26 9 
+North-Holland 
+How to make a decision: 
+The Analytic Hierarchy Process 
+Thomas L. Saaty 
+Joseph M. Katz Graduate School of Business, University of Pittsburgh, Pittsburgh, PA 15260, USA 
+Abstract: This paper serves as an introduction to the Analytic Hierarchy Process - A multicriteria decision 
+making approach in which factors are arranged in a hierarchic structure. The principles and the philosophy 
+of the theory are summarized giving general background information of the type of measurement utilized, 
+its properties and applications. 
+Keywords: Decision, priority, rank, cost-benefit, scales, ratios 
+1. How to structure a decision problem 
+Perhaps the most creative task in making a 
+decision is to choose the factors that are important 
+for that decision. In the Analytic Hierarchy Proc- 
+ess we arrange these factors, once selected, in a 
+hierarchic structure descending from an overall 
+goal to criteria, subcriteria and alternatives in 
+successive levels. 
+To a person unfamiliar with the subject there 
+may be some concern about what to include and 
+where to include it. When constructing hierarchies 
+one must include enough relevant detail to: 
+represent the problem as thoroughly as possi- 
+ble, but not so thoroughly as to lose sensitivity to 
+change in the elements; 
+consider the environment surrounding the 
+problem; 
+identify the issues or attributes that contribute 
+to the solution; and 
+identify the participants associated with the 
+problem. 
+Arranging the goals, attributes, issues, and stake- 
+holders in a hierarchy serves two purposes. It 
+provides an overall view of the complex relation- 
+ships inherent in the situation; and helps the deci- 
+sion maker assess whether the issues in each level 
+are of the same order of magnitude, so he can 
+compare such homogeneous elements accurately. 
+Received November 1989 
+One certainly cannot compare according to size a 
+football with Mr. Everest and have any hope of 
+getting a meaningful answer. The football and Mt. 
+Everest must be compared in sets of objects of 
+their class. Later we give a fundamental scale of 
+use in making the comparison. It consists of verbal 
+judgments ranging from equal to extreme (equal, 
+moderately more, strongly more, very strongly 
+more, extremely more) corresponding to the verbal 
+judgments are the numerical judgments (1, 3, 5, 7, 
+9) and compromises between these values. We 
+have completed compiling a dictionary of hier- 
+archies pertaining to all sorts of problems, from 
+personal to corporate to public. 
+A hierarchy does not need to be complete, that 
+is, an element in a given level does not have to 
+function as an attribute (or criterion) for all the 
+elements in the level below. A hierarchy is not the 
+traditional decision tree. Each level may represent 
+a different cut at the problem. One level may 
+represent social factors and another political fac- 
+tor to be evaluated in terms of the social factors or 
+vice versa. Further, a decision maker can insert or 
+eliminate levels and elements as necessary to 
+clarify the task of setting priorities or to sharpen 
+the focus on one or more parts of the system. 
+Elements that have a global character can be 
+represented at the higher levels of the hierarchy, 
+others that specifically characterize the problem at 
+hand can be developed in greater depth. The task 
+of setting priorities requires that the criteria, the 
+0377-2217/90/$03.50 © 1990 - Elsevier Science Publishers B.V. (North-Holland) 
+
+
+PAGE 2
+10 T.L. Saaty / The AHP: How to make a decision 
+properties or features of the alternatives being 
+compared, and the alternatives themselves are 
+gradually layered in the hierarchy so that it is 
+meaningful to compare them among themselves in 
+relation to the elements of the next higher level. 
+Finally, after judgments have been made on the 
+impact of all the elements and priorities have been 
+computed for the hierarchy as a whole, sometimes, 
+and with care, the less important elements can be 
+dropped from further consideration because of 
+their relatively small impact on the overall objec- 
+tive. The priorities can then be recomputed 
+throughout, either with or without changing the 
+remaining judgments. 
+2. Scales of m e a s u r e m e n t -  Avoiding mere num- 
+ber crunching 
+One might argue the whole process of decision 
+making is so unstructured and so amorphous that 
+it is no use trying to be precise. One is then 
+tempted to go further and conclude that "par- 
+ticipant satisfaction" is the main objective of deci- 
+sion making. Were this the case, then multicriteria 
+decision making would be a simple matter of 
+using ingenuity, supported with mathematical 
+terminology, to improve numbers that please peo- 
+ple. But different sets of arbitrary numbers are 
+likely to result, producing different decisions, and 
+we are right back where we started. One set of 
+numbers pleases a group of people who might be 
+equally pleased with another set of numbers that 
+contradicts the recommendations of the first set. 
+This is mere number crunching. If a decision 
+support theory is to be trustworthy there must be 
+uniqueness in the representation of judgments, the 
+scales derived from these judgments, and the scales 
+synthesized from the derived scales. 
+Let us consider for a moment group interaction 
+that often leads to certain expectations, sometimes 
+arising from the very heat of the debate. Such a 
+debate cannot always incorporate in its arguments 
+the refinements resulting from the mathematical 
+tradeoffs to ensure drawing valid conclusions. 
+Sometimes participants accept a process and its 
+outcome because the situation is so complex and 
+the arguments so convoluted that whatever 
+surfaces in the end appears plausible. Although 
+convincing a group about its qualitative prefer- 
+ences involves the politics of persuasion and of 
+wheeling and dealing, it is essential that the deci- 
+sion theory itself used to assist the group in arriv- 
+ing at a decision be invariant to politics and 
+behavior. It should be a science of scaling based 
+on mathematics, philosophy and psychology. 
+Among the various number crunching prac- 
+tices, the most objectionable one is to assign any 
+set of numbers to judgments on alternatives under 
+a particular criterion, and then normalize these 
+numbers (by multiplying them by a constant that 
+is the reciprocal of their sum). Generally, different 
+sets of numbers are used to scale the judgments 
+for the alternatives under different criteria. All the 
+new normalized sets now lie in the interval [0, 1], 
+no matter what scale they originally came from, 
+and can be passed off to the uninitiated as com- 
+parable. The appealing part of this practice is that 
+the numbers have an apparently uniform underly- 
+ing structure and look not unlike probabilities. 
+Thus they go unchallenged by the decision maker 
+and are then manipulated by the consultant or 
+facilitator who weights and adds them to find the 
+most preferred alternative. 
+Note that when the initial numbers assigned 
+before normalization are ordinals, arbitrary num- 
+bers that preserve order but carry no information 
+about differences or ratios of relative magnitudes, 
+the resulting transformation produces a new set of 
+ordinals lying between zero and one and you can 
+be sure only that it preserves the same order. The 
+operations of weighting and adding cannot then 
+be meaningful because it is very likely that differ- 
+ent results will be produced for different choices 
+of the ordinal numbers. By a judicious choice of 
+ordinals one can make an alternative that is domi- 
+nant on even one criterion, no matter how unim- 
+portant that criterion may be, have the largest 
+value after weighting and adding and thus turn 
+out to be the most preferred. Any method such as 
+this is not a decision theory but an approach that 
+can mislead people. 
+The Analytic Hierarchy Process is rigorously 
+concerned with the scaling problem and what sort 
+of numbers to use, and how to correctly combine 
+the priorities resulting from them. A scale of 
+measurement consists of three elements: A set of 
+objects, a set of numbers, and a mapping of the 
+objects to the numbers. In a standard scale a unit 
+is used to construct the rest of the numbers of the 
+scale. Examples of such a unit are the inch, the 
+pound, the angstrom, and the dollar. A standard 
+
+
+PAGE 3
+T.L. Saaty / The AHP: How to make a decision 11 
+scale can be used to measure object or events with 
+respect to the property for which a scale is design- 
+ed to measure. Since the unit is arbitrary, one can 
+have different numbers to which the objects are 
+mapped. Because a standard scale is not unique, it 
+is important to interpret the meaning of the num- 
+bers used in the scale. Thus, in general, the num- 
+bers obtained from such a scale are merely stimuli 
+for the memory (what it felt like the last time the 
+temperature was - 1 5 ° C )  and have no intrinsic 
+significance. However, most carefully designed 
+standard scales are helpful in that they preserve 
+certain numerical relations in the measurements 
+(the mapping) of the objects, giving us a better 
+way to interpret the stimuli they are measuring 
+than arbitrary scales. 
+A scale may or may not have zero for an origin. 
+For example, a scale of ordinal numbers can begin 
+with any number. A ratio scale, such as absolute 
+temperature preserves origin. Interval scales, which 
+measure the same phenomena like temperature, 
+preserve linear relations, but may have different 
+origins. Zero on the Fahrenheit scale is a different 
+temperature than zero on the Celsius scale. Both 
+are interval scales. Again, the numbers on these 
+scales mean nothing unless one can recall situa- 
+tions associated with the numerical readings being 
+considered. They are just a convenient means of 
+communicating characteristics of objects or situa- 
+tions without everybody having to experience 
+them. 
+It often happens that the interpretations of 
+numerical stimuli from a given standard scale 
+differ depending on the circumstances. There is no 
+simple rule that can be applied to interpret read- 
+ings from even a single scale when it is applied to 
+a natural phenomenon. Intensity of sun light has a 
+different significance for different purposes. It 
+may be useful for sunbathing, but too bright for 
+reading. Similarly, a monotonic relation between 
+successive readings from a standard scale do not 
+assure us that even higher readings will be better 
+(or worse). More (or less) temperature does not 
+necessarily correspond to more (or less) useful- 
+ness. Low temperatures are uncomfortable. As the 
+readings rise, they become more comfortable and 
+as they rise higher they can again become uncom- 
+fortable. On the other hand, to preserve some 
+foods, low temperatures are very desirable and as 
+the readings rise, they become undesirable, and as 
+they rise still higher they could become desirable 
+again. Our values of comfort and desirability and 
+other social effects have to be at the bottom of 
+every interpretation and depend on higher goals 
+that we may have in mind. 
+For a large number of scales used in physics, it 
+is implicitly assumed that the scale can be ex- 
+tended out to infinity and applied to every imagin- 
+able circumstance. In other words, interpretation 
+in physics assumes events as homogeneous, no 
+matter how near or far from the origin they may 
+fall. What is most astonishing is the assumption in 
+physics that objects yet unknown but with the 
+same dimensional characteristics of the known 
+objects being measured can in fact be measured in 
+the same way. Realization of the different inter- 
+pretations we can make of the same number in 
+physics would indicate that when numbers fall 
+outside the realm of experience it is logical to 
+suspend the extension of the truth we construct 
+from experience to a domain for which we have no 
+knowledge and feeling. It would be mostly fictive 
+speculation. 
+In economics, the arithmetic value of a dollar is 
+assumed to be the same no matter whether a 
+person has only one or a million dollars. But in 
+reality it is not. To buy a new Mercedes, ten 
+dollars and one hundred dollars are nearly equally 
+inadequate or useless as down payments. On the 
+other hand, for buying groceries, a hundred dol- 
+lars is much more useful, practically ten times 
+more useful than ten dollars. The first thousand 
+dollars earned is much more important than the 
+first thousand dollars earned after a million. 
+We must be constantly and carefully attentive 
+to how we interpret data from scales. Standard 
+scales force on us a way of thinking that is not in 
+complete harmony with the way we really feel 
+about what they are measuring. 
+There is a more general method of measure- 
+ment that does not make use of standard scales. It 
+is the method of relative measurements useful for 
+properties for which there is no standard scale of 
+measurement (love, political clouL straightness). 
+These are known as intangible properties. The 
+number of such properties is extremely large. We 
+can scarcely hope to device standard scales for 
+them all. We are driven to relative scales, and a 
+surprising thing is that they can serve as a stand- 
+ard for how to handle the very few standard scales 
+we have, and not the other way round. A remarka- 
+ble aspect of relative scales is that they can use 
+
+
+PAGE 4
+12 T . L  Saaty / The AHP: How to make a decision 
+information from standard scales when there is a 
+particular need to do so. Measurements in a 
+standard ratio scale are transformed to meas- 
+urements in a relative ratio scale by normalizing 
+them. 
+This conversion process gives us a hint about 
+the difference between the two kinds of scales. A 
+relative scale for a property is generated for a 
+specific set of entities or objects. A standard scale 
+for a property is always out there ready to be 
+called into use. More significantly, a relative scale 
+is essential to represent priority or importance if 
+one is generating the scale by making direct ob- 
+servations and judgments about the property un- 
+der study. It is also useful when one is interpreting 
+what the data from a standard scale really signify. 
+Relative scales are always needed to represent 
+subjective understanding. More is said about 
+arithmetic relations between the two types of scales 
+in Sections 8 and 12. 
+3. Paired comparisons as ratios 
+When we measure something with respect to a 
+property, we usually use some known scale for 
+that purpose. A basic contribution to the subject 
+of this paper, the Analytic Hierarchy Process 
+(AHP) is how to derive relative scales using judg- 
+ment or data from a standard scale, and how to 
+perform the subsequent arithmetic operation on 
+such scales avoiding useless number crunching. 
+The judgments are given in the form of paired 
+comparisons [6,7,8]• One of the uses of a hierarchy 
+is that it allows us to focus judgment separately on 
+each of several properties essential for making a 
+sound decision• The most effective way to con- 
+centrate judgement is to take a pair of elements 
+and compare them on a single property without 
+concern for other properties or other elements. 
+This is why paired comparisons in combination 
+with the hierarchical structure are so useful in 
+deriving measurement. We also note that some- 
+times comparisons are made on the basis of stand- 
+ards established in memory through experience or 
+training. 
+Assume that we are given n stones, A t , . . .  , An, 
+whose weights w I ..... w,, respectively, are known 
+to us. Let us form the matrix of pairwise ratios 
+whose rows give the ratios of the weights of each 
+stone with respect to all others. Here the smaller 
+A 1 
+AI wl/w~ 
+A2 w2/wl 
+A ,  w n / w  1 
+{Wwl W2 
+~ - n  
+of each pair of stones is used as the unit, and the 
+larger one is measured in terms of multiples of 
+that unit. It is difficult to do the inverse compari- 
+son without again using the smaller stone as the 
+unit. This is a sort of bias in human thinking, 
+which leads to considering a nonsymmetrical out- 
+come and the inclination not to force symmetry 
+on it. We have the matrix equation: 
+A 2  . . . A n  
+wl/w2 " "  Wl/W. I 
+W 1 I 
+Wa/W2 ... wjwo l w? 
+w./w2 ... w./wn ] w. 
+The foregoing formulation has the advantage of 
+giving us the solution• But it also gives rise to a far 
+reaching theoretical interpretation. We have multi- 
+plied A on the right by the vector of weights 
+w = ( % ,  w 2 . . . . .  wn) x. The result of this multipli- 
+cation is nw. If n is an eigenvalue of A, then w is 
+the eigenvector associated with it. Now A has rank 
+one because every row is a constant multiple of 
+the first row. Thus all its eigenvalues except one 
+are zero. The sum of the eigenvalues of a matrix is 
+equal to its trace, the sum of the diagonal ele- 
+ments, and in this case, the trace of A is equal to 
+n. Therefore, n is the largest, or principal, eigen- 
+value of A. 
+The solution of A w  = nw, called the principal 
+right eigenvector of A, consists of positive entries 
+and is unique to within a multiplicative constant. 
+To make w unique, we normalize its entries by 
+dividing by their sum. It is clear that if we are 
+given the comparison matrix A, we can recover 
+the scale. In this case the solution is the normal- 
+ized version of any column of A. 
+The matrix A = ( a i j ) ,  a i j = w i / w j ,  i, j =  
+1 ..... n, has positive entries everywhere and satis- 
+fies the reciprocal property aji = 1 / a i j .  Any ma- 
+trix with this property is called a reciprocal ma- 
+trix. In addition, A is consistent because the fol- 
+lowing condition is satisfied: 
+aj~ = a i k / a i j ,  i, j ,  k = 1 . . . . .  n. (1) 
+
+
+PAGE 5
+T.L. Saaty / The AHP: How to make a decision 13 
+We see that the entire matrix can be constructed 
+from a set of n elements which form a chain (or 
+more generally, a spanning tree, in graph-theoretic 
+terminology) across the rows and columns. 
+It is easy to prove that a consistent matrix must 
+have the ratio form A = (wJwj), i, j = 1 . . . . .  n. A 
+necessary condition for consistency is that A be 
+reciprocal. We show below that a necessary and 
+sufficient condition for consistency is that the 
+principal eigenvalue of A be equal to n, the order 
+of A. When A is inconsistent, these two observa- 
+tions serve to help us derive a ratio scale whose 
+ratios are close to those of an underlying scale 
+w -- (w I ..... w,). The reciprocal axiom of the AHP 
+ensures that perturbations of a ratio scale are 
+themselves reciprocal. The homogeneity axiom en- 
+sures for the inconsistent case that the perturba- 
+tions would be small, and hence that the two 
+principal eigenvalues are close, from which it 
+would follow by an argument given in [14, p. 671 
+that the derived scale is close to an underlying 
+ratio scale. In addition, this second axiom enables 
+us to explore the improvement of some of the 
+judgments, thus also the improvement of incon- 
+sistency and the scale approximation. But there 
+still remains the question of order preservation. 
+The method we use to derive the scale must not 
+only yield a ratio scale, but also capture the order 
+inherent in the judgments, a very strong require- 
+ment indeed. 
+In a general decision-making environment, we 
+cannot give the precise values of the w,/w) but 
+only estimates of them. Let us consider estimates 
+of these values given by an expert who may make 
+small errors in judgment. It is known from eigen- 
+value theory [14], that a small perturbation around 
+a simple eigenvalue, as we have in n when A is 
+consistent, leads to an eigenvalue problem of the 
+form Aw=)tmaxW where Xma x is the principal 
+eigenvalue of A where A may no longer be con- 
+sistent but is still reciprocal. The problem now is: 
+to what extent does w reflect the expert's actual 
+opinion? Note that if we obtain w by solving this 
+problem, and then form a matrix with the entries 
+( w , / w j ) ,  we obtain an approximation to A by a 
+consistent matrix. 
+We now show the interesting, and perhaps 
+surprising result that inconsistency throughout 
+the matrix can be captured by a single number 
+X m~x- n, which measures the deviation of the 
+judgments from the consistent approximation. 
+Let a , j = ( 1  +6~j)wJ~*), 6~j> - 1 ,  be a per- 
+turbation of w y w j ,  where w is the principal eigen- 
+vector of A. 
+Theorem 1. Xmax > /  g/" 
+Proof: Using aj, = 1 / a j i ,  and A w - - X  .... w, we 
+have 
+I a, 2 
+- = -  ~ l + 6 , j  >~0" [] (2) ~max n n l ~ i < j ~ n  
+Theorem 2. A is consistent if and only if )~ m a x  = ?Z. 
+Proof. If A is consistent, then because of (1), each 
+row of A is a constant multiple of a given row. 
+This implies that the rank of A is one, and all but 
+one of its eigenvalues Xi, i = 1, 2 ..... n, are zero. 
+However, it follows from our earlier argument that 
+F~= iX, = Trace(A) = n. Therefore, X m a x  = n. Col3- 
+versely, Xm, x = n implies 6,j = 0, and a~j = w y w j .  
+[] 
+For the consistency index (CI), we adopt the 
+value (kin, X - n ) / ( n -  1). It is the negative aver- 
+age of the other roots of the characteristic poly- 
+nomial of A. This value is compared with the 
+same index obtained as an average over a large 
+number of reciprocal matrices of the same order 
+whose entries are random. If the ratio (called the 
+consistency ratio CR) of CI to that from random 
+matrices is significantly small (carefully specified 
+to be about 10% or less), we accept the estimate of 
+w. Otherwise, we attempt to improve consistency. 
+The reader may know about the experimental 
+findings of the psychologist George Miller in the 
+1950's [4]. He found that in general, people (such 
+as chess experts) could deal with information in- 
+volving simultaneously only a few facts, seven plus 
+or minus two, he wrote. With more, they become 
+confused and cannot handle the information. This 
+is in harmony with the stability of the principal 
+eigenvalue to small perturbations when n is small 
+[7,14], and its central role in the measurement of 
+consistency. 
+Vargas [12] studied the case where the coeffi- 
+cients of the matrix are random variables. He 
+focused his attention on gamma distributed coeffi- 
+cients and derived a Dirichlet distribution for the 
+components of the eigenvector when the matrix is 
+
+
+PAGE 6
+14 T.L. Saaty / The AHP: How to make a decision 
+consistent. When the matrix is inconsistent, the 
+10% consistency bound is a sufficient measure to 
+ensure that the eigenvector follows the Dirichiet 
+distribution with given parameters which can be 
+computed from the corresponding consistent ma- 
+trix. The gamma assumption is a powerful one 
+because of the inherent density of linear combina- 
+tions of these distributions. 
+4. Two examples 
+The AHP is used with two types of measure- 
+ment, relative and absolute, the latter having to do 
+with memory standards mentioned above. In both, 
+paired comparisons are performed to derive prior- 
+ities for criteria with respect to the goal. In rela- 
+tive measurement, paired comparisons are per- 
+formed throughout the hierarchy including on the 
+alternatives in the lowest level of the hierarchy 
+with respect to the criteria in the level above. In 
+absolute measurement, paired comparisons are 
+also performed through the hierarchy with the 
+exceptions of the alternatives themselves. The level 
+just above the alternatives consists of intensities or 
+grades which are refinements of the criteria or 
+subcriteria governing the alternatives. One pair- 
+wise compares the grades themselves under each 
+criterion by answering questions such as: How 
+much better is a student applicant with excellent 
+grades than one with very good grades? and how 
+much better is a student applicant with average 
+letters of recommendation than one with poor 
+ones? and so on. The alternatives are not pairwise 
+compared, but simply rated as to what category in 
+which they fall under each criterion. A weighting 
+and summing process yields their overall ranks. 
+This will become clear in the second example 
+below. There is no reason why forcing standards 
+on a problem should produce the same outcome 
+obtained through relative measurement. These are 
+two different descriptive (what can be) and 
+normative (what should be) settings. 
+4.1. Relative measurement: Choosing the best house 
+to buy 
+When advising a family of average income to 
+buy a house, the family identified eight criteria 
+which they thought they had to look for in a 
+house. These criteria fall into three categories: 
+economic, geographic and physical. Although one 
+may have begun by examining the relative impor- 
+tance of these clusters, the family felt they wanted 
+to prioritize the relative importance of all the 
+criteria without working with clusters. The prob- 
+lem was to decide which of three candidate houses 
+to choose. The first step is the structuring of the 
+problem asa hierarchy. 
+In the first (or top) level is the overall goal of 
+'Satisfaction with house'. In the second level are 
+the eight criteria which contribute to the goal, and 
+the third (or bottom) level are the three candidate 
+houses which are to be evaluated in terms of the 
+criteria in the second level. The definitions of the 
+criteria follow and the hierarchy is shown in Fig- 
+ure 1. 
+The criteria important to the individual family 
+were: 
+(1) Size of house: Storage space; size of rooms, 
+number of rooms; total area of house. 
+(2) Location to bus lines: Convenient, close bus 
+service. 
+SAT, SFACTION WIT""OUSE] 
+Figure 1. Decomposition of the problem into a hierarchy 
+
+
+PAGE 7
+T.L. Saaty / The AHP: How to make a decision 15 
+Table l 
+The fundamental scale 
+Intensity of importance Definition Explanation 
+on an absolute scale 
+1 Equal importance 
+3 Moderate importance of 
+one over another 
+5 Essential or strong impor- 
+tance 
+7 Very strong importance 
+9 
+2 , 4 , 6 , 8  
+Reciprocals 
+Rationals 
+Extreme importance 
+Intermediate values be- 
+tween the two adjacent 
+judgments 
+Two activities contribute equally to the objective 
+Experience and judgment strongly favor one activity over another 
+Experience and judgement strongly favor one activity over another 
+An activity is strongly favored and its dominance demonstrated in 
+practice 
+The evidence favoring one activity over another is of tile highest 
+possible order of affirmation 
+When compromise is needed 
+If activity i has one of the above numbers assigned to it when compared with activity j, then j has 
+the reciprocal value when compared with i 
+Ratios arising from the scale If consistency were to be forced by obtaining n numerical values to 
+span the matrix 
+(3) Neighborhood: Little traffic, secure, nice 
+view, low taxes, good condition of neighborhood. 
+(4) Age of house: Self-explanatory. 
+(5) Yard space: Includes front, back and side, 
+and space from neighbors. 
+(6) Modern facilities: Dishwashers, garbage dis- 
+posals, air conditioning, alarm system, and other 
+such items possessed by a house. 
+(7) General condition: Repairs needed, walls, 
+carpet, drapes, cleanliness, wiring. 
+(8) Financing available: Assumable mortgage; 
+seller financing available, or bank financing. 
+The second step is the elicitation of pairwise 
+comparison judgments. Arrange the elements in 
+the second level into a matrix and elicit judgments 
+from the people who have the problem about the 
+relative importance of the elements with respect to 
+the overall goal, Satisfaction with House. The 
+scale to use in making the judgments is given in 
+Table 1. This scale has been validated for effec- 
+tiveness, not only in many applications by a num- 
+ber of people, but also through theoretical com- 
+parisons with a large number of other scales. 
+The questions to ask when comparing two 
+Table 2 
+Pairwise comparison matrix for level 1 
+1 2 3 4 5 6 7 8 Priority 
+vector 
+I I 
+1 1 5 3 7 6 6 ~ a 0.173 
+I 1 I 
+2 ~ 1 ~ 5 3 3 t ~ 0.054 
+I 
+3 ~ 3 1 6 3 4 6 ~, 0.188 
+4 t 7 i 1 i i ; i 6 1 3 a v ~ 0.018 
+5 ~ ~ ~ ~ ; 3 3 3 1 ~ 5 6 0.031 
+6 ~ ~ ~ ~ a 4 2 1 ~ 6 0.036 
+1 I 
+7 3 5 ~ 7 5 5 1 ~ 0.167 
+8 4 7 5 8 6 6 2 1 0.333 
+~'max = 9.669, CI = 0.238, CR ~ 0.169 
+
+
+PAGE 8
+16 T.L. Saaty / The AHP: How to make a decision 
+criteria are of the following kind: of the two 
+criteria being compared, which is considered more 
+important by the family buying the house with 
+respect to the overall goal of family satisfaction 
+with the house? 
+When the elements being compared are closer 
+together than indicated by the scale, one can use 
+the scale 1.1, 1.2 ..... 1.9. If still finer, one can use 
+the appropriate percentage refinement. 
+The matrix of pairwise comparisons of the 
+criteria given by the homebuyers in this case is 
+shown in Table 2, along with the resulting vector 
+of priorities. The vector of priorities is the prin- 
+cipal eigenvector of the matrix. It gives the relative 
+priority of the criteria measured on a ratio scale. 
+In this case financing has the highest priority with 
+33% of the influence. 
+In Table 2, instead of naming the criteria, we 
+use the number previously associated with each. 
+Next we move to the pairwise comparisons of the 
+elements in the lowest level. The elements to be 
+compared pairwise are the houses with respect to 
+how much better one is than the other is satisfying 
+each criterion in level 2. Thus there will be eight 
+3 x 3 matrices of judgments since there are eight 
+elements in level 2, and 3 houses to be pairwise 
+compared for each element. Again, the matrices 
+contain the judgments of the family involved. To 
+understand the judgments, a brief description of 
+the houses follows. 
+House A. This house is the largest of them all. 
+It is located in a neighborhood with little traffic 
+and low taxes. Its yard space is comparably larger 
+than houses B and C. However, the general condi- 
+tion is not very good and it needs cleaning and 
+painting. Also, the financing is unsatisfactory be- 
+cause it would have to be bank-financed at high 
+interest. 
+House B. This house is a little smaller than 
+House A and is not close to a bus route. The 
+neighborhood gives one the feeling of insecurity 
+because of traffic conditions. The yard space is 
+Table 3 
+Comparison matrices and local priorities 
+Size of house A B C Priority Y a r d  space A B C Priority 
+vector vector 
+A 
+B 
+C 
+Transportation 
+1 6 8 0.754 A 1 5 4 0.674 
+I 1 4 0.181 B -~ 1 ½ 0.101 
+I 1 1 z 1 0.065 C z 3 1 0.226 
+~ m a x  = 3.136, CI = 0.068, C R  = 0.117 ~kma x = 3.086, CI = 0.043, C R  = 0.074 
+A B C Priority M o d e m  A B C Priority 
+vector facilities vector 
+A 
+B 
+C 
+Neighborhood 
+1 7 ½ 0.233 A 1 8 6 0.747 
+1 1 1 1 1 ~ 0.005 B ~ 1 5 0.060 
+1 5 8 1 0.713 C ~ 5 1 0.193 
+~kma x = 3.247, CI = 0.124, C R  = 0.213 ~max = 3.197, CI = 0.099, C R  = 0.170 
+A B C Priority General A B C Priority 
+vector condition vector 
+A 
+B 
+C 
+Age of house 
+I 1 
+1 8 6 0.745 A 1 ~ ~ 0.200 
+1 1 1 0.065 B 2 1 1 0.400 g 
+1 4 1 0.181 C 2 1 1 0.400 
+h m a  x = 3.130, CI = 0.068, C R  = 0.117 ~ m a x  = 3 . 0 0 0 ,  C I  = 0 . 0 0 0 ,  C R  = 0 . 0 0 0  
+A B C Priority Financing A B C Priority 
+vector vector 
+A 
+B 
+C 
+| 1 0 . 0 7 2  1 1 1 0.333 A 1 v 
+1 1 1 0.333 B 7 1 3 0.650 
+1 1 1 1 0.333 C 5 3 1 0.278 
+?~max = 3.000, c f =  0.000, C R  = 0.000 ~max = 3.065, CI = 0.032, C R  = 0.056 
+
+
+PAGE 9
+TL. Saaty / The AHP: How to make a decision 17 
+Table 4 
+Local and global priorities 
+1 2 3 4 5 6 7 8 
+(0.173) (0.054) (0.188) (0.018) (0.031) (0.036) (0.167) (0.333) 
+A 0.754 0.233 0.754 0.333 0.674 0.747 0.200 0.072 0.396 
+B 0.181 0.055 0.065 0.333 0.101 0.060 0.400 0.650 0.341 
+C 0.065 0.713 0.181 0.333 0.226 0.193 0.400 0.278 0.263 
+fairly small and the house lacks the basic modern 
+facilities. On the other hand, the general condition 
+is very good. Also, an assumable mortgage is 
+obtainable which means the financing is good with 
+a rather low interest rate. 
+House C. House C is very small and has few 
+modern facilities. The neighborhood has high 
+taxes, but is in good condition and seems secure. 
+The yard space is bigger than that of House B, but 
+is not comparable to House A's spacious sur- 
+roundings. The general condition of the house is 
+good and it has a pretty carpet and drapes. 
+The matrices of comparisons of the houses with 
+respect to the criteria and their local priorities are 
+given in Table 3. 
+The third step is to establish the composite or 
+global priorities of the houses. We lay out the 
+local priorities of the house with respect to each 
+criterion in a matrix and multiply each column of 
+vectors by the priority of the corresponding crite- 
+rion and add across each row which results in the 
+desired vector of the houses in Table 4. House A 
+which was the least desirable with respect to fi- 
+nancing (the highest priority criterion), contrary to 
+expectation, had the largest priority. It was the 
+house that was bought. 
+4.2. Absolute measurement: Employee evaluation 
+Absolute measurement is applied to rank alter- 
+natives in terms of ratings, intensities or grades of 
+the criteria. These grades may take the form: 
+excellent, very good, good, average, below average, 
+poor and very poor. After establishing a scale of 
+priorities for the criteria (or subcriteria, if there 
+are some) through paired comparisons, the grades 
+which may be different for each criterion or sub- 
+criterion~ are in turn pairwise compared according 
+Table 5 
+The hierarchy of employee evaluation 
+Goal: 
+Criteria: Technical 
+Intensities: 
+Employee performance evaluation 
+Maturity Writing Verbal Timely Potential 
+skills skills work (personal) 
+(0.061) (0.196) (0.043) (0.071) (0.162) (0.466) 
+Excell. Very Excell. Excell. Nofollup Great 
+(0.604) (0.731) (0.733) (0.750) (0.731) (0.750) 
+Abv. avg. Accep. Avg. Avg. On time Averag. 
+(0.245) (0.188) (0.199) (0.171) (0.188) (0.171) 
+Avg. Immat. Poor Poor Remind Bel. avg. 
+(0.105) (0.181) (0.068) (0.078) (0.081) (0.078) 
+Bel. avg. 
+(0.046) 
+Alternatives: 
+(1) Mr. X Excell. Very Avg. Excell. On time Great 
+(2) Ms. Y Avg. Very Avg. Avg. Nofollup Avg. 
+(3) Mr. Z ExceU. Immat. Avg. Excell. Remind Great 
+
+
+PAGE 10
+18 T.L. Saaty / The AHP: How to make a decision 
+to their parent criterion. An alternative is 
+evaluated, for each criterion or subcriterion, by 
+identifying the grade which best describes it. Fi- 
+nally, the weighted or global priorities of the grades 
+are added to produce a ratio scale for the alterna- 
+tive. Absolute measurement needs standard to 
+make it possible to judge whether the alternative is 
+acceptable or not. Absolute measurement is useful 
+in student admission, faculty tenure and promo- 
+tion, employee evaluation, and in other areas where 
+there is fairly good agreement on standard which 
+are then used to rate alternatives one at a time. 
+Let us consider an abbreviated version of the 
+problem of evaluating employee performance. The 
+hierarchy for the evaluation and the priorities 
+derived through paired comparisons are shown 
+below. It is then followed by a rating of each 
+employee for the quality of performance under 
+each criterion and summing the resulting scores of 
+obtain his overall rating. The hierarchy in Table 5 
+can be more elaborate, including subcriteria, fol- 
+lowed by the intensities for expressing quality. 
+Let us now show how to obtain the total score 
+for Mr. X (see Table 5): 
+0.061 X 0.604 + 0.196 X 0.731 + 0.043 × 0.199 
++ 0.071 x 0.750 + 0.162 X 0.188 
++ 0.466 x 0.750 = 0.623. 
+Similarly the score for Ms. Y and Mr. Z can be 
+shown to be 0.369 an 0.478 respectively. It is clear 
+that we can rank any number of candidates along 
+these lines. Here the vector of priorities of the 
+criteria has been weighted by the vector of relative 
+number of intensities under each criterion and 
+then renormalized. We call this a structural rescal- 
+ing of the priorities. 
+5. Theoretical considerations [7] 
+There is a well known principle in mathematics 
+that is widely practiced, but seldom enunciated 
+with sufficient forcefulness to impress its impor- 
+tance. A necessary condition that a procedure for 
+solving a problem be a good one is that if it 
+produces desired results, and we perturb the varia- 
+bles of the problem in some small sense, it gives us 
+results that are 'close' to the original ones. This is 
+precisely the use of continuity and uniform con- 
+tinuity--to assure that after transforming a varia- 
+ble, originally nearby values go over to nearby 
+values. An extension of this philosophy in prob- 
+lems where order relations between the variables 
+are important, is that on small perturbations of 
+the variables, the procedure produces close, order 
+preserving results. The procedure described here 
+has this characteristic. 
+Because of the natural way in which a matrix of 
+ratios and small perturbations of that matrix lead 
+to a principal eigenvalue problem, one may start 
+with this and generalize to positive matrices that 
+need not be reciprocal. The German mathemati- 
+cian Oskar Perron proved in 1907 that, if A - -  
+( a i j ) ,  a u > O, i, j = 1 . . . . .  n, then A has a simple 
+positive eigenvalue ~m~x (called the principal ei- 
+genvalue of A) and ~kma x ~> ]~k k I for the remaining 
+eigenvalues of A. Furthermore, the principal ei- 
+genvector w = (w I ..... w,) v that is a solution of 
+A w  = ~m~x w has w~ > 0, i = 1,..., n. We can write 
+the norm of the vector w as I l w l l = e T w  where 
+e = (1, 1 ..... 1) T and we can normalize w by divid- 
+ing it by its norm. For uniqueness, when we refer 
+to w we mean its normalized form. Our purpose 
+here is to show how important the principal eigen- 
+vector is in determining the rank of the alterna- 
+tives through dominance walks. 
+We have seen that ratio scale estimation has a 
+natural setting in principal eigenvalue formula- 
+tion. We will now show that in addition, the 
+principal eigenvector also has the order preserving 
+properties we seek. 
+When A is consistent, one way to define the 
+order of the alternatives is to require that one row 
+of the matrix dominate elementwise another row. 
+But when A is inconsistent it is no longer possible 
+to define dominance in this manner. Instead, we 
+borrow the concept of dominance from graph 
+theory where the sum of the coefficients in each 
+row of A is used. This concept carries over in a 
+natural way to the inconsistent case. But we must 
+look at a different way to capture dominance by 
+considering further possibilities not simply from 
+the matrix itself or some arbitrary power of it, but 
+from all its powers. 
+The matrix A captures only the dominance of 
+one alternative over every other in one step. But 
+an alternative can dominate a second by first 
+dominating a third alternative and then the third 
+dominates the second. Thus, the first alternative 
+dominates the second in two steps. It is known 
+that the result for dominance in two steps is 
+obtained by squaring the pairwise comparison ma- 
+
+
+PAGE 11
+T.L. Saaty / The AHP: How to make a decision 19 
+trix. Similarly, dominance can occur in three steps, 
+four steps and so on, the value of each is obtained 
+by raising the matrix to the corresponding power. 
+The rank order of an alternative is the sum of the 
+relative values for dominance in its row, in one 
+step, two steps and so on averaged over the num- 
+ber of steps. The question is whether this average 
+tends to a meaningful limit. It is easy to see that it 
+does when A is consistent because A k = n k- 1A. 
+We can think of the alternatives as the nodes of 
+a directed graph. With every directed arc from 
+node i to node j (which need not be distinct), is 
+associated a nonnegative number aij of the domi- 
+nance matrix. In graph-theoretic terms this is the 
+intensity of the arc. Define a k-walk to be a 
+sequence of k arcs such that the terminating node 
+of each arc except the last is the source node of 
+the arc which succeeds it. The intensity of a k-walk 
+is the product of the intensities of the arcs in the 
+walk. With these ideas, we can interpret the matrix 
+Ak: the (i, j )  entry of A k is the sum of the 
+intensities of all k-walks from node i to node j. 
+Definition. The dominance of an alternative along 
+all walks of length k ~< m is given by 
+1 m A% 
+m ~-" e'rA% " (3) 
+k = l  
+Observe that the entries of A% are the row sums 
+of A k and that eVA% is the sum of all the entries 
+of A. 
+T h e o r e m  3. The dominance of each alternative along 
+all walks k, is given by the solution of the eigenvalue 
+problem A w = X max W. 
+Pro o f.  Let 
+Ake 
+s k eTA% (4) 
+and 
+1 m 
+tm = m E sk. (5) 
+k = l  
+The convergence of the components of tm to the 
+same limit as the components of s,, is the stand- 
+ard Cesaro summability. Since 
+Ake ' w as k---, m, (6) s k -  eTAk e 
+where w is the normalized principal right eigen- 
+vector of A, we have 
+1 ~ A% 
+tm = -~ eVAk------ ~ -~ w as m ~ ~ .  (7) 
+k = l  
+The solution of the eigenvalue problem is ob- 
+tained by raising the matrix A to a sufficiently 
+large power then summing over the rows and 
+normalizing to obtain the priority vector w = 
+(w 1 ..... wn) ~. The process is stopped when the 
+difference between components of the priority 
+vector obtained at the k-th power and at the 
+(k + 1)st power is less than some predetermined 
+small value. 
+In reference [7] we gave at least five different 
+ways of deriving the priorities from the matrix of 
+paired comparisons. Besides the eigenvector solu- 
+tion, these include the direct row sum average, the 
+normalized column average, and methods which 
+minimize the sum of the errors of the differences 
+between the judgments and their derived values 
+such as the methods of least squares and logarith- 
+mic least squares. We pointed out that the loga- 
+rithmic least squares solution coincides with the 
+principal right eigenvector solution for matrices of 
+order n = 3, which is the first value of n for which 
+inconsistency is possible and left and right eigen- 
+vectors are reciprocals of each other which is not 
+always the case for larger values of n. Since the 
+appearance of the Analytic Hierarchy Process in 
+the literature, other methods have been proposed 
+[7,15]. All methods yield the same answer when 
+the matrix is consistent. The combined use of a 
+measure of inconsistency which can be derived in 
+terms of both left and right eigenvectors, along 
+with the right eigenvector solution which captures 
+the dominance expressed in the judgments, is an 
+effective way to look at the problem. We argue 
+that so long as inconsistency is tolerated, domi- 
+nance is the basic theoretical concept for deriving 
+a scale and no other method qualifies. In addition, 
+a counterexample has been provided in which the 
+method not only does not generate a good ap- 
+proximation, but also reverses rank. Some have 
+even resorted to artificial axiomatization thinking 
+that it gives a method the appearance of rigor, 
+although axioms are assumptions not proofs. It 
+may be that the arithmetic of a method is simpler 
+than that used to obtain the eigenvector, but that 
+no longer matters, because of the widespread use 
+
+
+PAGE 12
+20 T.L. Saaty / The AHP: How to make a decision 
+of the computer. It is reasonable to argue that a 
+theory for making sound decisions must stand on 
+clearly justifiable grounds. 
+The software package Expert Choice, useful in 
+teaching and in real applications, can handle both 
+relative and absolute measurement, as well as hav- 
+ing special capabilities such as structural rescaling, 
+combining group judgments, sensitivity analysis 
+and dependence among the decision alternatives 
+[2]. The reader interested in pursuing the subject 
+further should consult references [3,7,8,13,15]. 
+6. Normalization - Scarcity and abundance 
+Normalization in the AHP is not just a mecha- 
+nical operation. It contains information on the 
+total dominance of the alternatives being com- 
+pared which enables us to apportion the priority 
+of the criterion to each alternative according to 
+the relative dominance of the alternative. 
+Normalization can also be associated with the 
+idea of scarcity and abundance of the presence of 
+a criterion in the alternatives such as redness in 
+fruit. Too many fruits that are red make red 
+abundant and unimportant in differentiating be- 
+tween individual fruits. Conversely, if redness oc- 
+curs intensely in some fruits but not in others, it is 
+thus scarce and can be used as a criterion to 
+differentiate in making a decision among fruits. 
+Thus, the greater the contrast among the alterna- 
+tives, the more useful is the priority value of the 
+criterion allotted to each. Conversely, when for 
+example, the contrast of the alternatives is smal- 
+lest (when the total dominance is equal to n 2, see 
+below) and hence all the alternatives are alike, the 
+portion of the criterion priority assigned to each is 
+equal. Thus a criterion with respect to which there 
+is greater contrast and dominance among the al- 
+ternatives is 'scarce' and consequently more in- 
+fluential in determining rank than another crite- 
+rion on which there is no distinction among the 
+alternatives, i.e., their matrix of paired compari- 
+sons has more l's in it. In being scarce, more of 
+the criterion is allotted to the more dominant 
+alternative and hence it affects the final ranking of 
+that alternative more. 
+An 'abundant' criterion contributes less to rank 
+determination because it contributes an equal or 
+nearly equal priority to each alternative and when 
+the sum is taken over the criteria it has little effect 
+in determining rank (recall that if a > b then 
+a + c > b + c and c does not reverse order). An 
+alternative that is a copy of another can dilute the 
+priority of a decisive criterion so that it is no 
+longer the controlling one in determining the final 
+rank. We have: 
+Theorem 4. ~ i j a i j  = n 2, if and only if all alterna- 
+tives have equal dominance, i.e., aij = 1, i, j = 
+1 . . . .  , n, with respect to a criterion. 
+It is easy to see that n 2 is the minimum value 
+of possible total dominance by a paired compari- 
+son of n alternatives. The maximum value is, 
+using 9 as the upper range of the scale of paired 
+comparisons, [½n(n - 1)](9 + ~) + n = ~(41n 2 - 
+32n). 
+Our discussion of absolute and relative meas- 
+urement may be framed in economic terms. In 
+absolute measurement, value and need are identi- 
+cal; 'the more value, the better the need is satis- 
+fied'. In relative measurement, value is assessed in 
+terms of need. Here surplus value may or may not 
+satisfy more need. In fact, there are instances 
+where satiation takes place and abundance can 
+lead to a decline in the satisfaction of need. 
+7. Clustering 
+Comparisons of elements in pairs requires that 
+they be homogeneous or close with respect to the 
+common attribute; otherwise significant errors 
+may be introduced into the process of measure- 
+ment. In addition, the number of elements being 
+compared must be small (not more than 9) to 
+improve consistency and the corresponding accu- 
+racy of measurement. For example, we may clus- 
+ter apples in one way according to size, in another 
+way according to color and in still another way 
+according to age. The question then is how to 
+perform clustering of homogeneous elements in an 
+efficient way to facilitate paired comparisons. 
+Clustering is a process of grouping elements with 
+respect to a common property. One can then 
+decompose the set of ordered elements with re- 
+spect to an attribute into clusters of, for example, 
+seven elements each, from largest to smallest. The 
+smallest element of the largest cluster is included 
+as one of the seven elements of the next cluster. 
+The relative weights of all the elements in this 
+
+
+PAGE 13
+T.L. Saaty / The AHP: How to make a decision 21 
+second cluster are divided by the weight of the 
+common element and then multiplied by its weight 
+in the first cluster in this manner both clusters 
+become commensurate and are pooled together. 
+The process is then repeated to the remaining 
+clusters. Sometimes one may need to introduce 
+hypothetical elements in order to preserve the 
+gradual descent from large to small. 
+We discuss three ways as to how to perform 
+clustering on the alternatives of a decision prob- 
+lem whose number may be very large and needs a 
+different sorting for each of several attributes. 
+They are ordered in the following discussion from 
+the least to the most efficient way. 
+7.1. The elementary approach 
+order on that attribute. They can then be clustered 
+into small groups as described above and pairwise 
+compared. 
+One reason why absolute measurement may not 
+be desirable is that it is strongly subjective. In 
+paired comparisons, measurement is based on ob- 
+servation of the relative intensity of a property 
+between two elements. Absolute measurement is 
+based on observations stored in memory which 
+depend on experience and on the ability to recall 
+it. For many problems, it is useful to first carry 
+out absolute measurement to sort and cluster the 
+elements, and then follow that with relative meas- 
+urement for greater accuracy. This is particularly 
+relevant in predicting most likely outcomes which 
+involve synergy among the alternatives. 
+Given n elements in a level of the hierarchy, 
+one may first make a pass through them by com- 
+paring one element with another, dropping it and 
+picking another if that one is perceived to be 
+larger and continuing the comparison. Thus, the 
+largest element is selected in n - 1 such compari- 
+sons. The process is repeated for the remaining 
+n -  1 elements to identify the second largest ele- 
+ment and so on. In the end, the elements would be 
+arranged in descending order of size or intensity 
+according to an attribute and are sequentially 
+clustered into groupings of a few elements each 
+from the largest to the smallest. This process is 
+highly inefficient and requires the astronomical 
+number of (n - 1)! comparisons. 
+7.2. Trial and error clustering 
+The alternatives may be put into groups of 
+large, medium and small. Then the elements in 
+each group are put into several clusters of a few 
+elements each, and a first pass at comparisons is 
+used to identify misfits which are then taken out 
+and put into the appropriate one of the other two 
+categories. Reclustering is then performed and 
+comparisons are carried out. If elements are found 
+not to fit, they are again moved to the appropriate 
+category. This process is repeated for each attri- 
+bute. 
+7.3. Clustering by absolute measurement 
+Each alternative is evaluated by absolute meas- 
+urement for an attribute, and thus in descending 
+8. Combining relative and absolute measurement - 
+Cost-benefit analysis 
+An easy pitfall for an individual who has just 
+learned about the A H P  is to take two or more 
+criteria on which alternatives are measured on the 
+same existing standard scale, such as dollars or 
+kilograms, normalize each set and then compose 
+with respect to the criteria. One quickly discovers 
+that the answer is not the same as that obtained 
+through the usual arithmetic and hastily concludes 
+that the A H P  is at fault. To avoid this problem, 
+one must exercise caution in converting measure- 
+ments on a standard scale to relative values when 
+several such criteria are involved [9]. 
+For the arithmetic to conform with what one 
+ordinarily does, assign each criterion a priority 
+that is the sum of the measurements of the alter- 
+natives with respect to it, divided by the sum of 
+the measurements of all the alternatives under all 
+the criteria measured with that unit. To find the 
+composite priority for each alternative multiply 
+the criterion weight by its corresponding normal- 
+ized weight under that criterion and sum over the 
+criteria. The result may be considered as the weight 
+of the alternative with respect to one super crite- 
+rion composed of all the criteria with the unit of 
+measurement. That super criterion may then be 
+compared with other intangible criteria and other 
+super criteria with different units of measurement. 
+Alternatively, one can perform priority compari- 
+sons on all the data available without ascribing 
+linearity to them as one ordinarily does with num- 
+
+
+PAGE 14
+22 T.L. Saaty / The AHP: How to make a decision 
+bers. That is to say, one interprets what the num- 
+bers mean and uses judgment rather than cranking 
+the number mechanically. With rare exception, the 
+judgement approach is by far the more effective 
+procedure using the AHP to deal with the underly- 
+ing complexity of a decision problem, and one 
+need not be afraid to do it. It is known that scales 
+are invented to facilitate communication, and must 
+be experienced for a long time before they can be 
+associated with our value system, during which 
+time they almost always are modified. 
+The AHP is a descriptive theory. Therefore, it 
+is not an automatic set-up for accommodating any 
+normative approach such as utility maximization. 
+It needs to be interpreted and adapted for that 
+purpose. It is even more difficult when a norma- 
+tive theory has many exceptions so the AHP inter- 
+pretation would not be universal. In utility maxi- 
+mization it is assumed that it is always the case 
+that the more utility or more money the better, 
+but there are many instances when this is not true. 
+For example, a government agency that is left 
+with more money at the end of the year, gets a 
+smaller allocation in a future budget. A rich indi- 
+vidual in a poor country under revolt by the poor 
+is likely to get killed. The availability of money is 
+often an incentive to use money where other alter- 
+natives could be more effective. Thus, AHP adap- 
+tation for utility calculation purposes needs to 
+take such caveats into consideration. One idea to 
+keep in mind with the AHP is that the montonic- 
+ity of utilities need not be preserved and may be 
+contradicted. 
+The foregoing has bearing on benefit-cost 
+analyses. Expected utilities are used for repeated 
+decision making. In that case, benefit cost analysis 
+from two hierarchies is applied, and from it one 
+can also calculate marginal benefit to cost ratios. 
+Resource allocation may be made by using benefit 
+to cost ratios thus derived. Short range decisions 
+often include low costs as benefits in a single 
+hierarchy. This is a useful approach when a deci- 
+sion to spend money on one of several options has 
+already been made. It is one way to combine 
+benefits and costs as one does with dollars by 
+taking differences. In the AHP one does not use 
+differences. In such one-time decisions, costs may 
+be regarded as inverse benefits so that benefits, 
+low costs and other inconveniences are used to 
+establish priorities for the alternatives. 
+If, on the other hand, benefits and costs are 
+measured in dollars along with intangible factors, 
+they must first be composed according to the 
+dollars and then combined with the intangible 
+criteria as described earlier. Marginal benefit cost 
+analysis along traditional lines can be carried out 
+by arranging the costs in increasing order, and 
+then forming ratios of successive differences of 
+benefits and costs in that order. The very first 
+ratio is that of the alternative with the smallest 
+cost. Then one forms the ratio of differences with 
+that between the next highest cost and the smallest 
+one in the denominator, and the corresponding 
+difference in benefits in the numerator. Whenever 
+a difference in a numerator is negative, that suc- 
+ceeding alternative is dropped from consideration. 
+In this manner, the alternative yielding the highest 
+marginal ratio is chosen. 
+The next question is how to find a reasonable 
+way to combine benefits (B) and cost (C), when a 
+ratio rather than a single hierarchy are used [10]. 
+This is useful in considering conflict problems 
+involving more than one value system. Since the 
+hierarchy of costs leads to a vector of values 
+indicating relative maximum costs, the reciprocals 
+of the entries of this vector could be thought of as 
+the minimum costs incurred in jointly maximizing 
+benefits and minimizing costs. In general, the out- 
+comes from a hierarchy of benefits and a hierarchy 
+of costs are two ratio scales whose corresponding 
+ratios lead to a meaningful ratio scale. Their dif- 
+ferences would not be meaningful. 
+To maximize B / C  is equivalent to maximizing 
+log B / C ,  which if B and C are close, may be 
+approximated by ( B / C ) -  1 or ( B -  C ) / C  
+known as return on investment, ROI. If B and C 
+are not comparable, it would be initially clear that 
+only the benefits or only the costs determine 
+whether the allocation should be made or not. 
+Some people have attempted to compare the 
+foregoing with what is traditionally done in a 
+single criterion choice problem. An example where 
+B -  C alone gives rise to misleading results is 
+given by my colleague L.G. Vargas: You have $1 
+million to invest to get $1.101 million or you have 
+$500000 to invest to get $600000. Which is a 
+better investment? 
+B - C analysis gives: 1.101 - 1 = 0.101, 
+0.6 - 0.5 = 0.1, 
+and the first alternative would be chosen. ROI 
+
+
+PAGE 15
+T.L. Saaty / The AHP: How to make a decision 23 
+analysis yields 10.1% and 20%, respectively, and 
+the second alternative which minimizes risk would 
+be correctly chosen. 
+9. The semiotic connection 
+The Analytic Hierarchy Process is a tool of 
+information communication and signification. In a 
+general sense, it belongs to the study of language 
+or semiotics. Semiotics or semiology is a coding in 
+which one considers signals related by a set of 
+rules or syntax; a set of states or contents called a 
+semantic system, a set of possible behavioral re- 
+sponses independent of the content system, and a 
+rule associating signals with contents or with be- 
+havioral responses. The idea of a code covers all 
+four phenomena mentioned above. Eco [1] uses 
+s-code for the first three and code for the fourth. 
+According to Morris [5], the creator of semi- 
+otics, semiosis is the process in which something 
+functions as a sign. He mentions that both man 
+and animals do respond to certain things as signs 
+of something else, but their complexity in man is 
+found in speech, art, writing, and even medical 
+diagnoses. Science and signs are inseparably inter- 
+connected. Semiotics, a step in the unification of 
+science, supplies the foundations for any science 
+of signs; linguistics, logic, mathematics, rhetoric 
+and aesthetics. 
+In the Analytic Hierarchy Process, words are 
+used for concepts involved in decisions. In a sense, 
+the purpose of all information is to decide on 
+something--even if it is an imaginary hypothesis. 
+The hierarchy is the syntax, the subject of a deci- 
+sion is the semantic, prioritization is the rule asso- 
+ciating signals with content, and behavior com- 
+prises the possible decision alternatives. This way 
+of looking at the AHP needs to be highlighted and 
+emphasized to drive home the universality of the 
+decision process. 
+10. Catastrophe and the AHP 
+One of the most burning quests we undertake 
+using the knowledge we acquire is explaining and 
+forecasting, and in particular, forecasting catas- 
+trophes, or, mathematically speaking, sudden dis- 
+continuities that affect the order of the alterna- 
+tives. This is a situation that is at odds with the 
+earlier mathematical principle of small perturba- 
+tions we gave in which small changes in input lead 
+to small changes in outcomes. In catastrophes, 
+there is a part of the problem in which small 
+changes in conditions at some critical value can 
+give rise to very large changes in outcome. All we 
+can do is either to anticipate and take strong 
+preventive action or prepare ourselves in advance 
+with contingency plans together with emotional 
+acceptance for how to deal with the emergency to 
+pay a smaller penalty if it occurs, or be prepared 
+to pay the full penalty having accepted that it 
+could happen. Because catastrophes are usually 
+unseen surprises, it gives us a feeling of control to 
+think we can account for catastrophes in our daily 
+lives. According to the dictionary, a catastrophe is 
+a sudden disaster or happening that causes great 
+harm or damage; a calamity. Even the idea of 
+what constitutes a catastrophe is relative. Some- 
+one whose life is tormented by an opponent may 
+regard it as a blessing if a catastrophe befalls the 
+tormentor. In other terms, a catastrophe may be 
+regarded as a very strong discontinuity in think- 
+ing. How do we represent a catastrophe in terms 
+of the AHP? 
+In a catastrophe the element of surprise arises 
+from a shift in ranking of the outcomes. Thus, if a 
+situation is ongoing a certain choice of alternatives 
+may be indicated, but a slight change in the situa- 
+tion may cause a sudden shift to another choice 
+that would have been previously very undesirable. 
+How can we allow for catastrophic occurrences in 
+the AHP? 
+One way to allow for a catastrophe is to always 
+include a criterion for the unknown that repre- 
+sents a cluster of unforseen threats. It may itself 
+have subcriteria. The alternatives are carefully 
+prioritized with respect to this criterion for the 
+unexpected and its descendants. The criterion it- 
+self is assigned a low priority. Now we can imag- 
+ine that at each instant the judgments in the 
+criteria are flashed in their totality on a screen 
+followed by the best choice of alternatives. With 
+some changes in judgments, in general, choice is 
+stable and the changes in relative priority of the 
+alternative slight. After a certain lapse of time, 
+there is a sudden change in judgment in the direc- 
+tion of this criterion making it more important. 
+The corresponding choice of alternatives is also 
+suddenly changed surfacing a very undesirable 
+alternative. Thus, one might include among the 
+
+
+PAGE 16
+24 T.L. Saaty / The AHP: How to make a decision 
+GOAL _ _  
+- ~  OLDWRECK 
+( 0 . 0 0 2 )  
+CHEVY 
+(0.009) 
+- -  SIZE >--> HONDA 
+(0.0Sl) (0.013) 
+--> TOYOTA 
+(0.026) 
+i 
+---~ OLDWRECK 
+(0.005) 
+CHEVY 
+_ OPERCOST > (0.019) 
+(0.135) -> HONDA 
+(0.044) 
+"> TOYOTA 
+(0.067) 
+__> NORMAL 
+(0.99O) 
+- -  STYLE 
+(0.269) 
+_ LOWPRICE 
+(0.535) 
+- -  SIZE 
+(o.oos) 
+_ OPERCOST 
+(0.001) 
+L~ ACCIDENT . ~  
+(oolo) - - - 3  
+- -  STYLE 
+(0.0o2) 
+LOWPRICE 
+(0.001) 
+I 
+I 
+OLDWRECK 
+I 
+--'~ (0.010) 
+CHEVY 
+(0.086) 
+--~ HONDA 
+(0.086) 
+TOYOTA 
+(0.0~) 
+OLDWRECK 
+I (0.026) 
+CHEVY 
+(0.081) 
+HONDA 
+(0.201) 
+TOYOTA 
+(0.227) 
+OLDWRECK 
+(0.004) 
+CHEVY 
+(0.001) 
+HONDA 
+(0.000) 
+TOYOTA 
+(0.001) 
+OLDWRECK 
+(o.001) 
+CHEVY 
+(0.00o) 
+HONDA 
+(0.00o) 
+TOYOTA 
+(0.00o) 
+--~ OLDWRECK 
+I (o.001) 
+--> CHEVY 
+(0.000) 
+> --> HONDA 
+(o.000 
+---> TOYOTA 
+(0.00o) 
+OLDWRECK 
+I (0.o00) 
+--> CHEVY 
+(0.o00) 
+-~ HONDA 
+(0.001) 
+--~ TOYOTA 
+(o.ool) 
+PRIORITIES 
+TOYOTA 
+~.142) 
+HONDA 
+(0.115) 
+CHEVY 
+(0.166) 
+OLDWRECK 
+~.576) 
+P R I O R I T I E S  
+TOYOTA 
+(0.408) 
+HONDA 
+(0.345) 
+CHEVY 
+(0.197) 
+OLDWRECK 
+(0.049) 
+Figure 2. T h e  c a t a s t r o p h e  h i e r a r c h y  
+
+
+PAGE 17
+T.L. Saaty / The AHP: How to make a decision 25 
+alternatives some catastrophic ones. This type of 
+thinking would apply in hierarchies where a real 
+wrong choice is extremely undesirable and costly. 
+We can also speak of chaos in the AHP: a 
+situation where the possibility of exerting control 
+by creating a hierarchy and setting judgment no 
+longer exists, for it is not clear what takes prece- 
+dence over what. Usually catastrophe produces 
+chaos. It is possible to represent both catastrophe 
+and chaos in the continuous setting of the AHP. 
+Both catastrophe and chaos are relative. A rev- 
+olution may be regarded as an undesirable 
+catastrophe that uproots a society or as a neces- 
+sary kind of action to produce a desired end. In 
+planning, strong out-of-the-ordinary action may 
+be crucial for affecting change. 
+A simple illustration of how to represent a 
+catastrophe is given in Figure 2. An individual 
+buying a car makes an innocent choice by assum- 
+ing that normal conditions will prevail over acci- 
+dents in the ratio of 0.99 to 0.01. He chooses a 
+nice new Toyota, although he knows that there is 
+a chance that an accident can happen. If he were 
+to buy the car under the assumption of a high 
+likelihood of an accident, 0.99 to 0.01, and if he 
+were to act in his best self interest, he would 
+choose an old wreck to buy. One answer to this 
+dilemma is neither to buy the old wreck nor the 
+Toyota, but to buy a fairly good used car. But 
+most of us are idealists who do not think that 
+accidents will happen to us, and so we buy new 
+cars. 
+11. What affects rank [lll 
+Although in catastrophes there is a sudden shift 
+in rank, due to a change in the importance of the 
+criteria, what happens to the rank of the alterna- 
+tives in the more mundane event that their num- 
+ber is changed by adding new ones or deleting old 
+ones? The traditional rule is that rank reversal is 
+not acceptable if, given that the alternatives them- 
+selves are independent of each other, a new alter- 
+native does not introduce a new criterion or change 
+the weights of the existing criteria. We tend to 
+treat rank in a possessive manner by sometimes 
+insisting that it stay the same no matter what logic 
+says. The absolute mode of measurement of the 
+A H P  complies with this normative inclination, but 
+the relative mode of measurement does not, be- 
+cause of the dependence of the measurements of 
+the alternatives on each other. However, relative 
+measurement will preserve rank with respect to a 
+single criterion when the comparisons are con- 
+sistent. Most people understand the dependence 
+of alternatives in light of the notions of scarcity 
+and abundance discussed earlier. There is no need 
+to improvise notions of relevant and irrelevant 
+alternatives, as is done in utility theory, because 
+with relative measurement everything being com- 
+pared is by definition relevant, Utility theory is 
+obsessed with the reversal of rank because in that 
+theory it can happen even with respect to a single 
+criterion. This is a phenomenon that is strongly 
+counterintuitive and can never be made mathe- 
+matically right. Utility theorists, however, try to 
+make it right by philosophical arguments about 
+what is or is not a relevant alternative. 
+12. Summary of principles 
+The A H P  generates relative ratio scales of 
+measurement. The measurements of a set of ob- 
+jects on a standard scale can be converted to 
+relative scale measurements through normaliza- 
+tion. Only in a very localized way can a relative 
+set of measurements have a unit, obtained by 
+dividing the entire set by the smallest measure- 
+ment. The normalization and composition of 
+weights of alternative with respect to more than a 
+single criterion measured on the same standard 
+scale leads to nonsensical numbers, because nor- 
+malizing separate sets of numbers destroys the 
+linear relation among them. The weights must first 
+be composed with respect to all such criteria and 
+then normalized for AHP use. We can interpret 
+such composition as we did in Section 8 as a 
+special kind of weighting of the particular criteria. 
+Thus, the AHP, with its relative measurement 
+offers no guide on the outcome of manipulations 
+based on combining different measurements from 
+a standard scale such as a criterion of benefits and 
+a criterion of costs, both measured in dollars, and 
+used to select a best alternative. 
+If we do not insist that the linearity of a scale 
+needs to be preserved (an old habit from when we 
+did not have an effective way to interpret the 
+information content of readings from a standard 
+scale), we can then treat every criterion as an 
+intangible. In that case we must bear in mind that 
+
+
+PAGE 18
+26 T.L. Saaty / The AHP: How to make a decision 
+the weights of the criteria do not derive from some 
+underlying standard scale. If they must depend on 
+such a scale, we are back to the need to compose 
+before normalization. 
+The moral is that we are sometimes led into 
+developing blind expectations for that to which we 
+are accustomed out of habit, and not necessarily 
+because its truth is something written in granite. 
+We believe that our own tempered understanding 
+should produce closer results to experience than 
+simply following tradition, which has possibly 
+rutted our thinking, and induced us to forego 
+change in search of better ways that give better 
+answers. 
+References 
+[1] Eco, U., A Theory of Semiotics, First Midland Book 
+Edition, Indiana University Press, IN, 1976. 
+[2] Forman, E., and Saaty, T., Expert Choice Software 
+Package for IBM PC, Expert Choice, Inc., Pittsburgh, PA 
+1983-1990. 
+[3] Harker, P.T. (ed.), "Special Issue on The Analytic 
+Hierarchy Process", Socio-Economic Planning Sciences 
+20/6 (1986). 
+[4] Miller, G.A., "The magical number seven, plus or minus 
+two: some limits on our capacity for processing informa- 
+tion", The Psychological Review 63 (1956) 81-97. 
+[5] Morris, C.W., Foundation of the Theory of Signs, Interna- 
+tional Encyclopedia of Unified Science, Vols. I and II: 
+Foundations of the Unity of Science, Vol. 1, No. 2, 
+University of Chicago Press, 1938. 
+[6] Saaty, T.L., Decision Making for Leaders: The Analytic 
+Hierarchy Process for Decisions in a Complex World, RWS 
+Publications, Pittsburgh, PA, 1986; Original version pub- 
+lished by Lifetime Learning Publications, 1982. 
+[7] Saaty, T.L., Multicriteria Decision Making: The Analytic 
+Hierarchy Process, 1988; Revised and published by the 
+author; Original version published by McGraw-Hill, New 
+York, 1980. 
+[8] Saaty, T.L., "Scaling method for priorities in hierarchical 
+structures", Journal of Mathematical Psychology 15/3 
+(1977) 234-281. 
+[9] Saaty, T.L., "A note on the AHP and expected value 
+theory", Socio-Economic Planning Sciences 20/6 (1986) 
+397-398. 
+[10] Saaty, T.L., and Kearns, K.P., Analytical Planning: The 
+Organization of Systems, International Series in Modern 
+Applied Mathematics and Computer Science, Vol. 7, Per- 
+gamon Press, New York, 1985. 
+[11] Saaty, T.L., and Vargas, L.G., "Inconsistency and rank 
+preservation", Journal of Mathematical Psychology 28/2 
+(1984). 
+[12] Vargas, L.G., "Reciprocal matrices with random coeffi- 
+cients", Mathematical Modelling 3 (1982) 69-81. 
+[13] Vargas, L.G. (ed.), "Special Issue on The Analytic 
+Hierarchy Process", Mathematical Modelling 9/3-5 
+(1987). 
+[14] Wilkinson, J.H., The Algebraic Eigenvalue Problem, 
+Clarendon Press, Oxford, 1965. 
+[15] Zahedi, F., "The analytic hierarchy process - A survey of 
+the method and its applications", Interfaces 16/4 (1986). 

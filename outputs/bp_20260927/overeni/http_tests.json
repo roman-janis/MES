@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    "demo page",
+    "demo HTTP results",
+    "demo import roundtrip",
+    "control page",
+    "control HTTP results",
+    "control import roundtrip",
+    "empty pairs rejected",
+    "CSRF rejected",
+    "bad JSON rejected",
+    "one criterion rejected",
+    "custom items and escaping",
+    "custom evaluation form",
+    "custom exact result",
+    "high CR warning through UI"
+  ],
+  "base_url": "http://127.0.0.1:18763/",
+  "server_pid": 19384
+}

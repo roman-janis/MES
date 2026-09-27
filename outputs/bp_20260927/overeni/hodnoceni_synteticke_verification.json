@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "sheet": "Souhrn",
+      "addr": "B6",
+      "value": 0.22420010436102406,
+      "expected": 0.22420010436102403
+    },
+    {
+      "sheet": "Souhrn",
+      "addr": "B7",
+      "value": 0.24109681775410186,
+      "expected": 0.24109681775410186
+    },
+    {
+      "sheet": "Souhrn",
+      "addr": "B8",
+      "value": 0.1930862597906438,
+      "expected": 0.19308625979064378
+    },
+    {
+      "sheet": "Souhrn",
+      "addr": "B9",
+      "value": 0.34161681809423033,
+      "expected": 0.3416168180942303
+    },
+    {
+      "sheet": "Souhrn",
+      "addr": "B23",
+      "value": 0.006092995784323122,
+      "expected": 0.00609299578432319
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "C17",
+      "value": 0.2231236637904261,
+      "expected": 0.22312366379042614
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "C18",
+      "value": 0.24435866139574655,
+      "expected": 0.24435866139574658
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "C19",
+      "value": 0.1939691927286942,
+      "expected": 0.19396919272869423
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "C20",
+      "value": 0.33854848208513294,
+      "expected": 0.33854848208513294
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "D17",
+      "value": 0.2194896304679921,
+      "expected": 0.21948963046799216
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "D18",
+      "value": 0.23053576408358928,
+      "expected": 0.2305357640835893
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "D19",
+      "value": 0.19346969709535958,
+      "expected": 0.1934696970953596
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "D20",
+      "value": 0.3565049083530589,
+      "expected": 0.35650490835305904
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "E17",
+      "value": 0.22564319942274982,
+      "expected": 0.22564319942274988
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "E18",
+      "value": 0.2469916319769756,
+      "expected": 0.24699163197697563
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "E19",
+      "value": 0.18197124537741066,
+      "expected": 0.18197124537741066
+    },
+    {
+      "sheet": "Citlivost",
+      "addr": "E20",
+      "value": 0.34539392322286383,
+      "expected": 0.34539392322286394
+    }
+  ],
+  "mutation": {
+    "before": 0.19576957115137797,
+    "after": 0.23092844401993057,
+    "restored": 0.19576957115137797
+  }
+}

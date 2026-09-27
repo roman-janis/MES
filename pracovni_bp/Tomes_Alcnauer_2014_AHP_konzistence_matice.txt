@@ -1,0 +1,288 @@
+PAGE 1
+114
+Business & IT2 / 2014
+  Konzistence matice párových porovnání při 
+použití Analytického hierarchického procesu 
+(AHP). 
+Consistency of pair-wise matrix when using 
+Analytic hierarchy process method (AHP).
+Rostislav T omeš, Július Alcnauer
+Abstrakt: Příspěvek se zabývá metodou Analytický hierarchický proces (AHP), sesta-
+vením matice párových porovnání a vlastního vektoru této matice. Jednotlivé kroky 
+metody AHP jsou popsány na dvou krátkých příkladech s ohledem na konzistenci ma-
+tice párových porovnání.
+Klíčová slova: AHP , konzistence, Excel
+Abstract: The paper deals with the method of Analytic Hierarchy Process (AHP), con-
+structing a matrix of pair-wise comparison and eigenvector of the matrix. The steps of 
+the method AHP are described at two short examples with regard to the consistency of 
+the matrix of pair-wise comparison.
+Keywords: AHP , consistency , Excel
+JEL Classification: C02 
+
+PAGE 2
+115
+2 / 2014Business & IT
+Úvod
+Současné podmínky na světových trzích kladou zvýšené nároky na kvalitu manažer -
+ského rozhodování. Chybné rozhodnutí může přinést velké ztráty a někdy i likvidaci 
+firmy . V přípravě manažerů pro 21. století je proto důležité vrátit význam matematice 
+a jejím aplikacím, např. při rozhodovacích procesech. T ento přístup může být příno-
+sem i pro menší firmy . Popisovaná Saatyho metoda je využitelná při vícekriteriálním 
+rozhodování a zkva¬litňuje analytický hierarchický proces, při kterém pomáhá nalézt 
+nejoptimálnější variantu pro rozhodovatele.
+Cílem rozhodování rozumíme určitý budoucí stav okolí rozhodovatele vyplývající 
+z nutnosti uskutečnit určité potřeby nebo plnit jisté funkce. Cíle se má dosáhnout rea-
+lizací některé z variant rozhodování. Cíl rozhodování se obvykle hierarchicky rozkládá 
+do dílčích cílů, které se transformují do podoby rozhodovacích kritérií. [RAMÍK, 2010]
+Lidé jsou při rozhodování mezi variantami ovlivněni přítomností, okolním prostře-
+dím, sociálními i politickými vlivy . Rozhodují se na základě svých znalostí, zkušeností, 
+analyzují rizika a přínosy svého rozhodnutí. Rozhodování můžeme od subjektivních 
+vlivů oprostit, budeme-li hodnotit alternativy každou zvlášť. Je jednodušší alternativy 
+porovnávat než se snažit spočítat jejich preference. Přitom porovnávání se musí po-
+hybovat v přípustném rozsahu konzistence. Metoda Analytický hierarchický proces 
+(AHP) zahrnuje jak porovnávání, tak i vyhodnocování. [SAATY , 1994]
+1. Základní pojmy pro metodu AHP
+Saatyho analytický hierarchický proces je matematická metoda, přesněji řečeno ma-
+tematický model. Pro jeho popis je potřeba uvést některé pojmy a definice z lineární 
+algebry . 
+1.1 Definice
+Vlastní číslo  matice A typu n × n je λ  komplexní číslo které vyhovuje rovnici det (A i - λ 
+I) = 0, kde I je jednotková matice . Rovnice det (A i - λ I) = 0 se nazývá charakteristická 
+rovnice matice A.
+2. Rozhodování
+Učinit rozhodnutí je běžným úkolem každého manažera, zde je v roli rozhodovatele 
+(decision maker). Úkolem rozhodovatele je vybrat jednu nebo více variant z množiny 
+všech přípustných variant. 
+Rozhodovatele tedy definujeme jako subjekt, který má uči-
+nit rozhodnutí, vybrat variantu, která je hodnocena nejlépe, optimální variantu.  Výběr 
+
+PAGE 3
+116
+Business & IT2 / 2014
+z množiny m možných variant usnadňuje vícekriteriální analýza. Strukturování vari-
+ant do hierarchie, popis jednotlivých kritérií rozhodování, jejich kvantifikace a vyhod-
+nocení, to umožňuje vícekriteriální rozhodovací proces.
+Varianty (alternativy) označíme v následujícím textu jako Vi (pro i = 1, …, m). Hlediska, 
+podle kterých varianty rozhodovatel posuzuje, nazveme kritéria, ta budeme značit Ki 
+(pro i = 1, …, n). Kritéria mohou být buď kvalitativní, nebo kvantitativní. Kvalitativní 
+kritéria nelze objektivně měřit, a proto je v rozhodovacím procesu určujeme větši-
+nou podle bodové stupnice nebo porovnáním variant mezi sebou 
+metodou párového 
+porovnání. S hodnotami ze stupnice nebo párového porovnání dále pracujeme jako 
+s kvantitativními kritérii. S kvantitativními kritérii, například cena, výše platu, apod. 
+pracujeme přímo jako s hodnotami.
+2.1 Metoda párového porovnání
+Metoda párového porovnání (pair-wise comparison) umožňuje přiřadit jednotlivým 
+variantám relativní hodnoty , nazývané váhy . Nejdůležitější varianta je pak vypočítána 
+metodou vlastních čísel (eigenvalue method) [ESLAMIPOOR, 2013]. Někdy je metoda 
+nazývána metodou vlastního vektoru.
+2.2 Saatyho metoda AHP
+Matematický model používaný ve vícekriteriální rozhodovací metodě vychází ze sta-
+novení kritérií mezi jednotlivými faktory , které ovlivňují rozhodování. Pokud se ma-
+nažer rozhoduje mezi více variantami, je pro každou variantu nutné stanovit kritéria, 
+resp. vztahy mezi jednotlivými faktory . Získání co nejvíce pravděpodobných hodnot 
+kritérií je nejtěžší částí rozhodovacího procesu. Další je již jen matematika.
+Metodu AHP Analytic Hiearchy Process popsal Prof. Dr. Thomas L. Saaty , profesor na 
+University of Pitsburg, kde vyučuje na Joseph M. Katz Graduate School of Bussines. 
+Profesor Saaty popsal metodu vícekriteriálního rozhodování nazývanou dnes jeho 
+jménem.
+Preference jednotlivých variant jsou ohodnoceny škálou lichých čísel od 1 do 9, která 
+vyjadřují stupnici intenzity významu varianty . Pro vytvoření Saatyho matice musíme 
+přiřadit absolutní důležitost jednotlivým variantám, podle preferencí rozhodovatele 
+nebo kolektivu rozhodovatelů, a použít uvedenou devítibodovou stupnici. Pro citli-
+vější vyjádření intenzity významu je možné použít mezistupně, sudá čísla 2, 4, 6, 8. 
+Přiřazení důležitosti jednotlivých variant může provádět kolektiv rozhodovatelů me-
+todou brainstormingového setkání, dokonce pro každé kritérium odděleně. Tím se 
+z rozhodovacího procesu více vyloučí subjektivní faktor rozhodovatele. Pro zápis pre-
+ferencí používá metoda AHP metodu párového porovnání.
+
+PAGE 4
+117
+2 / 2014Business & IT
+Tabulka 1 - Saatym doporučená stupnice intenzity významu
+[ČESTNĚJŠÍ, 2001]
+Hodnoty ze sloupce číselné měřítko zapíšeme do Saatyho matice S i. Z výše uvedených 
+definic vyplývá, že: 
+1) matice Si je čtvercová n x n,
+2) matice Si je reciproční, tedy platí Sji = 1 / Sij
+3) prvky Saatyho matice Si vyjadřují odhad podílů vah i-té a j-té varianty . V matici 
+se tedy vyskytují lichá čísla ze škály 1 až 9 nebo podíly 1 / liché číslo, která 
+vyjadřují preference i-té varianty k j-té a naopak,
+4) diagonálu matice tvoří číslo 1, neboť platí S ji = Sij = 1 pro i=j, libovolná varianta 
+v porovnání sama k sobě je stejně významná.
+2.3 Ukázkové příklady
+Pro ukázku principů metody AHP jsme zvolil dva krátké příklady , které byly součás-
+tí komplexnějšího rozhodovacího procesu, výběru informačního systému pro menší 
+firmu. Vybírali jsme ze šesti různých afirmačních systémů, pro účely tohoto článku 
+nazvaných IS1, IS2,.. IS6.
+V našem příspěvku jsme zvolili jedno 
+kvalitativní kritérium, a to kritérium nazvané 
+Implementovaný databázový stroj . Rozhodovatelé tedy vybírají informační systém jen 
+podle toho, nad kterých databázovým strojem pracuje. Hierarchické uspořádání roz-
+
+PAGE 5
+118
+Business & IT2 / 2014
+hodovacího procesu spočívá právě v tom, aby rozhodovatelé hodnotili vždy jen jedno 
+kritérium odděleně od ostatních kritérií. Zde se tedy soustřeďují jen na stanovení toho, 
+který informační systém jim podle toho kritéria vychází významnější než jiný.
+Jako druhé kritérium ukázkového příkladu jsme zvolili 
+kvantitativní kritérium, Cena. 
+Zde ukazujeme, jak probíhá sestavení matice párových porovnání pro kvantitativní 
+kritérium.
+U obou příkladů jsme stanovili 
+index konzistence matice párových porovnání.
+2.4 Vyhodnocení kvalitativních kritérií
+Při vyhodnocení kvalitativních kritérií uplatníme princip párového porovnání . U kva-
+litativních kritérií hodnotíme jednotlivé varianty podle Saatyho stupnice intenzita vý-
+znamu (T abulka 1). Škálování umožňuje hodnotitelům porovnávat varianty vždy jen 
+podle jednoho kritéria, a to věcně, bez snahy porovnávat řádově odlišné prvky . [RA -
+MÍK, 2010] 
+Jednotlivé posuzované varianty sestavíme do tabulky a zapíšeme hodnoty párového 
+porovnání, tedy vztah významnosti jedné varianty vůči jiné variantě. Například druhý 
+IS je podle kritéria 1 mírně důležitější než první IS, tedy v2 / v1 = 3 / 1 a podle principu 
+reciprocity v1 / v2 = 1 / 3. V druhém ukázkovém řádku formuláře párového porovnání 
+je první IS podle kritéria 1 výrazně důležitější než třetí IS, tedy v3 / v1 = 1 / 7 a v1 / v3 = 
+7 / 1. T akto potom zapisujeme významnosti do Saatyho matice.
+Použili jsme formulář párového porovnání v Excelu.
+Formulář párového porovnání
+Ukázka formuláře pro párové porovnání
+Podle T abulky 1 jsme zapsali porovnání každé varianty vůči ostatním variantám. Vy-
+branou intenzitu významu jsme označili v Excelu červenou barvou písma, následně 
+jsme nepoužité varianty pro lepší přehlednost smazali. Pro náš příklad pořízení firem-
+ního informačního systému jsme tak dostali vyplněný formulář pro kritérium
+ Imple -
+mentovaný databázový stroj:
+
+PAGE 6
+119
+2 / 2014Business & IT
+Formulář párového porovnání
+T abulka vzájemného porovnání variant vzhledem ke kritériu Implementovaný databázový stroj
+Saatyho matice párových porovnání S i pak má tvar:
+Saatyho matice párových porovnání Si.
+
+PAGE 7
+120
+Business & IT2 / 2014
+2.5 Metoda vlastního vektoru matice (Eigen vector)
+Pro matici párových porovnání S i potřebujeme určit největší vlastní číslo matice λ max 
+a následně normovaný vlastní vektor příslušného k největšímu vlastnímu číslu λ max.
+Podle definice 2.7 řešíme rovnici det (S i – λ  I) = 0, kde I je jednotková matice.
+Rovnice v Excelu pomocí maticového vzorce a funkce =DETERMINANT .
+Pro řešení rovnice jsme použili Hledání řešení , tedy iterační postup v Excelu. Do buň-
+ky λ musíme zadat velké číslo, protože hledáme ze všech řešení největší λ max. Řešení 
+rovnice det (S i - λ I) = 0 konverguje v našem příkladu k hodnotě 1,22 10 -5, což můžeme 
+považovat za uspokojivou přesnost řešení. λ max pak vychází 11,399.
+Hledání řešení λmax.
+
+PAGE 8
+121
+2 / 2014Business & IT
+2.6 Konzistence, index konzistence
+Metoda AHP je založena na principu párového porovnání. Vytvořená matice je, podle 
+výše uvedeného, čtvercová , reciproční , diagonálu matice tvoří číslo 1 a ideální by pro 
+přesnost metody bylo, aby matice byla konzistentní.
+Konzistenci matice párových porovnání S = (s ij) můžeme definovat takto: řekneme, že 
+prvek x i je s iq -krát důležitější než prvek s q (podle hodnotícího kritéria f), a dále prvek 
+sq je sqj -krát důležitější než prvek x j, potom prvek x i je sij = s iq • sqj -krát důležitější než 
+prvek xj. Při porovnávání kvalitativních kritérií je však naprostá konzistence matice pá-
+rových porovnání spíše výjimečná. Naopak, při porovnávání kvantitativních kritérií je 
+matice párových porovnání dokonale konzistentní, platí totiž, že váhy , hodnoty kvanti-
+tativního kritéria jsou známy v
+i > 0 a vj > 0 a pro prvky matice párových porovnání platí 
+Sji = v i / v j. Platí-li uvedený vztah, matice S = (s ij) je reciproká a konzistentní. [RAMÍK, 
+2000]
+Pro úspěšnost metody AHP je tedy důležitý index konzistence . Platí, že maximální 
+vlastní číslo  čtvercové matice párových porovnání S = (s ij) typu m x m, která je vždy 
+reciproká ale nemusí být konzistentní, λ max je větší nebo rovno m. Je-li matice S = (s ij) 
+konzistentní, vždy platí, že λ max = m. Indexem konzistence nazýváme číslo C I vypočíta-
+né ze vztahu 
+Index konzistence CI se pro konzistentní matici tedy rovná 1. Nekonzistenci matice vy-
+jadřuje velikost odchylky C I od hodnoty 1.
+Podle výše uvedeného vztahu jsme stanovili index konzistence matice Si, jeho hodnota 
+je 2,0797, to ukazuje na nekonzistentní matici S i. Většinou to znamená, že rozhodova-
+tel si pravděpodobně v některých kritériích protiřečí.
+Původní Saatyho metodika pracuje s normovaným vlastním vektorem matice S
+i, ozna-
+číme jej w. Podle Definice 2.7 vytvoříme nejprve součin jednotkové matice I a λ max a po-
+tom maticový výraz (Si - λmax I). Hledáme řešení soustavy rovnic (Si-λmax I) w = 0. Soustavu 
+vyřešíme například pomocí nástroje Řešitel  v Excelu nebo jiným běžným postupem.
+ 
+
+PAGE 9
+122
+Business & IT2 / 2014
+Řešení soustavy rovnic.
+Vlastní vektor  w matice Si odpovídající vlastnímu číslu λ max je
+w = ( 1,899; 2,454; 4,712; 4,629; 3,136; 5,518 ), po normalizaci
+w = ( 0,085; 0,110; 0,211; 0,207; 0,140; 0,247 ) T.
+Nejvyšší hodnota ve vlastním vektoru matice S i odpovídající vlastnímu číslu λ max je 
+0,247, tedy podle kritéria Implementovaný databázový stroj  je nelépe hodnocený in-
+formační systém IS6.
+2.7 Vyhodnocení kvantitativních kritérií
+V případě kvantitativních kritérií, jakým je například cena, je postup při sestavování 
+matice párového porovnání odlišný. Do matice S i vyplňujeme přesný poměr ceny i-té 
+a j-té posuzované varianty . Prvek matice se potom rovná S ij = cj / ci.
+V našem příkladu, podle kritéria Cena údržby , je první prvek symetrické a reciproční 
+matice S11 roven samozřejmě 1, a další prvek S 12 je určen poměrem cen prvních dvou 
+posuzovaných IS, tedy 3500,00 / 1450,00 = 2,41. Reciprocita matice S i je pochopitelně 
+zachována i při vyhodnocování kvantitativních kritérií, tedy i zde platí, že S ji = 1 / Sij.
+
+PAGE 10
+123
+2 / 2014Business & IT
+Saatyho matice párových porovnání S i pak má tvar:
+Saatyho matice párových porovnání Si.
+Nejvyšší vlastní číslo matice S i λmax vyšlo 6,00000000270831. T o je způsobeno tím, že 
+jsme řešili rovnici det (S i - λmax I) = 0 pomocí iteračního nástroje Hledání řešení v Excelu. 
+T oto řešení je vyhovující, determinant vychází 2,106 10 -5 ne přesně 0.
+Saaty poukazuje na to, že pro index konzistence  CI = 1 vychází λ max = m, v našem pří-
+padě by podle Saatyho mělo být λ max = 6. Díky nepřesnosti iteračního nástroje Hledání 
+řešení v Excelu je index konzistence  v našem příkladu roven 1,00000000054166, což 
+můžeme považovat za Saatym deklarovanou hodnotu 1.
+Index kon¬zistence CI = 1, což přesně odpovídá důkazům (kapitola 3.6). [SAATY , 1994]
+Vlastní vektor w matice Si odpovídající vlastnímu číslu λ max je pro kritérium Cena údrž-
+by
+w = ( 3,411; 1,413; 1,078; 0,824; 0,824; 0,634 ), po normalizaci
+w = ( 0,417; 0,173; 0,132; 0,101; 0,101; 0,077 ) T.
+Vidíme, že nejvýznamnější je podle kritéria Cena údržby první informační systém IS1.
+
+PAGE 11
+124
+Business & IT2 / 2014
+Závěr
+Na dvou krátkých příkladech jsme ukázali použití metody AHP , sestavením matice pá-
+rových porovnání a stanovení nejvyššího vlastního čísla matice párových porovnání, 
+v rozhodovacím procesu, a důležitost pomocného kritéria konzistence matice páro-
+vých porovnání.
+V současném složitém vývoji technologií a prostředí pro podnikání se objevuje stále 
+více kritérií. V praxi se často jeví jako nepřehledná a někdy je racionální rozhodování 
+nahrazeno intuitivním postupem nebo příklonem ke zkušenostem. Zkušenosti mana-
+žera se mohou pro¬mítnout do stanovení vah jednotlivých kritérií. Mezi hlavními vý-
+hodami metody AHP lze uvést možnost nasazení při práci s kvalitativními a kvantita-
+tivními kritérii. Pomáhá lepší orientaci při rozhodování a optimalizaci zisku při rozho-
+dování za jistoty ale také za rizika. Může představovat elegantní skloubení exaktních 
+postupů se zkušenostmi manažerů.
+Reference
+[1] ČESTNĚJŠÍ, A. 2001. Manažérské rozhodovanie. Bratislava: Univerzita 
+Komenského, 2001. str. 155. 80-247- 1338- 1.
+[2] DEMLOVÁ, M., PONDĚLÍČEK B. 1997. Matematická logika. Praha: ČVUT FEL, 
+1997. str. 160. ISBN 8001016838.
+[3] ESLAMIPOOR, R., SEPEHRIAR, A. 2013. Firm relocation as a potential 
+solution for enviroment improvement using a SWOT-AHP hybrid method. 
+Process Safety and Environmental Protection. 2013.
+[4] RAMÍK, J. 2000 Analytický hierarchický proces (AHP) a jeho využití v malém 
+a středním podnikání. Karviná: Slezská univerzita v Opavě, 2000. 217 str. ISBN 
+80- 7248-088-X.
+[5] RAMÍK, J. 2010 Analytický hierarchický proces (AHP) a jeho uplatnění při 
+hodnocení a podpoře rozhodování. Jihlava: VŠP Jihlava, 2010. Matematika 
+v ekonomické praxi. ISBN 978-80-87035-34-4.
+[6] REKTORYS, K. a kol, Přehled užité matematiky . 7. vydání. Praha: SNTL, 1981.
+ISBN 978-80- 7196- 180-2
+[7] SAATY , T . 1994. How to Make a Decision: The Analytic Hierarchy Process. 
+Interfaces 1994, Sv. 24, Č. 6, str. 19-43.
+Ing. Rostislav T omeš, Katedra informačních technologií a analytických metod, Vysoká škola obchodní 
+v Praze o.p.s., Spálená 14, 110 00 Praha 1, email: Rostislav.T omes@vso-praha.eu
+PaedDr . Július Alcnauer , PhD., Katedra matematických metód a manažérskej informatiky, Prešovská 
+univerzita v Prešove, Konštantínova 16, 080 01 Prešov, email: alcnauerjulius@gmail.com

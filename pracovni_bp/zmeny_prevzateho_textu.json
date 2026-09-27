@@ -1,0 +1,57 @@
+[
+  {
+    "source": "BP 1.md",
+    "original": "Tato práce se proto zaměřuje na přípravu teoretických východisek pro porovnání nástrojů pro návrh a vývoj databází.",
+    "replacement": "Tato bakalářská práce se proto zaměřuje na vytvoření webové aplikace, která podpoří výběr nástroje pro návrh a vývoj databázových systémů."
+  },
+  {
+    "source": "BP 1.md",
+    "original": "Práce tak tvoří teoretický a metodický podklad pro navazující praktické porovnání těchto nástrojů. Na úvod se text práce věnuje definicím a termínům spojeným s databázovými systémy, datovým modelováním a návrhem databáze. Vzápětí vysvětluje princip vícekriteriálního rozhodování a metodu AHP. Na tento přístup navazuje výběr nástrojů a návrh hodnoticích kritérií. Tato kritéria a nástroje budou dále použity v praktické části. Výsledné porovnání pak poskytne podklady pro rozhodnutí, který nástroj je vhodný pro konkrétní scénář nasazení, a zároveň ukáže, jak se výsledek mění při změně priorit.",
+    "replacement": "Teoretická část práce vychází z dříve zpracované seminární práce. Na vymezení databázových systémů, datových modelů a metody AHP navazuje návrh hodnoticích kritérií a vlastní aplikace. V praktické části je popsána implementace, ověření výpočtů a demonstrace na modelovém případu Cykloservis. Pracovní demonstrace používá syntetická data, která umožňují připravit celý postup zpracování. Skutečné vlastnosti nástrojů a jejich vhodnost pro daný případ musí být posouzeny až po provedení jednotných testů."
+  },
+  {
+    "source": "BP 3.md",
+    "original": "Na základě prostudovaných zdrojů byly následně vybrány nástroje a navržena hodnoticí kritéria. V navazující praktické části budou nástroje hodnoceny podle jednotného postupu. Mezi hodnocená kritéria patří například tvorba modelu, převod do logického a fyzického modelu, generování SQL skriptu, reverzní inženýrství, použitelnost a také licenční podmínky. Výsledky budou následně zpracovány metodou AHP.",
+    "replacement": "Na základě prostudovaných zdrojů byly vybrány nástroje a navržena hodnoticí kritéria. Pro jejich následné skutečné testování je připraven jednotný protokol modelového případu. V této pracovní verzi jsou pomocné známky a párové preference nahrazeny dvěma oddělenými syntetickými sadami. Údaje neslouží k doložení vlastností produktů, ale k přípravě a ověření jejich zpracování v aplikaci a v kontrolním sešitu."
+  },
+  {
+    "source": "BP 3.md",
+    "original": "Pro usnadnění provádění výpočtů, správu hodnoticích matic a prezentaci výsledků může být v rámci práce vytvořena jednoduchá podpůrná aplikace implementující základní kroky metody AHP.",
+    "replacement": "Pro provádění výpočtů, práci s hodnoticími maticemi a prezentaci výsledků byla vytvořena jednoduchá webová aplikace v PHP. Její rozsah, výpočetní postup a provedené zkoušky jsou popsány v praktické části."
+  },
+  {
+    "source": "BP 3.md",
+    "original": "Samotné porovnání nástrojů proběhne v navazující praktické části pomocí metody AHP. Volba této metody vychází ze studií zabývajících se problematikou vícekriteriálního rozhodování (Multiple-Criteria Decision-Making, MCDM), které AHP označují za jeden z nejvhodnějších přístupů pro hodnocení softwarových systémů, a to zejména díky její schopnosti kombinovat kvantitativní i kvalitativní kritéria (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Velasquez a Hester, 2013). ",
+    "replacement": "Porovnávání vstupních preferencí je v aplikaci provedeno metodou AHP. Volba této metody vychází z možnosti propojit kvantitativní a kvalitativní kritéria v jednom hierarchickém modelu a kontrolovat vzájemnou konzistenci párových úsudků (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Velasquez a Hester, 2013). V této pracovní verzi byl celý výpočetní postup demonstrován na syntetických vstupech. Skutečná komparace vlastností nástrojů bude doplněna po provedení jednotných testů."
+  },
+  {
+    "source": "BP 7.md",
+    "original": "Pro účely navazující práce bude testována verze 24.3.",
+    "replacement": "Přesná verze a edice použitá při praktickém testování bude doložena v testovacím protokolu. V syntetické demonstraci není žádná verze označena za skutečně otestovanou."
+  },
+  {
+    "source": "BP 7.md",
+    "original": "Pro účely navazující práce bude testována verze 26.0 Community Edition.",
+    "replacement": "Přesná verze a edice použitá při praktickém testování bude doložena v testovacím protokolu. V syntetické demonstraci není žádná verze označena za skutečně otestovanou."
+  },
+  {
+    "source": "BP 7.md",
+    "original": "Pro účely navazující práce bude testována verze 8.0.",
+    "replacement": "Přesná verze a edice použitá při praktickém testování bude doložena v testovacím protokolu. V syntetické demonstraci není žádná verze označena za skutečně otestovanou."
+  },
+  {
+    "source": "BP 7.md",
+    "original": "Pro účely navazující práce bude testována stabilní verze 1.2.3.",
+    "replacement": "Přesná verze a edice použitá při praktickém testování bude doložena v testovacím protokolu. V syntetické demonstraci není žádná verze označena za skutečně otestovanou."
+  },
+  {
+    "source": "BP 8.md",
+    "original": "návrh a vývoj databáze. nikoli",
+    "replacement": "návrh a vývoj databáze, nikoli"
+  },
+  {
+    "source": "BP 8.md – tabulka 2",
+    "original": "| Kritérium | Název | Význam pro hodnocení |\n|:--:|:---|:---|\n| K1 | Funkcionalita | Podpora úrovní modelu, validace a databázových objektů. |\n| K2 | Použitelnost | Přehlednost prostředí a jednoduchost běžných modelovacích úkonů. |\n| K3 | Kompatibilita s DBMS | Počet databázových systémů, s nimiž nástroj umí pracovat. |\n| K4 | Forward engineering | Možnost vygenerovat funkční DDL skript nebo schéma databáze. |\n| K5 | Reverse engineering | Schopnost sestavit model z existující databáze. |\n| K6 | Dokumentace a komunitní podpora | Množství a aktuálnost dokumentace, komunita a aktualizace. |\n| K7 | Import a export modelu | Podporované formáty importu/exportu a práce s verzováním. |\n| K8 | Náklady a licenční omezení | Typ licence, omezení bezplatné verze a cena zavedení. |",
+    "replacement": "| Kritérium | Název | Význam pro hodnocení |\n| --- | --- | --- |\n| K1 | Funkcionalita modelování | Podpora samostatného modelu, databázových objektů, datových typů, primárních a cizích klíčů, kardinalit a integritních omezení. Nezahrnuje forward engineering, reverse engineering ani export, které mají samostatná kritéria. |\n| K2 | Použitelnost | Přehlednost prostředí, dohledatelnost funkcí, srozumitelnost chybových hlášení, počet nutných kroků, časová náročnost a potřeba obcházet omezení při běžných modelovacích úkonech. |\n| K3 | Kompatibilita s DBMS | Rozsah databázových systémů, pro které nástroj skutečně podporuje modelování, generování DDL nebo reverse engineering. Samotná možnost připojení k DBMS se nepovažuje za plnou podporu modelování. |\n| K4 | Forward engineering | Schopnost vytvořit z vlastního modelu spustitelné DDL nebo databázové schéma při zachování tabulek, datových typů, klíčů a omezení a bez nepřiměřených ručních zásahů. |\n| K5 | Reverse engineering | Schopnost načíst existující databázové schéma do modelu nebo diagramu a správně rozpoznat tabulky, klíče, vztahy, kardinality a integritní omezení. |\n| K6 | Dokumentace a komunitní podpora | Dostupnost, aktuálnost a použitelnost oficiální dokumentace a dostupnost relevantní komunitní pomoci pro modelování, forward a reverse engineering a export. |\n| K7 | Import a export modelu | Dostupnost a použitelnost nativních formátů pro export diagramu a import modelu nebo SQL. Tisk do PDF se odlišuje od nativního exportu. Export DDL hodnocený v K4 se zde znovu nezapočítává. |\n| K8 | Náklady a licenční omezení | Cena a typ licence testované edice a omezení bezplatné varianty, která jsou relevantní pro návrh databáze. Funkční nedostatek se hodnotí v příslušném funkčním kritériu; v K8 se posuzuje jeho licenční nebo ekonomická příčina. |"
+  }
+]

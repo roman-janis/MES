@@ -1,0 +1,45 @@
+{
+  "original_files_unchanged": {
+    "BP 1.md": true,
+    "BP 2.md": true,
+    "BP 3.md": true,
+    "BP 4.md": true,
+    "BP 5.md": true,
+    "BP 6.md": true,
+    "BP 7.md": true,
+    "BP 8.md": true,
+    "BP 9.md": true,
+    "BP 0.md": true,
+    "BP 10.md": true,
+    "hodnoceni_4_nastroju.xlsx": true
+  },
+  "theory_verbatim": {
+    "4": true,
+    "5": true,
+    "6": true
+  },
+  "images_exist": {
+    "outputs/bp_20260927/app_home.png": true,
+    "outputs/bp_20260927/app_results.png": true
+  },
+  "trailing_newline": true,
+  "workbooks": {
+    "vypocty/kontrolni_priklad.xlsx": {
+      "sheets": 10,
+      "formulas": 120,
+      "errors": [],
+      "checked_values": 7,
+      "max_difference": 4.0245584642661925e-16,
+      "sha256": "c4edc22501667b02fae59391366bf92330dcf0a0cff1a05525d383e66981867e"
+    },
+    "outputs/bp_20260927/hodnoceni_synteticke.xlsx": {
+      "sheets": 13,
+      "formulas": 354,
+      "errors": [],
+      "checked_values": 17,
+      "max_difference": 1.1102230246251565e-16,
+      "sha256": "aafd3a5818bb3dadf8ebb936e1b65d6f23470327dec2d41afebee9f0017d0d12"
+    }
+  },
+  "pass": true
+}

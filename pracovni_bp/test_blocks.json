@@ -1,0 +1,359 @@
+[
+  {
+    "title": "1.1 – Založení prázdného modelu nebo diagramu (Krok 1 – vytvoření struktury)",
+    "task": "Otevři nový projekt/model a prázdný ER diagram. Ulož jej, zavři a znovu otevři. Zatím nepoužívej import SQL ani existující databázi.",
+    "expected": "Samostatný model lze uložit bez DB. Pokud edice offline model neumí, zapiš omezení a pro další úkony použij prázdné testovací schéma a dostupný editor tabulek. Tento DB-first postup výslovně rozlišuj.",
+    "evidence": "Uložený model a snímek prázdného diagramu.",
+    "source_row": 31
+  },
+  {
+    "title": "1.2 – Model-first bez živé databáze (Krok 1 – vytvoření struktury)",
+    "task": "Odpoj databázi a zkus v modelu vytvořit tabulku zkouska se sloupcem id INT. Pak zkušební tabulku odstraň.",
+    "expected": "Tabulka se vytvoří a uloží bez živé DB = model-first. Pokud je nutná DB, zapiš DB-first a skutečný postup. Neschopnost samostatného modelu nepřepisuj jako úspěch model-first.",
+    "evidence": "Poznámka model-first / DB-first a případné chybové hlášení.",
+    "source_row": 36
+  },
+  {
+    "title": "1.3 – Vytvoření všech 11 tabulek (Krok 1 – vytvoření struktury)",
+    "task": "Vytvoř 11 tabulek podle následujících bodů 1.3a–1.3k. Použij stejné názvy ve všech nástrojích. Klíče a omezení potom nastav podle dalších testů.",
+    "expected": "V modelu je přesně 11 tabulek. Původní známka tohoto bodu se vztahuje k dřívějšímu zadání 10 tabulek. Po rozšíření ji znovu posuď. Podrobný slovník je také v listu Model a pravidla.",
+    "evidence": "Celý diagram se všemi 11 tabulkami.",
+    "source_row": 41
+  },
+  {
+    "title": "1.3a – Vytvořit zakaznik",
+    "task": "Vytvoř tabulku zakaznik a sloupce:\nid_zakaznik : INT; NOT NULL\njmeno : VARCHAR(50); NOT NULL\nprijmeni : VARCHAR(50); NOT NULL\ntelefon : VARCHAR(20); NULL povolen\nemail : VARCHAR(100); NULL povolen\nadresa : VARCHAR(200); NULL povolen\ndatum_registrace : DATE; NOT NULL",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 46
+  },
+  {
+    "title": "1.3b – Vytvořit zamestnanec",
+    "task": "Vytvoř tabulku zamestnanec a sloupce:\nid_zamestnanec : INT; NOT NULL\njmeno : VARCHAR(50); NOT NULL\nprijmeni : VARCHAR(50); NOT NULL\npozice : VARCHAR(30); NOT NULL\ntelefon : VARCHAR(20); NULL povolen\ndatum_nastupu : DATE; NOT NULL",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 51
+  },
+  {
+    "title": "1.3c – Vytvořit dodavatel",
+    "task": "Vytvoř tabulku dodavatel a sloupce:\nid_dodavatel : INT; NOT NULL\nnazev : VARCHAR(100); NOT NULL\nkontaktni_osoba : VARCHAR(100); NULL povolen\ntelefon : VARCHAR(20); NULL povolen\nemail : VARCHAR(100); NULL povolen",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 56
+  },
+  {
+    "title": "1.3d – Vytvořit kolo",
+    "task": "Vytvoř tabulku kolo a sloupce:\nid_kolo : INT; NOT NULL\nid_zakaznik : INT; NOT NULL\nznacka : VARCHAR(50); NOT NULL\nmodel : VARCHAR(50); NULL povolen\ntyp : VARCHAR(30); NULL povolen\nrok_vyroby : SMALLINT; NULL povolen\nseriove_cislo : VARCHAR(50); NULL povolen",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 61
+  },
+  {
+    "title": "1.3e – Vytvořit elektrokolo",
+    "task": "Vytvoř tabulku elektrokolo a sloupce:\nid_kolo : INT; NOT NULL\nvyrobce_motoru : VARCHAR(80); NOT NULL\nvykon_motoru_w : INT; NOT NULL\nkapacita_baterie_wh : DECIMAL(8,2); NOT NULL",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 66
+  },
+  {
+    "title": "1.3f – Vytvořit sluzba",
+    "task": "Vytvoř tabulku sluzba a sloupce:\nid_sluzba : INT; NOT NULL\nnazev : VARCHAR(100); NOT NULL\npopis : VARCHAR(300); NULL povolen\ncena_zakladni : DECIMAL(10,2); NOT NULL\nodhad_doby_min : INT; NULL povolen",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 71
+  },
+  {
+    "title": "1.3g – Vytvořit dil",
+    "task": "Vytvoř tabulku dil a sloupce:\nid_dil : INT; NOT NULL\nnazev : VARCHAR(100); NOT NULL\ncena_prodejni : DECIMAL(10,2); NOT NULL\nmnozstvi_sklad : INT; NOT NULL\nid_dodavatel : INT; NULL povolen",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 76
+  },
+  {
+    "title": "1.3h – Vytvořit zakazka",
+    "task": "Vytvoř tabulku zakazka a sloupce:\nid_zakazka : INT; NOT NULL\nid_kolo : INT; NOT NULL\nid_zamestnanec : INT; NULL povolen\ndatum_prijeti : TIMESTAMP; NOT NULL\ndatum_dokonceni : TIMESTAMP; NULL povolen\nstav : VARCHAR(20); NOT NULL\npoznamka : VARCHAR(500); NULL povolen",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 81
+  },
+  {
+    "title": "1.3i – Vytvořit zakazka_sluzba",
+    "task": "Vytvoř tabulku zakazka_sluzba a sloupce:\nid_zakazka : INT; NOT NULL\nid_sluzba : INT; NOT NULL\nmnozstvi : INT; NOT NULL\ncena_za_jednotku : DECIMAL(10,2); NOT NULL",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 86
+  },
+  {
+    "title": "1.3j – Vytvořit zakazka_dil",
+    "task": "Vytvoř tabulku zakazka_dil a sloupce:\nid_zakazka : INT; NOT NULL\nid_dil : INT; NOT NULL\nmnozstvi : INT; NOT NULL\ncena_za_jednotku : DECIMAL(10,2); NOT NULL",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 91
+  },
+  {
+    "title": "1.3k – Vytvořit faktura",
+    "task": "Vytvoř tabulku faktura a sloupce:\nid_faktura : INT; NOT NULL\nid_zakazka : INT; NOT NULL\ndatum_vystaveni : DATE; NOT NULL\ncastka_celkem : DECIMAL(10,2); NOT NULL\nzpusob_platby : VARCHAR(20); NOT NULL\nstav_platby : VARCHAR(20); NOT NULL",
+    "expected": "Přesné názvy a typy podle zadání. PK, FK, UNIQUE, DEFAULT a CHECK nastav v dalších bodech. Typ přizpůsob cílové DB podle Model a pravidla. Nevytvářej nevyžádané sloupce.",
+    "evidence": "Detail tabulky. Známka dílčího vytvoření je volitelná; celkové vytvoření tabulek hodnoť v 1.3.",
+    "source_row": 96
+  },
+  {
+    "title": "1.4 – Primární klíče a automatické číslování (Krok 1 – vytvoření struktury)",
+    "task": "Nastav automaticky číslované PK: zakaznik.id_zakaznik; zamestnanec.id_zamestnanec; dodavatel.id_dodavatel; kolo.id_kolo; sluzba.id_sluzba; dil.id_dil; zakazka.id_zakazka; faktura.id_faktura.",
+    "expected": "Těchto osm tabulek má jeden jednosloupcový PK a automatické ID. Elektrokolo automatické ID NEMÁ. Spojovací tabulky nemají samostatné id: použijí složený PK v 1.5.",
+    "evidence": "Detail nastavení PK u jedné běžné tabulky.",
+    "source_row": 101
+  },
+  {
+    "title": "1.5 – Složené primární klíče v asociačních tabulkách (Krok 1 – vytvoření struktury)",
+    "task": "V zakazka_sluzba propoj id_zakazka → zakazka.id_zakazka a id_sluzba → sluzba.id_sluzba. OBA sloupce společně označ jako JEDEN PK. V zakazka_dil proveď totéž pro id_zakazka a id_dil → dil.id_dil.",
+    "expected": "PRIMARY KEY (id_zakazka, id_sluzba) a PRIMARY KEY (id_zakazka, id_dil). Každá tabulka má dva FK, ale jeden složený PK. Oba sloupce jsou NOT NULL. Žádné třetí automatické id ani dva oddělené primární klíče.",
+    "evidence": "Detail PRIMARY indexu obou asociačních tabulek.",
+    "source_row": 106
+  },
+  {
+    "title": "1.6 – Vlastní atributy asociačních tabulek (Krok 1 – vytvoření struktury)",
+    "task": "V obou spojovacích tabulkách nastav mnozstvi INT NOT NULL a cena_za_jednotku DECIMAL(10,2) NOT NULL.",
+    "expected": "Množství ani cena nejsou součástí PK/FK. Jedna dvojice zakázka–služba/díl se vyskytuje jednou; opakování vyjadřuje množství. Cena je cena při opravě, nezávislá na pozdější změně ceníku.",
+    "evidence": "Detail sloupců obou asociačních tabulek.",
+    "source_row": 111
+  },
+  {
+    "title": "1.7 – Běžné cizí klíče a směry vazeb (Krok 1 – vytvoření struktury)",
+    "task": "Propoj kolo.id_zakaznik → zakaznik.id_zakaznik; zakazka.id_kolo → kolo.id_kolo; dil.id_dodavatel → dodavatel.id_dodavatel. První dva FK jsou NOT NULL; dodavatel dílu může být NULL.",
+    "expected": "FK leží na straně N. Kolo musí mít zákazníka a zakázka kolo. Nástroj nesmí vytvořit další sloupec pro vazbu vedle již připraveného FK. Ve všech vazbách ponech zákaz mazání odkazovaného rodiče, bez kaskády.",
+    "evidence": "Diagram s čitelnými kardinalitami a detail Foreign Keys.",
+    "source_row": 116
+  },
+  {
+    "title": "1.8 – Nepovinný cizí klíč zaměstnance u zakázky (Krok 1 – vytvoření struktury)",
+    "task": "V zakazka propoj id_zamestnanec → zamestnanec.id_zamestnanec. U tohoto sloupce vypni NOT NULL / NN.",
+    "expected": "Zakázka smí mít id_zamestnanec = NULL. Pokud ID vyplníš, musí existovat odpovídající zaměstnanec. NULL není číslo 0 ani prázdný text.",
+    "evidence": "Detail nullable FK zakazka.id_zamestnanec.",
+    "source_row": 121
+  },
+  {
+    "title": "1.9 – Vazba 1:1 Zakázka–Faktura (Krok 1 – vytvoření struktury)",
+    "task": "Ve faktura ponech id_faktura jako vlastní PK. Sloupec id_zakazka nastav jako FK → zakazka.id_zakazka, NOT NULL a samostatné UNIQUE.",
+    "expected": "Zakázka má 0 nebo 1 fakturu; každá faktura právě jednu zakázku. faktura.id_zakazka NENÍ PK. Pokud tlačítko 1:1 změní PK, oprav to a zapiš zásah.",
+    "evidence": "Detail PK, FK a UNIQUE v tabulce faktura.",
+    "source_row": 126
+  },
+  {
+    "title": "1.10 – UNIQUE mimo primární klíč (Krok 1 – vytvoření struktury)",
+    "task": "Vytvoř samostatné UNIQUE pro zakaznik.email, kolo.seriove_cislo a faktura.id_zakazka. První dva sloupce mohou být NULL, třetí je NOT NULL.",
+    "expected": "Jde o tři oddělená omezení. Dva stejné VYPLNĚNÉ e-maily či sériová čísla nejsou dovoleny. Nejde o jeden složený klíč.",
+    "evidence": "Seznam UNIQUE constraintů/indexů.",
+    "source_row": 131
+  },
+  {
+    "title": "1.11 – Omezení povolených stavových hodnot (Krok 1 – vytvoření struktury)",
+    "task": "V Constraints / Checks nastav: zakazka.stav IN ('přijato','v opravě','hotovo','vyzvednuto','stornováno'); faktura.zpusob_platby IN ('hotově','kartou','převodem'); faktura.stav_platby IN ('zaplaceno','nezaplaceno'). Všechny tři sloupce jsou NOT NULL.",
+    "expected": "Vzniknou tři CHECK constraints. Pokud GUI CHECK neumí, napiš to. Náhradní ENUM či ruční SQL zaznamenej jako odlišný postup, nikoli jako úspěšné vytvoření CHECK v modelu.",
+    "evidence": "Detail omezení a později odpovídající úsek DDL.",
+    "source_row": 136
+  },
+  {
+    "title": "1.12 – Výchozí hodnoty (Krok 1 – vytvoření struktury)",
+    "task": "Nastav DEFAULT: zakaznik.datum_registrace = CURRENT_DATE; zakazka.datum_prijeti = CURRENT_TIMESTAMP; zakazka.stav = 'přijato'; dil.mnozstvi_sklad = 0; mnozstvi v obou spojovacích tabulkách = 1; faktura.datum_vystaveni = CURRENT_DATE; faktura.stav_platby = 'nezaplaceno'.",
+    "expected": "Funkce a čísla nejsou text v uvozovkách. Textové stavy jsou SQL řetězce. MySQL: datum jako (CURRENT_DATE); Oracle: TRUNC(CURRENT_DATE). DEFAULT se použije při vynechání hodnoty, nenahrazuje vložené NULL.",
+    "evidence": "Detail defaultů v modelu a odpovídající DDL.",
+    "source_row": 141
+  },
+  {
+    "title": "1.14 – Elektrokolo: jeden sloupec současně PK i FK",
+    "task": "V elektrokolo označ id_kolo jako jediný PK. TENTÝŽ sloupec připoj jako FK → kolo.id_kolo. Nastav NOT NULL a vypni identity / auto-increment. Nevytvářej další id.",
+    "expected": "Kolo má 0 nebo 1 rozšiřující záznam elektrokolo. Elektrokolo používá již existující ID kola. Jde o jinou konstrukci než vlastní PK + FK UNIQUE u faktury.",
+    "evidence": "Detail PK, FK a vypnutého automatického číslování.",
+    "source_row": 146
+  },
+  {
+    "title": "1.15 – CHECK čísel a dvou sloupců",
+    "task": "V obou spojovacích tabulkách nastav CHECK (mnozstvi > 0) a CHECK (cena_za_jednotku >= 0). Dále: cena_zakladni >= 0; cena_prodejni >= 0; mnozstvi_sklad >= 0; castka_celkem >= 0; vykon_motoru_w > 0; kapacita_baterie_wh > 0. U sluzba: (odhad_doby_min IS NULL OR odhad_doby_min > 0). U zakazka: (datum_dokonceni IS NULL OR datum_dokonceni >= datum_prijeti).",
+    "expected": "Vzniknou skutečné CHECK constraints. Ceny a množství jsou NOT NULL. Odhad doby a datum dokončení smí chybět. Poslední CHECK porovnává dva sloupce téhož řádku a nelze jej nahradit ENUM.",
+    "evidence": "Výrazy v editoru CHECK a jejich výstup do DDL.",
+    "source_row": 151
+  },
+  {
+    "title": "1.13 – Celková použitelnost modelování (Krok 1 – vytvoření struktury)",
+    "task": "Po nových bodech 1.14 a 1.15 shrň ovládání, hledání voleb, obchvaty a chyby u všech 11 tabulek.",
+    "expected": "Popis opři o konkrétní zkušenost: složený PK, FK + UNIQUE, PK = FK, CHECK a DEFAULT. Rozliš „nástroj neumí“ a „volbu jsem nenašel“. Původní známka se zachovala jako dosavadní záznam.",
+    "evidence": "Čas kroku 1 a konkrétní příklady problémů.",
+    "source_row": 156
+  },
+  {
+    "title": "2.1 – Vygenerování DDL z modelu (Krok 2 – forward engineering)",
+    "task": "Z VLASTNÍHO modelu vygeneruj DDL pro zvolenou DB. Referenční SQL z tohoto sešitu při tomto kroku nepoužívej.",
+    "expected": "Výstup obsahuje 11 tabulek a jejich omezení. U DB-first postupu exportuj vlastní schéma a rozdíl zapiš; neoznačuj jej za generování z offline modelu.",
+    "evidence": "Vygenerovaný SQL soubor a snímek průvodce/výsledku.",
+    "source_row": 161
+  },
+  {
+    "title": "2.2 – Spuštění vygenerovaného DDL bez chyby (Krok 2 – forward engineering)",
+    "task": "V samostatné PRÁZDNÉ testovací databázi/schématu spusť neupravené vlastní vygenerované DDL. Nepoužívej schéma s daty, která potřebuješ.",
+    "expected": "DDL doběhne bez chyby a vznikne 11 tabulek. MySQL: SHOW TABLES. PostgreSQL: Tables v cílovém schématu nebo information_schema.tables. Oracle: USER_TABLES u testovacího uživatele.",
+    "evidence": "Výstup spuštění a seznam 11 tabulek, případně přesná chyba.",
+    "source_row": 166
+  },
+  {
+    "title": "2.3 – Zachování klíčů a omezení v DDL (Krok 2 – forward engineering)",
+    "task": "Ve vytvořené DB prověř 8 automatických PK, 2 složené PK, elektrokolo.id_kolo jako PK i FK, všechny FK, NULL, UNIQUE, CHECK a DEFAULT podle Model a pravidla.",
+    "expected": "Omezení existují ve vytvořené DB, nestačí čáry v diagramu. Elektrokolo nemá automatické číslování. Chování s daty ověř také v novém bodě 2.6.",
+    "evidence": "Výpisy pro zakazka_sluzba, zakazka_dil, faktura a zakazka.",
+    "source_row": 171
+  },
+  {
+    "title": "2.4 – Nutné ruční zásahy do DDL (Krok 2 – forward engineering)",
+    "task": "Při selhání uschovej původní SQL. Každou změnu zapiš: chyba, původní řádek, opravený řádek, důvod. Opravenou kopii spusť v jiném prázdném testovacím schématu.",
+    "expected": "Původní výstup a ruční oprava jsou oddělené výsledky. Pokud zásah nebyl nutný, napiš „žádné“.",
+    "evidence": "Chybové hlášení a diff původního/opravovaného SQL.",
+    "source_row": 176
+  },
+  {
+    "title": "2.5 – Export DDL do souboru (Krok 2 – forward engineering)",
+    "task": "Ulož celé vlastní DDL do UTF-8 .sql, zavři a znovu otevři soubor.",
+    "expected": "Soubor obsahuje všech 11 tabulek a omezení. Název rozlišuje nástroj a původní/opravovanou variantu. Stejný doklad použij v 4.3.",
+    "evidence": "Cesta k uloženému .sql souboru.",
+    "source_row": 181
+  },
+  {
+    "title": "2.6 – Skutečné vynucení omezení",
+    "task": "V odděleném testovacím schématu vlož platného zákazníka, kolo, zakázku, službu a položku. Vyplň povinné sloupce a používej skutečně přidělená ID. Pak jednotlivě proveď pokusy z listu Kontrolní data.",
+    "expected": "Platné řádky projdou. NULL mechanik projde; neexistující FK, duplicitní dvojice PK, druhá faktura na stejnou zakázku, neplatný stav, nulové množství a záporná cena se odmítnou. Elektrokolo používá existující ID kola.",
+    "evidence": "Skutečný výsledek a chybové hlášení každého pokusu, bez hesel.",
+    "source_row": 186
+  },
+  {
+    "title": "3.1 – Připojení k referenční databázi (Krok 3 – reverse engineering)",
+    "task": "V jiném prázdném testovacím schématu spusť referenční SQL z listu SQL MySQL, SQL PostgreSQL nebo SQL Oracle. Připoj k němu nástroj; přihlašovací údaje do hodnocení nepiš.",
+    "expected": "Reference je nezávislá na tvém DDL z kroku 2 a obsahuje 11 tabulek. Zapiš skutečný server, verzi a DB/schéma. Referenční skripty jsou připravený návrh; jejich spuštění zatím není doložené.",
+    "evidence": "Úspěšný test připojení nebo přesné chybové hlášení.",
+    "source_row": 191
+  },
+  {
+    "title": "3.2 – Rozpoznání všech 11 tabulek (Krok 3 – reverse engineering)",
+    "task": "V novém modelu/diagramu načti všech 11 tabulek z referenčního schématu.",
+    "expected": "Vznikne 11 tabulek včetně elektrokolo. Rozliš editovatelný samostatný model a diagram nad živou DB. Neotvírej jako výsledek původní model z kroku 1.",
+    "evidence": "Snímek celého reverse-engineered diagramu.",
+    "source_row": 196
+  },
+  {
+    "title": "3.3 – Rozpoznání složených PK (Krok 3 – reverse engineering)",
+    "task": "Otevři indexy/klíče tabulek zakazka_sluzba a zakazka_dil.",
+    "expected": "V každé tabulce musí PRIMARY KEY obsahovat právě dva FK sloupce. Ověř pořadí a členství sloupců; samostatné id nebo obyčejný index místo PK je chyba importu.",
+    "evidence": "Detail PRIMARY indexů obou tabulek.",
+    "source_row": 201
+  },
+  {
+    "title": "3.4 – Rozpoznání FK a kardinalit (Krok 3 – reverse engineering)",
+    "task": "Prověř všechny FK podle Model a pravidla. Zvlášť zakazka.id_zamestnanec a dil.id_dodavatel s NULL a faktura.id_zakazka s UNIQUE.",
+    "expected": "Zachovaly se směry i povinnost vazeb. Faktura je 0..1 na zakázku. Elektrokolo ověř v 3.9. Kontroluj klíče i kresbu.",
+    "evidence": "Diagram kardinalit a detail nullable FK.",
+    "source_row": 206
+  },
+  {
+    "title": "3.5 – Rozpoznání UNIQUE omezení (Krok 3 – reverse engineering)",
+    "task": "Zkontroluj jedinečné indexy/constrainty po importu.",
+    "expected": "Ověř zakaznik.email, kolo.seriove_cislo a faktura.id_zakazka. U každého zapiš, zda se načetl jako UNIQUE constraint, unique index, nebo se ztratil.",
+    "evidence": "Seznam importovaných UNIQUE omezení.",
+    "source_row": 211
+  },
+  {
+    "title": "3.6 – Rozpoznání CHECK/ENUM omezení (Krok 3 – reverse engineering)",
+    "task": "Prověř importované CHECK stavů z 1.11 a číselných/datových pravidel z 1.15. U elektrokola ověř kladný výkon i kapacitu.",
+    "expected": "Zachovaly se stejné výrazy. Ztrátu CHECK, převod na ENUM nebo nezobrazené omezení výslovně zapiš. Pouhá poznámka v diagramu není CHECK.",
+    "evidence": "Detail importovaných omezení a DDL náhled.",
+    "source_row": 216
+  },
+  {
+    "title": "3.7 – Rozdíly proti referenčnímu schématu (Krok 3 – reverse engineering)",
+    "task": "Porovnej všech 11 tabulek s Model a pravidla: sloupce, typy, PK, FK, NULL, UNIQUE, CHECK, DEFAULT a automatické číslování.",
+    "expected": "Při shodě uveď skutečně porovnané skupiny objektů. Při rozdílu zapiš tabulku, sloupec a původní versus načtenou definici.",
+    "evidence": "Stručný seznam rozdílů nebo doložené „bez rozdílu“.",
+    "source_row": 221
+  },
+  {
+    "title": "3.8 – Dostupnost funkce v testované edici (Krok 3 – reverse engineering)",
+    "task": "Ověř, že reverse engineering byl proveden ve stejné edici, kterou hodnotíš.",
+    "expected": "Zapiš přesný název edice a verzi. Pokud funkce chybí, je omezená nebo byla použita trial/placená edice, popiš to; výsledek jiné edice nepřipisuj Community/free edici.",
+    "evidence": "Verze/edice a případné licenční hlášení.",
+    "source_row": 226
+  },
+  {
+    "title": "3.9 – Načtení PK = FK elektrokola",
+    "task": "V importované tabulce elektrokolo otevři PK, FK a definici id_kolo.",
+    "expected": "Jediný id_kolo zůstal PK i FK na kolo.id_kolo, bez automatického číslování. Výkon a kapacita mají NOT NULL a CHECK kladnosti. Nepřibyl další sloupec pro vazbu.",
+    "evidence": "Detail importovaného elektrokola.",
+    "source_row": 231
+  },
+  {
+    "title": "4.1 – Nativní export diagramu (Krok 4 – export)",
+    "task": "V nabídce Export vyzkoušej všechny formáty diagramu, které nástroj nabízí.",
+    "expected": "Ulož alespoň jeden výstup a vypiš přesné nabízené formáty, například PNG, SVG nebo PDF. Každý soubor otevři a ověř čitelnost názvů tabulek, sloupců a vazeb.",
+    "evidence": "Exportovaný diagram a seznam nativních formátů.",
+    "source_row": 236
+  },
+  {
+    "title": "4.2 – Nativní export versus tisk do PDF (Krok 4 – export)",
+    "task": "Porovnej příkaz Export s příkazem Print/Tisk.",
+    "expected": "Za nativní PDF označ jen formát přímo nabízený funkcí Export. Microsoft Print to PDF nebo jiný systémový tisk zapiš zvlášť jako tisk, nikoli jako nativní export nástroje.",
+    "evidence": "Nabídka Export a nabídka Tisk.",
+    "source_row": 241
+  },
+  {
+    "title": "4.3 – Export SQL/DDL (Krok 4 – export)",
+    "task": "Použij soubor z 2.5 a znovu ověř jeho otevření mimo relaci nástroje.",
+    "expected": "Obsahuje všech 11 tabulek. Jde o stejný doklad jako 2.5; stejnou schopnost při souhrnném hodnocení nezapočítávej dvakrát.",
+    "evidence": "Uložený .sql soubor.",
+    "source_row": 246
+  },
+  {
+    "title": "4.4 – Import cizího formátu (Krok 4 – export)",
+    "task": "V novém projektu zkus offline import referenčního SQL pro cílovou DB. Jiný modelový formát případně zapiš zvlášť.",
+    "expected": "Při importu SQL vznikne 11 tabulek. Prověř složený PK, FK + UNIQUE u faktury, PK = FK u elektrokola a CHECK. Pokud offline import edice neumí, zapiš nedostupnost; živá DB patří do kroku 3.",
+    "evidence": "Importovaný model nebo přesné omezení funkce.",
+    "source_row": 251
+  },
+  {
+    "title": "K3.1 – Nativně podporované DBMS (K3 – kompatibilita s DBMS)",
+    "task": "Zjisti seznam DBMS, pro které nástroj umí modelování a generování/reverse engineering.",
+    "expected": "Použij oficiální dokumentaci testované verze. Rozliš pouhé databázové připojení od podpory datového modelování. Zapiš seznam DBMS, URL zdroje a datum ověření.",
+    "evidence": "Oficiální URL a datum přístupu.",
+    "source_row": 256
+  },
+  {
+    "title": "K3.2 – Praktický test jiné DBMS (K3 – kompatibilita s DBMS)",
+    "task": "Pokud je to v rozsahu práce, zopakuj malý test proti jiné než primární DBMS.",
+    "expected": "Použij stejný jednoduchý model s PK, FK a UNIQUE. Vygeneruj nebo reverse-engineeruj schéma a zapiš, co fungovalo odlišně. Pokud jiná DBMS testována nebyla, napiš „netestováno“ místo odhadu.",
+    "evidence": "Použitá DBMS, výsledek a případný DDL/diagram.",
+    "source_row": 261
+  },
+  {
+    "title": "K6.1 – Kvalita oficiální dokumentace (K6 – dokumentace a komunita)",
+    "task": "V oficiální dokumentaci vyhledej postup pro model, forward engineering, reverse engineering a export.",
+    "expected": "Zapiš, zda návody odpovídají testované verzi, obsahují konkrétní kroky a řeší omezení. Ulož URL a datum přístupu; hodnocení opři o to, kolik kroků bylo nutné dohledat jinde.",
+    "evidence": "Oficiální URL, datum a krátké věcné zjištění.",
+    "source_row": 266
+  },
+  {
+    "title": "K6.2 – Aktivita komunity (K6 – dokumentace a komunita)",
+    "task": "Prověř oficiální fórum, issue tracker nebo GitHub projektu.",
+    "expected": "Najdi témata k modelování, FK/PK, forward/reverse engineering a exportu. Zapiš datum poslední relevantní aktivity, zda jsou dotazy zodpovídány a URL. Neposuzuj komunitu jen podle celkového počtu výsledků vyhledávání.",
+    "evidence": "URL, datum poslední relevantní aktivity a příklad tématu.",
+    "source_row": 271
+  },
+  {
+    "title": "K8.1 – Cena a přesná edice (K8 – náklady a licence)",
+    "task": "Zapiš plný název, verzi, edici a cenu použité varianty.",
+    "expected": "Ověř údaje na oficiální stránce produktu nebo licence. U bezplatné edice napiš cenu 0 a typ licence; u předplatného uveď období a měnu. Přidej URL a datum ověření.",
+    "evidence": "Oficiální cenová/licenční stránka a datum.",
+    "source_row": 276
+  },
+  {
+    "title": "K8.2 – Omezení bezplatné edice (K8 – náklady a licence)",
+    "task": "Porovnej Community/free edici s placenou variantou jen v funkcích důležitých pro tento test.",
+    "expected": "Ověř model-first, forward engineering, reverse engineering, podporované DBMS a exportní formáty. U každého omezení uveď, zda se projevilo v praktickém testu, nebo pochází pouze z dokumentace.",
+    "evidence": "Oficiální porovnání edic a vazba na praktický test.",
+    "source_row": 281
+  }
+]
