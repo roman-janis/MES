@@ -1,8 +1,7 @@
 # Detailní prováděcí plán BP (krok za krokem)
 
-Aktualizace: 13. 9. 2026
-Zdroj cíle a osnovy: `CIL_BP.md` (dopis vedoucímu: `EMAIL.md`)
-Předpoklad: vedoucí schválí e-mailový cíl (případné změny hned propsat sem).
+Aktualizace: 27. 9. 2026
+Jediné platné zadání: podklad VŠKP v IS/STAG, export `oliva/temata_vskp_-_podklady_pro_zadani_vskp.pdf` (janisro1, 23. 9. 2026 20:40). Přepis je v `CIL_BP.md`. Stejný text je v posledním e-mailu vedoucího (`EMAIL_KONVERZACE.md`, 15. 9. 2026). Starší návrhy neplatí.
 
 **Jak s tímto souborem pracovat**
 

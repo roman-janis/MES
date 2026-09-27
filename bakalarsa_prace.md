@@ -209,7 +209,7 @@ Zpracování práce probíhalo v několika navazujících krocích. Nejprve byly
 
 Zdroje byly vybírány tak, aby pokryly nejen celou teoretickou část práce, ale i výběr konkrétních nástrojů. Pro databázové systémy byla jako hlavní zdroj použita publikace Pokorného a Valenty (2020). Pro datové modelování a návrh relačních databází byla využita publikace Chlapka, Kučery a Palovské (2019). Metoda AHP byla zpracována na základě práce Saatyho (1990, 2008) a učebního textu Soukopové (2016).
 
-Dalším krokem byl výběr nástrojů, které budou v práci porovnávány. Při jejich výběru byla využita studie Carvalho et al. (2022), protože se zabývá podobným tématem a porovnává nástroje pro datové modelování jinou metodou. Dále byla použita oficiální dokumentace vybraných nástrojů. Z ní byly převzaty údaje o funkcích, podporovaných databázových platformách, licenčních podmínkách a další podrobnosti. Jako podpůrný zdroj byl použit také článek Simanavičienė a Vdovinskienė (2023), který ukazuje použití metody AHP při výběru softwaru.
+Dalším krokem byl výběr nástrojů, které jsou v práci porovnávány. Při jejich výběru byla využita studie Carvalho et al. (2022), protože se zabývá podobným tématem a porovnává nástroje pro datové modelování jinou metodou. Dále byla použita oficiální dokumentace vybraných nástrojů. Z ní byly převzaty údaje o funkcích, podporovaných databázových platformách, licenčních podmínkách a další podrobnosti. Jako podpůrný zdroj byl použit také článek Simanavičienė a Vdovinskienė (2023), který ukazuje použití metody AHP při výběru softwaru.
 
 Na základě prostudovaných zdrojů byly vybrány nástroje a navržena hodnoticí kritéria. Pro jejich následné skutečné testování je připraven jednotný protokol modelového případu. V této pracovní verzi jsou pomocné známky a párové preference nahrazeny dvěma oddělenými syntetickými sadami. Údaje neslouží k doložení vlastností produktů, ale k přípravě a ověření jejich zpracování v aplikaci a v kontrolním sešitu.
 
@@ -219,7 +219,7 @@ Na základě prostudovaných zdrojů byly následně vybrány nástroje a navrž
 ]
 
 
-Samotné porovnání nástrojů proběhne v navazující praktické části pomocí metody AHP. Volba této metody vychází ze studií zabývajících se problematikou vícekriteriálního rozhodování (Multiple-Criteria Decision-Making, MCDM), které AHP označují za jeden z nejvhodnějších přístupů pro hodnocení softwarových systémů, a to zejména díky její schopnosti kombinovat kvantitativní i kvalitativní kritéria (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Velasquez a Hester, 2013).
+Porovnávání vstupních preferencí je v aplikaci provedeno metodou AHP. Volba této metody vychází z možnosti propojit kvantitativní a kvalitativní kritéria v jednom hierarchickém modelu a kontrolovat vzájemnou konzistenci párových úsudků (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Velasquez a Hester, 2013). V této pracovní verzi byl celý výpočetní postup demonstrován na syntetických vstupech. Skutečná komparace vlastností nástrojů bude doplněna po provedení jednotných testů.
 
 Metoda AHP rozloží rozhodovací problém do hierarchické struktury složené z cíle, hodnoticích kritérií a hodnocených nástrojů. V první fázi jsou stanovena a strukturována kritéria vycházející z požadavků identifikovaných v teoretické části práce. Následně jsou jednotlivá kritéria i hodnocené nástroje porovnávány po dvojicích za využití Saatyho devítibodové škály, která umožňuje vyjádřit relativní důležitost jednotlivých prvků. Na základě vytvořených párových matic jsou vypočteny váhy kritérií a preference jednotlivých alternativ, přičemž je současně ověřena konzistence rozhodovacích úsudků prostřednictvím ukazatele konzistence. Výsledkem procesu je stanovení celkového skóre každého nástroje a vytvoření jejich výsledného pořadí podle míry vhodnosti pro definovaný účel. Součástí hodnocení je také analýza citlivosti, jejímž cílem je posoudit stabilitu dosažených výsledků a identifikovat kritéria, která mají největší vliv na konečné pořadí nástrojů (Saaty, 1990; Saaty, 2008).
 
@@ -346,19 +346,19 @@ Rozhodovací úloha je běžně popsána množinou variant, množinou hodnoticí
 
 S vícekriteriálním rozhodováním souvisejí i pojmy jako ideální a bazální varianta, dominance a nedominované řešení. Ideální varianta je hypotetická varianta, která ve všech kritériích získává nejlepší možné hodnoty (Soukopová, 2016; Velasquez a Hester, 2013). Bazální varianta naopak představuje hypotetickou variantu s nejhoršími hodnotami. Dominance vyjadřuje vztah mezi dvěma variantami, kdy jedna varianta je alespoň v jednom kritériu lepší a v ostatních není horší než druhá varianta. Nedominovaná varianta je taková varianta, pro kterou neexistuje jiná varianta lepší alespoň v jednom kritériu a současně ne horší v ostatních (Soukopová, 2016). Tyto pojmy se používají především u metod, které pracují se vzdáleností od ideálního řešení nebo s porovnáváním dominance mezi variantami (Velasquez a Hester, 2013).
 
-Pro tuto práci je důležité zejména vícekriteriální hodnocení variant. Důvodem je navazující část, kde se bude porovnávat konečný seznam nástrojů pro návrh a vývoj databázových systémů. Jde tedy o případ, kdy jsou předem dány alternativy a z těchto alternativ je nutné určit nejvhodnější řešení (Mardani et al., 2015; Saaty, 1990). Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 2008; Soukopová, 2016).
+Pro tuto práci je důležité zejména vícekriteriální hodnocení variant. Důvodem je porovnání konečného seznamu nástrojů pro návrh a vývoj databázových systémů. Jde tedy o případ, kdy jsou předem dány alternativy a z těchto alternativ je nutné určit nejvhodnější řešení (Mardani et al., 2015; Saaty, 1990). Cílem přitom není označit jeden nástroj za univerzálně nejvhodnější, ale vysvětlit jeho vhodnost vzhledem ke zvoleným kritériím, jejich vahám a uvažovanému použití (Saaty, 2008; Soukopová, 2016).
 
 Při rozhodování o výběru softwarových nástrojů je vícekriteriální přístup vhodný proto, že rozhodnutí obvykle zahrnuje technická, ekonomická a uživatelská hlediska (Mardani et al., 2015; Velasquez a Hester, 2013). U databázových nástrojů jsou obvykle některá kritéria měřitelná přímo, například cena, licence nebo dostupnost pro konkrétní platformu. Jiná kritéria naopak mají popisnou povahu, například přehlednost uživatelského rozhraní, podpora modelování nebo srozumitelnost dokumentace. Vícekriteriální metody pomáhají přehledně spojit všechna důležitá hlediska do jednoho rozhodovacího procesu (Mardani et al., 2015).
 
 ## 6.1 Alternativa, kritérium a váha kritéria
 
-Alternativa představuje jednu z možných variant rozhodnutí (Soukopová, 2016). V rámci této práce bude každá alternativa představovat konkrétní softwarový nástroj určený pro návrh a vývoj databázových systémů. Kritérium je hledisko, podle kterého se jednotlivé alternativy posuzují (Soukopová, 2016). Může jít například o funkcionalitu, použitelnost, kompatibilitu s různými DBMS, podporu reverzního inženýrství nebo cenu (Carvalho et al., 2022).
+Alternativa představuje jednu z možných variant rozhodnutí (Soukopová, 2016). V této práci každá alternativa představuje konkrétní softwarový nástroj určený pro návrh a vývoj databázových systémů. Kritérium je hledisko, podle kterého se jednotlivé alternativy posuzují (Soukopová, 2016). Může jít například o funkcionalitu, použitelnost, kompatibilitu s různými DBMS, podporu reverzního inženýrství nebo cenu (Carvalho et al., 2022).
 
 Samotná kritéria lze uspořádat různými způsoby podle potřeb konkrétní rozhodovací úlohy. Základní dělení odlišuje kritéria maximalizační a minimalizační (Soukopová, 2016). U maximalizačních kritérií je požadována co nejvyšší hodnota, například rozsah funkcí nebo počet podporovaných databázových platforem. U minimalizačních kritérií je naopak požadována co nejnižší hodnota, například cena, časová náročnost zavedení nebo složitost práce. Kritéria mohou být kvantitativní nebo kvalitativní, a jejich kombinace je u hodnocení softwaru zcela běžná (Soukopová, 2016; Velasquez a Hester, 2013).
 
 Váha kritéria vyjadřuje jeho relativní význam v rámci rozhodovacího procesu (Saaty, 1990; Soukopová, 2016). Ne všechna kritéria mají stejnou důležitost, a proto je nutné jejich význam určit explicitně. Určení vah kritérií je jedním z klíčových kroků většiny vícekriteriálních metod. Právě váhy často zásadně ovlivňují výsledné pořadí alternativ (Saaty, 1990).
 
-Při volbě vah je důležité vycházet z účelu hodnocení (Saaty, 2008; Soukopová, 2016). V prostředí s omezeným rozpočtem může být cena klíčová, zatímco ve firmě, která už používá určitou databázovou platformu, může mít větší váhu právě její podpora. Stejný nástroj proto může být v jednom rozhodovacím scénáři vhodnější než v jiném. Z tohoto důvodu budou kritéria v navazující práci navázána na modelovou situaci nebo požadavky uživatele (Saaty, 2008).
+Při volbě vah je důležité vycházet z účelu hodnocení (Saaty, 2008; Soukopová, 2016). V prostředí s omezeným rozpočtem může být cena klíčová, zatímco ve firmě, která už používá určitou databázovou platformu, může mít větší váhu právě její podpora. Stejný nástroj proto může být v jednom rozhodovacím scénáři vhodnější než v jiném. Z tohoto důvodu jsou kritéria navázána na modelovou situaci Cykloservisu a na požadavky rozhodovatele (Saaty, 2008).
 
 ## 6.2 Přístupy k odhadu vah kritérií a porovnání alternativ
 
@@ -404,7 +404,7 @@ Výhody metody AHP byly stručně naznačeny již v kapitole 6.2, a to možnost 
 
 Nevýhodou metody je pracnost při větším počtu kritérií a alternativ a jistá míra subjektivity, která je s párovým porovnáváním spojena (Ishizaka a Labib, 2011; Saaty, 2008). Pokud je v modelu mnoho prvků, počet potřebných porovnání rychle roste. Hodnotitel pak může být zatížen opakováním podobných rozhodnutí (Ishizaka a Labib, 2011). Proto je vhodné udržet počet kritérií i alternativ v přiměřeném rozsahu a jasně vymezit význam jednotlivých kritérií.
 
-V odborné literatuře se diskutuje jev rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu (Ishizaka a Labib, 2011; Saaty, 2008; Vaidya a Kumar, 2006). Tento problém neznamená, že AHP nelze použít, ale ukazuje, že výsledky je třeba interpretovat s ohledem na zvolený soubor alternativ a nastavení modelu. V navazující praktické části proto bude důležité jasně zdůvodnit, proč byly vybrány právě dané nástroje a jaké požadavky reprezentují.
+V odborné literatuře se diskutuje jev rank reversal, tedy možná změna pořadí alternativ při přidání nebo odebrání varianty z modelu (Ishizaka a Labib, 2011; Saaty, 2008; Vaidya a Kumar, 2006). Tento problém neznamená, že AHP nelze použít, ale ukazuje, že výsledky je třeba interpretovat s ohledem na zvolený soubor alternativ a nastavení modelu. V praktické části je proto zdůvodněno, proč byly vybrány právě dané nástroje a jaké požadavky reprezentují.
 
 V souvislosti s výběrem databázového nástroje je AHP užitečná tím, že umožňuje oddělit stanovení vah kritérií od samotného hodnocení alternativ (Catak et al., 2012; Ebrahimi a Taheri, 2015; Simanavičienė a Vdovinskienė, 2023). Nejprve je možné určit, jak významná je například funkcionalita, použitelnost, kompatibilita, cena nebo podpora vývojového procesu, a teprve poté hodnotit jednotlivé nástroje vůči těmto kritériím (Saaty, 1990). Díky tomu je výsledné pořadí zdůvodněno explicitně, nikoli pouze celkovým dojmem.
 
@@ -423,7 +423,7 @@ Základní charakteristiky vybraných nástrojů shrnuje tabulka 1.
 | MySQL Workbench Community Edition | MySQL | komunitní edice | EER diagramy, správa serveru, forward a reverse engineering |
 | pgModeler | PostgreSQL | open-source / placená distribuce | návrh schémat, SQL export, reverse engineering, validace modelu |
 
-<span id="_Toc234483571" class="anchor"></span>Tabulka 1: Základní charakteristiky vybraných nástrojů (vlastní zpracování podle Oracle, 2026; DBeaver, 2026; MySQL, 2026; pgModeler, 2026)
+Tabulka 1: Základní charakteristiky vybraných nástrojů (vlastní zpracování podle Oracle, 2026; DBeaver, 2026; MySQL, 2026; pgModeler, 2026)
 
 ## 7.1 Oracle SQL Developer Data Modeler
 
@@ -470,7 +470,7 @@ Pro účely navazující práce bude testována stabilní verze 1.2.3.
 
 # 8 Návrh hodnoticích kritérií
 
-Při stanovení kritérií pro hodnocení se bude vycházet z toho, že nástroje budou porovnávány především podle toho, jak dokážou podpořit návrh a vývoj databáze. nikoli podle toho, jak zvládají její provoz a správu. Hodnoticí kritéria vycházejí ze studie Carvalho et al. (2022), která byla využita i při výběru nástrojů v předchozí kapitole. Tato studie porovnávala nástroje pro datové modelování podle kategorií, jako jsou funkcionalita, provozní vlastnosti softwaru, dokumentace a komunitní podpora. Předkládaná práce přebírá její kategoriální členění a rozšiřuje je o kritéria specifická pro návrh databázových systémů. U kritérií, která nelze vyjádřit číselně, se použije kvalitativní hodnocení podle zkušenosti a každé porovnání se krátce zdůvodní.
+Při stanovení kritérií pro hodnocení se vychází z toho, že nástroje jsou porovnávány především podle toho, jak dokážou podpořit návrh a vývoj databáze, nikoli podle toho, jak zvládají její provoz a správu. Hodnoticí kritéria vycházejí ze studie Carvalho et al. (2022), která byla využita i při výběru nástrojů v předchozí kapitole. Tato studie porovnávala nástroje pro datové modelování podle kategorií, jako jsou funkcionalita, provozní vlastnosti softwaru, dokumentace a komunitní podpora. Předkládaná práce přebírá její kategoriální členění a rozšiřuje je o kritéria specifická pro návrh databázových systémů. U kritérií, která nelze vyjádřit číselně, se použije kvalitativní hodnocení podle zkušenosti a každé porovnání se krátce zdůvodní.
 
 Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 
@@ -485,7 +485,7 @@ Přehled osmi navržených pracovních kritérií uvádí tabulka 2.
 | K7 | Import a export modelu | Podporované formáty importu/exportu a práce s verzováním. |
 | K8 | Náklady a licenční omezení | Typ licence, omezení bezplatné verze a cena zavedení. |
 
-<span id="_Toc234483572" class="anchor"></span>Tabulka 2: Přehled navržených hodnoticích kritérií (vlastní zpracování na základě Carvalho et al., 2022)
+Tabulka 2: Přehled navržených hodnoticích kritérií (vlastní zpracování na základě Carvalho et al., 2022)
 
 ## 8.1 Upřesnění významu kritérií pro praktické hodnocení
 
@@ -672,7 +672,7 @@ Aplikace byla v rámci této verze spuštěna místně. Veřejné nasazení ani 
 
 Ověření bylo rozděleno na matematické jádro, tabulkový kontrolní výpočet a průchod webovými formuláři. V každé vrstvě byla sledována jiná možná příčina chyby. Kontrola matematického jádra ověřuje vzorce a okrajové případy. Kontrolní sešit umožňuje sledovat jednotlivé mezivýsledky. HTTP zkoušky ověřují, že jsou vstupy z formulářů skutečně zpracovány a že se správné výsledky dostanou k uživateli.
 
-Pro ověření byl zvolen malý model se třemi kritérii F, P a C a třemi abstraktními alternativami A, B a C. Tento příklad je odlišný od hodnocení databázových nástrojů. Nemá dokazovat vlastnosti produktů, ale správnost zvoleného výpočetního postupu. Jeho rozsah dovoluje nezávisle zkontrolovat každý prvek matice i každý krok syntézy. Podklady příkladu vycházejí z pracovního návodu AHP, ale hodnoty byly znovu vypočteny z původních matic bez převzetí zaokrouhlených součtů.
+Pro ověření byl zvolen malý model se třemi kritérii F, P a R a třemi abstraktními alternativami A, B a C. Tento příklad je odlišný od hodnocení databázových nástrojů. Nemá dokazovat vlastnosti produktů, ale správnost zvoleného výpočetního postupu. Jeho rozsah dovoluje nezávisle zkontrolovat každý prvek matice i každý krok syntézy. Podklady příkladu vycházejí z pracovního návodu AHP, ale hodnoty byly znovu vypočteny z původních matic bez převzetí zaokrouhlených součtů.
 
 Za přijatelnou shodu byl pro automatickou kontrolu stanoven absolutní rozdíl nejvýše 10⁻⁹. Tento požadavek je přísnější než pracovní limit 0,001 uvedený v plánu projektu. Kontrolují se váhy, priority a CR, nejen výsledné pořadí. Shodné pořadí by samo o sobě nemuselo odhalit chybu, pokud by se jednotlivé priority změnily jen mírně.
 
@@ -686,7 +686,7 @@ Tři lokální matice alternativ jsou zvoleny tak, aby byly dokonale konzistentn
 | --- | --- |
 | Váha F | 0,6369855717 |
 | Váha P | 0,2582849944 |
-| Váha C | 0,1047294339 |
+| Váha R | 0,1047294339 |
 | CR kritérií | 0,0331992160 |
 | Priorita A | 0,4610606755 |
 | Priorita B | 0,3412239068 |
@@ -731,7 +731,7 @@ Automatické kontroly připravené s pomocí AI jsou užitečným vývojovým d�
 
 Modelovým případem je návrh databáze menšího cykloservisu. Rozhodovatel vystupuje v roli vývojáře, který vybírá nástroj pro návrh a vývoj databázového systému ještě před definitivním výběrem DBMS. Výběr se týká modelovacího a vývojového nástroje, nikoli provozního databázového serveru. Požadavky na zálohování, správu uživatelů serveru nebo výkonnost SQL dotazů proto nejsou samostatnými kritérii hodnocení.
 
-Cykloservis eviduje zákazníky, jejich kola, servisní zakázky, zaměstnance, použité služby, spotřebované díly, dodavatele a faktury. U položek zakázky se uchovává cena platná při opravě. Nestačí odkazovat pouze na současnou ceníkovou cenu, která se může později změnit. Pracovní sešit rozšiřuje původní desetientitní zadání o elektrokolo. Pro tuto pracovní verzi se používá právě tento podrobnější model s jedenácti tabulkami, aby odpovídal současným 51 testovacím blokům.
+Cykloservis eviduje zákazníky, jejich kola, servisní zakázky, zaměstnance, použité služby, spotřebované díly, dodavatele a faktury. U položek zakázky se uchovává cena platná při opravě. Nestačí odkazovat pouze na současnou ceníkovou cenu, která se může později změnit. Závazné zadání testu je podrobnější model s jedenácti tabulkami. Oproti staršímu desetientitnímu návrhu je doplněno elektrokolo, aby model odpovídal 51 testovacím blokům. Skutečné testy se provádějí podle tohoto jedenáctitabulkového zadání.
 
 | Tabulka | Účel v modelu | Významná vlastnost pro test |
 |---|---|---|
@@ -1069,11 +1069,11 @@ Všechny následující matice jsou syntetické. Pořadí alternativ: OSDM, DBEA
 
 ## Příloha 2 – Kontrolní vstupní matice
 
-| Prvek | F | P | C |
+| Prvek | F | P | R |
 | --- | --- | --- | --- |
 | F | 1 | 3 | 5 |
 | P | 1/3 | 1 | 3 |
-| C | 1/5 | 1/3 | 1 |
+| R | 1/5 | 1/3 | 1 |
 
 ### Alternativy vzhledem ke kritériu F
 
@@ -1091,7 +1091,7 @@ Všechny následující matice jsou syntetické. Pořadí alternativ: OSDM, DBEA
 | B | 2 | 1 | 4 |
 | C | 1/2 | 1/4 | 1 |
 
-### Alternativy vzhledem ke kritériu C
+### Alternativy vzhledem ke kritériu R
 
 | Prvek | A | B | C |
 | --- | --- | --- | --- |
