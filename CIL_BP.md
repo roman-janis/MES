@@ -1,6 +1,8 @@
 # Cíl, osnova a literatura do zadání BP
 
-Zdroj pro STAG a text práce. E-mailový dopis je v `EMAIL.md` (sem nepatří).
+Jediné platné zadání je podklad VŠKP ze systému IS/STAG. Export: `oliva/temata_vskp_-_podklady_pro_zadani_vskp.pdf` (janisro1, 23. 9. 2026 20:40). Stejný text poslal vedoucí 15. 9. 2026 v `EMAIL_KONVERZACE.md` jako „Finální text pro vložení do Stagu“. Student 27. 9. 2026 potvrdil, že toto znění je schválené a zadané v systému. Starší návrhy v `EMAIL.md` a v dřívějších e-mailech neplatí.
+
+Přepis pole Zásady pro vypracování, osnovy a doporučené literatury z podkladu:
 
 ## Název práce
 
@@ -9,16 +11,16 @@ Comparison of Tools for Database System Design and Development Using AHP
 
 ## Cíl práce
 
-Cílem bakalářské práce je navrhnout a vytvořit jednoduchou webovou aplikaci pro podporu výběru nástrojů určených pro návrh a vývoj databázových systémů s použitím rozhodovací metody AHP a následně ověřit její funkčnost na modelovém případu. Samotná aplikace bude implementována v jazyce PHP a umožní uživateli vybírat si z připravených nástrojů a hodnoticích kritérií, případně doplňovat vlastní položky, a zadávat párová porovnání podle svých preferencí. Na základě jejich zadání aplikace vypočítá výsledné pořadí nástrojů. Ověření bude zahrnovat kontrolu správnosti výpočtů nezávislým kontrolním výpočtem a použití aplikace na modelovém případu se čtyřmi vybranými nástroji a kritérii K1 až K8, včetně posouzení vlivu tří samostatných změn důležitosti kritérií na výsledek.
+Cílem bakalářské práce je navrhnout a vytvořit webovou aplikaci pro podporu výběru nástrojů určených pro návrh a vývoj databázových systémů s využitím rozhodovací metody AHP. Aplikace bude umožňovat hodnocení a porovnávání vybraných nástrojů na základě předdefinovaných i uživatelem vytvořených kritérií a preferencí. Součástí práce bude ověření správnosti implementace a demonstrace využití aplikace na vybraném příkladu.
 
-## Navrhovaná osnova
+## Osnova
 
-1. Vymezit problematiku návrhu relačních databází.
-2. Popsat metodu AHP a postup výpočtu vah a kontroly konzistence.
-3. Vybrat a vymezit porovnávané nástroje a hodnoticí kritéria.
-4. Navrhnout a vytvořit jednoduchou webovou aplikaci v PHP pro podporu výběru nástroje pomocí párových porovnání a výpočtů AHP.
-5. Ověřit správnost výpočtů a fungování aplikace na modelovém případu a posoudit vliv změn důležitosti kritérií na výsledek.
-6. Zhodnotit výsledky, omezení a možnosti dalšího rozšíření.
+1. Charakterizovat problematiku návrhu a vývoje databázových systémů a nástroje využívané při jejich návrhu.
+2. Popsat metodu AHP a její využití při vícekriteriálním rozhodování.
+3. Vymezit hodnoticí kritéria a vybrat nástroje určené k porovnání.
+4. Navrhnout a implementovat webovou aplikaci pro podporu rozhodování pomocí metody AHP.
+5. Ověřit správnost implementace a demonstrovat využití aplikace na vybraném příkladu.
+6. Zhodnotit dosažené výsledky, omezení navrženého řešení a možnosti jeho dalšího rozvoje.
 
 ## Literatura do zadání
 

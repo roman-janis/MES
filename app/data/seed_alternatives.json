@@ -1,0 +1,26 @@
+[
+  {
+    "id": "OSDM",
+    "name": "Oracle SQL Developer Data Modeler",
+    "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+    "link": "https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/"
+  },
+  {
+    "id": "DBEAVER",
+    "name": "DBeaver Community Edition",
+    "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+    "link": "https://dbeaver.io/"
+  },
+  {
+    "id": "MYSQL",
+    "name": "MySQL Workbench Community Edition",
+    "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+    "link": "https://www.mysql.com/products/workbench/"
+  },
+  {
+    "id": "PGMODELER",
+    "name": "pgModeler",
+    "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+    "link": "https://pgmodeler.io/"
+  }
+]

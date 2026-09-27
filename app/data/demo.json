@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "title": "Cykloservis – syntetická demonstrace",
+  "synthetic": true,
+  "seed": 20260927,
+  "criteria": [
+    {
+      "id": "K1",
+      "name": "Funkcionalita modelování",
+      "description": "Entity, atributy, klíče, kardinality, integritní omezení; bez hodnocení DDL a importu.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K2",
+      "name": "Použitelnost",
+      "description": "Srozumitelnost ovládání, počet kroků, obtíže a čas; čas není jediným měřítkem.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K3",
+      "name": "Kompatibilita s DBMS",
+      "description": "Podpora návrhu a převodů pro různé DBMS; připojení samo nestačí.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K4",
+      "name": "Forward engineering",
+      "description": "Spustitelnost DDL vytvořeného z modelu a zachování omezení.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K5",
+      "name": "Reverse engineering",
+      "description": "Správnost načtení referenčního schématu do modelu či diagramu.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K6",
+      "name": "Dokumentace a komunita",
+      "description": "Dohledatelnost návodu a relevantní podpory konkrétních modelovacích úloh.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K7",
+      "name": "Import a export modelu",
+      "description": "Modelové formáty a diagramy; DDL z K4 se znovu nehodnotí.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    },
+    {
+      "id": "K8",
+      "name": "Náklady a licence",
+      "description": "Cena a omezení přesné edice k datu testování; nižší náklady mohou znamenat vyšší preferenci.",
+      "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "OSDM",
+      "name": "Oracle SQL Developer Data Modeler",
+      "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+      "link": "https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/"
+    },
+    {
+      "id": "DBEAVER",
+      "name": "DBeaver Community Edition",
+      "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+      "link": "https://dbeaver.io/"
+    },
+    {
+      "id": "MYSQL",
+      "name": "MySQL Workbench Community Edition",
+      "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+      "link": "https://www.mysql.com/products/workbench/"
+    },
+    {
+      "id": "PGMODELER",
+      "name": "pgModeler",
+      "description": "Připravená alternativa; edici a verzi doložte při vlastním testování.",
+      "link": "https://pgmodeler.io/"
+    }
+  ],
+  "criteria_matrix": [
+    [
+      1.0,
+      2,
+      1,
+      4,
+      2,
+      1,
+      2,
+      3
+    ],
+    [
+      0.5,
+      1.0,
+      0.5,
+      2,
+      1,
+      0.5,
+      1,
+      2
+    ],
+    [
+      1.0,
+      2.0,
+      1.0,
+      4,
+      2,
+      1,
+      2,
+      3
+    ],
+    [
+      0.25,
+      0.5,
+      0.25,
+      1.0,
+      0.5,
+      0.25,
+      0.3333333333333333,
+      0.5
+    ],
+    [
+      0.5,
+      1.0,
+      0.5,
+      2.0,
+      1.0,
+      0.5,
+      1,
+      1
+    ],
+    [
+      1.0,
+      2.0,
+      1.0,
+      4.0,
+      2.0,
+      1.0,
+      2,
+      3
+    ],
+    [
+      0.5,
+      1.0,
+      0.5,
+      3.0,
+      1.0,
+      0.5,
+      1.0,
+      2
+    ],
+    [
+      0.3333333333333333,
+      0.5,
+      0.3333333333333333,
+      2.0,
+      1.0,
+      0.3333333333333333,
+      0.5,
+      1.0
+    ]
+  ],
+  "alternative_matrices": [
+    [
+      [
+        1.0,
+        1,
+        1,
+        0.5
+      ],
+      [
+        1.0,
+        1.0,
+        1,
+        0.3333333333333333
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      [
+        2.0,
+        3.0,
+        2.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.3333333333333333,
+        0.5,
+        0.3333333333333333
+      ],
+      [
+        3.0,
+        1.0,
+        2,
+        1
+      ],
+      [
+        2.0,
+        0.5,
+        1.0,
+        0.5
+      ],
+      [
+        3.0,
+        1.0,
+        2.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        1,
+        2,
+        0.5
+      ],
+      [
+        1.0,
+        1.0,
+        2,
+        1
+      ],
+      [
+        0.5,
+        0.5,
+        1.0,
+        0.3333333333333333
+      ],
+      [
+        2.0,
+        1.0,
+        3.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        2,
+        0.5,
+        1
+      ],
+      [
+        0.5,
+        1.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      [
+        2.0,
+        3.0,
+        1.0,
+        1
+      ],
+      [
+        1.0,
+        3.0,
+        1.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        1,
+        0.5,
+        0.5
+      ],
+      [
+        1.0,
+        1.0,
+        0.5,
+        0.5
+      ],
+      [
+        2.0,
+        2.0,
+        1.0,
+        0.5
+      ],
+      [
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        2,
+        3,
+        1
+      ],
+      [
+        0.5,
+        1.0,
+        2,
+        1
+      ],
+      [
+        0.3333333333333333,
+        0.5,
+        1.0,
+        0.5
+      ],
+      [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.5,
+        0.5,
+        1
+      ],
+      [
+        2.0,
+        1.0,
+        1,
+        1
+      ],
+      [
+        2.0,
+        1.0,
+        1.0,
+        1
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        1,
+        1,
+        0.5
+      ],
+      [
+        1.0,
+        1.0,
+        2,
+        1
+      ],
+      [
+        1.0,
+        0.5,
+        1.0,
+        1
+      ],
+      [
+        2.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ]
+  ],
+  "generation": {
+    "method": "náhodné latentní preference, zaokrouhlení na Saatyho škálu, přijetí při CR <= 0.10",
+    "attempts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "empirical_evidence": false
+  }
+}

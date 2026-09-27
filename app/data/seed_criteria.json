@@ -1,0 +1,50 @@
+[
+  {
+    "id": "K1",
+    "name": "Funkcionalita modelování",
+    "description": "Entity, atributy, klíče, kardinality, integritní omezení; bez hodnocení DDL a importu.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K2",
+    "name": "Použitelnost",
+    "description": "Srozumitelnost ovládání, počet kroků, obtíže a čas; čas není jediným měřítkem.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K3",
+    "name": "Kompatibilita s DBMS",
+    "description": "Podpora návrhu a převodů pro různé DBMS; připojení samo nestačí.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K4",
+    "name": "Forward engineering",
+    "description": "Spustitelnost DDL vytvořeného z modelu a zachování omezení.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K5",
+    "name": "Reverse engineering",
+    "description": "Správnost načtení referenčního schématu do modelu či diagramu.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K6",
+    "name": "Dokumentace a komunita",
+    "description": "Dohledatelnost návodu a relevantní podpory konkrétních modelovacích úloh.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K7",
+    "name": "Import a export modelu",
+    "description": "Modelové formáty a diagramy; DDL z K4 se znovu nehodnotí.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  },
+  {
+    "id": "K8",
+    "name": "Náklady a licence",
+    "description": "Cena a omezení přesné edice k datu testování; nižší náklady mohou znamenat vyšší preferenci.",
+    "link": "https://doi.org/10.1109/ACCESS.2021.3139071"
+  }
+]

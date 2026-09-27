@@ -1,17 +1,17 @@
 # Univerzita Hradec Králové
 
-Fakulta informatiky a managementu  
+Fakulta informatiky a managementu
 Katedra informatiky a kvantitativních metod
 
 # Komparace nástrojů pro návrh a vývoj databázových systémů pomocí AHP
 
 **Bakalářská práce – pracovní verze se syntetickými daty**
 
-Autor: Roman Janiš  
-Studijní program: Aplikovaná informatika  
-Specializace: Softwarové inženýrství  
-Vedoucí práce: Ing. et Ing. Martin Lněnička, Ph.D.  
-Hradec Králové, 2026  
+Autor: Roman Janiš
+Studijní program: Aplikovaná informatika
+Specializace: Softwarové inženýrství
+Vedoucí práce: Ing. et Ing. Martin Lněnička, Ph.D.
+Hradec Králové, 2026
 Pracovní zpracování: 27. 9. 2026
 
 > **Stav dokumentu:** Souvislý pracovní text, skutečně vytvořená a lokálně zkoušená PHP aplikace, kontrolní sešity a vypočtené syntetické hodnocení. Testy čtyř databázových nástrojů v této verzi provedeny nebyly. Číselné výsledky jejich hodnocení nejsou empirickým zjištěním. Před odevzdáním se musí nahradit vstupy, přepočítat výsledky a upravit také slovní interpretace, abstrakt a závěr. Dokument zatím není finální odevzdávanou verzí.
@@ -219,9 +219,9 @@ Na základě prostudovaných zdrojů byly následně vybrány nástroje a navrž
 ]
 
 
-Samotné porovnání nástrojů proběhne v navazující praktické části pomocí metody AHP. Volba této metody vychází ze studií zabývajících se problematikou vícekriteriálního rozhodování (Multiple-Criteria Decision-Making, MCDM), které AHP označují za jeden z nejvhodnějších přístupů pro hodnocení softwarových systémů, a to zejména díky její schopnosti kombinovat kvantitativní i kvalitativní kritéria (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Velasquez a Hester, 2013). 
+Samotné porovnání nástrojů proběhne v navazující praktické části pomocí metody AHP. Volba této metody vychází ze studií zabývajících se problematikou vícekriteriálního rozhodování (Multiple-Criteria Decision-Making, MCDM), které AHP označují za jeden z nejvhodnějších přístupů pro hodnocení softwarových systémů, a to zejména díky její schopnosti kombinovat kvantitativní i kvalitativní kritéria (Ishizaka a Labib, 2011; Moreno-Jiménez a Vargas, 2018; Velasquez a Hester, 2013).
 
-Metoda AHP rozloží rozhodovací problém do hierarchické struktury složené z cíle, hodnoticích kritérií a hodnocených nástrojů. V první fázi jsou stanovena a strukturována kritéria vycházející z požadavků identifikovaných v teoretické části práce. Následně jsou jednotlivá kritéria i hodnocené nástroje porovnávány po dvojicích za využití Saatyho devítibodové škály, která umožňuje vyjádřit relativní důležitost jednotlivých prvků. Na základě vytvořených párových matic jsou vypočteny váhy kritérií a preference jednotlivých alternativ, přičemž je současně ověřena konzistence rozhodovacích úsudků prostřednictvím ukazatele konzistence. Výsledkem procesu je stanovení celkového skóre každého nástroje a vytvoření jejich výsledného pořadí podle míry vhodnosti pro definovaný účel. Součástí hodnocení je také analýza citlivosti, jejímž cílem je posoudit stabilitu dosažených výsledků a identifikovat kritéria, která mají největší vliv na konečné pořadí nástrojů (Saaty, 1990; Saaty, 2008). 
+Metoda AHP rozloží rozhodovací problém do hierarchické struktury složené z cíle, hodnoticích kritérií a hodnocených nástrojů. V první fázi jsou stanovena a strukturována kritéria vycházející z požadavků identifikovaných v teoretické části práce. Následně jsou jednotlivá kritéria i hodnocené nástroje porovnávány po dvojicích za využití Saatyho devítibodové škály, která umožňuje vyjádřit relativní důležitost jednotlivých prvků. Na základě vytvořených párových matic jsou vypočteny váhy kritérií a preference jednotlivých alternativ, přičemž je současně ověřena konzistence rozhodovacích úsudků prostřednictvím ukazatele konzistence. Výsledkem procesu je stanovení celkového skóre každého nástroje a vytvoření jejich výsledného pořadí podle míry vhodnosti pro definovaný účel. Součástí hodnocení je také analýza citlivosti, jejímž cílem je posoudit stabilitu dosažených výsledků a identifikovat kritéria, která mají největší vliv na konečné pořadí nástrojů (Saaty, 1990; Saaty, 2008).
 
 Pro provádění výpočtů, práci s hodnoticími maticemi a prezentaci výsledků byla vytvořena jednoduchá webová aplikace v PHP. Její rozsah, výpočetní postup a provedené zkoušky jsou popsány v praktické části.
 

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "title": "Kontrolní příklad F/P/C",
+  "synthetic": true,
+  "criteria": [
+    {
+      "id": "F",
+      "name": "F",
+      "description": "Kontrolní kritérium",
+      "link": ""
+    },
+    {
+      "id": "P",
+      "name": "P",
+      "description": "Kontrolní kritérium",
+      "link": ""
+    },
+    {
+      "id": "C",
+      "name": "C",
+      "description": "Kontrolní kritérium",
+      "link": ""
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "name": "A1",
+      "description": "Abstraktní alternativa",
+      "link": ""
+    },
+    {
+      "id": "A2",
+      "name": "A2",
+      "description": "Abstraktní alternativa",
+      "link": ""
+    },
+    {
+      "id": "A3",
+      "name": "A3",
+      "description": "Abstraktní alternativa",
+      "link": ""
+    }
+  ],
+  "criteria_matrix": [
+    [
+      1,
+      3,
+      5
+    ],
+    [
+      0.3333333333333333,
+      1,
+      3
+    ],
+    [
+      0.2,
+      0.3333333333333333,
+      1
+    ]
+  ],
+  "alternative_matrices": [
+    [
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        0.5,
+        1,
+        2
+      ],
+      [
+        0.25,
+        0.5,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0.5,
+        2
+      ],
+      [
+        2,
+        1,
+        4
+      ],
+      [
+        0.5,
+        0.25,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        2,
+        0.3333333333333333
+      ],
+      [
+        0.5,
+        1,
+        0.16666666666666666
+      ],
+      [
+        3,
+        6,
+        1
+      ]
+    ]
+  ]
+}
