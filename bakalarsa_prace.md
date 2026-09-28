@@ -672,7 +672,7 @@ Aplikace byla v rámci této verze spuštěna místně. Veřejné nasazení ani 
 
 Ověření bylo rozděleno na matematické jádro, tabulkový kontrolní výpočet a průchod webovými formuláři. V každé vrstvě byla sledována jiná možná příčina chyby. Kontrola matematického jádra ověřuje vzorce a okrajové případy. Kontrolní sešit umožňuje sledovat jednotlivé mezivýsledky. HTTP zkoušky ověřují, že jsou vstupy z formulářů skutečně zpracovány a že se správné výsledky dostanou k uživateli.
 
-Pro ověření byl zvolen malý model se třemi kritérii F, P a R a třemi abstraktními alternativami A, B a C. Tento příklad je odlišný od hodnocení databázových nástrojů. Nemá dokazovat vlastnosti produktů, ale správnost zvoleného výpočetního postupu. Jeho rozsah dovoluje nezávisle zkontrolovat každý prvek matice i každý krok syntézy. Podklady příkladu vycházejí z pracovního návodu AHP, ale hodnoty byly znovu vypočteny z původních matic bez převzetí zaokrouhlených součtů.
+Pro ověření byl zvolen malý model se třemi kritérii F, P a C a třemi abstraktními alternativami A1, A2 a A3. Tento příklad je odlišný od hodnocení databázových nástrojů. Nemá dokazovat vlastnosti produktů, ale správnost zvoleného výpočetního postupu. Jeho rozsah dovoluje nezávisle zkontrolovat každý prvek matice i každý krok syntézy. Podklady příkladu vycházejí z pracovního návodu AHP, ale hodnoty byly znovu vypočteny z původních matic bez převzetí zaokrouhlených součtů.
 
 Za přijatelnou shodu byl pro automatickou kontrolu stanoven absolutní rozdíl nejvýše 10⁻⁹. Tento požadavek je přísnější než pracovní limit 0,001 uvedený v plánu projektu. Kontrolují se váhy, priority a CR, nejen výsledné pořadí. Shodné pořadí by samo o sobě nemuselo odhalit chybu, pokud by se jednotlivé priority změnily jen mírně.
 
@@ -680,21 +680,21 @@ Za přijatelnou shodu byl pro automatickou kontrolu stanoven absolutní rozdíl 
 
 Matice kritérií je tvořena řádky (1; 3; 5), (1/3; 1; 3) a (1/5; 1/3; 1). Geometrické průměry jsou přibližně 2,4662120743; 1; 0,4054801330. Po normalizaci získáme váhy 0,6369855717; 0,2582849944 a 0,1047294339. Matice není dokonale konzistentní. Odhad λ je 3,0385110906, CI je 0,0192555453 a CR je 0,0331992160. Pro zvolenou hranici je tedy konzistence přijatelná.
 
-Tři lokální matice alternativ jsou zvoleny tak, aby byly dokonale konzistentní. V prvním kritériu mají alternativy váhy 4/7, 2/7 a 1/7. Ve druhém kritériu se prohodí preference A a B. Ve třetím kritériu činí váhy 2/9, 1/9 a 6/9. Tím se ověřuje také správné přiřazení jednotlivých lokálních výsledků ke kritériím. Pokud by došlo k záměně pořadí kritérií nebo alternativ, projeví se chyba až při syntéze, i když by samotné lokální výpočty byly správné.
+Tři lokální matice alternativ jsou zvoleny tak, aby byly dokonale konzistentní. V prvním kritériu mají alternativy váhy 4/7, 2/7 a 1/7. Ve druhém kritériu se prohodí preference A1 a A2. Ve třetím kritériu činí váhy 2/9, 1/9 a 6/9. Tím se ověřuje také správné přiřazení jednotlivých lokálních výsledků ke kritériím. Pokud by došlo k záměně pořadí kritérií nebo alternativ, projeví se chyba až při syntéze, i když by samotné lokální výpočty byly správné.
 
 | Ukazatel | Přepočtená hodnota |
 | --- | --- |
 | Váha F | 0,6369855717 |
 | Váha P | 0,2582849944 |
-| Váha R | 0,1047294339 |
+| Váha C | 0,1047294339 |
 | CR kritérií | 0,0331992160 |
-| Priorita A | 0,4610606755 |
-| Priorita B | 0,3412239068 |
-| Priorita C | 0,1977154177 |
+| Priorita A1 | 0,4610606755 |
+| Priorita A2 | 0,3412239068 |
+| Priorita A3 | 0,1977154177 |
 
 Tabulka 6: Přepočtený kontrolní příklad; vstupy jsou abstraktní, nikoli měření produktů (vlastní výpočet).
 
-Výsledné pořadí kontrolního příkladu je A, B, C. Příklad potvrzuje shodu konkrétní implementace se specifikovaným postupem, nikoli univerzální správnost jakéhokoli rozhodovacího modelu. K úplnému ověření je potřeba i zkouška chybových vstupů a výpočtů, ve kterých je konzistence záměrně nízká.
+Výsledné pořadí kontrolního příkladu je A1, A2, A3. Příklad potvrzuje shodu konkrétní implementace se specifikovaným postupem, nikoli univerzální správnost jakéhokoli rozhodovacího modelu. K úplnému ověření je potřeba i zkouška chybových vstupů a výpočtů, ve kterých je konzistence záměrně nízká.
 
 ## 11.3 Automatické a tabulkové kontroly
 
@@ -1069,35 +1069,35 @@ Všechny následující matice jsou syntetické. Pořadí alternativ: OSDM, DBEA
 
 ## Příloha 2 – Kontrolní vstupní matice
 
-| Prvek | F | P | R |
+| Prvek | F | P | C |
 | --- | --- | --- | --- |
 | F | 1 | 3 | 5 |
 | P | 1/3 | 1 | 3 |
-| R | 1/5 | 1/3 | 1 |
+| C | 1/5 | 1/3 | 1 |
 
 ### Alternativy vzhledem ke kritériu F
 
-| Prvek | A | B | C |
+| Prvek | A1 | A2 | A3 |
 | --- | --- | --- | --- |
-| A | 1 | 2 | 4 |
-| B | 1/2 | 1 | 2 |
-| C | 1/4 | 1/2 | 1 |
+| A1 | 1 | 2 | 4 |
+| A2 | 1/2 | 1 | 2 |
+| A3 | 1/4 | 1/2 | 1 |
 
 ### Alternativy vzhledem ke kritériu P
 
-| Prvek | A | B | C |
+| Prvek | A1 | A2 | A3 |
 | --- | --- | --- | --- |
-| A | 1 | 1/2 | 2 |
-| B | 2 | 1 | 4 |
-| C | 1/2 | 1/4 | 1 |
+| A1 | 1 | 1/2 | 2 |
+| A2 | 2 | 1 | 4 |
+| A3 | 1/2 | 1/4 | 1 |
 
-### Alternativy vzhledem ke kritériu R
+### Alternativy vzhledem ke kritériu C
 
-| Prvek | A | B | C |
+| Prvek | A1 | A2 | A3 |
 | --- | --- | --- | --- |
-| A | 1 | 2 | 1/3 |
-| B | 1/2 | 1 | 1/6 |
-| C | 3 | 6 | 1 |
+| A1 | 1 | 2 | 1/3 |
+| A2 | 1/2 | 1 | 1/6 |
+| A3 | 3 | 6 | 1 |
 
 ## Příloha 3 – Elektronické součásti a návod k navázání
 
